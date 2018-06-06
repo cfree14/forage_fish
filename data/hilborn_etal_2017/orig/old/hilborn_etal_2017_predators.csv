@@ -1,0 +1,87 @@
+type,comm_orig,comm_name,species
+fish,Common thresher shark,Common thresher shark,Alopias vulpinus
+fish,Thorny skate,Thorny skate,Amblyraja radiata
+fish,Sablefish,Sablefish,Anoplopoma fimbria
+birds,Sooty shearwater,Sooty shearwater,Ardenna grisea
+birds,Short-tailed shearwater,Short-tailed shearwater,Puffinus tenuirostris
+fish,Arrowtooth flounder,Arrowtooth flounder,Atheresthes stomias
+marine mammals,Fin whale,Fin whale,Balaenoptera physalus
+marine mammals,Northern fur seal,Northern fur seal,Callorhinus ursinus
+fish,Spinner shark,Spinner shark,Carcharhinus brevipinna
+fish,Silky shark,Silky shark,Carcharhinus falciformis
+fish,Finetooth shark,Finetooth shark,Carcharhinus isodon
+fish,Blacktip shark,Blacktip shark,Carcharhinus limbatus
+fish,Dusky shark,Dusky shark,Carcharhinus obscurus
+fish,Night shark,Night shark,Carcharhinus signatus
+birds,Rhinoceros auklet,Rhinoceros auklet,Cerorhinca monocerata
+fish,Dolphinfish,Dolphinfish,Coryphaena hippurus
+marine mammals,Long-beaked common dolphin,Long-beaked common dolphin,Delphinus capensis
+marine mammals,Short-beaked common dolphin,Short-beaked common dolphin,Delphinus delphis
+fish,Humboldt jumbo squid,Humboldt jumbo squid,Dosidicus gigas
+marine mammals,Steller Sea Lion,Steller sea lion,Eumetopias jubatus
+birds,Northern fulmar,Northern fulmar,Fulmarus glacialis
+fish,Atlantic cod,Atlantic cod,Gadus morhua
+fish,Soupfin shark,Soupfin shark,Galeorhinus galeus
+birds,Artic loon,Arctic loon,Gavia arctica
+marine mammals,Long-finned pilot whale,Long-finned pilot whale,Globicephala melas
+marine mammals,Gray seal,Grey seal,Halichoerus grypus
+fish,Sea raven,Atlantic sea raven,Hemitripterus americanus
+fish,Fourspot flounder,Fourspot flounder,Hippoglossina oblonga
+fish,Shortfin mako shark,Shortfin mako shark,Isurus oxyrinchus
+fish,White marlin,White marlin,Kajikia albida
+fish,Striped marlin,Striped marlin,Kajikia audax
+marine mammals,Pacific white-sided dolphin,Pacific white-sided dolphin,Lagenorhynchus obliquidens
+fish,Porbeagle shark,Porbeagle shark,Lamna nasus
+birds,California gull,California gull,Larus californicus
+birds,Mew gull,Mew gull,Larus canus
+birds,Glaucous-winged gull,Glaucous-winged gull,Larus glaucescens
+birds,Heermann gull,Heermann gull,Larus heermanni
+birds,Western gull,Western gull,Larus occidentalis
+fish,Goosefish,Goosefish,Lophius americanus
+fish,Indo-pacific blue marlin,Indo-pacific blue marlin,Makaira mazara
+marine mammals,Humpback whale,Humpback whale,Megaptera novaeangliae
+fish,Offshore hake,Offshore hake,Merluccius albidus
+fish,Silver hake,Silver hake,Merluccius bilinearis
+fish,Pacific hake,Pacific hake,Merluccius productus
+fish,Striped bass,Striped bass,Morone saxatilis
+fish,Cutthroat trout,Cutthroat trout,Oncorhynchus clarkii
+fish,Coho salmon,Coho salmon,Oncorhynchus kisutch
+fish,Chinook salmon,Chinook salmon,Oncorhynchus tshawytscha
+birds,Osprey,Osprey,Pandion haliaetus
+fish,California halibut,California halibut,Paralichthys californicus
+fish,Summer flounder,Summer flounder,Paralichthys dentatus
+birds,California Brown Pelican,California brown pelican,Pelecanus occidentalis
+birds,Brandt cormorant,Brandt cormorant,Phalacrocorax penicillatus
+marine mammals,Harbor seal,Western Atlantic harbor seal,Phoca vitulina concolor
+marine mammals,Western Atlantic harbor seal,Western Atlantic harbor seal,Phoca vitulina concolor
+marine mammals,Pacific harbor seal,Pacific harbor seal,Phoca vitulina richardsi
+marine mammals,Harbor porpoise,Harbor porpoise,Phocoena phocoena
+fish,Curlfin sole,Curlfin sole,Pleuronichthys decurrens
+fish,Pollock,Pollock,Pollachius virens
+fish,Bluefish,Bluefish,Pomatomus saltatrix
+fish,Blue shark,Blue shark,Prionace glauca
+birds,Pink-footed shearwater,Pink-footed shearwater,Puffinus creatopus
+birds,Black-vented Shearwater,Black-vented shearwater,Puffinus opisthomelas
+birds,Black-legged kittiwake,Black-legged kittiwake,Rissa tridactyla
+fish,Pacific bonito,Pacific bonito,Sarda chiliensis
+fish,Red drum,Red drum,Sciaenops ocellatus
+fish,Pacific mackerel,Pacific mackerel,Scomber japonicus
+fish,Yellowtail rockfish,Yellowtail rockfish,Sebastes flavidus
+fish,Black rockfish,Black rockfish,Sebastes melanops
+fish,Shortspine thornyhead,Shortspine thornyhead,Sebastolobus alascanus
+fish,Smooth Hammerhead shark,Smooth hammerhead shark,Sphyrna zygaena
+fish,Spiny dogfish,Spiny dogfish,Squalus acanthias
+birds,Xantuss murrellet,Xantus's murrellet,Synthliboramphus hypoleucus
+fish,Longbill spearfish,Longbill spearfish,Tetrapturus pfluegeri
+birds,Elegant tern,Elegant tern,Thalasseus elegans
+fish,Albacore tuna,Albacore tuna,Thunnus alalunga
+fish,North pacific albacore,Albacore tuna,Thunnus alalunga
+fish,Yellowfin tuna,Yellowfin tuna,Thunnus albacares
+fish,Bigeye tuna,Bigeye tuna,Thunnus obesus
+fish,Bluefin tuna,Pacific bluefin tuna,Thunnus orientalis
+fish,Atlantic bluefin tuna,Atlantic bluefin tuna,Thunnus thynnus
+fish,Jack mackerel,Jack mackerel,Trachurus symmetricus
+birds,Common murre,Common murre,Uria aalge
+fish,White hake,White hake,Urophycis tenuis
+fish,Swordfish,Swordfish,Xiphias gladius
+marine mammals,California Sea Lion,California sea lion,Zalophus californianus

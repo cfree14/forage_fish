@@ -1,0 +1,29 @@
+"stocklong","region","area","location","pred_comm","pred_species","reference","n_units","n_yr"
+"Black-legged kittiwake North Shields and Marsden (nests, with eggs)","Europe","England","North Shields and Marsden","Black-legged kittiwake","Rissa tridactyla","Coulston and Thomas 1985 Figure 3","nests, with eggs",6
+"Razorbill UK coast (index relative to 1986)","Europe","England","UK coast","Razorbill","Alca torda","Cook et al 2014 Figure 5","index relative to 1986",22
+"Black-legged kittiwake Vedoy (nests, occupied)","Europe","Norway","Vedoy","Black-legged kittiwake","Rissa tridactyla","Anker-Nilssen and Aarvak 2006","nests, occupied",24
+"Atlantic puffin Hernyken Island (number of occupied burrows)","Europe","Norwegian Sea","Hernyken Island","Atlantic puffin","Fratercula arctica","Anker-Nilssen and Aarvak 2006 Tabell 3.1","number of occupied burrows",23
+"Black-legged kittiwake Isle of May (nests, completed)","Europe","Scotland","Isle of May","Black-legged kittiwake","Rissa tridactyla","Frederiksen et al 2004 Figure 1, Frederiksen et al 2004 Figure 3, Frederiksen et al 2004 Figure 5","nests, completed",28
+"Black-legged kittiwake Isle of May (population size)","Europe","Scotland","Isle of May","Black-legged kittiwake","Rissa tridactyla","Rindorf et al 2000 Figure 5","population size",13
+"Common guillemot Isle of May (population size)","Europe","Scotland","Isle of May","Common guillemot","Uria aalge","Rindorf et al 2000 Figure 5","population size",13
+"European shag Isle of May (number of breeding pairs)","Europe","Scotland","Isle of May","European shag","Phalacrocorax aristotelis","Wanless et al 1993 pdf p 10","number of breeding pairs",3
+"European shag Isle of May (population size)","Europe","Scotland","Isle of May","European shag","Phalacrocorax aristotelis","Rindorf et al 2000 Figure 5","population size",13
+"Common guillemot All Shetland Islands colonies (index relative to 1978)","Europe","Shetland Islands","All Shetland Islands colonies","Common guillemot","Uria aalge","Dunnet and Heubeck 1995 Figure 8","index relative to 1978",18
+"European shag Burravoe (nests, max number)","Europe","Shetland Islands","Burravoe","European shag","Phalacrocorax aristotelis","Dunnet and Heubeck 1995 Table 4","nests, max number",10
+"Arctic skua Foula (occupied territory)","Europe","Shetland Islands","Foula","Arctic skua","Stercorarius parasiticus","JNCC Data","occupied territory",4
+"Arctic tern Foula (occupied territory)","Europe","Shetland Islands","Foula","Arctic tern","Sterna paradisaea","JNCC Data","occupied territory",38
+"Black-legged kittiwake Foula (nests, occupied)","Europe","Shetland Islands","Foula","Black-legged kittiwake","Rissa tridactyla","JNCC Data","nests, occupied",14
+"European shag Sumburgh (nests, max number)","Europe","Shetland Islands","Sumburgh","European shag","Phalacrocorax aristotelis","Dunnet and Heubeck 1995 Table 4","nests, max number",10
+"Black-legged kittiwake Sumburgh, Troswick, Eshaness and Burravoe (nests, max number occupied)","Europe","Shetland Islands","Sumburgh, Troswick, Eshaness and Burravoe","Black-legged kittiwake","Rissa tridactyla","Dunnet and Heubeck 1995 Table 7","nests, max number occupied",13
+"European shag Troswick (nests, max number)","Europe","Shetland Islands","Troswick","European shag","Phalacrocorax aristotelis","Dunnet and Heubeck 1995 Table 4","nests, max number",11
+"Guanay cormorant 6-14°S (number of adults)","Humboldt","Peru","6-14°S","Guanay cormorant","Phalacrocorax bougainvillii","Tovar et al in Pauly and Tsukayama 1987 pdf p 224 Table 3","number of adults",30
+"Peruvian booby 6-14°S (number of adults)","Humboldt","Peru","6-14°S","Peruvian booby","Sula variegata","Tovar et al in Pauly and Tsukayama 1987 pdf p 224 Table 4","number of adults",30
+"Peruvian pelican 6-14°S (number of adults)","Humboldt","Peru","6-14°S","Peruvian pelican","Pelecanus thagus","Tovar et al in Pauly and Tsukayama 1987 pdf p 224 Table 5","number of adults",30
+"Guanay cormorant Grupo Pescadores (number of breeders)","Humboldt","Peru","Grupo Pescadores","Guanay cormorant","Phalacrocorax bougainvillii","Table A.5.1 in Boyd 2012 ","number of breeders",1
+"Peruvian booby Grupo Pescadores (number of breeders)","Humboldt","Peru","Grupo Pescadores","Peruvian booby","Sula variegata","Table A.5.1 in Boyd 2012 ","number of breeders",1
+"Guanay cormorant Peru (number of adults)","Humboldt","Peru","Peru","Guanay cormorant","Phalacrocorax bougainvillii","IMARPE.Renato","number of adults",64
+"Peruvian booby Peru (number of adults)","Humboldt","Peru","Peru","Peruvian booby","Sula variegata","IMARPE.Renato","number of adults",64
+"Peruvian pelican Peru (number of adults)","Humboldt","Peru","Peru","Peruvian pelican","Pelecanus thagus","IMARPE.Renato","number of adults",64
+"Guanay cormorant Peruvian Sea (number of individuals)","Humboldt","Peru","Peruvian Sea","Guanay cormorant","Phalacrocorax bougainvillii","Jahncke 1998 Figuera 1","number of individuals",44
+"Peruvian booby Peruvian Sea (number of individuals)","Humboldt","Peru","Peruvian Sea","Peruvian booby","Sula variegata","Jahncke 1998 Figuera 1","number of individuals",44
+"Peruvian pelican Peruvian Sea (number of individuals)","Humboldt","Peru","Peruvian Sea","Peruvian pelican","Pelecanus thagus","Jahncke 1998 Figuera 1","number of individuals",44

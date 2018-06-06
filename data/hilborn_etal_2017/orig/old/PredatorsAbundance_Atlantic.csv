@@ -1,0 +1,925 @@
+Specie,Year,Abundance,Abundance_Type,Area,Large Area,Reference,Comment
+Brown pelican,1970,2796,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1971,3512,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1973,3748,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1973,3397,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1974,3398,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1975,4338,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1976,4222,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1977,5661,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1979,7542,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1978,8010,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1980,9039,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1981,8835,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1983,8544,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1985,10365,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1989,13906,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1991,13937,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1993,12281,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1995,11725,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Brown pelican,1999,15670,Nesting pairs,FromFlorida_TO_Maryland_andGulfCoast_to_Alabama,Atlantic coast,esasuccess.org,
+Dolphinfish,1987,0.53,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1988,0.6,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1989,1.5,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1990,2.33,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1991,2.03,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1992,1.52,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1993,0.99,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1994,0.8,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1995,1.65,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1996,1.17,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1997,1.63,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1998,0.5,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1999,0.77,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2000,0.39,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2001,0.57,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2002,0.81,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2003,0.41,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2004,0.6,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,2005,0.28,StandarizedCPUE,Gulf of Mexico,Gulf of Mexico,Kleisner2008,
+Dolphinfish,1992,1.33,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1993,0.98,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1994,0.9,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1995,1.09,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1996,0.82,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1997,1.2,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1998,0.87,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,1999,1.14,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,2000,0.65,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,2001,1.09,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,2002,1.4,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Dolphinfish,2003,0.61,StandarizedCPUE,Western Atlantic,Western Atlantic,Kleisner2008,
+Fin whale,2011,1618,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment2015,
+Fin whale,2007,3522,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment2014,
+Fin whale,2006,2269,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment2009,
+Fin whale,1999,2814,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment2007,
+Fin whale,1995,2200,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment2005,
+Fin whale,1992,2700,Abundance Estimate,North West Atlantic ,North West Atlantic  ,NOAAStockAssessment1998,
+Harbor porpoise,2011,79883,Abundance Estimate,Gulf of Maine-Bay of Fundy,Gulf of Maine,NOAAStockAssessment2015,
+Harbor porpoise,2006,89054,Abundance Estimate,Gulf of Maine-Bay of Fundy,Gulf of Maine,NOAAStockAssessment2011,
+Harbor porpoise,1999,89700,Abundance Estimate,Gulf of Maine-Bay of Fundy,Gulf of Maine,NOAAStockAssessment2007,
+Gray seal,2012,331000,Abundance Estimate,North West Atlantic ,North West Atlantic ,NOAAStockAssessment2015,
+Gray seal,2010,348900,Abundance Estimate,North West Atlantic ,North West Atlantic ,NOAAStockAssessment2012,
+Gray seal,2004,268990,Abundance Estimate,North West Atlantic ,North West Atlantic ,NOAAStockAssessment2011,
+Gray seal,1984,7004,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1985,6395,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1986,5515,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1989,8928,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1990,8184,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1996,11100,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1997,7259,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,2000,6182,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,2004,15900,Pup production,Non-Sable Is ,North West Atlantic ,Hemmil2005,
+Gray seal,1962,174,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1963,314,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1964,277,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1965,275,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1967,414,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1968,625,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1969,872,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1970,870,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1971,1081,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1972,973,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1973,1291,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1974,1289,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1976,2031,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1977,2171,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1978,2737,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1979,2913,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1980,3302,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1981,3122,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1982,4399,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1983,5427,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1984,5815,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1985,5459,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1986,6238,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1989,9818,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1988,8542,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1987,7337,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1990,10811,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1989,11097,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1990,10385,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1993,15421,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Gray seal,1997,25283,Pup production,Sable Is ,North West Atlantic ,Bowenetal2003,
+Shortfin mako shark,1988,0.14,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1989,-0.22,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1990,0.12,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1991,-0.06,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1992,-0.05,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1993,-0.08,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1994,0.02,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1995,0.01,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1996,-0.08,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1997,-0.04,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1998,-0.03,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,1999,0.01,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,2000,-0.02,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,2001,-0.02,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,2002,-0.01,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Shortfin mako shark,2003,0.01,StandarizedCPUE,Scotian Shelf_Canada,North West Atlantic ,Campanaetal2005,
+Porbeagle shark,1962.0354,85383.71,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1962.0274,71404.96,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1963.0865,145830,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1992.9485,26824.09,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1992.9388,10200.71,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1994.9832,30979.93,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1994.9747,16245.57,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1993.9569,13600.94,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Porbeagle shark,1994.047,9445.1,Biomass,FromGeorgeBank_To_Gulf of St Lawrence,North West Atlantic ,Campanaetal2003,
+Shortfin mako shark,1986.0437,1.6,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1987.0815,1.6,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1988.0892,1.28,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1989.0756,1.45,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1990.0305,1.16,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1991.0672,1.05,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1992.0538,1.24,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1993.0367,1.08,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1993.0632,1.07,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1993.9941,1.02,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1995.0309,0.92,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1996.0141,0.8,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1997.0512,0.74,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1998.0091,0.72,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,1999.02,0.69,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2000.005,0.74,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2001.0155,0.67,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2001.974,0.72,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2003.0127,0.79,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2004.0253,0.93,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Shortfin mako shark,2005.0098,0.92,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Common and Bigeye Thresher shark,1986.0598,1.37,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1987.0543,1.67,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1988.0668,1.69,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1989.0506,1.58,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1990.0782,1.2,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1991.0591,0.97,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1992.0205,0.97,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1993.0325,0.97,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1994.0382,0.72,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1995.0492,0.68,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1996.0354,0.66,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1997.0226,0.68,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1998.0293,0.47,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,1999.0681,0.53,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2000.0295,0.53,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2001.0391,0.44,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2002.0511,0.44,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2003.0368,0.4,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2004.0469,0.33,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Common and Bigeye Thresher shark,2005.0375,0.48,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,Info only available as the sum of two species
+Silky shark,1991.9904,1.49,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1993.0073,1.26,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1994.0281,1.13,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1994.9988,1.09,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1996.0077,1.11,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1997.001,0.75,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1997.9846,0.59,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,1999.0323,0.67,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2000.0249,0.73,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2001.0271,0.58,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2002.0305,0.46,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2003.0325,0.74,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2004.0078,0.38,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Silky shark,2005.0498,0.76,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1992.0167,1.57,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1993.0112,1.95,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1994.0106,1.13,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1994.9988,0.91,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1996.0044,0.67,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1997.0112,0.55,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1998.0035,0.71,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,1998.9931,0.64,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2000.0023,0.73,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2001.0092,0.61,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2001.9774,0.17,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2002.9868,0.29,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2003.9767,0.24,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Night shark,2004.9731,0.8,StandarizedCPUE,North West Atlantic ,North West Atlantic ,Cortesetal2007,
+Goosfish,1963.0563,2.27,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1964.0688,1.08,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1965.3063,2.69,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1966.15,3.08,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1967.1063,-0.78,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1968.1188,1.04,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1970.5937,-0.42,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1972.5063,0.96,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1976.1063,0.25,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1977.175,1.59,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1978.1875,0.55,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1982.2938,-0.63,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1983.1938,-0.24,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1984.2625,-0.71,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1985.8938,-0.09,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1987.2438,-0.97,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1988.3125,-0.35,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1991.125,-1.06,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1993.15,-1.59,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1994.1063,-0.92,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1996.0188,-0.96,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1998.1562,-0.54,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1999.3375,-1.09,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,2002.8813,0.31,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,2004.2875,-0.51,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,2005.8625,-0.02,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,2006.875,-0.45,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Goosfish,1963.0563,1.45,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1964.0688,0.14,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1966.0937,1.27,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1967.1063,-0.42,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1969.0188,1.49,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1970.1438,0.73,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1971.0438,1.27,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1971.8875,-0.43,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1973.125,1.26,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1974.925,-0.56,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1976.3313,1.43,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1977.3437,1.92,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1980.3813,1.31,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1982.2375,-1,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1984.15,1,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1985.1625,-0.2,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1986.0625,0.62,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1987.2438,-0.78,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1988.0875,-0.29,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1990.1688,-1.16,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1994.05,-1.3,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1992.025,-0.59,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1997.0875,-1.61,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,1999.0563,-1.26,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,2000.1813,0.66,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,2002.2625,-0.45,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Goosfish,2004.2313,-1.43,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1969.627,2.22,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1970.3985,1.78,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1971.4256,1.33,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1972.4441,1.55,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1973.3506,0.53,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1974.7553,0.5,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1975.6541,0.09,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1976.4119,0.74,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1977.4283,1.12,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1978.3245,0.91,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1979.5937,1.49,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1980.7495,0.95,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1981.797,-1.1,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1982.5403,0.68,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1983.3047,0.8,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1984.8361,0.84,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1985.6109,0.14,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1986.7702,-0.67,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1987.7835,-0.05,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1989.059,0.05,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1990.7173,0.14,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1991.7492,-0.69,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1992.7662,-0.35,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1993.7835,-0.05,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1994.8135,-0.72,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1995.8332,-0.6,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1997.8766,-0.67,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1998.9068,-1.37,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1999.9184,-0.62,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2001.0778,-1.43,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2001.7145,-1.3,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2002.7305,-0.89,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2003.8801,-0.95,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2005.0391,-1.73,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2005.9192,-0.67,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,2007.2039,-1.3,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Thorny skate,1969.7917,0.9,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1970.8528,1.93,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1972.0049,2.02,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1973.0654,3.04,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1974.1672,1.81,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1975.1221,0.08,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1975.9287,1.14,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1976.9449,1.01,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1977.929,0.04,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1979.2061,0.05,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1980.1275,0.77,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1981.2591,0.32,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1982.4022,0.17,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1983.1782,0.43,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1985.2224,0.47,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1983.9149,-0.33,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1986.2096,-0.42,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1987.3491,-0.66,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1988.26,-0.21,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1990.2011,0.47,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1989.2812,-0.21,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1991.1931,-0.29,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1992.072,-0.67,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1993.2095,-0.98,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1994.3563,-1.03,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1994.8737,-0.85,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1996.1461,-0.96,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1997.3075,-0.63,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,1998.9546,-0.96,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2000.1041,-0.95,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2001.3917,-0.66,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2003.1648,-1.03,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2004.4634,-0.46,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2005.3481,-0.69,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2007.647,-0.66,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Thorny skate,2006.6162,-0.91,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1969.9306,-1.1509,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1971.4583,-0.1604,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1972.5694,-0.3176,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1973.5417,-1.1667,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1974.7917,-1.1667,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1975.7639,-0.4277,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1976.3194,-1.0409,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1977.4306,-0.632,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1978.5417,-0.5535,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1979.6528,2.0881,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1980.625,-1.0566,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1981.7361,0.7673,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1982.2917,0.3742,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1983.5417,-0.1604,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1984.375,2.2925,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1985.625,-0.522,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1986.5972,-0.1289,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1987.7083,1.4748,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1988.6806,-0.4434,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1989.5139,-0.2862,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1990.4861,-0.0818,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1991.4583,0.2327,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1992.5694,-0.2704,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1993.9583,0.2799,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1994.7917,0.1855,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1995.3472,2.8428,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1996.7361,-0.1289,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1997.5694,-0.5535,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1998.6806,0.4527,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1999.9306,-0.5692,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2000.7639,0.956,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2001.4583,-0.7736,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2002.5694,0.5,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2003.5417,-0.632,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2004.7917,0.5,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2005.9028,1.9623,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,2006.875,-0.6164,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Little skate,1969.7335,0.2484,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1970.5531,0.2643,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1971.3749,0.2016,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1971.9242,0.1074,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1972.7902,-1.5747,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1973.7443,-1.4802,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1974.8347,-1.3698,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1975.6397,-0.8193,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1976.755,-1.6209,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1977.8256,-0.7873,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1978.8154,-1.9977,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1979.8839,-1.0855,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1980.9803,-1.1952,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1981.8906,0.503,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1982.6865,1.3838,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1983.5457,-0.0468,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1984.7238,1.8561,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1985.7147,0.5985,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1986.8465,-0.8006,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1987.8978,0.7405,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1988.6095,-0.297,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1989.659,1.307,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1990.7688,0.7098,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1991.7358,0.3327,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1992.8176,0.7576,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1993.9346,-0.1069,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1994.5023,-0.8772,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1995.3976,1.3714,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1996.5417,-0.4836,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1997.0854,-0.3734,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1997.7675,-0.3261,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1998.6785,1.3408,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,1999.7931,0.5707,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2000.7591,0.225,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2001.5337,1.8919,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2002.5141,1.0274,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2003.6229,0.4616,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2004.5937,-0.057,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2005.685,0.0219,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Little skate,2006.6301,0.4466,LogBiomass,George Bank,North West Atlantic ,Nyeetal2010,Data extracted from trend
+Sea raven,1963.0525,-0.5274,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1963.8465,-0.4302,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1964.9636,-0.8831,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1965.9675,0.1042,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1967.4739,-0.8826,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1969.0519,-1.4485,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1970.9666,-1.5291,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1974.0735,-1.3667,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1975.9887,-1.4148,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1977.2574,-0.3952,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1978.9085,-0.4272,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1981.1926,2.4535,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1981.7589,0.3176,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1983.093,1.2889,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1983.9409,0.4638,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1985.012,1.532,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1986.2423,-0.3448,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1988.3839,1.7429,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1989.0503,2.18,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1990.0904,0.9019,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1992.0805,1.5333,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1993.5123,-0.1006,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1996.0179,-0.4561,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1997.1491,0.159,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,1999.4067,1.0333,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,2000.912,-0.0344,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,2002.109,0.5645,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,2004.0096,-0.5838,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,2005.411,0.4843,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Sea raven,2006.7194,-0.4863,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1963.0705,1.51,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1964.0163,-0.88,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1964.9294,-0.74,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1966.3677,-1.05,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1967.8218,-2.12,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1968.822,-1.74,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1969.854,-1.89,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1971.9373,0.09,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1973.9194,-1.4,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1977.0548,0.71,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1979.0305,0.14,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1980.1108,0.68,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1981.8683,-1.03,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1983.4129,1.19,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1984.3019,0.98,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1991.1009,0.8,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1992.4201,-0.22,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1996.1208,1.03,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1998.2718,0.97,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,1999.1647,0.82,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,2000.2678,1.69,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,2001.1595,1.52,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,2002.1434,1.68,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,2005.1025,-0.75,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red hake,2006.9622,0.01,LogBiomass,Gulf of Maine,Gulf of Maine,Nyeetal2010,Data extracted from trend
+Red drum,1989,390910,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1990,1112900,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1991,1212500,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1992,1130300,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1993,916310,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1994,915920,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1995,692820,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1996,728800,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1997,610230,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1998,714400,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1999,632200,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2001,881810,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2002,845070,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2003,940150,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2003,848870,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2004,871220,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2006,775370,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2006,938640,AbundanceAges1-3,FromFlorida_to_SouthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1988,200710,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1990,155700,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1990,361570,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1992,457050,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1993,427090,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1994,462350,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1995,582920,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1996,517820,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1996,733720,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1997,1210600,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,1999,1235800,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2000,829490,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2001,608850,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2002,714360,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2003,503750,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2004,744740,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2004,825170,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2006,1051100,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Red drum,2007,775270,AbundanceAges1-3,North of NorthCarolina,North West Atlantic ,RedDrumStockAssmtSummary2009,
+Dusky shark,1994,12.1,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1995,18.7,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1996,15.6,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1997,23.9,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1998,18.2,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1999,19.4,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2000,4.6,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2001,7.9,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2002,3.3,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2002,5.1,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2004,5.3,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2005,6.4,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2006,6.9,StandardizedCPUE_BLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1974,2.34,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1975,3,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1976,3,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1977,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1978,2.21,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1979,1.82,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1980,1.95,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1981,0.9,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1982,0.11,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1983,0.11,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1984,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1985,0.24,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1987,0.5,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1989,0.11,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1990,-0.15,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1991,0.24,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1992,-0.02,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1993,0.11,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1995,0.24,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1996,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1997,-0.15,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1998,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1999,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2000,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2001,0.24,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2002,0.5,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2003,0.24,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2004,0.63,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2005,0.37,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2006,9.17,StandardizedCPUE_VIMS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1992,3.68,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1993,1.81,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1994,2.73,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1995,1.2,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1996,0.99,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1997,0.52,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1998,1.3,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1999,0.38,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2000,0.76,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2001,0.35,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2002,0.21,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2003,0.14,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2004,0.52,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2005,0.42,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2006,0.79,StandardizedCPUE_PLLOP,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1986,1.87,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1987,2.57,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1988,1.48,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1989,2.35,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1990,1.41,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1991,1.75,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1992,0.47,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1993,1.36,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1994,0.44,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1995,0.71,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1996,1,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1997,0.73,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1998,0.9,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,1999,0.8,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2000,0.54,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2001,0.44,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2002,0.76,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2003,0.56,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2004,0.59,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2005,0.59,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Dusky shark,2006,0.27,StandardizedCPUE_LPS,North West Atlantic_and_GOM,North West Atlantic_and_GOM,Morgan2008,
+Blue shark,1977,2.33,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1978,1.29,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1979,2.88,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1980,2.56,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1981,3.22,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1982,2.19,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1983,2.55,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1984,3.27,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1985,3.1,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1986,1.7,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1987,3.61,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1988,2.34,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1989,1.71,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1990,1.17,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1991,1.15,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1992,0.94,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1993,1.8,StandardizedCPUE_Males,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1977,1.79,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1978,1.389,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1979,1.4196,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1980,2.0475,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1983,1.5421,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1984,2.3231,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1985,1.4349,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1986,0.5773,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1992,1.1286,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Blue shark,1993,1.5574,StandardizedCPUE_Females,Chesapeake Bay,North West Atlantic ,Simpfendorferetal2002,
+Osprey,1975,62,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1980,87,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1985,129,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1990,189,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1995,256,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2000,303,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2005,325,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2010,350,Breeding pairs,Long Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1975,10,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,1980,19,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,1985,44,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,1990,55,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,1995,103,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,2000,158,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,2005,196,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,2010,235,Breeding pairs,Connecticut,Gulf of Maine,Bierregaardetal2014,
+Osprey,1975,9,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1980,12,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1985,20,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1990,31,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1995,43,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2000,58,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2005,98,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,2010,115,Breeding pairs,Rhode Island,Gulf of Maine,Bierregaardetal2014,
+Osprey,1975,9,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,1980,25,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,1985,83,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,1990,169,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,1995,240,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,2000,299,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,2005,349,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,2010,400,Breeding pairs,Mainland Massachusetts,Gulf of Maine,Bierregaardetal2014,
+Osprey,1975,14,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,1980,20,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,1985,45,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,1990,69,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,1995,70,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,2000,70,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,2005,73,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,2010,66,Breeding pairs,Wesport River,Gulf of Maine,Bierregaardetal2014,
+Osprey,1973,35,Breeding pairs,York,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1985,45,Breeding pairs,York,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1990,76,Breeding pairs,York,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1995,132,Breeding pairs,York,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1973,44,Breeding pairs,Potomac,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1985,80,Breeding pairs,Potomac,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1990,100,Breeding pairs,Potomac,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1995,227,Breeding pairs,Potomac,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1973,71,Breeding pairs,Mobjack bay,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1985,101,Breeding pairs,Mobjack bay,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1990,120,Breeding pairs,Mobjack bay,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1995,201,Breeding pairs,Mobjack bay,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1973,92,Breeding pairs,Rappahannock,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1985,98,Breeding pairs,Rappahannock,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1990,135,Breeding pairs,Rappahannock,Chesapeak Bay,WattsandPaxton2007,
+Osprey,1995,257,Breeding pairs,Rappahannock,Chesapeak Bay,WattsandPaxton2007,
+Spinner shark,1994,0.28,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,1995,0.782,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,1996,0.878,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,1997,0.917,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,1998,0.781,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,1999,0.722,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2000,0.721,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2001,0.759,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2002,0.991,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2003,1.716,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2004,1.696,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2005,1.299,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2006,1.54,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2007,1.801,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2008,0.213,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Spinner shark,2009,0.629,StandardizedCPUE,FromFlorida_TO_Maryland_andGulfCoast_to_Lousiana,North West Atlantic ,Carlsonetal2012,
+Harbor porpoise,1999,89700,Abundance Estimate,Gulf of Maine_bay of Fundy,Gulf of Maine,NOAAStockAssessment2007,
+Harbor porpoise,2006,89054,Abundance Estimate,Gulf of Maine_bay of Fundy,Gulf of Maine,NOAAStockAssessment2011,
+Harbor porpoise,2011,79883,Abundance Estimate,Gulf of Maine_bay of Fundy,Gulf of Maine,NOAAStockAssessment2015,
+Atlantic white-sided dolphin,2011,48819,Abundance Estimate,Central Virginia to lower Bay of Fundy ,North West Atlantic ,NOAAStockAssessment2015,
+Atlantic white-sided dolphin,2007,23390,Abundance Estimate,S Gulf of Maine to upper Bay of Fundy to Gulf of St Lawrence,North West Atlantic ,NOAAStockAssessment2011,
+Atlantic white-sided dolphin,2004,63368,Abundance Estimate,,North West Atlantic ,NOAAStockAssessment2010,
+Atlantic white-sided dolphin,1999,51640,Abundance Estimate,Georges Bank to mouth of Gulf of St Lawrence ,North West Atlantic ,NOAAStockAssessment2002,
+Atlantic white-sided dolphin,1997,27200,Abundance Estimate,Virginia to Gulf of St Lawrence,North West Atlantic ,NOAAStockAssessment1997,
+Western Atlantic harbor seal ,2012,75834,Abundance Estimate,Maine coast,North West Atlantic ,NOAAStocAssessment2015,
+Western Atlantic harbor seal ,2001,99340,Abundance Estimate,Maine coast,North West Atlantic ,NOAAStocAssessment2012,
+Western Atlantic harbor seal ,1997,30990,Minimum abundance estimate,Maine coast,North West Atlantic ,NOAAStocAssessment2001,
+Western Atlantic harbor seal ,1993,28810,Minimum abundance estimate,Maine coast,North West Atlantic ,NOAAStocAssessment2001,
+Western Atlantic harbor seal ,1986,12940,Minimum abundance estimate,Maine coast ,North West Atlantic ,NOAAStocAssessment1998,
+Western Atlantic harbor seal ,1982,9331,Minimum abundance estimate,Maine coast,North West Atlantic ,NOAAStocAssessment1998,
+Western Atlantic harbor seal ,1981,10540,Minimum abundance estimate,Maine coast,North West Atlantic ,NOAAStocAssessment1998,
+Atlantic sharpnose shark,1950,45257730,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1951,45003710,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1952,44790950,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1953,44612550,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1954,44461990,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1955,44333690,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1956,44224260,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1957,44130820,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1958,44050740,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1959,43981870,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1960,43922310,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1961,43871080,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1962,43826880,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1963,43788200,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1964,43754780,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1965,43725360,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1966,43699480,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1967,43676550,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1968,43656300,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1969,43638100,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1970,43621890,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1971,43607280,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1972,43593660,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1973,42533930,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1974,41830930,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1975,41012460,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1976,40755030,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1977,39671890,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1978,38567260,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1979,37029090,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1980,34635660,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1981,34170920,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1982,33255970,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1983,32582980,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1984,32071480,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1985,31597950,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1986,30920840,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1987,29947820,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1988,28241490,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1989,27669020,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1990,26375880,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1991,25316950,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1992,24012360,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1993,23686300,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1994,23664590,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1995,23173210,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1996,23093170,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1997,23069210,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1998,22931310,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,1999,22448380,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2000,22030610,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2001,21907168,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2002,22114440,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2003,22479293,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2004,22731634,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2005,23294252,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2006,24405579,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2007,25403334,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2008,26325101,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2009,27501675,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2010,28132584,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Atlantic sharpnose shark,2011,28863603,Predicted abundance,Northwest Atlantic Coast and GOM,Northwest Atlantic Coast and GOM,SEDAR_StockAssessment2013-Atlantic Sharpnose shark,
+Smooth dogfish,1981,30262,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1982,28454,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1983,26206,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1984,23639,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1985,21665,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1986,19785,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1987,17796,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1988,15799,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1989,14032,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1990,12808,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1991,12172,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1992,11179,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1993,10142,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1994,9346,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1995,9245,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1996,9462,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1997,10117,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1998,10599,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,1999,11239,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2000,11937,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2001,13366,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2002,16515,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2003,19160,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2004,21122,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2005,22847,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2006,23911,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2007,23954,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2008,22961,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2009,21355,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2010,19710,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2011,18297,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Smooth dogfish,2012,17679,Predicted Biomass,Northwest Atlantic Coast,Northwest Atlantic Coast,SEDAR_StockAssessment2015-Atlantic Smooth dogfish shark,
+Offshore hake,1969,210000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1970,240000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1971,190000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1972,540000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1973,530000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1974,630000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1975,330000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1976,470000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1977,500000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1978,670000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1979,570000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1980,510000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1981,550000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1982,470000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1983,450000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1984,160000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1985,310000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1986,350000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1987,390000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1988,250000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1989,220000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1990,420000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1991,450000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1992,410000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1993,170000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1994,120000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1995,140000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1996,140000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1997,170000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1998,170000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1999,150000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2000,140000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2001,410000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2002,510000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2003,700000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2004,410000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2005,300000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2006,190000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2007,370000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2008,430000,Abundance,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1967,0.017,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1968,0.304,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1969,0.323,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1970,0.164,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1971,0.095,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1972,1.522,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1973,0.183,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1974,0.599,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1975,0.399,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1976,0.302,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1977,0.41,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1978,0.646,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1979,0.081,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1980,0.317,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1981,0.483,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1982,0.031,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1983,0.526,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1984,0.044,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1985,0.271,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1986,0.507,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1987,0.373,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1988,0.049,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1989,0.292,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1990,1.285,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1991,0.054,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1992,0.064,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1993,0.051,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1994,0.088,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1995,0.35,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1996,0.009,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1997,0.077,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1998,0.559,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,1999,0.13,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2000,0.057,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2001,1.855,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2002,0.358,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2003,0.554,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2004,0.268,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2005,0.012,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2006,0.713,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2007,1.076,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2008,0.216,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Offshore hake,2009,1.38,Recruitment index_Nless30cm_per_tow,Northwest Atlantic Coast,Northwest Atlantic Coast,Offshore Hake Assessment2010,
+Shortfin squid,1970,0.638,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1971,2.890,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1972,1.093,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1973,1.815,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1974,1.997,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1975,4.970,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1976,42.682,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1977,9.385,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1978,2.728,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1979,14.340,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1980,2.553,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1981,4.895,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1982,2.108,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1983,2.290,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1984,1.843,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1985,2.925,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1986,0.588,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1987,0.590,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1988,2.933,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1989,2.935,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1990,5.098,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1991,2.130,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1992,7.533,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1993,4.477,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1996,1.153,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1997,5.025,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1998,1.158,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1999,2.330,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2000,0.263,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2001,0.265,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2002,1.438,Abundance Index_MeanKg_perTow,Scotian Shelf_Canada,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1967,0.274,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1968,0.332,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1969,0.077,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1971,0.389,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1972,0.330,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1974,0.407,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1975,1.424,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1976,7.060,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1977,3.811,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1978,4.534,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1979,6.099,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1980,3.300,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1981,9.386,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1982,0.618,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1983,0.265,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1984,0.539,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1985,0.264,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1988,2.983,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1989,3.256,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1990,2.414,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1991,0.691,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1992,0.769,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1993,1.630,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1994,0.846,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1995,0.689,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1996,0.963,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1997,0.493,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1998,1.412,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,1999,0.198,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2000,0.687,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2001,0.314,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,
+Shortfin squid,2002,0.451,Abundance Index_MeanKg_perTow,North Carolina to Scotian Shelf ,Northwest Atlantic Coast,Shortfin squid_NEFSC_NOOAReport2003,

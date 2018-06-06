@@ -1,0 +1,17 @@
+
+
+It would be helpful to have full country/location info
+
+
+Stocks with years with weird decimals
+North Sea JNCC Razorbill
+North Sea Shetland Common guillemot
+Norway Vedoy Black-legged kittiwake
+Peru Chilean jack mackerel (two surveys)
+Peru Chub mackerel (two surveys)
+
+One stock is missing predator name info (#-Pauly et al 1989 p388 Table 1)
+
+How does the diet information interact with the time series information? Or are these entirely separate? Like, why does the diet information align with years?
+
+What is the season for?

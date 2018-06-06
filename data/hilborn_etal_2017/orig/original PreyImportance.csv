@@ -1,0 +1,551 @@
+Predator,Importance,ImportanceMean,Prey,PreyInAbund,Predator_type,Region,PredName
+Black-vented Shearwater  adult NavidadIs,10,10,Pacific sardine,Pacific sardine Pacific Coast,sea birds,NavidadIs,Black-vented Shearwater 
+Blue shark  BajaCal,29.5,10.86,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,BajaCal,Blue shark
+Blue shark  CA_OR_WA,0.51,0.51,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,CA_OR_WA,Blue shark
+Blue shark  OR_WA,100,100,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,OR_WA,Blue shark
+Brandt cormorant  MonterreyBay,4.7,3.15,Pacific sardine,Pacific sardine Pacific Coast,sea birds,MonterreyBay,Brandt cormorant
+CA Sea Lion  GOC,6.8,6.8,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,GOC,CA Sea Lion
+CA Sea Lion  SanClementeIs,4.7,4.7,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,SanClementeIs,CA Sea Lion
+CA Sea Lion  SanNicolasIs,12.4,12.4,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,SanNicolasIs,CA Sea Lion
+CA Sea Lion  StaBarbaraIs,9.9,9.9,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,StaBarbaraIs,CA Sea Lion
+CA Sea Lion adult CA,80,58.9,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,CA,CA Sea Lion
+CA Sea Lion juvenile CA,66.1,28.12,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,CA,CA Sea Lion
+CABrown pelican  GOC,93,34,Pacific sardine,Pacific sardine Pacific Coast,sea birds,GOC,CABrown pelican
+Coho salmon adult CA_OR,4,4,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,CA_OR,Coho salmon
+Coho salmon adult NeahBay,5.3,5.3,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,NeahBay,Coho salmon
+Coho salmon adult OR_WA,100,83.3,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OR_WA,Coho salmon
+Coho salmon adult WestPort,39.2,19.74111111,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,WestPort,Coho salmon
+Coho salmon juvenile OR_WA,57.9,51.15,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OR_WA,Coho salmon
+Common thresher shark  CA_OR,12.76,8.365,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,CA_OR,Common thresher shark
+Common thresher shark  CA_OR_WA,31.38,31.38,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,CA_OR_WA,Common thresher shark
+Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,88.9,10.82789474,Pacific sardine,Pacific sardine Pacific Coast,sea birds,LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,Elegant tern
+Harbor porpoise  MonterreyBay,11.03,6.42,Pacific sardine,Pacific sardine Pacific Coast,cetaceans,MonterreyBay,Harbor porpoise
+Heermann gull  GOC,77,28.2,Pacific sardine,Pacific sardine Pacific Coast,sea birds,GOC,Heermann gull
+Humboldt_jumbo_squid   CA_OR_WA,5,2.85,Pacific sardine,Pacific sardine Pacific Coast,invertebrates,CA_OR_WA,Humboldt_jumbo_squid 
+Humboldt_jumbo_squid   GOC,80,37.18571429,Pacific sardine,Pacific sardine Pacific Coast,invertebrates,GOC,Humboldt_jumbo_squid 
+Humpback whale  CA,76.1,51.4,Pacific sardine,Pacific sardine Pacific Coast,cetaceans,CA,Humpback whale
+Indo-pacific blue marlin  BajaCal,4.49,2.605,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,BajaCal,Indo-pacific blue marlin
+Jack mackerel  OffColumbiaRiver,7.8,7.8,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OffColumbiaRiver,Jack mackerel
+Jack mackerel  OR_WA,69.2,69.2,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OR_WA,Jack mackerel
+Long-beaked common dolphin  CA,34.38,34.38,Pacific sardine,Pacific sardine Pacific Coast,cetaceans,CA,Long-beaked common dolphin
+North pacific albacora  CA,0.4,0.4,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,CA,North pacific albacora
+North pacific albacora  CA_OR_WA_BC,2.1,2.1,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,CA_OR_WA_BC,North pacific albacora
+North pacific albacora  OR_WA_BC,2.8,2.8,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OR_WA_BC,North pacific albacora
+North pacific albacora  SouthCA,12.7,12.7,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,SouthCA,North pacific albacora
+Northern fur seal  BC,20,20,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,BC,Northern fur seal
+Pacific hake  OffColumbiaRiver,1.1,0.7,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OffColumbiaRiver,Pacific hake
+Pacific hake  OR_WA,75,37.7,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,OR_WA,Pacific hake
+Pacific harbor seal  DraytonHarbor_EasternBays,0,0,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,DraytonHarbor_EasternBays,Pacific harbor seal
+Pacific harbor seal  PadillaBay_EasternBays,2.3,2.3,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,PadillaBay_EasternBays,Pacific harbor seal
+Pacific harbor seal  UmpquaRiver,17.9,11.33333333,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,UmpquaRiver,Pacific harbor seal
+Short-beaked common dolphin  CA,20,20,Pacific sardine,Pacific sardine Pacific Coast,cetaceans,CA,Short-beaked common dolphin
+Shortfin mako shark  CA_OR_WA,2.11,2.11,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,CA_OR_WA,Shortfin mako shark
+Smooth Hammershead shark  Female BajaCal,0.04,0.04,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,BajaCal,Smooth Hammershead shark 
+Smooth Hammershead shark  juvenile BajaCal,0.09,0.09,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,BajaCal,Smooth Hammershead shark 
+Smooth Hammershead shark  juvenile GOC,9.22,5.19,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,GOC,Smooth Hammershead shark 
+Smooth Hammershead shark  Male BajaCal,0.01,0.01,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,BajaCal,Smooth Hammershead shark 
+Soupfin shark  OR_WA,15.4,15.4,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,OR_WA,Soupfin shark
+Spiny dogfish  MonterreyBay,6.21,6.21,Pacific sardine,Pacific sardine Pacific Coast,cartilaginous fishes,MonterreyBay,Spiny dogfish
+Steller Sea Lion  CA_OR,10.5,8.35,Pacific sardine,Pacific sardine Pacific Coast,pinnipeds,CA_OR,Steller Sea Lion
+Striped marlin  BajaCal,26.16,15.17,Pacific sardine,Pacific sardine Pacific Coast,bony fishes,BajaCal,Striped marlin
+Black rockfish  OR_WA,41.9,41.9,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Black rockfish
+Black-legged kittiwakes   MonterreyBay,11.8,11.8,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Black-legged kittiwakes 
+Black-vented Shearwater  adult NavidadIs,30,30,Northern anchovy,Northern Anchovy,sea birds,NavidadIs,Black-vented Shearwater 
+Blue shark  BajaCal,11.5,7.7425,Northern anchovy,Northern Anchovy,cartilaginous fishes,BajaCal,Blue shark
+Blue shark  OR_WA,10.4,10.4,Northern anchovy,Northern Anchovy,cartilaginous fishes,OR_WA,Blue shark
+Bluefin tuna  CA_BajaCal,79.99,79.99,Northern anchovy,Northern Anchovy,bony fishes,CA_BajaCal,Bluefin tuna
+Bonapartes gull  MonterreyBay,1.7,1.7,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Bonapartes gull
+Brandt cormorant  FarallonIs,65,15.70588235,Northern anchovy,Northern Anchovy,sea birds,FarallonIs,Brandt cormorant
+Brandt cormorant  MonterreyBay,71.7,46.6,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Brandt cormorant
+Brandt cormorant  PointArguello,78,19,Northern anchovy,Northern Anchovy,sea birds,PointArguello,Brandt cormorant
+CA Sea Lion  GOC,20.7,10.73333333,Northern anchovy,Northern Anchovy,pinnipeds,GOC,CA Sea Lion
+CA Sea Lion  SanClementeIs,45.4,45.4,Northern anchovy,Northern Anchovy,pinnipeds,SanClementeIs,CA Sea Lion
+CA Sea Lion  SanNicolasIs,29.4,29.4,Northern anchovy,Northern Anchovy,pinnipeds,SanNicolasIs,CA Sea Lion
+CA Sea Lion  StaBarbaraIs,48.9,48.9,Northern anchovy,Northern Anchovy,pinnipeds,StaBarbaraIs,CA Sea Lion
+CA Sea Lion adult CA,69.4,43.14,Northern anchovy,Northern Anchovy,pinnipeds,CA,CA Sea Lion
+CA Sea Lion juvenile CA,81.5,54.94,Northern anchovy,Northern Anchovy,pinnipeds,CA,CA Sea Lion
+CABrown pelican  GOC,100,62.6,Northern anchovy,Northern Anchovy,sea birds,GOC,CABrown pelican
+California gull  MonterreyBay,16.7,16.7,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,California gull
+California halibut  CA,81.6,81.6,Northern anchovy,Northern Anchovy,bony fishes,CA,California halibut
+Chinook salmon  MonterreyBay,40.3,40.3,Northern anchovy,Northern Anchovy,bony fishes,MonterreyBay,Chinook salmon
+Chinook salmon  NorthCA,34.3,21.5,Northern anchovy,Northern Anchovy,bony fishes,NorthCA,Chinook salmon
+Chinook salmon  SanFranciscoBay,29.1,29.1,Northern anchovy,Northern Anchovy,bony fishes,SanFranciscoBay,Chinook salmon
+Chinook salmon adult CA_OR,0.3,0.2,Northern anchovy,Northern Anchovy,bony fishes,CA_OR,Chinook salmon
+Chinook salmon adult OR_WA,86.8,44.84,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Chinook salmon
+Chinook salmon adult WestPort,65.3,30.4,Northern anchovy,Northern Anchovy,bony fishes,WestPort,Chinook salmon
+Chinook salmon juvenile CA_OR,2.7,1.333333333,Northern anchovy,Northern Anchovy,bony fishes,CA_OR,Chinook salmon
+Chinook salmon juvenile OffColumbiaRiver,4.17,2.425,Northern anchovy,Northern Anchovy,bony fishes,OffColumbiaRiver,Chinook salmon
+Coho salmon adult  OR_WA,55.3,39.9,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Coho salmon
+Coho salmon adult OR_WA,9.6,9.6,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Coho salmon
+Coho salmon adult WestPort,19.6,8.166666667,Northern anchovy,Northern Anchovy,bony fishes,WestPort,Coho salmon
+Coho salmon juvenile CA_OR,1.2,0.65,Northern anchovy,Northern Anchovy,bony fishes,CA_OR,Coho salmon
+Common murre  Coast_FarallonGulf,44,34.66666667,Northern anchovy,Northern Anchovy,sea birds,Coast_FarallonGulf,Common murre
+Common murre  Midshelf_FarallonGulf,4,2,Northern anchovy,Northern Anchovy,sea birds,Midshelf_FarallonGulf,Common murre
+Common murre  OuterShelf_FarrallonGulf,1,1,Northern anchovy,Northern Anchovy,sea birds,OuterShelf_FarrallonGulf,Common murre
+Common murre  TatooshIs,8.65,1.8325,Northern anchovy,Northern Anchovy,sea birds,TatooshIs,Common murre
+Common murre chicks FarallonIs,56,24.25,Northern anchovy,Northern Anchovy,sea birds,FarallonIs,Common murre
+Common thresher shark  CA_OR,68,49.06,Northern anchovy,Northern Anchovy,cartilaginous fishes,CA_OR,Common thresher shark
+Common thresher shark  CA_OR_WA,25.74,25.74,Northern anchovy,Northern Anchovy,cartilaginous fishes,CA_OR_WA,Common thresher shark
+Cutthroat trout   OR_WA,69.9,47.95,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Cutthroat trout 
+Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,100,42.64105263,Northern anchovy,Northern Anchovy,sea birds,LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,Elegant tern
+Elegant tern chicks SanDiegoBay,87,73,Northern anchovy,Northern Anchovy,sea birds,SanDiegoBay,Elegant tern
+Glaucous-winged gull  MonterreyBay,15,15,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Glaucous-winged gull
+Harbor porpoise  MonterreyBay,33.71,17.99,Northern anchovy,Northern Anchovy,cetaceans,MonterreyBay,Harbor porpoise
+Heermann gull  GOC,99,61,Northern anchovy,Northern Anchovy,sea birds,GOC,Heermann gull
+Heermann gull  MonterreyBay,27.9,27.9,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Heermann gull
+Humboldt_jumbo_squid   CA_OR_WA,6,5.3,Northern anchovy,Northern Anchovy,invertebrates,CA_OR_WA,Humboldt_jumbo_squid 
+Humboldt_jumbo_squid   GOC,3.8,3.8,Northern anchovy,Northern Anchovy,invertebrates,GOC,Humboldt_jumbo_squid 
+Humpback whale  CA,21.3,21.3,Northern anchovy,Northern Anchovy,cetaceans,CA,Humpback whale
+Jack mackerel  OffColumbiaRiver,20,6.966666667,Northern anchovy,Northern Anchovy,bony fishes,OffColumbiaRiver,Jack mackerel
+Jack mackerel  OR_WA,70.6,35.35,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Jack mackerel
+Lincod  OR,0.62,0.62,Northern anchovy,Northern Anchovy,bony fishes,OR,Lincod
+Long-beaked common dolphin  CA,21.01,21.01,Northern anchovy,Northern Anchovy,cetaceans,CA,Long-beaked common dolphin
+Mew gull  MonterreyBay,26.7,26.7,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Mew gull
+North pacific albacora  CA,44.1,22.7,Northern anchovy,Northern Anchovy,bony fishes,CA,North pacific albacora
+North pacific albacora  CA_OR_WA,43.6,43.6,Northern anchovy,Northern Anchovy,bony fishes,CA_OR_WA,North pacific albacora
+North pacific albacora  CA_OR_WA_BC,11.86,11.86,Northern anchovy,Northern Anchovy,bony fishes,CA_OR_WA_BC,North pacific albacora
+North pacific albacora  OR_WA_BC,20.8,20.8,Northern anchovy,Northern Anchovy,bony fishes,OR_WA_BC,North pacific albacora
+North pacific albacora  SouthCA,60.8,60.8,Northern anchovy,Northern Anchovy,bony fishes,SouthCA,North pacific albacora
+North pacific albacora  SouthernCA_OR_WA,43.9,43.9,Northern anchovy,Northern Anchovy,bony fishes,SouthernCA_OR_WA,North pacific albacora
+Northern fur seal  CA_WA,32,32,Northern anchovy,Northern Anchovy,pinnipeds,CA_WA,Northern fur seal
+Pacific bonito  SCACoast_OffshoreIs,73.5,73.5,Northern anchovy,Northern Anchovy,bony fishes,SCACoast_OffshoreIs,Pacific bonito
+Pacific bonito  SCACoast_OffshoreIs_BajaCal,77.4,77.4,Northern anchovy,Northern Anchovy,bony fishes,SCACoast_OffshoreIs_BajaCal,Pacific bonito
+Pacific hake  NorthCapeBlanco,0.76,0.76,Northern anchovy,Northern Anchovy,bony fishes,NorthCapeBlanco,Pacific hake
+Pacific hake  OffColumbiaRiver,17.8,8.08,Northern anchovy,Northern Anchovy,bony fishes,OffColumbiaRiver,Pacific hake
+Pacific hake  OR_WA,47.4,17.63333333,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Pacific hake
+Pacific hake  SouthCapeBlanco,53.06,53.06,Northern anchovy,Northern Anchovy,bony fishes,SouthCapeBlanco,Pacific hake
+Pacific harbor seal  DraytonHarbor_EasternBays,35.3,21.95,Northern anchovy,Northern Anchovy,pinnipeds,DraytonHarbor_EasternBays,Pacific harbor seal
+Pacific harbor seal  PadillaBay_EasternBays,0,0,Northern anchovy,Northern Anchovy,pinnipeds,PadillaBay_EasternBays,Pacific harbor seal
+Pacific harbor seal  UmpquaRiver,5.5,2.533333333,Northern anchovy,Northern Anchovy,pinnipeds,UmpquaRiver,Pacific harbor seal
+Pacific harbor seal adult SanFranciscoBay,2.5,1.55,Northern anchovy,Northern Anchovy,pinnipeds,SanFranciscoBay,Pacific harbor seal
+Pacific herring  OR_WA,0.2,0.2,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Pacific herring
+Pacific mackerel  GOC,43,43,Northern anchovy,Northern Anchovy,bony fishes,GOC,Pacific mackerel
+Pacific saury  OR_WA,4.6,4.6,Northern anchovy,Northern Anchovy,bony fishes,OR_WA,Pacific saury
+Pacific white-sided dolphin  MonterreyBay,12,12,Northern anchovy,Northern Anchovy,cetaceans,MonterreyBay,Pacific white-sided dolphin
+Pink-footed  shearwater   MonterreyBay,8.9,8.9,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Pink-footed  shearwater 
+Rhinoceros auklet  MonterreyBay,9,9,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Rhinoceros auklet
+Rhinoceros auklet chicks AnioNuevoIs,36,20.5,Northern anchovy,Northern Anchovy,sea birds,AnioNuevoIs,Rhinoceros auklet
+Sablefish  SouthCapeBlanco,6.38,6.38,Northern anchovy,Northern Anchovy,bony fishes,SouthCapeBlanco,Sablefish
+Short-beaked common dolphin  CA,25.15,25.15,Northern anchovy,Northern Anchovy,cetaceans,CA,Short-beaked common dolphin
+Shortfin mako shark  CA_OR_WA,0.1,0.1,Northern anchovy,Northern Anchovy,cartilaginous fishes,CA_OR_WA,Shortfin mako shark
+Sooty shearwater   MonterreyBay,18,13.3,Northern anchovy,Northern Anchovy,sea birds,MonterreyBay,Sooty shearwater 
+Soupfin shark  OR_WA,0.3,0.3,Northern anchovy,Northern Anchovy,cartilaginous fishes,OR_WA,Soupfin shark
+Spiny dogfish  MonterreyBay,5.55,5.55,Northern anchovy,Northern Anchovy,cartilaginous fishes,MonterreyBay,Spiny dogfish
+Spiny dogfish  OR_WA,17.8,8.533333333,Northern anchovy,Northern Anchovy,cartilaginous fishes,OR_WA,Spiny dogfish
+Steller Sea Lion  CA_OR,16.1,14,Northern anchovy,Northern Anchovy,pinnipeds,CA_OR,Steller Sea Lion
+Western gull chicks AnacapaIs,11,11,Northern anchovy,Northern Anchovy,sea birds,AnacapaIs,Western gull
+Western gull chicks PrinceIs,21,6.5,Northern anchovy,Northern Anchovy,sea birds,PrinceIs,Western gull
+Western gull chicks SanNicolasIs,22,13,Northern anchovy,Northern Anchovy,sea birds,SanNicolasIs,Western gull
+Western gull chicks StaBarbaraIs,45,29.4,Northern anchovy,Northern Anchovy,sea birds,StaBarbaraIs,Western gull
+Xantuss murrellet  StaBarbaraIs,42,42,Northern anchovy,Northern Anchovy,sea birds,StaBarbaraIs,Xantuss murrellet
+Xantuss murrellet adults AnacapaIs,29,29,Northern anchovy,Northern Anchovy,sea birds,AnacapaIs,Xantuss murrellet
+Artic loon  MonterreyBay,72.7,72.7,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Artic loon
+Black-legged kittiwakes   MonterreyBay,82.4,82.4,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Black-legged kittiwakes 
+Blue shark  BajaCal,8.5,4.92,CAMarket squid,California Market Squid,cartilaginous fishes,BajaCal,Blue shark
+Blue shark  CA_OR_WA,0.01,0.01,CAMarket squid,California Market Squid,cartilaginous fishes,CA_OR_WA,Blue shark
+Bluefin tuna  CA_BajaCal,1.58,1.58,CAMarket squid,California Market Squid,bony fishes,CA_BajaCal,Bluefin tuna
+Brandt cormorant  MonterreyBay,14.1,5.366666667,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Brandt cormorant
+CA Sea Lion  MonterreyBay,8,8,CAMarket squid,California Market Squid,pinnipeds,MonterreyBay,CA Sea Lion
+CA Sea Lion  SanClementeIs,35.1,35.1,CAMarket squid,California Market Squid,pinnipeds,SanClementeIs,CA Sea Lion
+CA Sea Lion  SanNicolasIs,44.3,44.3,CAMarket squid,California Market Squid,pinnipeds,SanNicolasIs,CA Sea Lion
+CA Sea Lion  StaBarbaraIs,42.7,42.7,CAMarket squid,California Market Squid,pinnipeds,StaBarbaraIs,CA Sea Lion
+CA Sea Lion adult CA,45,29.52,CAMarket squid,California Market Squid,pinnipeds,CA,CA Sea Lion
+CA Sea Lion juvenile CA,64.3,33.38,CAMarket squid,California Market Squid,pinnipeds,CA,CA Sea Lion
+California gull  MonterreyBay,50,50,CAMarket squid,California Market Squid,sea birds,MonterreyBay,California gull
+Chinook salmon  MonterreyBay,9.3,9.3,CAMarket squid,California Market Squid,bony fishes,MonterreyBay,Chinook salmon
+Chinook salmon  NorthCA,12.9,8.05,CAMarket squid,California Market Squid,bony fishes,NorthCA,Chinook salmon
+Chinook salmon  SanFranciscoBay,7.4,7.4,CAMarket squid,California Market Squid,bony fishes,SanFranciscoBay,Chinook salmon
+Chinook salmon adult CA_OR ,0.2,0.2,CAMarket squid,California Market Squid,bony fishes,CA_OR ,Chinook salmon
+Chinook salmon adult OR_WA,0.4,0.25,CAMarket squid,California Market Squid,bony fishes,OR_WA,Chinook salmon
+Coho salmon adult OR_WA,10.3,4.95,CAMarket squid,California Market Squid,bony fishes,OR_WA,Coho salmon
+Coho salmon juvenile CA_OR ,0.1,0.1,CAMarket squid,California Market Squid,bony fishes,CA_OR ,Coho salmon
+Common murre  MonterreyBay,19.3,17.65,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Common murre
+Common murre adult Coast_FarallonGulf,20,12,CAMarket squid,California Market Squid,sea birds,Coast_FarallonGulf,Common murre
+Common murre adult Midshelf_FarallonGulf,61,61,CAMarket squid,California Market Squid,sea birds,Midshelf_FarallonGulf,Common murre
+Common murre adult OuterShelf_FarrallonGulf,47,21,CAMarket squid,California Market Squid,sea birds,OuterShelf_FarrallonGulf,Common murre
+Common murre chicks FarallonIs,2,1.25,CAMarket squid,California Market Squid,sea birds,FarallonIs,Common murre
+Common thresher shark  CA_OR,6.06,3.09,CAMarket squid,California Market Squid,cartilaginous fishes,CA_OR,Common thresher shark
+Common thresher shark  CA_OR_WA,0.1,0.1,CAMarket squid,California Market Squid,cartilaginous fishes,CA_OR_WA,Common thresher shark
+Curlfin sole_turbot  MonterreyBay,36,36,CAMarket squid,California Market Squid,bony fishes,MonterreyBay,Curlfin sole_turbot
+Dalls porpoise  VancouverIs_SanJuanIs,1.2,1.2,CAMarket squid,California Market Squid,cetaceans,VancouverIs_SanJuanIs,Dalls porpoise
+Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,50,4.426315789,CAMarket squid,California Market Squid,sea birds,LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,Elegant tern
+Glaucous-winged gull  MonterreyBay,55,55,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Glaucous-winged gull
+Harbor porpoise  MonterreyBay,47.71,32.46,CAMarket squid,California Market Squid,cetaceans,MonterreyBay,Harbor porpoise
+Harbor porpoise  VancouverIs_SanJuanIs,54.8,54.8,CAMarket squid,California Market Squid,cetaceans,VancouverIs_SanJuanIs,Harbor porpoise
+Heermann gull  MonterreyBay,25.6,25.6,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Heermann gull
+Humboldt_jumbo_squid   CA_OR_WA,1.5,1.5,CAMarket squid,California Market Squid,invertebrates,CA_OR_WA,Humboldt_jumbo_squid 
+Lincod  OR,0.93,0.93,CAMarket squid,California Market Squid,bony fishes,OR,Lincod
+Long-beaked common dolphin  CA,49.94,49.94,CAMarket squid,California Market Squid,cetaceans,CA,Long-beaked common dolphin
+Mew gull  MonterreyBay,26.7,26.7,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Mew gull
+North pacific albacora  CA_OR_WA,0.4,0.4,CAMarket squid,California Market Squid,bony fishes,CA_OR_WA,North pacific albacora
+North pacific albacora  SouthernCA_OR_WA,0.1,0.1,CAMarket squid,California Market Squid,bony fishes,SouthernCA_OR_WA,North pacific albacora
+Northern fulmar  MonterreyBay,29.6,29.6,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Northern fulmar
+Pacific bonito  SCACoast_OffshoreIs,18.6,18.6,CAMarket squid,California Market Squid,bony fishes,SCACoast_OffshoreIs,Pacific bonito
+Pacific bonito  SCACoast_OffshoreIs_BajaCal,17.7,17.7,CAMarket squid,California Market Squid,bony fishes,SCACoast_OffshoreIs_BajaCal,Pacific bonito
+Pacific harbor seal  StraitOfGeorgia,5.5,4.2,CAMarket squid,California Market Squid,pinnipeds,StraitOfGeorgia,Pacific harbor seal
+Pacific harbor seal  UmpquaRiver,12.8,5.433333333,CAMarket squid,California Market Squid,pinnipeds,UmpquaRiver,Pacific harbor seal
+Pacific harbor seal adult SanFranciscoBay,0.1,0.05,CAMarket squid,California Market Squid,pinnipeds,SanFranciscoBay,Pacific harbor seal
+Pacific sanddab  MonterreyBay,18,18,CAMarket squid,California Market Squid,bony fishes,MonterreyBay,Pacific sanddab
+Pacific white-sided dolphin  MonterreyBay,5,5,CAMarket squid,California Market Squid,cetaceans,MonterreyBay,Pacific white-sided dolphin
+Pink-footed  shearwater   MonterreyBay,71.2,71.2,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Pink-footed  shearwater 
+Rhinoceros auklet  MonterreyBay,70.4,66.2,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Rhinoceros auklet
+Rhinoceros auklet chicks AnioNuevoIs,30,30,CAMarket squid,California Market Squid,sea birds,AnioNuevoIs,Rhinoceros auklet
+Short-beaked common dolphin  CA,44.79,44.79,CAMarket squid,California Market Squid,cetaceans,CA,Short-beaked common dolphin
+Short-tailed shearwater   MonterreyBay,91.7,91.7,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Short-tailed shearwater 
+Shortfin mako shark  CA_OR_WA,0.01,0.01,CAMarket squid,California Market Squid,cartilaginous fishes,CA_OR_WA,Shortfin mako shark
+Sooty shearwater   MonterreyBay,36.6,28.3,CAMarket squid,California Market Squid,sea birds,MonterreyBay,Sooty shearwater 
+Western gull chicks AnacapaIs,3,3,CAMarket squid,California Market Squid,sea birds,AnacapaIs,Western gull
+Western gull chicks PrinceIs,58,28.5,CAMarket squid,California Market Squid,sea birds,PrinceIs,Western gull
+Western gull chicks SanNicolasIs,26,17,CAMarket squid,California Market Squid,sea birds,SanNicolasIs,Western gull
+Western gull chicks StaBarbaraIs,12,6.2,CAMarket squid,California Market Squid,sea birds,StaBarbaraIs,Western gull
+Yellowtail rockfish  CA_OR_WA_BC,1.7,1.7,CAMarket squid,California Market Squid,bony fishes,CA_OR_WA_BC,Yellowtail rockfish
+Yellowtail rockfish  HacetaBank,14.9,14.9,CAMarket squid,California Market Squid,bony fishes,HacetaBank,Yellowtail rockfish
+Arrowtooth flounder  NorthCapeBlanco,83.57,83.57,Pacific hake,Pacific hake Pacific Coast,bony fishes,NorthCapeBlanco,Arrowtooth flounder
+Arrowtooth flounder  SouthCapeBlanco,36.21,36.21,Pacific hake,Pacific hake Pacific Coast,bony fishes,SouthCapeBlanco,Arrowtooth flounder
+Blue shark  BajaCal,26.5,12.98,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,BajaCal,Blue shark
+Blue shark  CA_OR_WA,0.01,0.01,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,CA_OR_WA,Blue shark
+Blue shark  OR_WA,53.9,53.9,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,OR_WA,Blue shark
+Brandt cormorant  MonterreyBay,0.5,0.25,Pacific hake,Pacific hake Pacific Coast,sea birds,MonterreyBay,Brandt cormorant
+CA Sea Lion  GOC,1.04,1.04,Pacific hake,Pacific hake Pacific Coast,pinnipeds,GOC,CA Sea Lion
+CA Sea Lion  SanClementeIs,24.8,24.8,Pacific hake,Pacific hake Pacific Coast,pinnipeds,SanClementeIs,CA Sea Lion
+CA Sea Lion  SanNicolasIs,31.2,31.2,Pacific hake,Pacific hake Pacific Coast,pinnipeds,SanNicolasIs,CA Sea Lion
+CA Sea Lion  StaBarbaraIs,39.4,39.4,Pacific hake,Pacific hake Pacific Coast,pinnipeds,StaBarbaraIs,CA Sea Lion
+CA Sea Lion adult CA,45,27.18,Pacific hake,Pacific hake Pacific Coast,pinnipeds,CA,CA Sea Lion
+CA Sea Lion juvenile CA,37,21.3,Pacific hake,Pacific hake Pacific Coast,pinnipeds,CA,CA Sea Lion
+Chinook salmon adult OR_WA,10,10,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR_WA,Chinook salmon
+Common murre  Coast_FarallonGulf,5,5,Pacific hake,Pacific hake Pacific Coast,sea birds,Coast_FarallonGulf,Common murre
+Common murre  Midshelf_FarallonGulf,99,97,Pacific hake,Pacific hake Pacific Coast,sea birds,Midshelf_FarallonGulf,Common murre
+Common murre  OuterShelf_FarrallonGulf,18,18,Pacific hake,Pacific hake Pacific Coast,sea birds,OuterShelf_FarrallonGulf,Common murre
+Common thresher shark  CA_OR,9.17,5.135,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,CA_OR,Common thresher shark
+Common thresher shark  CA_OR_WA,21.78,21.78,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,CA_OR_WA,Common thresher shark
+Dalls porpoise  VancouverIs_SanJuanIs,5.7,5.7,Pacific hake,Pacific hake Pacific Coast,cetaceans,VancouverIs_SanJuanIs,Dalls porpoise
+Harbor porpoise  MonterreyBay,20.42,12.98666667,Pacific hake,Pacific hake Pacific Coast,cetaceans,MonterreyBay,Harbor porpoise
+Harbor porpoise  VancouverIs_SanJuanIs,12.2,12.2,Pacific hake,Pacific hake Pacific Coast,cetaceans,VancouverIs_SanJuanIs,Harbor porpoise
+Humboldt_jumbo_squid   CA_OR_WA,28,19.65,Pacific hake,Pacific hake Pacific Coast,invertebrates,CA_OR_WA,Humboldt_jumbo_squid 
+Indo-pacific blue marlin  BajaCal,80.75,35.2275,Pacific hake,Pacific hake Pacific Coast,bony fishes,BajaCal,Indo-pacific blue marlin
+Jack mackerel  OffColumbiaRiver,20.9,20.9,Pacific hake,Pacific hake Pacific Coast,bony fishes,OffColumbiaRiver,Jack mackerel
+Lincod  OR,2.47,2.47,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR,Lincod
+Long-beaked common dolphin  CA,51.91,51.91,Pacific hake,Pacific hake Pacific Coast,cetaceans,CA,Long-beaked common dolphin
+North pacific albacora  CA,37.3,37.3,Pacific hake,Pacific hake Pacific Coast,bony fishes,CA,North pacific albacora
+North pacific albacora  CA_OR_WA,0.1,0.1,Pacific hake,Pacific hake Pacific Coast,bony fishes,CA_OR_WA,North pacific albacora
+North pacific albacora  CA_OR_WA_BC,27.1,27.1,Pacific hake,Pacific hake Pacific Coast,bony fishes,CA_OR_WA_BC,North pacific albacora
+North pacific albacora  OR_WA_BC,16.5,16.5,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR_WA_BC,North pacific albacora
+North pacific albacora  SouthCA,0,0,Pacific hake,Pacific hake Pacific Coast,bony fishes,SouthCA,North pacific albacora
+Northern fur seal  SaintGeorgeIs,0.17,0.17,Pacific hake,Pacific hake Pacific Coast,pinnipeds,SaintGeorgeIs,Northern fur seal
+Northern fur seal  SaintPaulIs,0.1,0.1,Pacific hake,Pacific hake Pacific Coast,pinnipeds,SaintPaulIs,Northern fur seal
+Pacific bonito  SCACoast_OffshoreIs,0.1,0.1,Pacific hake,Pacific hake Pacific Coast,bony fishes,SCACoast_OffshoreIs,Pacific bonito
+Pacific bonito  SCACoast_OffshoreIs_BajaCal,0.1,0.1,Pacific hake,Pacific hake Pacific Coast,bony fishes,SCACoast_OffshoreIs_BajaCal,Pacific bonito
+Pacific hake  CA,4.44,4.44,Pacific hake,Pacific hake Pacific Coast,bony fishes,CA,Pacific hake
+Pacific hake  OffColumbiaRiver,0.4,0.4,Pacific hake,Pacific hake Pacific Coast,bony fishes,OffColumbiaRiver,Pacific hake
+Pacific hake  OR_WA,0.1,0.1,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR_WA,Pacific hake
+Pacific hake  SouthCapeBlanco,75.94,75.94,Pacific hake,Pacific hake Pacific Coast,bony fishes,SouthCapeBlanco,Pacific hake
+Pacific harbor seal  StraitOfGeorgia,42.6,42.6,Pacific hake,Pacific hake Pacific Coast,pinnipeds,StraitOfGeorgia,Pacific harbor seal
+Pacific harbor seal  UmpquaRiver,41.6,28.83333333,Pacific hake,Pacific hake Pacific Coast,pinnipeds,UmpquaRiver,Pacific harbor seal
+Pacific white-sided dolphin  CA_WA,34,34,Pacific hake,Pacific hake Pacific Coast,cetaceans,CA_WA,Pacific white-sided dolphin
+Sablefish  NorthCapeBlanco,20.19,20.19,Pacific hake,Pacific hake Pacific Coast,bony fishes,NorthCapeBlanco,Sablefish
+Sablefish  SouthCapeBlanco,3.34,3.34,Pacific hake,Pacific hake Pacific Coast,bony fishes,SouthCapeBlanco,Sablefish
+Short-beaked common dolphin  CA,60.88,60.88,Pacific hake,Pacific hake Pacific Coast,cetaceans,CA,Short-beaked common dolphin
+Shortspine thornyhead  NorthCapeBlanco,0.54,0.54,Pacific hake,Pacific hake Pacific Coast,bony fishes,NorthCapeBlanco,Shortspine thornyhead
+Shortspine thornyhead  SouthCapeBlanco,66.85,33.425,Pacific hake,Pacific hake Pacific Coast,bony fishes,SouthCapeBlanco,Shortspine thornyhead
+Soupfin shark  OR_WA,81.1,81.1,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,OR_WA,Soupfin shark
+Spiny dogfish  MonterreyBay,2.76,2.76,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,MonterreyBay,Spiny dogfish
+Spiny dogfish  OR_WA,31.2,18.66666667,Pacific hake,Pacific hake Pacific Coast,cartilaginous fishes,OR_WA,Spiny dogfish
+Steller Sea Lion  CA_OR,87.1,73.05,Pacific hake,Pacific hake Pacific Coast,pinnipeds,CA_OR,Steller Sea Lion
+Steller Sea Lion  SouthEastAK,16,6.16,Pacific hake,Pacific hake Pacific Coast,pinnipeds,SouthEastAK,Steller Sea Lion
+Striped marlin  BajaCal,19.75,13.0125,Pacific hake,Pacific hake Pacific Coast,bony fishes,BajaCal,Striped marlin
+Western gull chicks AnacapaIs,3,3,Pacific hake,Pacific hake Pacific Coast,sea birds,AnacapaIs,Western gull
+Western gull chicks PrinceIs,19,6.75,Pacific hake,Pacific hake Pacific Coast,sea birds,PrinceIs,Western gull
+Western gull chicks SanNicolasIs,14,3.75,Pacific hake,Pacific hake Pacific Coast,sea birds,SanNicolasIs,Western gull
+Western gull chicks StaBarbaraIs,3,2.333333333,Pacific hake,Pacific hake Pacific Coast,sea birds,StaBarbaraIs,Western gull
+Widow rockfish  CA,6.8,6.8,Pacific hake,Pacific hake Pacific Coast,bony fishes,CA,Widow rockfish
+Widow rockfish  OR_WA,0.7,0.7,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR_WA,Widow rockfish
+Yellowtail rockfish  OR_WA,32.5,16.3,Pacific hake,Pacific hake Pacific Coast,bony fishes,OR_WA,Yellowtail rockfish
+Blue shark  BajaCal,30,9.575,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,BajaCal,Blue shark
+Blue shark  CA_OR_WA,2.85,2.85,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,CA_OR_WA,Blue shark
+Bluefin tuna  CA_BajaCal,0.01,0.01,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,CA_BajaCal,Bluefin tuna
+Brandt cormorant  MonterreyBay,0.2,0.15,Pacific mackerel,Pacific chub mackerel Pacific Coast,sea birds,MonterreyBay,Brandt cormorant
+CA Sea Lion  SanClementeIs,10.3,10.3,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,SanClementeIs,CA Sea Lion
+CA Sea Lion  SanNicolasIs,15.5,15.5,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,SanNicolasIs,CA Sea Lion
+CA Sea Lion  StaBarbaraIs,8,8,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,StaBarbaraIs,CA Sea Lion
+CA Sea Lion adult CA,15,4,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,CA,CA Sea Lion
+CA Sea Lion juvenile CA,7.4,1.533333333,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,CA,CA Sea Lion
+Common thresher shark  CA_OR,24.7,13.245,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,CA_OR,Common thresher shark
+Common thresher shark  CA_OR_WA,7.84,7.84,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,CA_OR_WA,Common thresher shark
+Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,27.8,2.027368421,Pacific mackerel,Pacific chub mackerel Pacific Coast,sea birds,LosAngelesHarbor_BolsaChica_SouthBaySaltWorks,Elegant tern
+Humboldt_jumbo_squid   GOC,20,14.5,Pacific mackerel,Pacific chub mackerel Pacific Coast,invertebrates,GOC,Humboldt_jumbo_squid 
+Indo-pacific blue marlin  BajaCal,4.18,4.18,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,BajaCal,Indo-pacific blue marlin
+Long-beaked common dolphin  CA,5,5,Pacific mackerel,Pacific chub mackerel Pacific Coast,cetaceans,CA,Long-beaked common dolphin
+North pacific albacora  CA_OR_WA,0.1,0.1,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,CA_OR_WA,North pacific albacora
+Pacific hake  OR_WA,0.1,0.1,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,OR_WA,Pacific hake
+Pacific harbor seal  UmpquaRiver,4.6,3.066666667,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,UmpquaRiver,Pacific harbor seal
+Sailfish  BajaCal_GOC,14.2,14.2,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,BajaCal_GOC,Sailfish
+Short-beaked common dolphin  CA,16.67,16.67,Pacific mackerel,Pacific chub mackerel Pacific Coast,cetaceans,CA,Short-beaked common dolphin
+Shortfin mako shark  CA_OR_WA,4.09,4.09,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,CA_OR_WA,Shortfin mako shark
+Silky shark  PuntaBelcher_BajaCal,17.7,17.7,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,PuntaBelcher_BajaCal,Silky shark
+Silky shark  PuntaLobos_BajaCal,0.7,0.7,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,PuntaLobos_BajaCal,Silky shark
+Smooth Hammershead shark  Female BajaCal,0.06,0.06,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,BajaCal,Smooth Hammershead shark 
+Smooth Hammershead shark  juvenile GOC,26.84,19.475,Pacific mackerel,Pacific chub mackerel Pacific Coast,cartilaginous fishes,GOC,Smooth Hammershead shark 
+Steller Sea Lion  CA_OR,2.1,1.05,Pacific mackerel,Pacific chub mackerel Pacific Coast,pinnipeds,CA_OR,Steller Sea Lion
+Striped marlin  BajaCal,41.91,26.598,Pacific mackerel,Pacific chub mackerel Pacific Coast,bony fishes,BajaCal,Striped marlin
+Atlantic bluefin tuna  Cape Cod Bay,3.1,3.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Cape Cod Bay,Atlantic bluefin tuna
+Atlantic bluefin tuna  Great South Channel,48.4,48.4,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Great South Channel,Atlantic bluefin tuna
+Atlantic bluefin tuna  Jeffreys Ledge,87.2,87.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Jeffreys Ledge,Atlantic bluefin tuna
+Atlantic bluefin tuna  South of Marthas Vineyards,2.5,2.5,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,South of Marthas Vineyards,Atlantic bluefin tuna
+Atlantic bluefin tuna  Stellwagen Bank,6,6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Stellwagen Bank,Atlantic bluefin tuna
+Atlantic cod  Georges Bank,12,12,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Atlantic cod
+Atlantic cod  Gulf of Maine,22,22,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Gulf of Maine,Atlantic cod
+Atlantic cod  Scotian shelf,10,10,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Scotian shelf,Atlantic cod
+Atlantic cod  Southern New England,16,16,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Southern New England,Atlantic cod
+Atlantic halibut  North Atlantic Bight,4,4,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,North Atlantic Bight,Atlantic halibut
+Atlantic mackerel  Georges Bank,1.8,1.8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Atlantic mackerel
+Barndoor skate  Georges Bank,7.2,7.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Georges Bank,Barndoor skate
+Black sea bass  Inshore of South Cape Hatteras,2,2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Inshore of South Cape Hatteras,Black sea bass
+Blue shark  ,0.4,0.4,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,,Blue shark
+Bluefish  Georges Bank,18.7,18.7,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Bluefish
+Bluefish  Inshore of North Cape Hatteras,0.2,0.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Bluefish
+Bluefish  South New England,2.2,2.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,South New England,Bluefish
+Bluefish adult Georges Bank,17.6,14.45,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Bluefish
+Bluefish adult Hatteras-Montauk,0.1,0.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Hatteras-Montauk,Bluefish
+Fin whale  Georges Bank-Gulf of Maine,50,30.85714286,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cetaceans,Georges Bank-Gulf of Maine,Fin whale
+Goosefish  Southern New England,1.3,1.3,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Southern New England,Goosefish
+Gray seal  Nantucket Sound,0.1,0.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Nantucket Sound,Gray seal
+Gray seal  Sable Island,1,1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Sable Island,Gray seal
+Gray seal  Scotian shelf,65.8,37.4,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Scotian shelf,Gray seal
+Gray seal Female Sable Island,8.6,5.733333333,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Sable Island,Gray seal
+Gray seal juvenile Sable Island,0.3,0.3,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Sable Island,Gray seal
+Gray seal Male Sable Island,3.2,1.6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Sable Island,Gray seal
+Haddock  Georges Bank,1.4,1.4,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Haddock
+Harbor porpoise  Bay of Fundy,64,64,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cetaceans,Bay of Fundy,Harbor porpoise
+Harbor porpoise  Gulf of Maine,44,44,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cetaceans,Gulf of Maine,Harbor porpoise
+Harbor seal  Southern New England,1.8,1.8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Southern New England,Harbor seal
+Pollock  Georges Bank,10.5,10.5,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Pollock
+Pollock  Gulf of Maine,4.7,4.7,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Gulf of Maine,Pollock
+Pollock  Scotian shelf,9.1,9.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Scotian shelf,Pollock
+Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland,6.2,6.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,FromGeorges Bank_To_Grand Banks of Newfoundland,Porbeagle shark
+Red hake  Georges Bank,5.2,5.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Red hake
+Red hake  Gulf of Maine,1.6,1.6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Gulf of Maine,Red hake
+Sea raven  Georges Bank_TO_S New England,32,32,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank_TO_S New England,Sea raven
+Shortfin squid  Newfoundland,3,3,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,invertebrate,Newfoundland,Shortfin squid
+Silver hake  Georges Bank,13,9.15,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Silver hake
+Silver hake  Gulf of Maine,6,6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Gulf of Maine,Silver hake
+Silver hake  Mid-Atlantic Bight,0.2,0.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Mid-Atlantic Bight,Silver hake
+Silver hake  Scotian shelf,21.9,16.95,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Scotian shelf,Silver hake
+Silver hake  South New England,0.3,0.3,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,South New England,Silver hake
+Silver hake  Southern New England,8,8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Southern New England,Silver hake
+Smooth hammerhead  ,17.1,17.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,,Smooth hammerhead
+Spiny dogfish  Georges Bank_TO_S New England,28,28,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank_TO_S New England,Spiny dogfish
+Spiny dogfish  Georges Bank-Gulf of Maine,34.5,11.41162791,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Georges Bank-Gulf of Maine,Spiny dogfish
+Spiny dogfish  Inshore of North Cape Hatteras,6,6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Inshore of North Cape Hatteras,Spiny dogfish
+Spiny dogfish  Southern New England,1.9,1.9,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Southern New England,Spiny dogfish
+Spotted hake  Georges Bank,3,3,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Georges Bank,Spotted hake
+Striped bass  Cape Cod Bay,0.1,0.1,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Cape Cod Bay,Striped bass
+Striped bass  Chesapeake bay,34.5,18.02,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Chesapeake bay,Striped bass
+Striped bass  North Carolina Coast,7.3,5.7,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,North Carolina Coast,Striped bass
+Striped bass  North Shore,5.8,5.8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,North Shore,Striped bass
+Summer flounder  Mid Atlantic Bight,2.8,2.8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Mid Atlantic Bight,Summer flounder
+Summer flounder  South New England,8,8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,South New England,Summer flounder
+Swordfish  ,0.2,0.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,,Swordfish
+Thorny skate  Georges Bank,6.5,6.5,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Georges Bank,Thorny skate
+Thorny skate  Gulf of Maine,13,10.35,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Gulf of Maine,Thorny skate
+Thorny skate  Inshore of North Cape Hatteras,57.8,57.8,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Inshore of North Cape Hatteras,Thorny skate
+Weakfish  Mid Atlantic Bight,3.9,3.9,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,Mid Atlantic Bight,Weakfish
+Western Atlantic harbor seal   Atlantic coast,36,31.025,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Atlantic coast,Western Atlantic harbor seal 
+Western Atlantic harbor seal   Bay of Fundy,41.3,25.45,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Bay of Fundy,Western Atlantic harbor seal 
+Western Atlantic harbor seal   Gulf of Maine,6,6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,pinnipeds,Gulf of Maine,Western Atlantic harbor seal 
+White hake  ,10,7,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,,White hake
+White hake  North West Atlantic,18.2,18.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,bony fishes,North West Atlantic,White hake
+White-sided dolphin  Gulf of Maine,19,19,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cetaceans,Gulf of Maine,White-sided dolphin
+Winter skate  Georges Bank,3.2,3.2,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Georges Bank,Winter skate
+Winter skate  Gulf of Maine,3.7,3.7,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,Gulf of Maine,Winter skate
+Winter skate  South New England,3.6,3.6,Atlantic herring,Atlantic herring Northwestern Atlantic Coast,cartilaginous fishes,South New England,Winter skate
+Atlantic bluefin tuna  Jeffreys Ledge,2.3,2.3,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Jeffreys Ledge,Atlantic bluefin tuna
+Atlantic bluefin tuna adult Cape Lookout,98.97,94.68833333,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Cape Lookout,Atlantic bluefin tuna
+Atlantic bottlenose dolphin  NorthCarolina,4,4,Atlantic menhaden,Atlantic menhaden Atlantic,cetaceans,NorthCarolina,Atlantic bottlenose dolphin
+Atlantic bottlenose dolphin  SouthCarolina_Estuarine,1,1,Atlantic menhaden,Atlantic menhaden Atlantic,cetaceans,SouthCarolina_Estuarine,Atlantic bottlenose dolphin
+Atlantic bottlenose dolphin  SouthCarolina_Oceanic,4,4,Atlantic menhaden,Atlantic menhaden Atlantic,cetaceans,SouthCarolina_Oceanic,Atlantic bottlenose dolphin
+Bluefish  Inshore of North Cape Hatteras,4.1,4.1,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Inshore of North Cape Hatteras,Bluefish
+Bluefish  Mid Atlantic Bight,1.8,1.8,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Mid Atlantic Bight,Bluefish
+Bluefish juvenile Long Island bays,31.6,31.6,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Long Island bays,Bluefish
+Brown pelican  Florida,14,14,Atlantic menhaden,Atlantic menhaden Atlantic,sea birds,Florida,Brown pelican
+Harbor porpoise  Bay of Fundy,2,2,Atlantic menhaden,Atlantic menhaden Atlantic,cetaceans,Bay of Fundy,Harbor porpoise
+Harbor porpoise  Gulf of Maine,1,1,Atlantic menhaden,Atlantic menhaden Atlantic,cetaceans,Gulf of Maine,Harbor porpoise
+Osprey  Chesapeake bay,75,75,Atlantic menhaden,Atlantic menhaden Atlantic,sea birds,Chesapeake bay,Osprey
+Osprey  Lower estuarine sites-Chesapeake bay,24.2,24.2,Atlantic menhaden,Atlantic menhaden Atlantic,sea birds,Lower estuarine sites-Chesapeake bay,Osprey
+Osprey  Upper etsuarine sites-Chesapeake bay,1.5,1.5,Atlantic menhaden,Atlantic menhaden Atlantic,sea birds,Upper etsuarine sites-Chesapeake bay,Osprey
+Sandbar shark  Gulf of Maine,3.36,3.36,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,Gulf of Maine,Sandbar shark
+Shortfin mako shark  North Atlantic Bight,0.1,0.1,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,North Atlantic Bight,Shortfin mako shark
+Silky shark  ,16.9,16.9,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,,Silky shark
+Spiny dogfish  ,0.1,0.1,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,,Spiny dogfish
+Spiny dogfish  FromCapeHatteras_TO_Virginia,59.82,59.82,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,FromCapeHatteras_TO_Virginia,Spiny dogfish
+Spiny dogfish  NorthCarolina,31.05,31.05,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,NorthCarolina,Spiny dogfish
+Spiny dogfish Female NorthCarolina,1.22,1.22,Atlantic menhaden,Atlantic menhaden Atlantic,cartilaginous fishes,NorthCarolina,Spiny dogfish
+Striped bass  ,68.8,68.8,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,,Striped bass
+Striped bass  Chesapeake bay,78.97,51.24333333,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Chesapeake bay,Striped bass
+Striped bass  North Carolina Coast,94.5,58.4,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,North Carolina Coast,Striped bass
+Striped bass juvenile+adult Cape Cod Bay,17.2,17.2,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Cape Cod Bay,Striped bass
+Striped bass juvenile+adult Nantucket Sound,5.5,5.5,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,Nantucket Sound,Striped bass
+Striped bass juvenile+adult North Shore,22.6,22.6,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,North Shore,Striped bass
+Swordfish  ,0.5,0.5,Atlantic menhaden,Atlantic menhaden Atlantic,bony fishes,,Swordfish
+Atlantic bluefin tuna  Cape Cod Bay,12.7,12.7,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Cape Cod Bay,Atlantic bluefin tuna
+Atlantic bluefin tuna  Great South Channel,0.6,0.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Great South Channel,Atlantic bluefin tuna
+Atlantic bluefin tuna  Jeffreys Ledge,2,2,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Jeffreys Ledge,Atlantic bluefin tuna
+Atlantic bluefin tuna  South of Marthas Vineyards,56.2,56.2,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,South of Marthas Vineyards,Atlantic bluefin tuna
+Atlantic bluefin tuna  Stellwagen Bank,2.6,2.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Stellwagen Bank,Atlantic bluefin tuna
+Atlantic cod  North West Atlantic,11.5,11.5,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,North West Atlantic,Atlantic cod
+Bigeye thresher shark  ,1.5,1.5,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,,Bigeye thresher shark
+Bluefish  Georges Bank,1.6,1.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Bluefish
+Bluefish  Inshore of North Cape Hatteras,0.2,0.2,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Inshore of North Cape Hatteras,Bluefish
+Bluefish  Mid Atlantic Bight,1.7,1.7,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Mid Atlantic Bight,Bluefish
+Bluefish adult Hatteras-Montauk,0.9,0.9,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Hatteras-Montauk,Bluefish
+Common dolphin  Off New Jersey,8.34,8.34,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cetaceans,Off New Jersey,Common dolphin
+Goosefish  Georges Bank,1.3,1.3,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Goosefish
+Goosefish  Mid Atlantic Bight,4.1,4.1,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Mid Atlantic Bight,Goosefish
+Goosefish  South New England,4.8,4.8,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,South New England,Goosefish
+Gray seal  Nantucket Sound,1,1,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,pinnipeds,Nantucket Sound,Gray seal
+Gray seal  Scotian shelf,47.4,23.9,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,pinnipeds,Scotian shelf,Gray seal
+Haddock  Georges Bank,2.5,2.5,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Haddock
+Long-finned and Short-finnd pilot whale  Off New Jersey,8.34,8.34,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cetaceans,Off New Jersey,Long-finned and Short-finnd pilot whale
+Long-finned pilot whale  Southern New England,17.2,17.2,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cetaceans,Southern New England,Long-finned pilot whale
+Pollock  Georges Bank,1.7,1.7,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Pollock
+Pollock  North West Atlantic,9,9,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,North West Atlantic,Pollock
+Pollock  Scotian shelf,2,2,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Scotian shelf,Pollock
+Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland,3.11,3.11,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,FromGeorges Bank_To_Grand Banks of Newfoundland,Porbeagle shark
+Red hake  Inshore of North Cape Hatteras,5.1,5.1,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Inshore of North Cape Hatteras,Red hake
+Shortfin mako shark  ,0.6,0.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,,Shortfin mako shark
+Shortfin mako shark  North Atlantic Bight,0.6,0.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,North Atlantic Bight,Shortfin mako shark
+Silver hake  Georges Bank,21.1,18.85,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Silver hake
+Silver hake  North West Atlantic,9,9,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,North West Atlantic,Silver hake
+Silver hake  Scotian shelf,3.4,3.4,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Scotian shelf,Silver hake
+Silver hake  South New England,20.6,20.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,South New England,Silver hake
+Silver hake  Southern New England,6,6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Southern New England,Silver hake
+Spiny dogfish  Scotian shelf,25.8,25.8,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,Scotian shelf,Spiny dogfish
+Striped bass  Cape Cod Bay,0.4,0.4,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Cape Cod Bay,Striped bass
+Striped bass  North Shore,1.6,1.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,North Shore,Striped bass
+Summer flounder  Georges Bank,6,6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Georges Bank,Summer flounder
+Summer flounder  Mid Atlantic Bight,3.6,3.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Mid Atlantic Bight,Summer flounder
+Summer flounder  South New England,2.6,2.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,South New England,Summer flounder
+Swordfish  ,5.4,5.4,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,,Swordfish
+Western Atlantic harbor seal   Gulf of Maine,1.6,1.6,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,pinnipeds,Gulf of Maine,Western Atlantic harbor seal 
+White hake  Scotian shelf,2.7,2.7,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,bony fishes,Scotian shelf,White hake
+Winter skate  South New England,2.8,2.8,Atlantic mackerel,Atlantic mackerel Gulf of Maine / Cape Hatteras,cartilaginous fishes,South New England,Winter skate
+Albacore tuna  Cape Cod_Islands of Massachussetts,32.8,32.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Cape Cod_Islands of Massachussetts,Albacore tuna
+Albacore tuna  Grand Banks of Newfoundland,71.1,71.1,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Albacore tuna
+Atlantic cod  Gulf of Maine,29.2,29.2,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Gulf of Maine,Atlantic cod
+Atlantic halibut  Georges Bank,8.2,8.2,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Georges Bank,Atlantic halibut
+Atlantic halibut  North Atlantic Bight,9,9,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,North Atlantic Bight,Atlantic halibut
+Barrelfish   CharlestonBump-Off GA Coast,2.8,2.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,CharlestonBump-Off GA Coast,Barrelfish 
+Bigeye thresher shark  ,11.9,11.9,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Bigeye thresher shark
+Bigeye tuna  Grand Banks of Newfoundland,61.8,61.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Bigeye tuna
+Blue shark  ,3.7,3.7,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Blue shark
+Bluefish  Georges Bank,6,6,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Georges Bank,Bluefish
+Bluefish  South New England,1.8,1.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,South New England,Bluefish
+Bluefish adult NewJersey_to_Massachusset Coast,15,8.35,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Bluefish
+Common thresher shark  ,2.2,2.2,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Common thresher shark
+Dolphinfish  Cape Cod_Islands of Massachussetts,21.7,21.7,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Cape Cod_Islands of Massachussetts,Dolphinfish
+Dolphinfish  Grand Banks of Newfoundland,42.5,42.5,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Dolphinfish
+Fourspot flounder  Mid Atlantic Bight,3.3,3.3,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Fourspot flounder
+Goosefish  Georges Bank,40.8,40.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Georges Bank,Goosefish
+Goosefish  Gulf of Maine,8,8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Gulf of Maine,Goosefish
+Goosefish  Inshore of North Cape Hatteras,46,46,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Goosefish
+Goosefish  Southern New England,3.9,3.9,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Southern New England,Goosefish
+Harbor porpoise  Bay of Fundy,1,1,Shortfin squid,Shortfin squid Atlantic Coast,cetaceans,Bay of Fundy,Harbor porpoise
+Harbor porpoise  Gulf of Maine,1,1,Shortfin squid,Shortfin squid Atlantic Coast,cetaceans,Gulf of Maine,Harbor porpoise
+Harbor seal  Southern New England,58.4,58.4,Shortfin squid,Shortfin squid Atlantic Coast,pinnipeds,Southern New England,Harbor seal
+Long-finned pilot whale  Southern New England,4.8,4.8,Shortfin squid,Shortfin squid Atlantic Coast,cetaceans,Southern New England,Long-finned pilot whale
+Longbill spearfish  Grand Banks of Newfoundland,63.8,63.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Longbill spearfish
+Night shark  ,38.8,38.8,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Night shark
+Offshore hake  Mid Atlantic Bight,31.8,31.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Offshore hake
+Pollock  Georges Bank,4.6,4.6,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Georges Bank,Pollock
+Porbeagle shark  ,69.5,69.5,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Porbeagle shark
+Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland,5.41,5.41,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,FromGeorges Bank_To_Grand Banks of Newfoundland,Porbeagle shark
+Red hake  Mid Atlantic Bight,2,2,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Red hake
+Sandbar shark  Gulf of Maine,1.64,1.64,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,Gulf of Maine,Sandbar shark
+Sea raven  Gulf of Maine,1.3,1.3,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Gulf of Maine,Sea raven
+Shortfin mako shark  ,1.2,1.2,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Shortfin mako shark
+Shortfin mako shark  Grand Banks of Newfoundland,100,100,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,Grand Banks of Newfoundland,Shortfin mako shark
+Shortfin mako shark  North Atlantic Bight,1.2,1.2,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,North Atlantic Bight,Shortfin mako shark
+Silky shark  ,29.2,29.2,Shortfin squid,Shortfin squid Atlantic Coast,cartilaginous fishes,,Silky shark
+Silver hake  Scotian shelf,21.3,21.3,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Scotian shelf,Silver hake
+Silver hake adult NewJersey_to_Massachusset Coast,0.2,0.2,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Silver hake
+Spotted hake  Georges Bank,4.8,4.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Georges Bank,Spotted hake
+Spotted hake  Mid Atlantic Bight,0.95,0.95,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Spotted hake
+Striped bass  Cape Cod Bay,0.1,0.1,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Cape Cod Bay,Striped bass
+Striped bass  Nantucket Sound,0.1,0.1,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Nantucket Sound,Striped bass
+Striped bass  North Shore,0.9,0.9,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,North Shore,Striped bass
+Summer flounder adult NewJersey_to_Massachusset Coast,5.3,5.3,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Summer flounder
+Swordfish  ,25.5,25.5,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,,Swordfish
+Swordfish  Grand Banks of Newfoundland,70.2,70.2,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Swordfish
+Weakfish  Inshore of South Cape Hatteras,19,19,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Inshore of South Cape Hatteras,Weakfish
+White hake  Gulf of Maine,21.8,21.8,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Gulf of Maine,White hake
+White hake  Scotian shelf,40.1,40.1,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Scotian shelf,White hake
+White marlin  Grand Banks of Newfoundland,54.1,54.1,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,White marlin
+Wreckfish   CharlestonBump-Off GA Coast,2.86,2.86,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,CharlestonBump-Off GA Coast,Wreckfish 
+Yellowfin tuna  Cape Cod_Islands of Massachussetts,31.6,31.6,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Cape Cod_Islands of Massachussetts,Yellowfin tuna
+Yellowfin tuna  Grand Banks of Newfoundland,69.5,69.5,Shortfin squid,Shortfin squid Atlantic Coast,bony fishes,Grand Banks of Newfoundland,Yellowfin tuna
+Atlantic bluefin tuna adult Cape Lookout,1.11,0.425,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Cape Lookout,Atlantic bluefin tuna
+Atlantic bluefin tuna juvenile Mid-Atlantic Bight,3.71,3.71,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid-Atlantic Bight,Atlantic bluefin tuna
+Atlantic cod  Gulf of Maine,6.9,6.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Gulf of Maine,Atlantic cod
+Atlantic mackerel  Mid Atlantic Bight,2,2,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Atlantic mackerel
+Atlantic mackerel  South New England,1.8,1.8,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Atlantic mackerel
+Black sea bass  Inshore of North Cape Hatteras,4.2,4.2,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Black sea bass
+Black sea bass  Middle Atlantic,0.4,0.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Middle Atlantic,Black sea bass
+Bluefish  Georges Bank,4.7,4.7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Georges Bank,Bluefish
+Bluefish  Inshore of North Cape Hatteras,7,7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Bluefish
+Bluefish  Mid Atlantic Bight,13.2,13.2,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Bluefish
+Bluefish  South New England,11.8,11.8,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Bluefish
+Bluefish adult Georges Bank,23.7,20.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Georges Bank,Bluefish
+Bluefish adult Hatteras-Montauk,10.9,8.05,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Hatteras-Montauk,Bluefish
+Bluefish adult NewJersey_to_Massachusset Coast,44.9,21.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Bluefish
+Bluefish juvenile Chesapeake-Delaware,7.9,3.466666667,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Chesapeake-Delaware,Bluefish
+Bluefish juvenile South of Chesapeake,4.2,4.2,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South of Chesapeake,Bluefish
+Bluefish juvenile Southern New England,14.8,4.95,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Southern New England,Bluefish
+Dusky shark juvenile ,24.7,24.7,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,,Dusky shark
+Fourspot flounder  Georges Bank,5.5,5.5,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Georges Bank,Fourspot flounder
+Fourspot flounder  Mid Atlantic Bight,26.4,26.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Fourspot flounder
+Fourspot flounder  North Atlantic Bight,15,10.8,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,North Atlantic Bight,Fourspot flounder
+Fourspot flounder  South New England,26.3,26.3,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Fourspot flounder
+Goosefish  Georges Bank,3.3,3.3,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Georges Bank,Goosefish
+Goosefish  Inshore of North Cape Hatteras,7.3,7.3,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Goosefish
+Goosefish  Southern New England,0.9,0.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Southern New England,Goosefish
+Goosefish adult NewJersey_to_Massachusset Coast,4.9,2.7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Goosefish
+Gray seal  Nantucket Sound,1.4,1.4,Longfin squid,Longfin inshore squid Atlantic Coast,pinnipeds,Nantucket Sound,Gray seal
+Harbor porpoise  Bay of Fundy,1,1,Longfin squid,Longfin inshore squid Atlantic Coast,cetaceans,Bay of Fundy,Harbor porpoise
+Harbor porpoise  Gulf of Maine,1,1,Longfin squid,Longfin inshore squid Atlantic Coast,cetaceans,Gulf of Maine,Harbor porpoise
+Harbor seal  Southern New England,3.7,3.7,Longfin squid,Longfin inshore squid Atlantic Coast,pinnipeds,Southern New England,Harbor seal
+Long-finned pilot whale  Southern New England,77.1,77.1,Longfin squid,Longfin inshore squid Atlantic Coast,cetaceans,Southern New England,Long-finned pilot whale
+Offshore hake  Mid Atlantic Bight,21.3,21.3,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Offshore hake
+Pollock  Gulf of Maine,28.9,28.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Gulf of Maine,Pollock
+Pollock  Scotian shelf,80.9,42.25,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Scotian shelf,Pollock
+Red hake  Southern New England,5.6,5.6,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Southern New England,Red hake
+Scup  Inshore of North Cape Hatteras,0.9,0.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Scup
+Shortfin mako shark  ,22.9,11.5,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,,Shortfin mako shark
+Silver hake  Inshore of North Cape Hatteras,29.7,29.7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Silver hake
+Silver hake  North West Atlantic,12.7,12.7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,North West Atlantic,Silver hake
+Silver hake  Scotian shelf,3.3,2.7,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Scotian shelf,Silver hake
+Silver hake  Southern New England,2.4,2.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Southern New England,Silver hake
+Silver hake adult NewJersey_to_Massachusset Coast,12.3,7.5,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Silver hake
+Silver hake juvenile NewJersey_to_Massachusset Coast,0,0,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Silver hake
+Smooth dogfish  Mid Atlantic Bight,4,4,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,Mid Atlantic Bight,Smooth dogfish
+Smooth dogfish  South New England,2.7,2.7,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,South New England,Smooth dogfish
+Smooth dogfish juvenile ,3.5,3.5,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,,Smooth dogfish
+Spotted hake  Mid Atlantic Bight,9.8,9.8,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Mid Atlantic Bight,Spotted hake
+Spotted hake  South New England,10,10,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Spotted hake
+Striped bass  North Carolina Coast,0.1,0.1,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,North Carolina Coast,Striped bass
+Striped bass  South New England,5.9,5.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Striped bass
+Summer flounder  Inshore of North Cape Hatteras,16.9,16.9,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Inshore of North Cape Hatteras,Summer flounder
+Summer flounder  North Atlantic Bight,24,14.8,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,North Atlantic Bight,Summer flounder
+Summer flounder  Southern New England,24.4,24.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Southern New England,Summer flounder
+Summer flounder adult NewJersey_to_Massachusset Coast,25.4,20.05,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Summer flounder
+Summer flounder juvenile NewJersey_to_Massachusset Coast,15.3,15.3,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,NewJersey_to_Massachusset Coast,Summer flounder
+Weakfish  South New England,5.4,5.4,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,South New England,Weakfish
+White hake  Gulf of Maine,1.5,1.5,Longfin squid,Longfin inshore squid Atlantic Coast,bony fishes,Gulf of Maine,White hake
+White-sided dolphin  Cape Cod Bay,16,16,Longfin squid,Longfin inshore squid Atlantic Coast,cetaceans,Cape Cod Bay,White-sided dolphin
+Winter skate  Georges Bank,2,2,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,Georges Bank,Winter skate
+Winter skate  South New England,1.1,1.1,Longfin squid,Longfin inshore squid Atlantic Coast,cartilaginous fishes,South New England,Winter skate
+Atlantic sharpnose shark adult Apalachicola Bay-Florida,0.27,0.27,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,Apalachicola Bay-Florida,Atlantic sharpnose shark
+Atlantic sharpnose shark juvenile Apalachicola Bay-Florida,7.06,7.06,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,Apalachicola Bay-Florida,Atlantic sharpnose shark
+Blacktip shark juvenile Apalachicola Bay-Florida,67.53,50.36,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,Apalachicola Bay-Florida,Blacktip shark
+Blacktip shark juvenile OffLousianaCoast,46.95,35.975,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,OffLousianaCoast,Blacktip shark
+Finetooth shark juvenile Apalachicola Bay-Florida,74.66,74.66,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,Apalachicola Bay-Florida,Finetooth shark
+Red drum juvenile Galveston Bay-Texas ,68.82,38.925,Gulf menhaden,Gulf menhaden Gulf of Mexico,bony fishes,Galveston Bay-Texas ,Red drum
+Spinner shark juvenile Apalachicola Bay-Florida,67.05,67.05,Gulf menhaden,Gulf menhaden Gulf of Mexico,cartilaginous fishes,Apalachicola Bay-Florida,Spinner shark

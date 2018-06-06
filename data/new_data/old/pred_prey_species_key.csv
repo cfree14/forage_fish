@@ -1,0 +1,54 @@
+"type","common_name","species","n"
+"predator","arctic skua","Stercorarius parasiticus",6
+"predator","arctic tern","Sterna paradisaea",42
+"predator","atlantic puffin","Fratercula arctica",38
+"predator","atlantic puffin",NA,25
+"predator","bass",NA,1
+"predator","black leg kittiwake","Rissa tridactyla",92
+"predator","black leg kittiwake",NA,25
+"predator","bonito","Sarda chiliensis chiliensis",36
+"predator","boobies","Sula variegate",75
+"predator","booby",NA,5
+"predator","cod",NA,4
+"predator","common guillemot","Uria aalge",37
+"predator","common guillemot",NA,2
+"predator","cormorant (guanay)","Phalacrocorax bougainvillii",77
+"predator","cormorant (guanay)",NA,3
+"predator","crabs",NA,2
+"predator","European shag","Phalacrocorax aristotelis",46
+"predator","gurnard",NA,1
+"predator","hake",NA,3
+"predator","harp seal",NA,5
+"predator","horse mackerel","Trachurus murphyi",60
+"predator","horse mackerel",NA,2
+"predator","John Dory",NA,1
+"predator","mackerel","Scomber japonicus",54
+"predator","mackerel",NA,4
+"predator","megrim",NA,4
+"predator","minke whale",NA,8
+"predator","peruvian pelican","Pelecanus thagus",74
+"predator","razorbill","Alca torda",26
+"predator","razorbill",NA,2
+"predator","saithe",NA,5
+"predator","shag","Phalacrocorax aristotelis",3
+"predator","shag",NA,2
+"predator","whiting",NA,9
+"predator","whiting (J)",NA,1
+"predator",NA,NA,1
+"forage fish","anchoveta","Engraulis ringens",87
+"forage fish","anchoveta",NA,9
+"forage fish","blue whiting","Microsmesistius poutassou",1
+"forage fish","blue whiting",NA,3
+"forage fish","capelin",NA,10
+"forage fish","herring",NA,7
+"forage fish","norway pout","Trisopterus esmarkii",2
+"forage fish","norway pout",NA,5
+"forage fish","pout","Trisopterus esmarkii",4
+"forage fish","sandeel","Ammodytes marinus",98
+"forage fish","sandeel","Ammodytidae",18
+"forage fish","sandeel",NA,20
+"forage fish","sprat","Sprattus sprattus",5
+"forage fish","sprat",NA,3
+"forage fish","SS herring",NA,8
+"forage fish","whiting",NA,2
+"forage fish",NA,NA,499

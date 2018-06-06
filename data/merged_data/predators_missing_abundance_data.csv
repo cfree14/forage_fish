@@ -1,0 +1,106 @@
+"type","region","pred_comm","species","total"
+"birds","Europe","Arctic skua","Stercorarius parasiticus",1
+"birds","Europe","Black guillemot","Cepphus grylle",0.6
+"birds","Europe","Common guillemot","Uria aalge",1.62448888888889
+"birds","Europe","European herring gull","Larus argentatus",0.2
+"birds","Europe","European shag","Phalacrocorax aristotelis",1.10272142857143
+"birds","Europe","Great black-backed gull","Larus marinus",0.566666666666667
+"birds","Europe","Great skua","Stercorarius skua",0.525
+"birds","Europe","Northern fulmar","Fulmarus glacialis",0.6
+"birds","Europe","Northern gannet","Morus bassanus",0.65
+"birds","NE Pacific","Arctic loon","Gavia arctica",0.727
+"birds","NE Pacific","Black-legged kittiwake","Rissa tridactyla",0.942
+"birds","NE Pacific","Black-vented shearwater","Puffinus opisthomelas",0.4
+"birds","NE Pacific","Bonaparte's gull","Larus philadelphia",0.017
+"birds","NE Pacific","California brown pelican","Pelecanus occidentalis",0.966
+"birds","NE Pacific","Glaucous-winged gull","Larus glaucescens",0.7
+"birds","NE Pacific","Heermann gull","Larus heermanni",1.09283333333333
+"birds","NE Pacific","Mew gull","Larus canus",0.534
+"birds","NE Pacific","Northern fulmar","Fulmarus glacialis",0.296
+"birds","NE Pacific","Pink-footed shearwater","Puffinus creatopus",0.801
+"birds","NE Pacific","Rhinoceros auklet","Cerorhinca monocerata",0.665
+"birds","NE Pacific","Short-tailed shearwater","Ardenna tenuirostris",0.917
+"birds","NE Pacific","Sooty shearwater","Ardenna grisea",0.38
+"birds","NE Pacific","Western gull","Larus occidentalis",0.405
+"birds","NE Pacific","Xantus's murrellet","Synthliboramphus hypoleucus",0.355
+"birds","NW Atlantic","Brown pelican","Pelecanus occidentalis",0.14
+"birds","NW Atlantic","Osprey","Pandion haliaetus",0.75
+"fish","Europe","Atlantic cod","Gadus morhua",0.13955
+"fish","Europe","Atlantic mackerel","Scomber scombrus",0.2794
+"fish","Europe","European hake","Merluccius merluccius",0.309
+"fish","Europe","Grey gurnard","Eutrigla gurnardus",0.3462
+"fish","Europe","Horse mackerel","Trachurus trachurus",0.229
+"fish","Europe","Large crabs","Majidae spp.",0.24
+"fish","Europe","Megrim","Lepidorhombus whiffiagonis",0.578
+"fish","Europe","Pollock","Pollachius virens",0.62345
+"fish","Europe","Whiting","Merlangius merlangus",0.50765
+"fish","Humboldt","Chilean jack mackerel","Trachurus murphyi",0.2769546235
+"fish","Humboldt","Eastern Pacific bonito","Sarda chiliensis",0.425974837833333
+"fish","Humboldt","Pacific chub mackerel","Scomber japonicus",0.23178073598
+"fish","NE Pacific","Blue shark","Prionace glauca",0.447501904761904
+"fish","NE Pacific","California halibut","Paralichthys californicus",0.816
+"fish","NE Pacific","Chinook salmon","Oncorhynchus tshawytscha",0.456263392857143
+"fish","NE Pacific","Coho salmon","Oncorhynchus kisutch",0.474595
+"fish","NE Pacific","Curlfin sole","Pleuronichthys decurrens",0.36
+"fish","NE Pacific","Humboldt squid","Dosidicus gigas",0.820625
+"fish","NE Pacific","Indo-pacific blue marlin","Makaira mazara",0.420125
+"fish","NE Pacific","Indo-Pacific sailfish","Istiophorus platypterus",0.142
+"fish","NE Pacific","Jack mackerel","Trachurus symmetricus",1.3
+"fish","NE Pacific","Pacific chub mackerel","Scomber japonicus",0.43
+"fish","NE Pacific","Pacific hake","Merluccius productus",0.864
+"fish","NE Pacific","Pacific herring","Clupea pallasii",0.002
+"fish","NE Pacific","Pacific sanddab","Citharichthys sordidus",0.18
+"fish","NE Pacific","Pacific saury","Cololabis saira",0.046
+"fish","NE Pacific","Shortfin mako shark","Isurus oxyrinchus",0.0631
+"fish","NE Pacific","Silky shark","Carcharhinus falciformis",0.092
+"fish","NE Pacific","Smooth hammerhead shark","Sphyrna zygaena",0.151073333333333
+"fish","NE Pacific","Soupfin shark","Galeorhinus galeus",0.968
+"fish","NE Pacific","Spiny dogfish","Squalus acanthias",0.286875
+"fish","NW Atlantic","Atlantic mackerel","Scomber scombrus",0.037
+"fish","NW Atlantic","Atlantic sea raven","Hemitripterus americanus",0.333
+"fish","NW Atlantic","Atlantic wreckfish","Polyprion americanus",0.0286
+"fish","NW Atlantic","Barndoor skate","Dipturus laevis",0.072
+"fish","NW Atlantic","Barrelfish","Hyperoglyphe perciformis",0.028
+"fish","NW Atlantic","Bigeye thresher shark","Alopias superciliosus",0.134
+"fish","NW Atlantic","Blacktip shark","Carcharhinus limbatus",0.431675
+"fish","NW Atlantic","Blue shark","Prionace glauca",0.041
+"fish","NW Atlantic","Common thresher shark","Alopias vulpinus",0.022
+"fish","NW Atlantic","Dolphinfish","Coryphaena hippurus",0.321
+"fish","NW Atlantic","Finetooth shark","Carcharhinus isodon",0.7466
+"fish","NW Atlantic","Fourspot flounder","Hippoglossina oblonga",0.17325
+"fish","NW Atlantic","Goosefish","Lophius americanus",0.32755
+"fish","NW Atlantic","Haddock","Melanogrammus aeglefinus",0.039
+"fish","NW Atlantic","Longbill spearfish","Tetrapturus pfluegeri",0.638
+"fish","NW Atlantic","Night shark","Carcharhinus signatus",0.388
+"fish","NW Atlantic","Porbeagle shark","Lamna nasus",0.46765
+"fish","NW Atlantic","Red drum","Sciaenops ocellatus",0.38925
+"fish","NW Atlantic","Sandbar shark","Carcharhinus plumbeus",0.05
+"fish","NW Atlantic","Silky shark","Carcharhinus falciformis",0.461
+"fish","NW Atlantic","Silver hake","Merluccius bilinearis",0.400208333333333
+"fish","NW Atlantic","Silvery John dory","Zenopsis conchifer",0
+"fish","NW Atlantic","Smooth hammerhead shark","Sphyrna zygaena",0.171
+"fish","NW Atlantic","Spinner shark","Carcharhinus brevipinna",0.6705
+"fish","NW Atlantic","Spiny dogfish","Squalus acanthias",0.602953260869565
+"fish","NW Atlantic","Spotted hake","Urophycis regia",0.15775
+"fish","NW Atlantic","Thorny skate","Amblyraja radiata",0.2125
+"fish","NW Atlantic","Winter skate","Leucoraja ocellata",0.0785
+"mammals","Europe","Common minke whale","Balaenoptera acutorostrata",2.32825
+"mammals","Europe","Harp seal","Pagophilus groenlandicus",0.261566666666667
+"mammals","NE Pacific","Dall's porpoise","Phocoenoides dalli",0.069
+"mammals","NE Pacific","Harbor porpoise","Phocoena phocoena",0.7596
+"mammals","NE Pacific","Long-beaked common dolphin","Delphinus capensis",1.6224
+"mammals","NE Pacific","Pacific white-sided dolphin","Lagenorhynchus obliquidens",0.51
+"mammals","NE Pacific","Short-beaked common dolphin","Delphinus delphis",1.6749
+"mammals","NE Pacific","Steller sea lion","Eumetopias jubatus",0.2956
+"mammals","NW Atlantic","Atlantic bottlenose dolphin","Tursiops truncatus",0.04
+"mammals","NW Atlantic","Atlantic white-sided dolphin","Lagenorhynchus acutus",0.35
+"mammals","NW Atlantic","Fin whale","Balaenoptera physalus",0.308571428571429
+"mammals","NW Atlantic","Harbor porpoise","Phocoena phocoena",0.608333333333333
+"mammals","NW Atlantic","Hooded seal","Cystophora cristata",0.165
+"mammals","NW Atlantic","Long-finned and short-finned pilot whales","Globicephala spp.",0.0834
+"mammals","NW Atlantic","Long-finned pilot whale","Globicephala melas",0.991
+"mammals","NW Atlantic","Northern fur seal","Callorhinus ursinus",0
+"mammals","NW Atlantic","Short-beaked common dolphin","Delphinus delphis",0.0834
+"mammals","NW Atlantic","Western Atlantic harbor seal","Phoca vitulina",0.894666666666667
+NA,"NE Pacific","Common murre",NA,0.921071428571429
+NA,"NE Pacific","Pacific bonito",NA,0.937

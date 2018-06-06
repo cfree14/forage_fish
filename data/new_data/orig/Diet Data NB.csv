@@ -1,0 +1,251 @@
+sort_cmf,sort_orig,ecoregion,country,island group,location,pred_common,pred_scientific,predator stage,stage units,stocklong,season,source,year_orig,year,n,n_units,ff_common,ff_scientific,ff_eaten_mm,ff_eaten_yr,ff_diet_perc,ff_diet_perc_units,notes
+,,Celtic Sea,,,,European hake,Merluccius merluccius,,,,,Du Buit 1996 Figure 4,1983-1985,1984,,,European sprat,Sprattus sprattus,90-160,,,,
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jan-Mar,Daan 1989 Table 8C1,1981,,,,sandeel,Ammodytidae,,,7.17,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jan-Mar,Daan 1989 Table 8C1,1981,,,,sprat,Sprattus sprattus,,,16.54,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jan-Mar,Daan 1989 Table 8C1,1981,,,,norway pout,Trisopterus esmarki,,,21.04,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Apr-Jun,Daan 1989 Table 8C2,1981,,,,sandeel,Ammodytidae,,,46.76,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Apr-Jun,Daan 1989 Table 8C2,1981,,,,sprat,Sprattus sprattus,,,3.16,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Apr-Jun,Daan 1989 Table 8C2,1981,,,,norway pout,Trisopterus esmarki,,,15.76,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jul-Sep,Daan 1989 Table 8C3,1981,,,,sandeel,Ammodytidae,,,14.67,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jul-Sep,Daan 1989 Table 8C3,1981,,,,sprat,Sprattus sprattus,,,21.12,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Jul-Sep,Daan 1989 Table 8C3,1981,,,,norway pout,Trisopterus esmarki,,,7.67,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Oct-Dec,Daan 1989 Table 8C4,1981,,,,sandeel,Ammodytidae,,,14.21,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Oct-Dec,Daan 1989 Table 8C4,1981,,,,sprat,Sprattus sprattus,,,9.53,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,whiting,Merluccius merluccius,,,,Oct-Dec,Daan 1989 Table 8C4,1981,,,,norway pout,Trisopterus esmarki,,,25.43,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,3-7,age,,Jan-Mar,Daan 1989 Table 8D1,1980-1983,,,,sandeel,Ammodytidae,,,12.20,by weight,
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Apr-Jun,Daan 1989 Table 8D2,1980-1983,,,,sandeel,Ammodytidae,,,48.63,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Apr-Jun,Daan 1989 Table 8D2,1980-1983,,,,sprat,Sprattus sprattus,,,1.67,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Apr-Jun,Daan 1989 Table 8D2,1980-1983,,,,norway pout,Trisopterus esmarki,,,0.07,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Jul-Sep,Daan 1989 Table 8D3,1980-1983,,,,sandeel,Ammodytidae,,,13.83,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Jul-Sep,Daan 1989 Table 8D3,1980-1983,,,,sprat,Sprattus sprattus,,,4.57,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Jul-Sep,Daan 1989 Table 8D3,1980-1983,,,,norway pout,Trisopterus esmarki,,,5.37,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Oct-Dec,Daan 1989 Table 8D4,1980-1983,,,,sandeel,Ammodytidae,,,1.30,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,mackerel,Scomber scombrus,3-7,age,,Oct-Dec,Daan 1989 Table 8D4,1980-1983,,,,sprat,Sprattus sprattus,,,1.70,by weight,
+,,North Sea,,,,mackerel,Scomber scombrus,,,,Oct-Dec,Daan 1989 Table 8D4,1980-1983,,,,norway pout,Trisopterus esmarki,,,13.47,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,saithe,Pollachius virens,,,,Oct-Mar,Daan 1989 Table 8E,1980-1982,,,,sandeel,Ammodytidae,,,24.04,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,saithe,Pollachius virens,,,,Oct-Mar,Daan 1989 Table 8E,1980-1982,,,,sprat,Sprattus sprattus,,,3.92,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,saithe,Pollachius virens,,,,Oct-Mar,Daan 1989 Table 8E,1980-1982,,,,norway pout,Trisopterus esmarki,,,47.90,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,saithe,Pollachius virens,,,,Apr-Sep,Daan 1989 Table 8E,1980-1982,,,,sandeel,Ammodytidae,,,27.22,by weight,percents are averaged across age classes of the predator
+,,North Sea,,,,saithe,Pollachius virens,300,length; mm,,Apr-Sep,Daan 1989 Table 8E,1980-1982,,,,sprat,Sprattus sprattus,,,0.30,by weight,
+,,North Sea,,,,saithe,Pollachius virens,,,,Apr-Sep,Daan 1989 Table 8E,1980-1982,,,,norway pout,Trisopterus esmarki,,,21.31,by weight,percents are averaged across age classes of the predator
+,,North Sea,England,North Shields and Marsden,,black legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1968-1973,,,,sandeel,Ammodytidae,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,black legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1968-1973,,,,sandeel,Ammodytidae,,,66,by weight,
+,,North Sea,England,Farne Islands,,black legged kittiwake,Rissa tridactyla,,,,Jun-Jul,Pearson 1968 in Coulston and Thomas 1985,1961-1963,,,,sandeel,Ammodytidae,,,56.00,by weight,
+,,North Sea,Isle of May,,,black legged kittiwake,Rissa tridactyla,,,,Jun-Jul,Galbraith 1983 in Coulston and Thomas 1985,1982,,,,sandeel,Ammodytidae,,,80.00,by weight,converted to weight using Peason 1968 data
+,,North Sea,Shetland,,,guillemot,Uria aalge,,,,May-Aug,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,140-170,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,guillemot,Uria aalge,,,,Mar-Aug,Blake et al 1985 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,90.00,by mass,
+,,North Sea,Shetland,,,guillemot,Uria aalge,,,,Jan,Tasker et al 1987 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,fulmar,Fulmarus glaciulis,,,,Jun-Aug,Furness and Todd 1984 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,60-120,,70.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,fulmar,Fulmarus glaciulis,,,,Jun,Fowler and Dye 1987 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,puffin,Fratercula arctica,,,,May-Aug,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,80-120,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,puffin,Fratercula arctica,,,,Jun-Jul,Martin 1989 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,97.00,by mass,
+,,North Sea,Shetland,,,gannet,Sula bassana,,,,Jun-Jul,Martin 1989 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,80.00,by mass,
+,,North Sea,Shetland,,,gannet,Sula bassana,,,,May-Aug,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,shag,Phalacrocorax aristotelis,,,,Apr-Aug,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,100-150,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,kittiwake,Rissa tridactyla,,,,May-Jul,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,80-100,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,razorbill,Aka torda,,,,Jun-Jul,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,60-80,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,great black back gull,Larus marinus,,,,May-Jul,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,80-140,,40.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,great black back gull,Larus marinus,,,,Apr-Jun,Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,80.00,by mass,
+,,North Sea,Shetland,,,great black back gull,Larus marinus,,,,Jul-Aug,Beaman 1978 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,great skua,Catharacta skua,,,,Mar,Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,100-140,,30.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,great skua,Catharacta skua,,,,Apr,Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,great skua,Catharacta skua,,,,May-Jun,Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,,,80.00,by mass,
+,,North Sea,Shetland,,,great skua,Catharacta skua,,,,Jul,"Furness (1983, 1989) in Furness 1990; Furness and Hislop 1981",1975-1983,,,,sandeel,Ammodytes marinus,,,50.00,by mass,
+,,North Sea,Shetland,,,black guillemot,Cepphus grylle,,,,May-Aug,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,100-180,,60.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,arctic tern,Sterna paradisaea,,,,Jun-Jul,"Furness (1983, 1989) in Furness 1990; Ewins 1985a in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,30-80,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,herring gull,,,,,May-Aug,Hudson 1986 in Furness 1990,1975-1983,,,,sandeel,Ammodytes marinus,80-140,,20.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Shetland,,,Arctic skua,Stercorarius parasiticus,,,,May-Jul,"Furness (1983, 1989) in Furness 1990",1975-1983,,,,sandeel,Ammodytes marinus,60-140,,100.00,by mass,size=modal length in Jun-Jul
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jul,Heubeck ed 1989 pdf page 34,1973,,,,sandeel,Ammodytes marinus,77.3,,90.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jul,Heubeck ed 1989 pdf page 34,1974,,,,sandeel,Ammodytes marinus,97.4,,79.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jul-Aug,Heubeck ed 1989 pdf page 34,1976,,,,sandeel,Ammodytes marinus,80.9,,81.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun-Jul,Heubeck ed 1989 pdf page 34,1978,,,,sandeel,Ammodytes marinus,79.8,,87.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jul,Heubeck ed 1989 pdf page 34,1979,,,,sandeel,Ammodytes marinus,105.4,,90.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun,Heubeck ed 1989 pdf page 34,1981,,,,sandeel,Ammodytes marinus,76.7,,99.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun,Heubeck ed 1989 pdf page 34,1983,,,,sandeel,Ammodytes marinus,64.3,,96.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun,Heubeck ed 1989 pdf page 34,1984,,,,sandeel,Ammodytes marinus,56.9,,90.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun,Heubeck ed 1989 pdf page 34,1986,,,,sandeel,Ammodytes marinus,43.8,,100.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jul,Heubeck ed 1989 pdf page 34,1987,,,,sandeel,Ammodytes marinus,30,,19.00,by weight,size=average size
+,,North Sea,Hermaness,,,puffin,Fratercula arctica,,,,Jun-Jul,Heubeck ed 1989 pdf page 34,1988,,,,sandeel,Ammodytes marinus,,,36.00,by weight,size=average size
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1986,,,,sandeel,Ammodytes marinus,,0+,98.75,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1987,,,,sandeel,Ammodytes marinus,,0+,95.63,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1988,,,,sandeel,Ammodytes marinus,,1+,94.69,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1989,,,,sandeel,Ammodytes marinus,,1+,94.38,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1990,,,,sandeel,Ammodytes marinus,,0+,78.13,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1991,,,,sandeel,Ammodytes marinus,,1+,49.38,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1992,,,,sandeel,Ammodytes marinus,,0+,70.31,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1993,,,,sandeel,Ammodytes marinus,,1+,65.94,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1994,,,,sandeel,Ammodytes marinus,,0+,73.44,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1995,,,,sandeel,Ammodytes marinus,,0+,92.19,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1996,,,,sandeel,Ammodytes marinus,,0+,81.88,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1997,,,,sandeel,Ammodytes marinus,,0+,89.69,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,kittiwake,Rissa tridactyla,,,,Jun,Rindorf et al 2000 Figure 6,1998,,,,sandeel,Ammodytes marinus,,0+,79.69,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1986,,,,sandeel,Ammodytes marinus,,1+,87.84,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1987,,,,sandeel,Ammodytes marinus,,1+,82.07,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1988,,,,sandeel,Ammodytes marinus,,1+,46.81,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1989,,,,sandeel,Ammodytes marinus,,1+,69.60,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1990,,,,sandeel,Ammodytes marinus,,1+,31.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1991,,,,sandeel,Ammodytes marinus,,1+,65.65,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1992,,,,sandeel,Ammodytes marinus,,1+,46.50,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1993,,,,sandeel,Ammodytes marinus,,1+,17.63,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1994,,,,sandeel,Ammodytes marinus,,1+,13.98,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1995,,,,sandeel,Ammodytes marinus,,1+,79.94,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1996,,,,sandeel,Ammodytes marinus,,1+,44.07,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1997,,,,sandeel,Ammodytes marinus,,1+,79.33,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Rindorf et al 2000 Figure 6,1998,,,,sandeel,Ammodytes marinus,,1+,21.58,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1986,,,,sandeel,Ammodytes marinus,,1+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1987,,,,sandeel,Ammodytes marinus,,1+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1988,,,,sandeel,Ammodytes marinus,,1+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1989,,,,sandeel,Ammodytes marinus,,0+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1990,,,,sandeel,Ammodytes marinus,,0+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1991,,,,sandeel,Ammodytes marinus,,0+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1992,,,,sandeel,Ammodytes marinus,,1+,96.18,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1993,,,,sandeel,Ammodytes marinus,,1+,96.18,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1994,,,,sandeel,Ammodytes marinus,,0+,84.72,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1995,,,,sandeel,Ammodytes marinus,,1+,87.15,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1996,,,,sandeel,Ammodytes marinus,,1+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1997,,,,sandeel,Ammodytes marinus,,1+,100.00,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,,,,Jun,Rindorf et al 2000 Figure 6,1998,,,,sandeel,Ammodytes marinus,,1+,96.88,by biomass,"ff_eaten_yr = % sandeels age 1+.  If >50%, age=1"
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Wanless et al 2005 Table 1; Table 2,2004,,,,sandeel,Ammodytes marinus,36-165,,1.00,by mass,mean percent
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Wanless et al 2005 Table 1; Table 2,2004,,,,sprat,Sprattus sprattus,37-98,,97.90,by number,mean percent
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Wanless et al 2005 Table 1,1981-2003,,,,sandeel,Ammodytes marinus,,,52.00,by mass,95% CI=40-65
+,,North Sea,Isle of May,,,guillemot,Uria aalge,,,,Jun,Wanless et al 2005 Table 1,1981-2003,,,,sprat,Sprattus sprattus,,,39.40,by number,95% CI=28-51
+,,North Sea,Isle of May,,,shag,Phalacrocorax aristotelis,,,,July,Wanless et al 1993b Figure 1,1991,,,,sandeel,Ammodytes marinus,85.5,,,,"weighted average, range 30-190"
+,,Humboldt,Peru,4¡-10¡ S,,Chub mackerel,Scomber japonicus,<30,length; cm,,Jul-Nov,Konchina 1982 pdf p8,1972,1972,,,Anchoveta,Engraulis ringens,70,,,,max size of anchoveta
+,,Humboldt,Peru,4¡-10¡ S,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,,Vildoso 1955 in Pauly and Tsukayama 1987 pdf p 270,,,,,Anchoveta,Engraulis ringens,,,76.00,,sent email to IMARPE biblioteca for ref
+,,Humboldt,Peru,4¡-10¡ S,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,,Canal 1974 in Pauly and Tsukayama 1987 pdf p270,1967-1972,,,,Anchoveta,Engraulis ringens,120-140,,77-85,,sent email to IMARPE biblioteca for ref
+,,Humboldt,Peru,6¡-14¡ S,,Guanay cormorant,Phalacrocorax bougainvillii,,,,Mar-Oct,Jordan 1959 in Muck and Pauly in Pauly and Tsukayama 1987 pdf p230 Figure 1,1954-1958,,,,Anchoveta,Engraulis ringens,122.95,,,,weighted mean; no other prey items
+,,Humboldt,Peru,6¡-14¡ S,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jordan 1967 and Avila 1954 in Muck and Pauly in Pauly and Tsukayama 1987 pdf p232 Table 1,,,,,Anchoveta,Engraulis ringens,,,96,,no other prey items
+,,Humboldt,Peru,6¡-14¡ S,,Peruvian booby,Sula variegate,,,,,Muck and Pauly in Pauly and Tsukayama 1987 pdf p230 Figure 2,1965-1978,,,,Anchoveta,Engraulis ringens,121.38,,,,weighted mean; no other prey items
+,,Humboldt,Peru,6¡-14¡ S,,Peruvian booby,Sula variegate,,,,,Jordan 1967 in Muck and Pauly in Pauly and Tsukayama 1987 pdf p232 Table 1,,,,,Anchoveta,Engraulis ringens,,,80,,no other prey items
+,,Humboldt,Peru,6¡-14¡ S,,Peruvian pelican,Pelecanus thagus,,,,,Jordan 1967 in Muck and Pauly in Pauly and Tsukayama 1987 pdf p232 Table 1,,,,,Anchoveta,Engraulis ringens,,,80,,no other prey items
+,,Humboldt,Peru,Paita,,mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,0.8,of stomach weight,
+,,Humboldt,Peru,Chimbote,,mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,37.8,of stomach weight,
+,,Humboldt,Peru,Callao,,mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,48.6,of stomach weight,
+,,Humboldt,Peru,Ilo,,mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,39,of stomach weight,
+,,Humboldt,Peru,Paita,,horse mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,0,of stomach weight,
+,,Humboldt,Peru,Callao,,horse mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,78,of stomach weight,
+,,Humboldt,Peru,Pisco,,horse mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,90.5,of stomach weight,
+,,Humboldt,Peru,Ilo,,horse mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3,1979,,,,Anchoveta,Engraulis ringens,,,57.3,of stomach weight,
+,,Humboldt,Peru,Callao,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p288 Figure 1,1979,1979,,,Anchoveta,Engraulis ringens,,,57,% of total weight composition,
+,,Humboldt,Peru,Callao,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p288 Figure 1,1982,1982,,,Anchoveta,Engraulis ringens,,,0,% of total weight composition,
+,,Humboldt,Peru,Chimbote,,Chub mackerel,Scomber japonicus,28-64,length; cm,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p 287 (Table 1) and pdf p 288 (Figure 2),1976,1976,,,Anchoveta,Engraulis ringens,112.95,,16.4,% of stomach content weight,size is weighted mean by %
+,,Humboldt,Peru,Grupo Pescadores,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Boyd 2012 pdf p 188 Table A.5.1,2008,2008,,,Anchoveta,Engraulis ringens,,,96,,no other prey items
+,,Humboldt,Peru,Grupo Pescadores,,Peruvian booby,Sula variegate,,,,,Boyd 2012 pdf p 188 Table A.5.1,2008,2008,,,Anchoveta,Engraulis ringens,,,80,,no other prey items
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p287 Table 1,1978,1978,,,Anchoveta,Engraulis ringens,,,10.1,% of stomach content weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p287 Table 1,1979,1979,,,Anchoveta,Engraulis ringens,,,7.7,% of stomach content weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p287 Table 1,1980,1980,,,Anchoveta,Engraulis ringens,,,8.9,% of stomach content weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p287 Table 1,1981,1981,,,Anchoveta,Engraulis ringens,,,4.2,% of stomach content weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p287 Table 1,1982,1982,,,Anchoveta,Engraulis ringens,,,0.3,% of stomach content weight,
+,,Humboldt,Peru,,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,Jan-Aug,Pauly et al in Pauly and Tsukayama 1987 pdf p268 Figure 7,1976,1976,,,Anchoveta,Engraulis ringens,110,,51.415092,,"% is for each size value, mean did not reflect bimodial distribution"
+,,Humboldt,Peru,,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,Jan-Aug,Pauly et al in Pauly and Tsukayama 1987 pdf p268 Figure 7,1976,1976,,,Anchoveta,Engraulis ringens,130,,7.7044024,,"% is for each size value, mean did not reflect bimodial distribution"
+,,Humboldt,Peru,,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,Jan-Aug,Pauly et al in Pauly and Tsukayama 1987 pdf p268 Figure 7,1976,1976,,,Anchoveta,Engraulis ringens,150,,3.6163523,,"% is for each size value, mean did not reflect bimodial distribution"
+,,Humboldt,Peru,,,Eastern Pacific bonito,Sarda chiliensis chiliensis,,,,Jan-Aug,Pauly et al in Pauly and Tsukayama 1987 pdf p268 Figure 7,1976,1976,,,Anchoveta,Engraulis ringens,170,,35.849056,,"% is for each size value, mean did not reflect bimodial distribution"
+,,Humboldt,Peru,Paita,,Chilean jack mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3 ,1979,1979,,,Anchoveta,Engraulis ringens,,,0,% of stomach content weight,
+,,Humboldt,Peru,Paita,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3 ,1979,1979,,,Anchoveta,Engraulis ringens,,,0.8,% of stomach content weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30 ,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1979,1979,,,Anchoveta,Engraulis ringens,,,28.07008,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30 ,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1980,1980,,,Anchoveta,Engraulis ringens,,,13.416256,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30 ,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1981,1981,,,Anchoveta,Engraulis ringens,,,2.1435382,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1982,1982,,,Anchoveta,Engraulis ringens,,,7.168742,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1983,1983,,,Anchoveta,Engraulis ringens,,,2.2920356,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1984,1984,,,Anchoveta,Engraulis ringens,,,4.1802673,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1986,1986,,,Anchoveta,Engraulis ringens,,,3.1203508,% by weight,
+,,Humboldt,Peru,,,Chilean jack mackerel,Trachurus murphyi,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1987,1987,,,Anchoveta,Engraulis ringens,,,11.045203,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1976,1976,,,Anchoveta,Engraulis ringens,,,79.16506,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1978,1978,,,Anchoveta,Engraulis ringens,,,44.143227,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1979,1979,,,Anchoveta,Engraulis ringens,,,40.210194,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1980,1980,,,Anchoveta,Engraulis ringens,,,22.299927,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1981,1981,,,Anchoveta,Engraulis ringens,,,13.386957,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1982,1982,,,Anchoveta,Engraulis ringens,,,2.222674,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1983,1983,,,Anchoveta,Engraulis ringens,,,11.315432,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1984,1984,,,Anchoveta,Engraulis ringens,,,0.47094595,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1986,1986,,,Anchoveta,Engraulis ringens,,,34.39974,% by weight,
+,,Humboldt,Peru,,,Chub mackerel,Scomber japonicus,>30,length; cm,,,Pauly et al 1989 pg 394 Figure 5,1987,1987,,,Anchoveta,Engraulis ringens,,,5.237683,% by weight,
+,,Humboldt,Peru,,,Peruvian booby,Sula variegate,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 2,1995,,,,Anchoveta,Engraulis ringens,,,78.78,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Peruvian booby,Sula variegate,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 2,1996,,,,Anchoveta,Engraulis ringens,,,82.33,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Peruvian booby,Sula variegate,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 2,1997,,,,Anchoveta,Engraulis ringens,,,84.64,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Peruvian booby,Sula variegate,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 2,1998,,,,Anchoveta,Engraulis ringens,,,58.37,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Peruvian booby,Sula variegate,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 2,1999,,,,Anchoveta,Engraulis ringens,,,92.85,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 1,1995,,,,Anchoveta,Engraulis ringens,,,56.39,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 1,1996,,,,Anchoveta,Engraulis ringens,,,49.3,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 1,1997,,,,Anchoveta,Engraulis ringens,,,53.96,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 1,1998,,,,Anchoveta,Engraulis ringens,,,54.53,,have diet data for other spp for these years
+,,Humboldt,Peru,,,Guanay cormorant,Phalacrocorax bougainvillii,,,,,Jahncke and Goya 1997 in Goya 2000 Tabla 1,1999,,,,Anchoveta,Engraulis ringens,,,80.9,,have diet data for other spp for these years
+,,Humboldt,Peru,Pisco,,Chilean jack mackerel,Trachurus murphyi,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p290 Table 3 ,1979,1979,,,Anchoveta,Engraulis ringens,,,90.5,% of stomach content weight,
+,,Humboldt,Peru,Pisco,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p288 Figure 1,1979,1979,,,Anchoveta,Engraulis ringens,,,75,% of total weight composition,
+,,Humboldt,Peru,Pisco,,Chub mackerel,Scomber japonicus,,,,,Muck and Sanchez in Pauly and Tsukayama 1987 pdf p288 Figure 1,1982,1982,,,Anchoveta,Engraulis ringens,,,20,% of total weight composition,
+,,Humboldt,Peru,Punta San Juan,,Guanay cormorant,Phalacrocorax bougainvillii,chicks,age class,,Jan-Feb,Zavalaga and Paredes 1999 Table 1,1995,1995,,,Anchoveta,Engraulis ringens,12.6±0.3,,65,by number,have diet data for other spp for these years
+,,Humboldt,Peru,Punta San Juan,,Guanay cormorant,Phalacrocorax bougainvillii,chicks,age class,,Jan-Feb,Zavalaga and Paredes 1999 Table 1,1996,1996,,,Anchoveta,Engraulis ringens,12.6±0.3,,2,by number,have diet data for other spp for these years
+,,North Sea,,,,Hake,Merluccius merluccius,,,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Blue whiting,Micromesistius poutassou,,,30.9,diet matrix,
+,,North Sea,,,,Horse mackerel,Trachurus trachurus,,,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Norway pout,Trisopterus esmarkii,,,22.9,diet matrix,
+,,North Sea,,,,Large crabs,Majidae spp,,,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Norway pout,Trisopterus esmarkii,,,24,diet matrix,
+,,North Sea,,,,Megrim,Lepidorhombus whiffiagonis,,,,,Mackinson and Daskalov 2007 Table 3.4,,,,,European sprat,Sprattus sprattus,,,33.8,diet matrix,
+,,North Sea,,,,Megrim,Lepidorhombus whiffiagonis,,,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Norway pout,Trisopterus esmarkii,,,24,diet matrix,
+,,North Sea,,,,Saithe,Pollachius virens,juvenile,age class,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Norway pout,Trisopterus esmarkii,,,23.7,diet matrix,
+,,North Sea,,,,Saithe,Pollachius virens,adults,age class,,,Mackinson and Daskalov 2007 Table 3.4,,,,,Norway pout,Trisopterus esmarkii,,,32.2,diet matrix,
+,,North Sea,,,,Common minke whale,Balaenoptera acutorostrata,,,,,Olsen and Holst 2001,1999,1999,,,Sandeel spp.,Ammodytidae spp.,,,86.7,relative contribution by weight,
+,,North Sea,,,,Grey gurnard,Eutrigla gurnardus,,,,,de Gee and Kikkert 1993 Table 10,1991,1991,,,Sandeel spp.,Ammodytidae spp.,,,34.62,by weight,average over all size classes of predator
+,,North Sea,,NE,,Arctic skua,Stercorarius parasiticus,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,80,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,NE,,Arctic tern,Sterna paradisaea,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,NE,,Atlantic puffin,Fratercula arctica,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,NE,,Razorbill,Alca torda,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,S and SE,,Arctic tern,Sterna paradisaea,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,S and SE,,Atlantic puffin,Fratercula arctica,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,,S and SE,,Razorbill,Alca torda,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,60,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1968,1968,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1968,1968,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1969,1969,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1969,1969,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1970,1970,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1970,1970,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1971,1971,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1971,1971,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1972,1972,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1972,1972,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,Feb-Apr,Coulston and Thomas 1985 Table 4,1973,1973,,,Sandeel spp.,Ammodytidae spp.,,,13,by weight,
+,,North Sea,England,North Shields and Marsden,,Black-legged kittiwake,Rissa tridactyla,chicks,age class,,Jun-Jul,Coulston and Thomas 1985 Table 4,1973,1973,,,Sandeel spp.,Ammodytidae spp.,,,66,by weight,
+,,North Sea,Peterhead,,,Arctic tern,Sterna paradisaea,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,80,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Peterhead,,,Atlantic puffin,Fratercula arctica,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,80,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Peterhead,,,Razorbill,Alca torda,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,80,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Shetland,,,Arctic skua,Stercorarius parasiticus,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,100,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Shetland,,,Arctic tern,Sterna paradisaea,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,100,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Shetland,,,Atlantic puffin,Fratercula arctica,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,90,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,North Sea,Shetland,,,Razorbill,Alca torda,,,,,Furness and Tasker 2000 Table 2,2000,2000,,,Lesser sand-eel,Ammodytes marinus,,,90,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+,,Barents Sea,Norway,,,Atlantic cod,Gadus morhua,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Capelin,Mallotus villosus,,2+,20.71,,year of high capelin abundance
+,,Barents Sea,Norway,,,Atlantic cod,Gadus morhua,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Capelin,Mallotus villosus,,1,20.71,,year of high capelin abundance
+,,Barents Sea,Norway,,,Atlantic cod,Gadus morhua,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Capelin,Mallotus villosus,,2+,7.2,,year of low capelin abundance
+,,Barents Sea,Norway,,,Atlantic cod,Gadus morhua,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Capelin,Mallotus villosus,,1,7.2,,year of low capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Capelin,Mallotus villosus,,2+,14.87,,year of high capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Capelin,Mallotus villosus,,1,6.33,,year of high capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Atlantic herring,Clupea harengus,,1-3,39.9,,year of high capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Capelin,Mallotus villosus,,2+,4.7,,year of low capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Capelin,Mallotus villosus,,1,2,,year of low capelin abundance
+,,Barents Sea,Norway,,,Common minke whale,Balaenoptera acutorostrata,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Atlantic herring,Clupea harengus,,1-3,38.4,,year of low capelin abundance
+,,Barents Sea,Norway,,,Harp seal,Pagophilus groenlandicus,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Capelin,Mallotus villosus,,2+,33,,year of high capelin abundance
+,,Barents Sea,Norway,,,Harp seal,Pagophilus groenlandicus,,,,,Blanchard et al 2002 Table 8,1990,1990,,,Atlantic herring,Clupea harengus,,1-3,10.17,,year of high capelin abundance
+,,Barents Sea,Norway,,,Harp seal,Pagophilus groenlandicus,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Capelin,Mallotus villosus,,2+,1,,year of low capelin abundance
+,,Barents Sea,Norway,,,Harp seal,Pagophilus groenlandicus,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Atlantic herring,Clupea harengus,,4+,10,,year of low capelin abundance
+,,Barents Sea,Norway,,,Harp seal,Pagophilus groenlandicus,,,,,Blanchard et al 2002 Table 8,1995,1995,,,Atlantic herring,Clupea harengus,,1-3,7.3,,year of low capelin abundance
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,1979-2003,1991,,,Atlantic herring (spring spawning),Clupea harengus,,,41.2,by weight,
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,1979-2003,1991,,,Sandeel spp.,Ammodytidae spp.,,,14.6,by weight,
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,1979-2003,1991,,,Blue whiting,Micromesistius poutassou,,,5.5,by weight,
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,,,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,1988-2003,1996,,,Atlantic herring (spring spawning),Clupea harengus,52.1,,,,"mean, and not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,,,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,1988-2003,1996,,,Sandeel spp.,Ammodytidae spp.,80.4,,,,"mean, and not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,,,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,1988-2003,1996,,,Whiting,Merlangius merlangus,84.1,,,,"mean, and not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2004,2004,,,Atlantic herring (spring spawning),Clupea harengus,62.1,,70.5,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2004,2004,,,Sandeel spp.,Ammodytidae spp.,92.4,,8,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2004,2004,,,Blue whiting,Micromesistius poutassou,45.3,,0.6,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2005,2005,,,Atlantic herring (spring spawning),Clupea harengus,34.8,,20.9,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2005,2005,,,Sandeel spp.,Ammodytidae spp.,45,,0.1,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Hernyken,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2 (%) and Tabell 3.4 (size),2005,2005,,,Blue whiting,Micromesistius poutassou,62.2,,6.4,by weight,"mean size, not specificed adult or chicks"
+,,Norway,Norwegian Sea,,,Common minke whale,Balaenoptera acutorostrata,,,,,Olsen and Holst 2001,1999-2000,2000,,,Atlantic herring (spring spawning),Clupea harengus,,,100,relative contribution by weight,
+,,Norway,Rost,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Sandeel spp.,Ammodytidae spp.,,,4.09,frequency of occurrence,
+,,Norway,Rost,,,Atlantic puffin,Fratercula arctica,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Atlantic herring (spring spawning),Clupea harengus,,,61.92,frequency of occurrence,
+,,Norway,Rost,,,Black-legged kittiwake,Rissa tridactyla,adults,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Atlantic herring (spring spawning),Clupea harengus,,,34.22,by mass,
+,,Norway,Rost,,,Common guillemot,Uria aalge,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Sandeel spp.,Ammodytidae spp.,,,36.21,frequency of occurrence,
+,,Norway,Rost,,,Common guillemot,Uria aalge,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Atlantic herring,Clupea harengus,,,3.2,frequency of occurrence,
+,,Norway,Rost,,,European shag,Phalacrocorax aristotelis,adults,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Sandeel spp.,Ammodytidae spp.,,,13.05,by mass,
+,,Norway,Rost,,,Razorbill,Alca torda,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Sandeel spp.,Ammodytidae spp.,,,51.57,frequency of occurrence,
+,,Norway,Rost,,,Razorbill,Alca torda,chicks,age class,,,Anker-Nilssen 2010 Figure 3,2009,2009,,,Atlantic herring (spring spawning),Clupea harengus,,,20.06,frequency of occurrence,
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,chicks,age class,,Breeding,Wanless et al 1993 pdf p 10,1987,1987,,,Lesser sand-eel,Ammodytes marinus,129,,100,,SD=5.7
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,chicks,age class,,Breeding,Wanless et al 1993 pdf p 10,1988,1988,,,Lesser sand-eel,Ammodytes marinus,140,,100,,SD=5.6
+,,North Sea,Isle of May,,,European shag,Phalacrocorax aristotelis,chicks,age class,,Breeding,Wanless et al 1993 pdf p 10,1989,1989,,,Lesser sand-eel,Ammodytes marinus,84,,100,,SD=8.3

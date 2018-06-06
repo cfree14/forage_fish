@@ -1,0 +1,551 @@
+"pred_stock_orig","pred_type","pred_comm_name","pred_species","area","prey_stock","prey_comm_name","prey_species","impt","impt_avg"
+"Black-vented Shearwater  adult NavidadIs","sea birds","Black-vented shearwater","Puffinus opisthomelas","NavidadIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",10,10
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",29.5,10.86
+"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.51,0.51
+"Blue shark  OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",100,100
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.7,3.15
+"CA Sea Lion  GOC","pinnipeds","California sea lion","Zalophus californianus","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",6.8,6.8
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.7,4.7
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.4,12.4
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",9.9,9.9
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",80,58.9
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",66.1,28.12
+"CABrown pelican  GOC","sea birds","California brown pelican","Pelecanus occidentalis","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",93,34
+"Coho salmon adult CA_OR","bony fishes","Coho salmon","Oncorhynchus kisutch","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4,4
+"Coho salmon adult NeahBay","bony fishes","Coho salmon","Oncorhynchus kisutch","NeahBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",5.3,5.3
+"Coho salmon adult OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",100,83.3
+"Coho salmon adult WestPort","bony fishes","Coho salmon","Oncorhynchus kisutch","WestPort","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",39.2,19.74111111
+"Coho salmon juvenile OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",57.9,51.15
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.76,8.365
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",31.38,31.38
+"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",88.9,10.82789474
+"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",11.03,6.42
+"Heermann gull  GOC","sea birds","Heermann gull","Larus heermanni","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",77,28.2
+"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",5,2.85
+"Humboldt_jumbo_squid   GOC","invertebrates","Humboldt squid","Dosidicus gigas","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",80,37.18571429
+"Humpback whale  CA","cetaceans","Humpback whale","Megaptera novaeangliae","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",76.1,51.4
+"Indo-pacific blue marlin  BajaCal","bony fishes","Indo-pacific blue marlin","Makaira mazara","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.49,2.605
+"Jack mackerel  OffColumbiaRiver","bony fishes","Jack mackerel","Trachurus symmetricus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",7.8,7.8
+"Jack mackerel  OR_WA","bony fishes","Jack mackerel","Trachurus symmetricus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",69.2,69.2
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",34.38,34.38
+"North pacific albacora  CA","bony fishes","Albacore tuna","Thunnus alalunga","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.4,0.4
+"North pacific albacora  CA_OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.1,2.1
+"North pacific albacora  OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.8,2.8
+"North pacific albacora  SouthCA","bony fishes","Albacore tuna","Thunnus alalunga","SouthCA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.7,12.7
+"Northern fur seal  BC","pinnipeds","Northern fur seal","Callorhinus ursinus","BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",20,20
+"Pacific hake  OffColumbiaRiver","bony fishes","Pacific hake","Merluccius productus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",1.1,0.7
+"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",75,37.7
+"Pacific harbor seal  DraytonHarbor_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","DraytonHarbor_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0,0
+"Pacific harbor seal  PadillaBay_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","PadillaBay_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.3,2.3
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",17.9,11.33333333
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",20,20
+"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.11,2.11
+"Smooth Hammershead shark  Female BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.04,0.04
+"Smooth Hammershead shark  juvenile BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.09,0.09
+"Smooth Hammershead shark  juvenile GOC","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",9.22,5.19
+"Smooth Hammershead shark  Male BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.01,0.01
+"Soupfin shark  OR_WA","cartilaginous fishes","Soupfin shark","Galeorhinus galeus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",15.4,15.4
+"Spiny dogfish  MonterreyBay","cartilaginous fishes","Spiny dogfish","Squalus acanthias","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",6.21,6.21
+"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",10.5,8.35
+"Striped marlin  BajaCal","bony fishes","Striped marlin","Kajikia audax","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",26.16,15.17
+"Black rockfish  OR_WA","bony fishes","Black rockfish","Sebastes melanops","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",41.9,41.9
+"Black-legged kittiwakes   MonterreyBay","sea birds","Black-legged kittiwake","Rissa tridactyla","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",11.8,11.8
+"Black-vented Shearwater  adult NavidadIs","sea birds","Black-vented shearwater","Puffinus opisthomelas","NavidadIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",30,30
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",11.5,7.7425
+"Blue shark  OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",10.4,10.4
+"Bluefin tuna  CA_BajaCal","bony fishes","Pacific bluefin tuna","Thunnus orientalis","CA_BajaCal","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",79.99,79.99
+"Bonapartes gull  MonterreyBay","sea birds","Bonaparte's gull","Larus philadelphia","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",1.7,1.7
+"Brandt cormorant  FarallonIs","sea birds","Brandt cormorant","Phalacrocorax penicillatus","FarallonIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",65,15.70588235
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",71.7,46.6
+"Brandt cormorant  PointArguello","sea birds","Brandt cormorant","Phalacrocorax penicillatus","PointArguello","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",78,19
+"CA Sea Lion  GOC","pinnipeds","California sea lion","Zalophus californianus","GOC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",20.7,10.73333333
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",45.4,45.4
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",29.4,29.4
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",48.9,48.9
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",69.4,43.14
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",81.5,54.94
+"CABrown pelican  GOC","sea birds","California brown pelican","Pelecanus occidentalis","GOC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",100,62.6
+"California gull  MonterreyBay","sea birds","California gull","Larus californicus","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",16.7,16.7
+"California halibut  CA","bony fishes","California halibut","Paralichthys californicus","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",81.6,81.6
+"Chinook salmon  MonterreyBay","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",40.3,40.3
+"Chinook salmon  NorthCA","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","NorthCA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",34.3,21.5
+"Chinook salmon  SanFranciscoBay","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","SanFranciscoBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",29.1,29.1
+"Chinook salmon adult CA_OR","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","CA_OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.3,0.2
+"Chinook salmon adult OR_WA","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",86.8,44.84
+"Chinook salmon adult WestPort","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","WestPort","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",65.3,30.4
+"Chinook salmon juvenile CA_OR","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","CA_OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",2.7,1.333333333
+"Chinook salmon juvenile OffColumbiaRiver","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","OffColumbiaRiver","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",4.17,2.425
+"Coho salmon adult  OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",55.3,39.9
+"Coho salmon adult OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",9.6,9.6
+"Coho salmon adult WestPort","bony fishes","Coho salmon","Oncorhynchus kisutch","WestPort","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",19.6,8.166666667
+"Coho salmon juvenile CA_OR","bony fishes","Coho salmon","Oncorhynchus kisutch","CA_OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",1.2,0.65
+"Common murre  Coast_FarallonGulf","sea birds","Common guillemot","Uria aalge","Coast_FarallonGulf","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",44,34.66666667
+"Common murre  Midshelf_FarallonGulf","sea birds","Common guillemot","Uria aalge","Midshelf_FarallonGulf","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",4,2
+"Common murre  OuterShelf_FarrallonGulf","sea birds","Common guillemot","Uria aalge","OuterShelf_FarrallonGulf","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",1,1
+"Common murre  TatooshIs","sea birds","Common guillemot","Uria aalge","TatooshIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",8.65,1.8325
+"Common murre chicks FarallonIs","sea birds","Common guillemot","Uria aalge","FarallonIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",56,24.25
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",68,49.06
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",25.74,25.74
+"Cutthroat trout   OR_WA","bony fishes","Cutthroat trout","Oncorhynchus clarkii","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",69.9,47.95
+"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",100,42.64105263
+"Elegant tern chicks SanDiegoBay","sea birds","Elegant tern","Thalasseus elegans","SanDiegoBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",87,73
+"Glaucous-winged gull  MonterreyBay","sea birds","Glaucous-winged gull","Larus glaucescens","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",15,15
+"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",33.71,17.99
+"Heermann gull  GOC","sea birds","Heermann gull","Larus heermanni","GOC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",99,61
+"Heermann gull  MonterreyBay","sea birds","Heermann gull","Larus heermanni","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",27.9,27.9
+"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",6,5.3
+"Humboldt_jumbo_squid   GOC","invertebrates","Humboldt squid","Dosidicus gigas","GOC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",3.8,3.8
+"Humpback whale  CA","cetaceans","Humpback whale","Megaptera novaeangliae","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",21.3,21.3
+"Jack mackerel  OffColumbiaRiver","bony fishes","Jack mackerel","Trachurus symmetricus","OffColumbiaRiver","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",20,6.966666667
+"Jack mackerel  OR_WA","bony fishes","Jack mackerel","Trachurus symmetricus","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",70.6,35.35
+"Lincod  OR","bony fishes","Lingcod","Ophiodon elongatus","OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.62,0.62
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",21.01,21.01
+"Mew gull  MonterreyBay","sea birds","Mew gull","Larus canus","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",26.7,26.7
+"North pacific albacora  CA","bony fishes","Albacore tuna","Thunnus alalunga","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",44.1,22.7
+"North pacific albacora  CA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",43.6,43.6
+"North pacific albacora  CA_OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA_BC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",11.86,11.86
+"North pacific albacora  OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","OR_WA_BC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",20.8,20.8
+"North pacific albacora  SouthCA","bony fishes","Albacore tuna","Thunnus alalunga","SouthCA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",60.8,60.8
+"North pacific albacora  SouthernCA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","SouthernCA_OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",43.9,43.9
+"Northern fur seal  CA_WA","pinnipeds","Northern fur seal","Callorhinus ursinus","CA_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",32,32
+"Pacific bonito  SCACoast_OffshoreIs","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",73.5,73.5
+"Pacific bonito  SCACoast_OffshoreIs_BajaCal","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs_BajaCal","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",77.4,77.4
+"Pacific hake  NorthCapeBlanco","bony fishes","Pacific hake","Merluccius productus","NorthCapeBlanco","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.76,0.76
+"Pacific hake  OffColumbiaRiver","bony fishes","Pacific hake","Merluccius productus","OffColumbiaRiver","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",17.8,8.08
+"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",47.4,17.63333333
+"Pacific hake  SouthCapeBlanco","bony fishes","Pacific hake","Merluccius productus","SouthCapeBlanco","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",53.06,53.06
+"Pacific harbor seal  DraytonHarbor_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","DraytonHarbor_EasternBays","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",35.3,21.95
+"Pacific harbor seal  PadillaBay_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","PadillaBay_EasternBays","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0,0
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",5.5,2.533333333
+"Pacific harbor seal adult SanFranciscoBay","pinnipeds","Pacific harbor seal","Phoca vitulina","SanFranciscoBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",2.5,1.55
+"Pacific herring  OR_WA","bony fishes","Pacific herring","Clupea pallasii","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.2,0.2
+"Pacific mackerel  GOC","bony fishes","Pacific chub mackerel","Scomber japonicus","GOC","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",43,43
+"Pacific saury  OR_WA","bony fishes","Pacific saury","Cololabis saira","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",4.6,4.6
+"Pacific white-sided dolphin  MonterreyBay","cetaceans","Pacific white-sided dolphin","Lagenorhynchus obliquidens","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",12,12
+"Pink-footed  shearwater   MonterreyBay","sea birds","Pink-footed shearwater","Puffinus creatopus","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",8.9,8.9
+"Rhinoceros auklet  MonterreyBay","sea birds","Rhinoceros auklet","Cerorhinca monocerata","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",9,9
+"Rhinoceros auklet chicks AnioNuevoIs","sea birds","Rhinoceros auklet","Cerorhinca monocerata","AnioNuevoIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",36,20.5
+"Sablefish  SouthCapeBlanco","bony fishes","Sablefish","Anoplopoma fimbria","SouthCapeBlanco","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",6.38,6.38
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",25.15,25.15
+"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.1,0.1
+"Sooty shearwater   MonterreyBay","sea birds","Sooty shearwater","Ardenna grisea","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",18,13.3
+"Soupfin shark  OR_WA","cartilaginous fishes","Soupfin shark","Galeorhinus galeus","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",0.3,0.3
+"Spiny dogfish  MonterreyBay","cartilaginous fishes","Spiny dogfish","Squalus acanthias","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",5.55,5.55
+"Spiny dogfish  OR_WA","cartilaginous fishes","Spiny dogfish","Squalus acanthias","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",17.8,8.533333333
+"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",16.1,14
+"Western gull chicks AnacapaIs","sea birds","Western gull","Larus occidentalis","AnacapaIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",11,11
+"Western gull chicks PrinceIs","sea birds","Western gull","Larus occidentalis","PrinceIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",21,6.5
+"Western gull chicks SanNicolasIs","sea birds","Western gull","Larus occidentalis","SanNicolasIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",22,13
+"Western gull chicks StaBarbaraIs","sea birds","Western gull","Larus occidentalis","StaBarbaraIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",45,29.4
+"Xantuss murrellet  StaBarbaraIs","sea birds","Xantus's murrellet","Synthliboramphus hypoleucus","StaBarbaraIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",42,42
+"Xantuss murrellet adults AnacapaIs","sea birds","Xantus's murrellet","Synthliboramphus hypoleucus","AnacapaIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",29,29
+"Artic loon  MonterreyBay","sea birds","Arctic loon","Gavia arctica","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",72.7,72.7
+"Black-legged kittiwakes   MonterreyBay","sea birds","Black-legged kittiwake","Rissa tridactyla","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",82.4,82.4
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",8.5,4.92
+"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.01,0.01
+"Bluefin tuna  CA_BajaCal","bony fishes","Pacific bluefin tuna","Thunnus orientalis","CA_BajaCal","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",1.58,1.58
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",14.1,5.366666667
+"CA Sea Lion  MonterreyBay","pinnipeds","California sea lion","Zalophus californianus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",8,8
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",35.1,35.1
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",44.3,44.3
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",42.7,42.7
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",45,29.52
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",64.3,33.38
+"California gull  MonterreyBay","sea birds","California gull","Larus californicus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",50,50
+"Chinook salmon  MonterreyBay","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",9.3,9.3
+"Chinook salmon  NorthCA","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","NorthCA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",12.9,8.05
+"Chinook salmon  SanFranciscoBay","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","SanFranciscoBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",7.4,7.4
+"Chinook salmon adult CA_OR ","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","CA_OR ","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.2,0.2
+"Chinook salmon adult OR_WA","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.4,0.25
+"Coho salmon adult OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",10.3,4.95
+"Coho salmon juvenile CA_OR ","bony fishes","Coho salmon","Oncorhynchus kisutch","CA_OR ","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.1,0.1
+"Common murre  MonterreyBay","sea birds","Common guillemot","Uria aalge","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",19.3,17.65
+"Common murre adult Coast_FarallonGulf","sea birds","Common guillemot","Uria aalge","Coast_FarallonGulf","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",20,12
+"Common murre adult Midshelf_FarallonGulf","sea birds","Common guillemot","Uria aalge","Midshelf_FarallonGulf","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",61,61
+"Common murre adult OuterShelf_FarrallonGulf","sea birds","Common guillemot","Uria aalge","OuterShelf_FarrallonGulf","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",47,21
+"Common murre chicks FarallonIs","sea birds","Common guillemot","Uria aalge","FarallonIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",2,1.25
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",6.06,3.09
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.1,0.1
+"Curlfin sole_turbot  MonterreyBay","bony fishes","Curlfin sole","Pleuronichthys decurrens","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",36,36
+"Dalls porpoise  VancouverIs_SanJuanIs","cetaceans","Dall's porpoise","Phocoenoides dalli","VancouverIs_SanJuanIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",1.2,1.2
+"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",50,4.426315789
+"Glaucous-winged gull  MonterreyBay","sea birds","Glaucous-winged gull","Larus glaucescens","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",55,55
+"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",47.71,32.46
+"Harbor porpoise  VancouverIs_SanJuanIs","cetaceans","Harbor porpoise","Phocoena phocoena","VancouverIs_SanJuanIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",54.8,54.8
+"Heermann gull  MonterreyBay","sea birds","Heermann gull","Larus heermanni","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",25.6,25.6
+"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",1.5,1.5
+"Lincod  OR","bony fishes","Lingcod","Ophiodon elongatus","OR","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.93,0.93
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",49.94,49.94
+"Mew gull  MonterreyBay","sea birds","Mew gull","Larus canus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",26.7,26.7
+"North pacific albacora  CA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.4,0.4
+"North pacific albacora  SouthernCA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","SouthernCA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.1,0.1
+"Northern fulmar  MonterreyBay","sea birds","Northern fulmar","Fulmarus glacialis","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",29.6,29.6
+"Pacific bonito  SCACoast_OffshoreIs","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",18.6,18.6
+"Pacific bonito  SCACoast_OffshoreIs_BajaCal","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs_BajaCal","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",17.7,17.7
+"Pacific harbor seal  StraitOfGeorgia","pinnipeds","Pacific harbor seal","Phoca vitulina","StraitOfGeorgia","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",5.5,4.2
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",12.8,5.433333333
+"Pacific harbor seal adult SanFranciscoBay","pinnipeds","Pacific harbor seal","Phoca vitulina","SanFranciscoBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.1,0.05
+"Pacific sanddab  MonterreyBay","bony fishes","Pacific sanddab","Citharichthys sordidus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",18,18
+"Pacific white-sided dolphin  MonterreyBay","cetaceans","Pacific white-sided dolphin","Lagenorhynchus obliquidens","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",5,5
+"Pink-footed  shearwater   MonterreyBay","sea birds","Pink-footed shearwater","Puffinus creatopus","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",71.2,71.2
+"Rhinoceros auklet  MonterreyBay","sea birds","Rhinoceros auklet","Cerorhinca monocerata","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",70.4,66.2
+"Rhinoceros auklet chicks AnioNuevoIs","sea birds","Rhinoceros auklet","Cerorhinca monocerata","AnioNuevoIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",30,30
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",44.79,44.79
+"Short-tailed shearwater   MonterreyBay","sea birds","Short-tailed shearwater","Ardenna tenuirostris","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",91.7,91.7
+"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",0.01,0.01
+"Sooty shearwater   MonterreyBay","sea birds","Sooty shearwater","Ardenna grisea","MonterreyBay","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",36.6,28.3
+"Western gull chicks AnacapaIs","sea birds","Western gull","Larus occidentalis","AnacapaIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",3,3
+"Western gull chicks PrinceIs","sea birds","Western gull","Larus occidentalis","PrinceIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",58,28.5
+"Western gull chicks SanNicolasIs","sea birds","Western gull","Larus occidentalis","SanNicolasIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",26,17
+"Western gull chicks StaBarbaraIs","sea birds","Western gull","Larus occidentalis","StaBarbaraIs","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",12,6.2
+"Yellowtail rockfish  CA_OR_WA_BC","bony fishes","Yellowtail rockfish","Sebastes flavidus","CA_OR_WA_BC","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",1.7,1.7
+"Yellowtail rockfish  HacetaBank","bony fishes","Yellowtail rockfish","Sebastes flavidus","HacetaBank","California market squid Pacific Coast","California market squid","Doryteuthis opalescens",14.9,14.9
+"Arrowtooth flounder  NorthCapeBlanco","bony fishes","Arrowtooth flounder","Atheresthes stomias","NorthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",83.57,83.57
+"Arrowtooth flounder  SouthCapeBlanco","bony fishes","Arrowtooth flounder","Atheresthes stomias","SouthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",36.21,36.21
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",26.5,12.98
+"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.01,0.01
+"Blue shark  OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",53.9,53.9
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.5,0.25
+"CA Sea Lion  GOC","pinnipeds","California sea lion","Zalophus californianus","GOC","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",1.04,1.04
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",24.8,24.8
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",31.2,31.2
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",39.4,39.4
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",45,27.18
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",37,21.3
+"Chinook salmon adult OR_WA","bony fishes","Chinook salmon","Oncorhynchus tshawytscha","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",10,10
+"Common murre  Coast_FarallonGulf","sea birds","Common guillemot","Uria aalge","Coast_FarallonGulf","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",5,5
+"Common murre  Midshelf_FarallonGulf","sea birds","Common guillemot","Uria aalge","Midshelf_FarallonGulf","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",99,97
+"Common murre  OuterShelf_FarrallonGulf","sea birds","Common guillemot","Uria aalge","OuterShelf_FarrallonGulf","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",18,18
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",9.17,5.135
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",21.78,21.78
+"Dalls porpoise  VancouverIs_SanJuanIs","cetaceans","Dall's porpoise","Phocoenoides dalli","VancouverIs_SanJuanIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",5.7,5.7
+"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",20.42,12.98666667
+"Harbor porpoise  VancouverIs_SanJuanIs","cetaceans","Harbor porpoise","Phocoena phocoena","VancouverIs_SanJuanIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",12.2,12.2
+"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",28,19.65
+"Indo-pacific blue marlin  BajaCal","bony fishes","Indo-pacific blue marlin","Makaira mazara","BajaCal","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",80.75,35.2275
+"Jack mackerel  OffColumbiaRiver","bony fishes","Jack mackerel","Trachurus symmetricus","OffColumbiaRiver","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",20.9,20.9
+"Lincod  OR","bony fishes","Lingcod","Ophiodon elongatus","OR","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",2.47,2.47
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",51.91,51.91
+"North pacific albacora  CA","bony fishes","Albacore tuna","Thunnus alalunga","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",37.3,37.3
+"North pacific albacora  CA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.1,0.1
+"North pacific albacora  CA_OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA_BC","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",27.1,27.1
+"North pacific albacora  OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","OR_WA_BC","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",16.5,16.5
+"North pacific albacora  SouthCA","bony fishes","Albacore tuna","Thunnus alalunga","SouthCA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0,0
+"Northern fur seal  SaintGeorgeIs","pinnipeds","Northern fur seal","Callorhinus ursinus","SaintGeorgeIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.17,0.17
+"Northern fur seal  SaintPaulIs","pinnipeds","Northern fur seal","Callorhinus ursinus","SaintPaulIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.1,0.1
+"Pacific bonito  SCACoast_OffshoreIs","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.1,0.1
+"Pacific bonito  SCACoast_OffshoreIs_BajaCal","bony fishes","Eastern Pacific bonito","Sarda chiliensis","SCACoast_OffshoreIs_BajaCal","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.1,0.1
+"Pacific hake  CA","bony fishes","Pacific hake","Merluccius productus","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",4.44,4.44
+"Pacific hake  OffColumbiaRiver","bony fishes","Pacific hake","Merluccius productus","OffColumbiaRiver","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.4,0.4
+"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.1,0.1
+"Pacific hake  SouthCapeBlanco","bony fishes","Pacific hake","Merluccius productus","SouthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",75.94,75.94
+"Pacific harbor seal  StraitOfGeorgia","pinnipeds","Pacific harbor seal","Phoca vitulina","StraitOfGeorgia","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",42.6,42.6
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",41.6,28.83333333
+"Pacific white-sided dolphin  CA_WA","cetaceans","Pacific white-sided dolphin","Lagenorhynchus obliquidens","CA_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",34,34
+"Sablefish  NorthCapeBlanco","bony fishes","Sablefish","Anoplopoma fimbria","NorthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",20.19,20.19
+"Sablefish  SouthCapeBlanco","bony fishes","Sablefish","Anoplopoma fimbria","SouthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",3.34,3.34
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",60.88,60.88
+"Shortspine thornyhead  NorthCapeBlanco","bony fishes","Shortspine thornyhead","Sebastolobus alascanus","NorthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.54,0.54
+"Shortspine thornyhead  SouthCapeBlanco","bony fishes","Shortspine thornyhead","Sebastolobus alascanus","SouthCapeBlanco","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",66.85,33.425
+"Soupfin shark  OR_WA","cartilaginous fishes","Soupfin shark","Galeorhinus galeus","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",81.1,81.1
+"Spiny dogfish  MonterreyBay","cartilaginous fishes","Spiny dogfish","Squalus acanthias","MonterreyBay","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",2.76,2.76
+"Spiny dogfish  OR_WA","cartilaginous fishes","Spiny dogfish","Squalus acanthias","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",31.2,18.66666667
+"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",87.1,73.05
+"Steller Sea Lion  SouthEastAK","pinnipeds","Steller sea lion","Eumetopias jubatus","SouthEastAK","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",16,6.16
+"Striped marlin  BajaCal","bony fishes","Striped marlin","Kajikia audax","BajaCal","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",19.75,13.0125
+"Western gull chicks AnacapaIs","sea birds","Western gull","Larus occidentalis","AnacapaIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",3,3
+"Western gull chicks PrinceIs","sea birds","Western gull","Larus occidentalis","PrinceIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",19,6.75
+"Western gull chicks SanNicolasIs","sea birds","Western gull","Larus occidentalis","SanNicolasIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",14,3.75
+"Western gull chicks StaBarbaraIs","sea birds","Western gull","Larus occidentalis","StaBarbaraIs","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",3,2.333333333
+"Widow rockfish  CA","bony fishes","Widow rockfish","Sebastes entomelas","CA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",6.8,6.8
+"Widow rockfish  OR_WA","bony fishes","Widow rockfish","Sebastes entomelas","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",0.7,0.7
+"Yellowtail rockfish  OR_WA","bony fishes","Yellowtail rockfish","Sebastes flavidus","OR_WA","Pacific hake Pacific Coast","Pacific hake","Merluccius productus",32.5,16.3
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",30,9.575
+"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",2.85,2.85
+"Bluefin tuna  CA_BajaCal","bony fishes","Pacific bluefin tuna","Thunnus orientalis","CA_BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.01,0.01
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.2,0.15
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",10.3,10.3
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",15.5,15.5
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",8,8
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",15,4
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",7.4,1.533333333
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",24.7,13.245
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",7.84,7.84
+"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",27.8,2.027368421
+"Humboldt_jumbo_squid   GOC","invertebrates","Humboldt squid","Dosidicus gigas","GOC","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",20,14.5
+"Indo-pacific blue marlin  BajaCal","bony fishes","Indo-pacific blue marlin","Makaira mazara","BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",4.18,4.18
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",5,5
+"North pacific albacora  CA_OR_WA","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.1,0.1
+"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.1,0.1
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",4.6,3.066666667
+"Sailfish  BajaCal_GOC","bony fishes","Indo-Pacific sailfish","Istiophorus platypterus","BajaCal_GOC","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",14.2,14.2
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",16.67,16.67
+"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",4.09,4.09
+"Silky shark  PuntaBelcher_BajaCal","cartilaginous fishes","Silky shark","Carcharhinus falciformis","PuntaBelcher_BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",17.7,17.7
+"Silky shark  PuntaLobos_BajaCal","cartilaginous fishes","Silky shark","Carcharhinus falciformis","PuntaLobos_BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.7,0.7
+"Smooth Hammershead shark  Female BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",0.06,0.06
+"Smooth Hammershead shark  juvenile GOC","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","GOC","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",26.84,19.475
+"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",2.1,1.05
+"Striped marlin  BajaCal","bony fishes","Striped marlin","Kajikia audax","BajaCal","Pacific chub mackerel Pacific Coast","Pacific chub mackerel","Scomber japonicus",41.91,26.598
+"Atlantic bluefin tuna  Cape Cod Bay","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Cape Cod Bay","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.1,3.1
+"Atlantic bluefin tuna  Great South Channel","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Great South Channel","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",48.4,48.4
+"Atlantic bluefin tuna  Jeffreys Ledge","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Jeffreys Ledge","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",87.2,87.2
+"Atlantic bluefin tuna  South of Marthas Vineyards","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","South of Marthas Vineyards","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",2.5,2.5
+"Atlantic bluefin tuna  Stellwagen Bank","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Stellwagen Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6,6
+"Atlantic cod  Georges Bank","bony fishes","Atlantic cod","Gadus morhua","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",12,12
+"Atlantic cod  Gulf of Maine","bony fishes","Atlantic cod","Gadus morhua","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",22,22
+"Atlantic cod  Scotian shelf","bony fishes","Atlantic cod","Gadus morhua","Scotian shelf","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",10,10
+"Atlantic cod  Southern New England","bony fishes","Atlantic cod","Gadus morhua","Southern New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",16,16
+"Atlantic halibut  North Atlantic Bight","bony fishes","Atlantic halibut","Hippoglossus hippoglossus","North Atlantic Bight","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",4,4
+"Atlantic mackerel  Georges Bank","bony fishes","Atlantic mackerel","Scomber scombrus","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.8,1.8
+"Barndoor skate  Georges Bank","cartilaginous fishes","Barndoor skate","Dipturus laevis","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",7.2,7.2
+"Black sea bass  Inshore of South Cape Hatteras","bony fishes","Black sea bass","Centropristis striata","Inshore of South Cape Hatteras","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",2,2
+"Blue shark  ","cartilaginous fishes","Blue shark","Prionace glauca","","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.4,0.4
+"Bluefish  Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",18.7,18.7
+"Bluefish  Inshore of North Cape Hatteras","bony fishes","Bluefish","Pomatomus saltatrix","Inshore of North Cape Hatteras","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.2,0.2
+"Bluefish  South New England","bony fishes","Bluefish","Pomatomus saltatrix","South New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",2.2,2.2
+"Bluefish adult Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",17.6,14.45
+"Bluefish adult Hatteras-Montauk","bony fishes","Bluefish","Pomatomus saltatrix","Hatteras-Montauk","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.1,0.1
+"Fin whale  Georges Bank-Gulf of Maine","cetaceans","Fin whale","Balaenoptera physalus","Georges Bank-Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",50,30.85714286
+"Goosefish  Southern New England","bony fishes","Goosefish","Lophius americanus","Southern New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.3,1.3
+"Gray seal  Nantucket Sound","pinnipeds","Grey seal","Halichoerus grypus","Nantucket Sound","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.1,0.1
+"Gray seal  Sable Island","pinnipeds","Grey seal","Halichoerus grypus","Sable Island","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1,1
+"Gray seal  Scotian shelf","pinnipeds","Grey seal","Halichoerus grypus","Scotian shelf","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",65.8,37.4
+"Gray seal Female Sable Island","pinnipeds","Grey seal","Halichoerus grypus","Sable Island","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",8.6,5.733333333
+"Gray seal juvenile Sable Island","pinnipeds","Grey seal","Halichoerus grypus","Sable Island","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.3,0.3
+"Gray seal Male Sable Island","pinnipeds","Grey seal","Halichoerus grypus","Sable Island","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.2,1.6
+"Haddock  Georges Bank","bony fishes","Haddock","Melanogrammus aeglefinus","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.4,1.4
+"Harbor porpoise  Bay of Fundy","cetaceans","Harbor porpoise","Phocoena phocoena","Bay of Fundy","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",64,64
+"Harbor porpoise  Gulf of Maine","cetaceans","Harbor porpoise","Phocoena phocoena","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",44,44
+"Harbor seal  Southern New England","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Southern New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.8,1.8
+"Pollock  Georges Bank","bony fishes","Pollock","Pollachius virens","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",10.5,10.5
+"Pollock  Gulf of Maine","bony fishes","Pollock","Pollachius virens","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",4.7,4.7
+"Pollock  Scotian shelf","bony fishes","Pollock","Pollachius virens","Scotian shelf","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",9.1,9.1
+"Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland","cartilaginous fishes","Porbeagle shark","Lamna nasus","FromGeorges Bank_To_Grand Banks of Newfoundland","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6.2,6.2
+"Red hake  Georges Bank","bony fishes","Red hake","Urophycis chuss","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",5.2,5.2
+"Red hake  Gulf of Maine","bony fishes","Red hake","Urophycis chuss","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.6,1.6
+"Sea raven  Georges Bank_TO_S New England","bony fishes","Atlantic sea raven","Hemitripterus americanus","Georges Bank_TO_S New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",32,32
+"Shortfin squid  Newfoundland","invertebrates","Northern shortfin squid","Illex illecebrosus","Newfoundland","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3,3
+"Silver hake  Georges Bank","bony fishes","Silver hake","Merluccius bilinearis","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",13,9.15
+"Silver hake  Gulf of Maine","bony fishes","Silver hake","Merluccius bilinearis","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6,6
+"Silver hake  Mid-Atlantic Bight","bony fishes","Silver hake","Merluccius bilinearis","Mid-Atlantic Bight","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.2,0.2
+"Silver hake  Scotian shelf","bony fishes","Silver hake","Merluccius bilinearis","Scotian shelf","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",21.9,16.95
+"Silver hake  South New England","bony fishes","Silver hake","Merluccius bilinearis","South New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.3,0.3
+"Silver hake  Southern New England","bony fishes","Silver hake","Merluccius bilinearis","Southern New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",8,8
+"Smooth hammerhead  ","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",17.1,17.1
+"Spiny dogfish  Georges Bank_TO_S New England","bony fishes","Spiny dogfish","Squalus acanthias","Georges Bank_TO_S New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",28,28
+"Spiny dogfish  Georges Bank-Gulf of Maine","cartilaginous fishes","Spiny dogfish","Squalus acanthias","Georges Bank-Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",34.5,11.41162791
+"Spiny dogfish  Inshore of North Cape Hatteras","cartilaginous fishes","Spiny dogfish","Squalus acanthias","Inshore of North Cape Hatteras","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6,6
+"Spiny dogfish  Southern New England","cartilaginous fishes","Spiny dogfish","Squalus acanthias","Southern New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",1.9,1.9
+"Spotted hake  Georges Bank","bony fishes","Spotted hake","Urophycis regia","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3,3
+"Striped bass  Cape Cod Bay","bony fishes","Striped bass","Morone saxatilis","Cape Cod Bay","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.1,0.1
+"Striped bass  Chesapeake bay","bony fishes","Striped bass","Morone saxatilis","Chesapeake bay","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",34.5,18.02
+"Striped bass  North Carolina Coast","bony fishes","Striped bass","Morone saxatilis","North Carolina Coast","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",7.3,5.7
+"Striped bass  North Shore","bony fishes","Striped bass","Morone saxatilis","North Shore","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",5.8,5.8
+"Summer flounder  Mid Atlantic Bight","bony fishes","Summer flounder","Paralichthys dentatus","Mid Atlantic Bight","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",2.8,2.8
+"Summer flounder  South New England","bony fishes","Summer flounder","Paralichthys dentatus","South New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",8,8
+"Swordfish  ","bony fishes","Swordfish","Xiphias gladius","","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",0.2,0.2
+"Thorny skate  Georges Bank","cartilaginous fishes","Thorny skate","Amblyraja radiata","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6.5,6.5
+"Thorny skate  Gulf of Maine","cartilaginous fishes","Thorny skate","Amblyraja radiata","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",13,10.35
+"Thorny skate  Inshore of North Cape Hatteras","cartilaginous fishes","Thorny skate","Amblyraja radiata","Inshore of North Cape Hatteras","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",57.8,57.8
+"Weakfish  Mid Atlantic Bight","bony fishes","Weakfish","Cynoscion regalis","Mid Atlantic Bight","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.9,3.9
+"Western Atlantic harbor seal   Atlantic coast","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Atlantic coast","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",36,31.025
+"Western Atlantic harbor seal   Bay of Fundy","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Bay of Fundy","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",41.3,25.45
+"Western Atlantic harbor seal   Gulf of Maine","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",6,6
+"White hake  ","bony fishes","White hake","Urophycis tenuis","","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",10,7
+"White hake  North West Atlantic","bony fishes","White hake","Urophycis tenuis","North West Atlantic","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",18.2,18.2
+"White-sided dolphin  Gulf of Maine","cetaceans","Atlantic white-sided dolphin","Lagenorhynchus acutus","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",19,19
+"Winter skate  Georges Bank","cartilaginous fishes","Winter skate","Leucoraja ocellata","Georges Bank","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.2,3.2
+"Winter skate  Gulf of Maine","cartilaginous fishes","Winter skate","Leucoraja ocellata","Gulf of Maine","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.7,3.7
+"Winter skate  South New England","cartilaginous fishes","Winter skate","Leucoraja ocellata","South New England","Atlantic herring Northwestern Atlantic Coast","Atlantic herring","Clupea harengus",3.6,3.6
+"Atlantic bluefin tuna  Jeffreys Ledge","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Jeffreys Ledge","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",2.3,2.3
+"Atlantic bluefin tuna adult Cape Lookout","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Cape Lookout","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",98.97,94.68833333
+"Atlantic bottlenose dolphin  NorthCarolina","cetaceans","Atlantic bottlenose dolphin","Tursiops truncatus","NorthCarolina","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",4,4
+"Atlantic bottlenose dolphin  SouthCarolina_Estuarine","cetaceans","Atlantic bottlenose dolphin","Tursiops truncatus","SouthCarolina_Estuarine","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",1,1
+"Atlantic bottlenose dolphin  SouthCarolina_Oceanic","cetaceans","Atlantic bottlenose dolphin","Tursiops truncatus","SouthCarolina_Oceanic","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",4,4
+"Bluefish  Inshore of North Cape Hatteras","bony fishes","Bluefish","Pomatomus saltatrix","Inshore of North Cape Hatteras","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",4.1,4.1
+"Bluefish  Mid Atlantic Bight","bony fishes","Bluefish","Pomatomus saltatrix","Mid Atlantic Bight","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",1.8,1.8
+"Bluefish juvenile Long Island bays","bony fishes","Bluefish","Pomatomus saltatrix","Long Island bays","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",31.6,31.6
+"Brown pelican  Florida","sea birds","Brown pelican","Pelecanus occidentalis","Florida","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",14,14
+"Harbor porpoise  Bay of Fundy","cetaceans","Harbor porpoise","Phocoena phocoena","Bay of Fundy","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",2,2
+"Harbor porpoise  Gulf of Maine","cetaceans","Harbor porpoise","Phocoena phocoena","Gulf of Maine","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",1,1
+"Osprey  Chesapeake bay","sea birds","Osprey","Pandion haliaetus","Chesapeake bay","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",75,75
+"Osprey  Lower estuarine sites-Chesapeake bay","sea birds","Osprey","Pandion haliaetus","Lower estuarine sites-Chesapeake bay","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",24.2,24.2
+"Osprey  Upper etsuarine sites-Chesapeake bay","sea birds","Osprey","Pandion haliaetus","Upper etsuarine sites-Chesapeake bay","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",1.5,1.5
+"Sandbar shark  Gulf of Maine","cartilaginous fishes","Sandbar shark","Carcharhinus plumbeus","Gulf of Maine","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",3.36,3.36
+"Shortfin mako shark  North Atlantic Bight","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","North Atlantic Bight","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",0.1,0.1
+"Silky shark  ","cartilaginous fishes","Silky shark","Carcharhinus falciformis","","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",16.9,16.9
+"Spiny dogfish  ","cartilaginous fishes","Spiny dogfish","Squalus acanthias","","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",0.1,0.1
+"Spiny dogfish  FromCapeHatteras_TO_Virginia","cartilaginous fishes","Spiny dogfish","Squalus acanthias","FromCapeHatteras_TO_Virginia","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",59.82,59.82
+"Spiny dogfish  NorthCarolina","cartilaginous fishes","Spiny dogfish","Squalus acanthias","NorthCarolina","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",31.05,31.05
+"Spiny dogfish Female NorthCarolina","cartilaginous fishes","Spiny dogfish","Squalus acanthias","NorthCarolina","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",1.22,1.22
+"Striped bass  ","bony fishes","Striped bass","Morone saxatilis","","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",68.8,68.8
+"Striped bass  Chesapeake bay","bony fishes","Striped bass","Morone saxatilis","Chesapeake bay","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",78.97,51.24333333
+"Striped bass  North Carolina Coast","bony fishes","Striped bass","Morone saxatilis","North Carolina Coast","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",94.5,58.4
+"Striped bass juvenile+adult Cape Cod Bay","bony fishes","Striped bass","Morone saxatilis","Cape Cod Bay","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",17.2,17.2
+"Striped bass juvenile+adult Nantucket Sound","bony fishes","Striped bass","Morone saxatilis","Nantucket Sound","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",5.5,5.5
+"Striped bass juvenile+adult North Shore","bony fishes","Striped bass","Morone saxatilis","North Shore","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",22.6,22.6
+"Swordfish  ","bony fishes","Swordfish","Xiphias gladius","","Atlantic menhaden Atlantic","Atlantic menhaden","Brevoortia tyrannus",0.5,0.5
+"Atlantic bluefin tuna  Cape Cod Bay","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Cape Cod Bay","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",12.7,12.7
+"Atlantic bluefin tuna  Great South Channel","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Great South Channel","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.6,0.6
+"Atlantic bluefin tuna  Jeffreys Ledge","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Jeffreys Ledge","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2,2
+"Atlantic bluefin tuna  South of Marthas Vineyards","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","South of Marthas Vineyards","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",56.2,56.2
+"Atlantic bluefin tuna  Stellwagen Bank","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Stellwagen Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2.6,2.6
+"Atlantic cod  North West Atlantic","bony fishes","Atlantic cod","Gadus morhua","North West Atlantic","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",11.5,11.5
+"Bigeye thresher shark  ","cartilaginous fishes","Bigeye thresher shark","Alopias superciliosus","","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.5,1.5
+"Bluefish  Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.6,1.6
+"Bluefish  Inshore of North Cape Hatteras","bony fishes","Bluefish","Pomatomus saltatrix","Inshore of North Cape Hatteras","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.2,0.2
+"Bluefish  Mid Atlantic Bight","bony fishes","Bluefish","Pomatomus saltatrix","Mid Atlantic Bight","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.7,1.7
+"Bluefish adult Hatteras-Montauk","bony fishes","Bluefish","Pomatomus saltatrix","Hatteras-Montauk","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.9,0.9
+"Common dolphin  Off New Jersey","cetaceans","Short-beaked common dolphin","Delphinus delphis","Off New Jersey","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",8.34,8.34
+"Goosefish  Georges Bank","bony fishes","Goosefish","Lophius americanus","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.3,1.3
+"Goosefish  Mid Atlantic Bight","bony fishes","Goosefish","Lophius americanus","Mid Atlantic Bight","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",4.1,4.1
+"Goosefish  South New England","bony fishes","Goosefish","Lophius americanus","South New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",4.8,4.8
+"Gray seal  Nantucket Sound","pinnipeds","Grey seal","Halichoerus grypus","Nantucket Sound","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1,1
+"Gray seal  Scotian shelf","pinnipeds","Grey seal","Halichoerus grypus","Scotian shelf","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",47.4,23.9
+"Haddock  Georges Bank","bony fishes","Haddock","Melanogrammus aeglefinus","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2.5,2.5
+"Long-finned and Short-finnd pilot whale  Off New Jersey","cetaceans","Long-finned and short-finned pilot whales","Globicephala spp.","Off New Jersey","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",8.34,8.34
+"Long-finned pilot whale  Southern New England","cetaceans","Long-finned pilot whale","Globicephala melas","Southern New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",17.2,17.2
+"Pollock  Georges Bank","bony fishes","Pollock","Pollachius virens","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.7,1.7
+"Pollock  North West Atlantic","bony fishes","Pollock","Pollachius virens","North West Atlantic","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",9,9
+"Pollock  Scotian shelf","bony fishes","Pollock","Pollachius virens","Scotian shelf","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2,2
+"Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland","cartilaginous fishes","Porbeagle shark","Lamna nasus","FromGeorges Bank_To_Grand Banks of Newfoundland","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",3.11,3.11
+"Red hake  Inshore of North Cape Hatteras","bony fishes","Red hake","Urophycis chuss","Inshore of North Cape Hatteras","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",5.1,5.1
+"Shortfin mako shark  ","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.6,0.6
+"Shortfin mako shark  North Atlantic Bight","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","North Atlantic Bight","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.6,0.6
+"Silver hake  Georges Bank","bony fishes","Silver hake","Merluccius bilinearis","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",21.1,18.85
+"Silver hake  North West Atlantic","bony fishes","Silver hake","Merluccius bilinearis","North West Atlantic","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",9,9
+"Silver hake  Scotian shelf","bony fishes","Silver hake","Merluccius bilinearis","Scotian shelf","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",3.4,3.4
+"Silver hake  South New England","bony fishes","Silver hake","Merluccius bilinearis","South New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",20.6,20.6
+"Silver hake  Southern New England","bony fishes","Silver hake","Merluccius bilinearis","Southern New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",6,6
+"Spiny dogfish  Scotian shelf","cartilaginous fishes","Spiny dogfish","Squalus acanthias","Scotian shelf","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",25.8,25.8
+"Striped bass  Cape Cod Bay","bony fishes","Striped bass","Morone saxatilis","Cape Cod Bay","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",0.4,0.4
+"Striped bass  North Shore","bony fishes","Striped bass","Morone saxatilis","North Shore","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.6,1.6
+"Summer flounder  Georges Bank","bony fishes","Summer flounder","Paralichthys dentatus","Georges Bank","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",6,6
+"Summer flounder  Mid Atlantic Bight","bony fishes","Summer flounder","Paralichthys dentatus","Mid Atlantic Bight","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",3.6,3.6
+"Summer flounder  South New England","bony fishes","Summer flounder","Paralichthys dentatus","South New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2.6,2.6
+"Swordfish  ","bony fishes","Swordfish","Xiphias gladius","","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",5.4,5.4
+"Western Atlantic harbor seal   Gulf of Maine","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Gulf of Maine","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",1.6,1.6
+"White hake  Scotian shelf","bony fishes","White hake","Urophycis tenuis","Scotian shelf","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2.7,2.7
+"Winter skate  South New England","cartilaginous fishes","Winter skate","Leucoraja ocellata","South New England","Atlantic mackerel Gulf of Maine / Cape Hatteras","Atlantic mackerel","Scomber scombrus",2.8,2.8
+"Albacore tuna  Cape Cod_Islands of Massachussetts","bony fishes","Albacore tuna","Thunnus alalunga","Cape Cod_Islands of Massachussetts","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",32.8,32.8
+"Albacore tuna  Grand Banks of Newfoundland","bony fishes","Albacore tuna","Thunnus alalunga","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",71.1,71.1
+"Atlantic cod  Gulf of Maine","bony fishes","Atlantic cod","Gadus morhua","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",29.2,29.2
+"Atlantic halibut  Georges Bank","bony fishes","Atlantic halibut","Hippoglossus hippoglossus","Georges Bank","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",8.2,8.2
+"Atlantic halibut  North Atlantic Bight","bony fishes","Atlantic halibut","Hippoglossus hippoglossus","North Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",9,9
+"Barrelfish   CharlestonBump-Off GA Coast","bony fishes","Barrelfish","Hyperoglyphe perciformis","CharlestonBump-Off GA Coast","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",2.8,2.8
+"Bigeye thresher shark  ","cartilaginous fishes","Bigeye thresher shark","Alopias superciliosus","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",11.9,11.9
+"Bigeye tuna  Grand Banks of Newfoundland","bony fishes","Bigeye tuna","Thunnus obesus","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",61.8,61.8
+"Blue shark  ","cartilaginous fishes","Blue shark","Prionace glauca","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",3.7,3.7
+"Bluefish  Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",6,6
+"Bluefish  South New England","bony fishes","Bluefish","Pomatomus saltatrix","South New England","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1.8,1.8
+"Bluefish adult NewJersey_to_Massachusset Coast","bony fishes","Bluefish","Pomatomus saltatrix","NewJersey_to_Massachusset Coast","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",15,8.35
+"Common thresher shark  ","cartilaginous fishes","Common thresher shark","Alopias vulpinus","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",2.2,2.2
+"Dolphinfish  Cape Cod_Islands of Massachussetts","bony fishes","Dolphinfish","Coryphaena hippurus","Cape Cod_Islands of Massachussetts","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",21.7,21.7
+"Dolphinfish  Grand Banks of Newfoundland","bony fishes","Dolphinfish","Coryphaena hippurus","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",42.5,42.5
+"Fourspot flounder  Mid Atlantic Bight","bony fishes","Fourspot flounder","Hippoglossina oblonga","Mid Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",3.3,3.3
+"Goosefish  Georges Bank","bony fishes","Goosefish","Lophius americanus","Georges Bank","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",40.8,40.8
+"Goosefish  Gulf of Maine","bony fishes","Goosefish","Lophius americanus","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",8,8
+"Goosefish  Inshore of North Cape Hatteras","bony fishes","Goosefish","Lophius americanus","Inshore of North Cape Hatteras","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",46,46
+"Goosefish  Southern New England","bony fishes","Goosefish","Lophius americanus","Southern New England","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",3.9,3.9
+"Harbor porpoise  Bay of Fundy","cetaceans","Harbor porpoise","Phocoena phocoena","Bay of Fundy","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1,1
+"Harbor porpoise  Gulf of Maine","cetaceans","Harbor porpoise","Phocoena phocoena","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1,1
+"Harbor seal  Southern New England","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Southern New England","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",58.4,58.4
+"Long-finned pilot whale  Southern New England","cetaceans","Long-finned pilot whale","Globicephala melas","Southern New England","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",4.8,4.8
+"Longbill spearfish  Grand Banks of Newfoundland","bony fishes","Longbill spearfish","Tetrapturus pfluegeri","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",63.8,63.8
+"Night shark  ","cartilaginous fishes","Night shark","Carcharhinus signatus","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",38.8,38.8
+"Offshore hake  Mid Atlantic Bight","bony fishes","Offshore hake","Merluccius albidus","Mid Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",31.8,31.8
+"Pollock  Georges Bank","bony fishes","Pollock","Pollachius virens","Georges Bank","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",4.6,4.6
+"Porbeagle shark  ","cartilaginous fishes","Porbeagle shark","Lamna nasus","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",69.5,69.5
+"Porbeagle shark  FromGeorges Bank_To_Grand Banks of Newfoundland","cartilaginous fishes","Porbeagle shark","Lamna nasus","FromGeorges Bank_To_Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",5.41,5.41
+"Red hake  Mid Atlantic Bight","bony fishes","Red hake","Urophycis chuss","Mid Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",2,2
+"Sandbar shark  Gulf of Maine","cartilaginous fishes","Sandbar shark","Carcharhinus plumbeus","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1.64,1.64
+"Sea raven  Gulf of Maine","bony fishes","Atlantic sea raven","Hemitripterus americanus","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1.3,1.3
+"Shortfin mako shark  ","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1.2,1.2
+"Shortfin mako shark  Grand Banks of Newfoundland","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",100,100
+"Shortfin mako shark  North Atlantic Bight","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","North Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",1.2,1.2
+"Silky shark  ","cartilaginous fishes","Silky shark","Carcharhinus falciformis","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",29.2,29.2
+"Silver hake  Scotian shelf","bony fishes","Silver hake","Merluccius bilinearis","Scotian shelf","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",21.3,21.3
+"Silver hake adult NewJersey_to_Massachusset Coast","bony fishes","Silver hake","Merluccius bilinearis","NewJersey_to_Massachusset Coast","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",0.2,0.2
+"Spotted hake  Georges Bank","bony fishes","Spotted hake","Urophycis regia","Georges Bank","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",4.8,4.8
+"Spotted hake  Mid Atlantic Bight","bony fishes","Spotted hake","Urophycis regia","Mid Atlantic Bight","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",0.95,0.95
+"Striped bass  Cape Cod Bay","bony fishes","Striped bass","Morone saxatilis","Cape Cod Bay","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",0.1,0.1
+"Striped bass  Nantucket Sound","bony fishes","Striped bass","Morone saxatilis","Nantucket Sound","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",0.1,0.1
+"Striped bass  North Shore","bony fishes","Striped bass","Morone saxatilis","North Shore","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",0.9,0.9
+"Summer flounder adult NewJersey_to_Massachusset Coast","bony fishes","Summer flounder","Paralichthys dentatus","NewJersey_to_Massachusset Coast","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",5.3,5.3
+"Swordfish  ","bony fishes","Swordfish","Xiphias gladius","","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",25.5,25.5
+"Swordfish  Grand Banks of Newfoundland","bony fishes","Swordfish","Xiphias gladius","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",70.2,70.2
+"Weakfish  Inshore of South Cape Hatteras","bony fishes","Weakfish","Cynoscion regalis","Inshore of South Cape Hatteras","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",19,19
+"White hake  Gulf of Maine","bony fishes","White hake","Urophycis tenuis","Gulf of Maine","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",21.8,21.8
+"White hake  Scotian shelf","bony fishes","White hake","Urophycis tenuis","Scotian shelf","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",40.1,40.1
+"White marlin  Grand Banks of Newfoundland","bony fishes","White marlin","Kajikia albida","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",54.1,54.1
+"Wreckfish   CharlestonBump-Off GA Coast","bony fishes","Atlantic wreckfish","Polyprion americanus","CharlestonBump-Off GA Coast","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",2.86,2.86
+"Yellowfin tuna  Cape Cod_Islands of Massachussetts","bony fishes","Yellowfin tuna","Thunnus albacares","Cape Cod_Islands of Massachussetts","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",31.6,31.6
+"Yellowfin tuna  Grand Banks of Newfoundland","bony fishes","Yellowfin tuna","Thunnus albacares","Grand Banks of Newfoundland","Northern shortfin squid Atlantic Coast","Northern shortfin squid","Illex illecebrosus",69.5,69.5
+"Atlantic bluefin tuna adult Cape Lookout","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Cape Lookout","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1.11,0.425
+"Atlantic bluefin tuna juvenile Mid-Atlantic Bight","bony fishes","Atlantic bluefin tuna","Thunnus thynnus","Mid-Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",3.71,3.71
+"Atlantic cod  Gulf of Maine","bony fishes","Atlantic cod","Gadus morhua","Gulf of Maine","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",6.9,6.9
+"Atlantic mackerel  Mid Atlantic Bight","bony fishes","Atlantic mackerel","Scomber scombrus","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",2,2
+"Atlantic mackerel  South New England","bony fishes","Atlantic mackerel","Scomber scombrus","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1.8,1.8
+"Black sea bass  Inshore of North Cape Hatteras","bony fishes","Black sea bass","Centropristis striata","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",4.2,4.2
+"Black sea bass  Middle Atlantic","bony fishes","Black sea bass","Centropristis striata","Middle Atlantic","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",0.4,0.4
+"Bluefish  Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",4.7,4.7
+"Bluefish  Inshore of North Cape Hatteras","bony fishes","Bluefish","Pomatomus saltatrix","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",7,7
+"Bluefish  Mid Atlantic Bight","bony fishes","Bluefish","Pomatomus saltatrix","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",13.2,13.2
+"Bluefish  South New England","bony fishes","Bluefish","Pomatomus saltatrix","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",11.8,11.8
+"Bluefish adult Georges Bank","bony fishes","Bluefish","Pomatomus saltatrix","Georges Bank","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",23.7,20.9
+"Bluefish adult Hatteras-Montauk","bony fishes","Bluefish","Pomatomus saltatrix","Hatteras-Montauk","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",10.9,8.05
+"Bluefish adult NewJersey_to_Massachusset Coast","bony fishes","Bluefish","Pomatomus saltatrix","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",44.9,21.4
+"Bluefish juvenile Chesapeake-Delaware","bony fishes","Bluefish","Pomatomus saltatrix","Chesapeake-Delaware","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",7.9,3.466666667
+"Bluefish juvenile South of Chesapeake","bony fishes","Bluefish","Pomatomus saltatrix","South of Chesapeake","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",4.2,4.2
+"Bluefish juvenile Southern New England","bony fishes","Bluefish","Pomatomus saltatrix","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",14.8,4.95
+"Dusky shark juvenile ","cartilaginous fishes","Dusky shark","Carcharhinus obscurus","","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",24.7,24.7
+"Fourspot flounder  Georges Bank","bony fishes","Fourspot flounder","Hippoglossina oblonga","Georges Bank","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",5.5,5.5
+"Fourspot flounder  Mid Atlantic Bight","bony fishes","Fourspot flounder","Hippoglossina oblonga","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",26.4,26.4
+"Fourspot flounder  North Atlantic Bight","bony fishes","Fourspot flounder","Hippoglossina oblonga","North Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",15,10.8
+"Fourspot flounder  South New England","bony fishes","Fourspot flounder","Hippoglossina oblonga","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",26.3,26.3
+"Goosefish  Georges Bank","bony fishes","Goosefish","Lophius americanus","Georges Bank","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",3.3,3.3
+"Goosefish  Inshore of North Cape Hatteras","bony fishes","Goosefish","Lophius americanus","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",7.3,7.3
+"Goosefish  Southern New England","bony fishes","Goosefish","Lophius americanus","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",0.9,0.9
+"Goosefish adult NewJersey_to_Massachusset Coast","bony fishes","Goosefish","Lophius americanus","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",4.9,2.7
+"Gray seal  Nantucket Sound","pinnipeds","Grey seal","Halichoerus grypus","Nantucket Sound","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1.4,1.4
+"Harbor porpoise  Bay of Fundy","cetaceans","Harbor porpoise","Phocoena phocoena","Bay of Fundy","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1,1
+"Harbor porpoise  Gulf of Maine","cetaceans","Harbor porpoise","Phocoena phocoena","Gulf of Maine","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1,1
+"Harbor seal  Southern New England","pinnipeds","Western Atlantic harbor seal","Phoca vitulina","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",3.7,3.7
+"Long-finned pilot whale  Southern New England","cetaceans","Long-finned pilot whale","Globicephala melas","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",77.1,77.1
+"Offshore hake  Mid Atlantic Bight","bony fishes","Offshore hake","Merluccius albidus","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",21.3,21.3
+"Pollock  Gulf of Maine","bony fishes","Pollock","Pollachius virens","Gulf of Maine","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",28.9,28.9
+"Pollock  Scotian shelf","bony fishes","Pollock","Pollachius virens","Scotian shelf","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",80.9,42.25
+"Red hake  Southern New England","bony fishes","Red hake","Urophycis chuss","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",5.6,5.6
+"Scup  Inshore of North Cape Hatteras","bony fishes","Scup","Stenotomus chrysops","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",0.9,0.9
+"Shortfin mako shark  ","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",22.9,11.5
+"Silver hake  Inshore of North Cape Hatteras","bony fishes","Silver hake","Merluccius bilinearis","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",29.7,29.7
+"Silver hake  North West Atlantic","bony fishes","Silver hake","Merluccius bilinearis","North West Atlantic","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",12.7,12.7
+"Silver hake  Scotian shelf","bony fishes","Silver hake","Merluccius bilinearis","Scotian shelf","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",3.3,2.7
+"Silver hake  Southern New England","bony fishes","Silver hake","Merluccius bilinearis","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",2.4,2.4
+"Silver hake adult NewJersey_to_Massachusset Coast","bony fishes","Silver hake","Merluccius bilinearis","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",12.3,7.5
+"Silver hake juvenile NewJersey_to_Massachusset Coast","bony fishes","Silver hake","Merluccius bilinearis","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",0,0
+"Smooth dogfish  Mid Atlantic Bight","cartilaginous fishes","Smooth dogfish","Mustelus canis","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",4,4
+"Smooth dogfish  South New England","cartilaginous fishes","Smooth dogfish","Mustelus canis","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",2.7,2.7
+"Smooth dogfish juvenile ","cartilaginous fishes","Smooth dogfish","Mustelus canis","","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",3.5,3.5
+"Spotted hake  Mid Atlantic Bight","bony fishes","Spotted hake","Urophycis regia","Mid Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",9.8,9.8
+"Spotted hake  South New England","bony fishes","Spotted hake","Urophycis regia","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",10,10
+"Striped bass  North Carolina Coast","bony fishes","Striped bass","Morone saxatilis","North Carolina Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",0.1,0.1
+"Striped bass  South New England","bony fishes","Striped bass","Morone saxatilis","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",5.9,5.9
+"Summer flounder  Inshore of North Cape Hatteras","bony fishes","Summer flounder","Paralichthys dentatus","Inshore of North Cape Hatteras","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",16.9,16.9
+"Summer flounder  North Atlantic Bight","bony fishes","Summer flounder","Paralichthys dentatus","North Atlantic Bight","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",24,14.8
+"Summer flounder  Southern New England","bony fishes","Summer flounder","Paralichthys dentatus","Southern New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",24.4,24.4
+"Summer flounder adult NewJersey_to_Massachusset Coast","bony fishes","Summer flounder","Paralichthys dentatus","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",25.4,20.05
+"Summer flounder juvenile NewJersey_to_Massachusset Coast","bony fishes","Summer flounder","Paralichthys dentatus","NewJersey_to_Massachusset Coast","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",15.3,15.3
+"Weakfish  South New England","bony fishes","Weakfish","Cynoscion regalis","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",5.4,5.4
+"White hake  Gulf of Maine","bony fishes","White hake","Urophycis tenuis","Gulf of Maine","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1.5,1.5
+"White-sided dolphin  Cape Cod Bay","cetaceans","Atlantic white-sided dolphin","Lagenorhynchus acutus","Cape Cod Bay","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",16,16
+"Winter skate  Georges Bank","cartilaginous fishes","Winter skate","Leucoraja ocellata","Georges Bank","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",2,2
+"Winter skate  South New England","cartilaginous fishes","Winter skate","Leucoraja ocellata","South New England","Longfin inshore squid Atlantic Coast","Longfin inshore squid","Doryteuthis pealeii",1.1,1.1
+"Atlantic sharpnose shark adult Apalachicola Bay-Florida","cartilaginous fishes","Atlantic sharpnose shark","Rhizoprionodon terraenovae","Apalachicola Bay-Florida","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",0.27,0.27
+"Atlantic sharpnose shark juvenile Apalachicola Bay-Florida","cartilaginous fishes","Atlantic sharpnose shark","Rhizoprionodon terraenovae","Apalachicola Bay-Florida","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",7.06,7.06
+"Blacktip shark juvenile Apalachicola Bay-Florida","cartilaginous fishes","Blacktip shark","Carcharhinus limbatus","Apalachicola Bay-Florida","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",67.53,50.36
+"Blacktip shark juvenile OffLousianaCoast","cartilaginous fishes","Blacktip shark","Carcharhinus limbatus","OffLousianaCoast","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",46.95,35.975
+"Finetooth shark juvenile Apalachicola Bay-Florida","cartilaginous fishes","Finetooth shark","Carcharhinus isodon","Apalachicola Bay-Florida","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",74.66,74.66
+"Red drum juvenile Galveston Bay-Texas ","bony fishes","Red drum","Sciaenops ocellatus","Galveston Bay-Texas ","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",68.82,38.925
+"Spinner shark juvenile Apalachicola Bay-Florida","cartilaginous fishes","Spinner shark","Carcharhinus brevipinna","Apalachicola Bay-Florida","Gulf menhaden Gulf of Mexico","Gulf menhaden","Brevoortia patronus",67.05,67.05

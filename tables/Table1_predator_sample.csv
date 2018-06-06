@@ -1,0 +1,57 @@
+"","region","pred_type","pred","nstocks"
+"1","Europe","birds","Arctic tern (Sterna paradisaea)",1
+"2","Europe","birds","Atlantic puffin (Fratercula arctica)",1
+"3","Europe","birds","Black-legged kittiwake (Rissa tridactyla)",2
+"4","Europe","birds","Razorbill (Alca torda)",1
+"5","Humboldt","birds","Guanay cormorant (Phalacrocorax bougainvillii)",3
+"6","Humboldt","birds","Peruvian booby (Sula variegata)",3
+"7","Humboldt","birds","Peruvian pelican (Pelecanus thagus)",3
+"8","NE Pacific","birds","Brandt cormorant (Phalacrocorax penicillatus)",2
+"9","NE Pacific","birds","Brown pelican (Pelecanus occidentalis)",3
+"10","NE Pacific","birds","California gull (Larus californicus)",1
+"11","NE Pacific","birds","Elegant tern (Thalasseus elegans)",2
+"12","NE Pacific","fish","Albacore tuna (Thunnus alalunga)",1
+"13","NE Pacific","fish","Arrowtooth flounder (Atheresthes stomias)",1
+"14","NE Pacific","fish","Black rockfish (Sebastes melanops)",1
+"15","NE Pacific","fish","Blue marlin (Makaira nigricans)",1
+"16","NE Pacific","fish","Common thresher shark (Alopias vulpinus)",1
+"17","NE Pacific","fish","Cutthroat trout (Oncorhynchus clarkii)",2
+"18","NE Pacific","fish","Lingcod (Ophiodon elongatus)",1
+"19","NE Pacific","fish","Pacific bluefin tuna (Thunnus orientalis)",1
+"20","NE Pacific","fish","Sablefish (Anoplopoma fimbria)",1
+"21","NE Pacific","fish","Shortspine thornyhead (Sebastolobus alascanus)",1
+"22","NE Pacific","fish","Spotted spiny dogfish (Squalus suckleyi)",1
+"23","NE Pacific","fish","Striped marlin (Kajikia audax)",1
+"24","NE Pacific","fish","Widow rockfish (Sebastes entomelas)",1
+"25","NE Pacific","fish","Yellowtail rockfish (Sebastes flavidus)",1
+"26","NE Pacific","mammals","California sea lion (Zalophus californianus)",2
+"27","NE Pacific","mammals","Humpback whale (Megaptera novaeangliae)",1
+"28","NE Pacific","mammals","Northern fur seal (Callorhinus ursinus)",1
+"29","NE Pacific","mammals","Pacific harbor seal (Phoca vitulina richardsi)",2
+"30","NW Atlantic","fish","Albacore tuna (Thunnus alalunga)",1
+"31","NW Atlantic","fish","Atlantic bluefin tuna (Thunnus thynnus)",1
+"32","NW Atlantic","fish","Atlantic cod (Gadus morhua)",1
+"33","NW Atlantic","fish","Atlantic croaker (Micropogonias undulatus)",1
+"34","NW Atlantic","fish","Atlantic halibut (Hippoglossus hippoglossus)",1
+"35","NW Atlantic","fish","Atlantic sharpnose shark (Rhizoprionodon terraenovae)",1
+"36","NW Atlantic","fish","Bigeye tuna (Thunnus obesus)",1
+"37","NW Atlantic","fish","Black sea bass (Centropristis striata)",1
+"38","NW Atlantic","fish","Bluefish (Pomatomus saltatrix)",1
+"39","NW Atlantic","fish","Common and bigeye thresher sharks (Alopias spp.)",1
+"40","NW Atlantic","fish","Dusky shark (Carcharhinus obscurus)",2
+"41","NW Atlantic","fish","Little skate (Leucoraja erinacea)",2
+"42","NW Atlantic","fish","Northern shortfin squid (Illex illecebrosus)",2
+"43","NW Atlantic","fish","Offshore hake (Merluccius albidus)",2
+"44","NW Atlantic","fish","Pollock (Pollachius virens)",2
+"45","NW Atlantic","fish","Red hake (Urophycis chuss)",1
+"46","NW Atlantic","fish","Scup (Stenotomus chrysops)",1
+"47","NW Atlantic","fish","Shortfin mako shark (Isurus oxyrinchus)",1
+"48","NW Atlantic","fish","Smooth dogfish (Mustelus canis)",1
+"49","NW Atlantic","fish","Striped bass (Morone saxatilis)",1
+"50","NW Atlantic","fish","Summer flounder (Paralichthys dentatus)",1
+"51","NW Atlantic","fish","Swordfish (Xiphias gladius)",1
+"52","NW Atlantic","fish","Weakfish (Cynoscion regalis)",1
+"53","NW Atlantic","fish","White hake (Urophycis tenuis)",1
+"54","NW Atlantic","fish","White marlin (Kajikia albida)",1
+"55","NW Atlantic","fish","Yellowfin tuna (Thunnus albacares)",1
+"56","NW Atlantic","mammals","Grey seal (Halichoerus grypus)",1

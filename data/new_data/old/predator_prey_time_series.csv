@@ -1,0 +1,782 @@
+FF Common,FF Scientific,Predator Common,Predator Scientific,Season,Year,Abundance,Unit,Source,Study Location,Country,size of FF eaten (mm),age of FF eaten,% FF in diet,% Units,Notes
+,,arctic skua,Stercorarius parasiticus,,2006,79,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic skua,Stercorarius parasiticus,,2007,71,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic skua,Stercorarius parasiticus,,2008,41,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic skua,Stercorarius parasiticus,,2009,63,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1969,262,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1970,500,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1971,916,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1972,1000,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1973,750,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1974,1700,occupied territory,JNCC Data,Foula,North Sea,,,,,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1975,6000,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80 ,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1976,5650,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80 ,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1977,3000,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80 ,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1978,2000,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1979,4450,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1980,4200,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1981,1900,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1982,1259,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,Jun-Jul,1983,1150,occupied territory,JNCC Data; diet=Furness 1990 Table 3,Foula,North Sea,30-80,,100.00,by mass,
+,,arctic tern,Sterna paradisaea,,1984,274,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1986,643,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1987,300,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1988,300,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1989,300,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1990,115,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1991,1010,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1992,1500,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1993,1500,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1994,1000,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1995,1000,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1996,505,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1997,1000,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1998,750,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,1999,750,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2000,952,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2001,800,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2002,400,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2003,50,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2004,0,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2005,107,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2006,79,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,arctic tern,Sterna paradisaea,,2007,95,occupied territory,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1987,4350,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1992,4306,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1996,2775,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1997,2359,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1998,2091,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1999,2218,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2000,1934,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2002,1298,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2003,1081,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2004,942,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2005,898,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2006,1035,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2007,997,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2009,509,occupied nests,JNCC Data,Foula,North Sea,,,,,
+,,atlantic puffin,,,1983,79680,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1984,68920,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1985,60560,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1986,53640,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1987,44240,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1988,43160,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1989,45760,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1990,55040,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1991,50120,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1992,52360,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1993,45760,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1994,46560,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1995,46680,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1996,41840,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1997,52480,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1998,43040,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,1999,41880,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2000,41520,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2001,37520,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2002,31880,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2003,33840,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2004,35600,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,atlantic puffin,,,2005,36080,apparently occupied burrows,Anker-Nilssen and Aarvak 2006 Tabell 3.1,Hernyken,Norway,,,,,
+,,black leg kittiwake,,,1979,24938,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1980,24079,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1981,20364,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1982,19342,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1983,16728,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1984,15788,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1988,17250,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1989,17575,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1990,19043,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1991,17001,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1992,16754,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1993,19773,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1994,18383,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1995,15035,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1996,14952,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1997,15073,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1998,13928,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,1999,16498,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2000,15639,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2001,14087,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2002,12942,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2003,12655,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2004,11347,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+,,black leg kittiwake,,,2005,12284,occupied nests,Anker-Nilssen and Aarvak 2006,Vedoy,Norway,,,,,
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,2004,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,1.00,by mass (mean),
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,2004,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,1.60,by number (mean),
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,1981-2003,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,52.00,by mass (mean),
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,1981-2003,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,58.70,by number (mean),
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,1981-2003,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,40-65,by mass (95 CI),
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,,1981-2003,,,"Wanless et al 2005 Table 1, size=Table 2",Isle of May,North Sea,36-165,,47-71,by number (95 CI),
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1986,1292.181,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,87.15,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1987,1893.0042,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1988,1267.4897,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,99.65,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1989,1695.4733,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,20.49,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1990,1374.4856,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,2.08,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1991,1481.4814,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,43.06,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1992,1613.1687,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,82.29,96.18,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1993,707.8189,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,70.83,96.18,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1994,395.06174,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,32.64,84.72,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1995,502.05762,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,96.88,87.15,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1996,518.5185,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1997,502.05762,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,100.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,European shag,Phalacrocorax aristotelis,Jun-Jul,1998,617.28394,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,96.88,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1986,13571.429,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,87.84,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1987,11596.639,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,82.07,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1988,11134.454,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,46.81,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1989,12647.059,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,98.78,69.60,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1990,12605.042,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,97.57,31.00,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1991,11302.521,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,65.65,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1992,11428.571,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,46.50,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1993,12352.941,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,17.63,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1994,13781.513,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,99.70,13.98,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1995,15294.117,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,79.94,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1996,14453.781,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,44.07,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1997,17100.84,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,100.00,79.33,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,common guillemot,Uria aalge,Jun-Jul,1998,17352.941,population size,"% Rindorf et al 2000 Figure 6, # Figure 5",Isle of May,North Sea,,99.70,21.58,unknown,age is the % of total sandeels that were 1+ group sandeel
+,,black leg kittiwake,Rissa tridactyla,,1986,4709.3022,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1987,6697.6743,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1988,7604.6514,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1989,7569.7676,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1990,8127.9067,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1991,6488.372,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1992,6906.9766,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1993,6976.744,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1994,3767.442,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1995,7604.6514,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1996,6244.186,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1997,6523.256,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1998,4290.6978,population size,Rindorf et al 2000 Figure 5,Isle of May,North Sea,,,,,
+,,razorbill,Alca torda,,1988,0.97894734,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1989,1.1178948,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1990,1.03,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1991,0.87789476,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1992,1.0831579,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1993,1.0736842,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1994,0.99473685,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1995,1.2347368,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1996,1.1273685,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1997,1.1273685,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1998,1.1652632,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,1999,1.1305263,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2000,0.46421054,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2001,1.2378948,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2002,1.0989474,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2003,1.231579,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2004,0.99157894,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2005,1.0642105,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2006,0.9031579,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2007,1.0989474,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2008,1.14,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+,,razorbill,Alca torda,,2009,0.9505263,index,Cook et al 2014 Figure 5,JNCC sites in UK and Ireland,North Sea,,,,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1968,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1969,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1970,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1971,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1972,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1973,,,diet=Pearson 1968  in Coulston and Thomas 1985 Table 4,Farne Islands,North Sea,,,56.00,,
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1968,96,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1969,90,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1970,98,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1971,84,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1972,86,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,Feb-Apr,1973,79,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,13.00,"adults, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1968,96,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1969,90,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1970,98,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1971,84,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1972,86,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+sandeel,Ammodytidae,black leg kittiwake,Rissa tridactyla,June-July,1973,79,nests with eggs,"diet=Coulston and Thomas 1985 Table 4, # Figure 3",North Shields and Marsden,North Sea,,,66.00,"chicks, by weight",
+,,European shag,Phalacrocorax aristotelis,,1977,,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1978,313,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1979,300,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1980,340,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1981,312,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1982,288,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1983,277,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1984,271,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1985,290,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1986,255,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1987,277,max number of nests,Dunnet and Heubeck 1995 Table 4,Sumburgh,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1977,12,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1978,13,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1979,10,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1980,10,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1981,12,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1982,14,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1983,14,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1984,15,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1985,13,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1986,10,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1987,12,max number of nests,Dunnet and Heubeck 1995 Table 4,Troswick,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1977,,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1978,43,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1979,41,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1980,31,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1981,27,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1982,27,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1983,25,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1984,25,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1985,26,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1986,28,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,European shag,Phalacrocorax aristotelis,,1987,23,max number of nests,Dunnet and Heubeck 1995 Table 4,Burravoe,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1976,2126,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1977,1883,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1978,1914,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1979,1746,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1980,1840,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1981,1704,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1982,1613,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1983,1548,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1984,1384,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1985,1270,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1986,1269,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1987,1632,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness and Burravoe (AON-apparently occupied nest)"
+,,black leg kittiwake,Rissa tridactyla,,1988,1503,max number of AON,Dunnet and Heubeck 1995 Table 7,Shetland,North Sea,,,,,"abundance is sum of Sumburgh, Troswick, Eshaness (AON-apparently occupied nest)"
+,,common guillemot,Uria aalge,,1976,103.90841,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1977,104.99582,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1978,107.58008,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1979,107.36058,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1980,107.5134,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1981,115.51827,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1982,115.11109,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1983,111.34016,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1984,105.7008,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1985,91.08864,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1986,83.95318,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1987,82.612175,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1988,78.279724,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1989,70.20968,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1990,53.727585,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1991,68.08766,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1992,83.7554,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+,,common guillemot,Uria aalge,,1993,82.22596,index,Dunnet and Heubeck 1995 Figure 8,Shetland,North Sea,,,,,abundance is mean colony index over all colonies where 1978=100
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1969,3100.076,completed nests,"#-Frederiksen et al 2004 Figure 1, diet= Galbraith 1983 in Coulston and Thomas 1995 Table 4",Isle of May,North Sea,,,80.00,,
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1970,,completed nests,"#-Frederiksen et al 2004 Figure 1, diet= Galbraith 1983 in Coulston and Thomas 1995 Table 4",Isle of May,North Sea,,,80.00,,
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1971,3471.3542,completed nests,"#-Frederiksen et al 2004 Figure 1, diet= Galbraith 1983 in Coulston and Thomas 1995 Table 4",Isle of May,North Sea,,,80.00,,
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1972,,completed nests,"#-Frederiksen et al 2004 Figure 1, diet= Galbraith 1983 in Coulston and Thomas 1995 Table 4",Isle of May,North Sea,,,80.00,,
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1973,3473.625,completed nests,"#-Frederiksen et al 2004 Figure 1, diet= Galbraith 1983 in Coulston and Thomas 1995 Table 4",Isle of May,North Sea,,,80.00,,
+,,black leg kittiwake,Rissa tridactyla,,1974,3068.852,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1975,3900.3062,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1976,3403.1782,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1977,,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1978,,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1979,4974.866,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1980,,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1981,6139.407,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1982,,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1983,4720.9995,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1984,6032.0596,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,1985,5516.5845,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1986,4816.657,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,38.13,98.75,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1987,6791.88,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,5.00,95.63,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1988,7660.1826,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,53.75,94.69,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1989,7569.0146,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,77.81,94.38,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1990,8160.562,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,28.44,78.13,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1991,6574.8623,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,99.69,49.38,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1992,6945.0566,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,20.94,70.31,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1993,7019.942,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,61.25,65.94,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1994,3792.4165,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,23.13,73.44,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1995,7631.075,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,7.81,92.19,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1996,6303.732,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,13.13,81.88,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1997,6563.224,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,33.75,89.69,unknown,age is the % of total sandeels that were 1+ group sandeel
+sandeel,Ammodytes marinus,black leg kittiwake,Rissa tridactyla,Jun-Jul,1998,4368.8164,completed nests,"#-Frederiksen et al 2004 Figure 1, diet=Rindorf et al 2000 Figure 6",Isle of May,North Sea,,35.00,79.69,unknown,age is the % of total sandeels that were 1+ group sandeel
+,,black leg kittiwake,Rissa tridactyla,,1999,4222.349,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2000,4666.2935,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2001,3689.4556,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+,,black leg kittiwake,Rissa tridactyla,,2002,3709.1448,completed nests,Frederiksen et al 2004 Figure 1,Isle of May,North Sea,,,,,
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,2000,,,Furness and Tasker 2000 Table 2,Shetland,North Sea,,,90.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,2000,,,Furness and Tasker 2000 Table 2,Peterhead,North Sea,,,80.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,2000,,,Furness and Tasker 2000 Table 2,S and SE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,2000,,,Furness and Tasker 2000 Table 2,NE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,razorbill,Alca torda,,2000,,,Furness and Tasker 2000 Table 2,Shetland,North Sea,,,90.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,razorbill,Alca torda,,2000,,,Furness and Tasker 2000 Table 2,Peterhead,North Sea,,,80.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,razorbill,Alca torda,,2000,,,Furness and Tasker 2000 Table 2,S and SE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,razorbill,Alca torda,,2000,,,Furness and Tasker 2000 Table 2,NE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,,2000,,,Furness and Tasker 2000 Table 2,Shetland,North Sea,,,100.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,,2000,,,Furness and Tasker 2000 Table 2,Peterhead,North Sea,,,80.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,,2000,,,Furness and Tasker 2000 Table 2,S and SE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic tern,Sterna paradisaea,,2000,,,Furness and Tasker 2000 Table 2,NE,North Sea,,,60.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic skua,Stercorarius parasiticus,,2000,,,Furness and Tasker 2000 Table 2,Shetland,North Sea,,,100.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,arctic skua,Stercorarius parasiticus,,2000,,,Furness and Tasker 2000 Table 2,NE,North Sea,,,80.00,,"median across yr, study and colony (Tasker and Furness 1996, Furness and Tasker 1999, Wanless et al 1998)"
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1973,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,77.3,,90.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1974,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,97.4,,79.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1976,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,80.9,,81.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1978,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,79.8,,87.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1979,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,105.4,,90.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1981,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,76.7,,99.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1983,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,64.3,,96.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1984,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,56.9,,90.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1986,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,43.8,,100.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1987,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,30,,19.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1988,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,,,36.00,by weight,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1973,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,77.3,,68.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1974,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,97.4,,53.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1976,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,80.9,,48.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1978,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,79.8,,54.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1979,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,105.4,,23.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1981,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,76.7,,98.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1983,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,64.3,,94.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1984,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,56.9,,76.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1986,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,43.8,,100.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1987,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,30,,20.00,by number,also have % of sandeels >100mm available
+sandeel,Ammodytes marinus,atlantic puffin,Fratercula arctica,,1988,,,"Heubeck ed 1989 Martin p32-33, Table 2","Hermaness, Shetland",North Sea,,,49.00,by number,also have % of sandeels >100mm available
+SS herring,,atlantic puffin,Fratercula arctica,,1979-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,Hernyken,Norway,,,41.20,"chicks, by weight",
+sandeel,,atlantic puffin,Fratercula arctica,,1979-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,Hernyken,Norway,,,14.60,"chicks, by weight",
+blue whiting,,atlantic puffin,Fratercula arctica,,1979-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.2,Hernyken,Norway,,,5.50,"chicks, by weight",
+SS herring,,atlantic puffin,Fratercula arctica,,2004,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,62.1,,70.50,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+sandeel,,atlantic puffin,Fratercula arctica,,2004,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,92.4,,8.00,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+blue whiting,,atlantic puffin,Fratercula arctica,,2004,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,45.3,,0.60,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+SS herring,,atlantic puffin,Fratercula arctica,,2005,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,34.8,,20.90,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+sandeel,,atlantic puffin,Fratercula arctica,,2005,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,45,,0.10,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+blue whiting,,atlantic puffin,Fratercula arctica,,2005,,,"% Anker-Nilssen and Aarvak 2006 Tabell 3.2, size=Tabell 3.4",Hernyken,Norway,62.2,,6.40,"% chicks, by weight, size=mean, and not specificed adult or chicks",
+SS herring,,atlantic puffin,Fratercula arctica,,1988-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,Hernyken,Norway,52.1,,,"mean, and not specificed adult or chicks",
+sandeel,,atlantic puffin,Fratercula arctica,,1988-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,Hernyken,Norway,80.4,,,"mean, and not specificed adult or chicks",
+whiting,,atlantic puffin,Fratercula arctica,,1988-2003,,,Anker-Nilssen and Aarvak 2006 Tabell 3.4,Hernyken,Norway,84.1,,,"mean, and not specificed adult or chicks",
+sandeel,,shag,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,13.05,"adults, by mass",
+SS herring,,black leg kittiwake,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,34.22,"adults, by mass",
+sandeel,,common guillemot,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,36.21,"chicks, frequency of occurrence",
+herring,,common guillemot,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,3.20,"chicks, frequency of occurrence",
+sandeel,,razorbill,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,51.57,"chicks, frequency of occurrence",
+SS herring,,razorbill,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,20.06,"chicks, frequency of occurrence",
+sandeel,,atlantic puffin,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,4.09,"chicks, frequency of occurrence",
+SS herring,,atlantic puffin,,,2009,,,Anker-Nilssen 2010 Figure 3,Rost,Norway,,,61.92,"chicks, frequency of occurrence",
+capelin,,minke whale,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,14.87,1990-year of high capelin abundance,
+capelin,,minke whale,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1,6.33,1990-year of high capelin abundance,
+capelin,,minke whale,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,4.70,1995-year of low capelin abundance,
+capelin,,minke whale,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1,2.00,1995-year of low capelin abundance,
+capelin,,harp seal,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,33.00,1990-year of high capelin abundance,
+capelin,,harp seal,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,1.00,1995-year of low capelin abundance,
+capelin,,cod,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,20.71,1990-year of high capelin abundance,
+capelin,,cod,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1,20.71,1990-year of high capelin abundance,
+capelin,,cod,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,2+,7.20,1995-year of low capelin abundance,
+capelin,,cod,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1,7.20,1995-year of low capelin abundance,
+herring,,minke whale,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1-3,39.90,1990-year of high capelin abundance,
+herring,,minke whale,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1-3,38.40,1995-year of low capelin abundance,
+herring,,harp seal,,,1990,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1-3,10.17,1990-year of high capelin abundance,
+herring,,harp seal,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,4+,10.00,1995-year of low capelin abundance,
+herring,,harp seal,,,1995,,,Blanchard et al 2002 Table 8,Barents Sea,Norway,,1-3,7.30,1995-year of low capelin abundance,
+whiting,,hake,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,30.90,,
+norway pout,,saithe,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,23.70,diet of juvenile saithe,
+norway pout,,saithe,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,32.20,diet of adult saithe,
+norway pout,,horse mackerel,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,22.90,,
+norway pout,,megrim,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,24.00,,
+norway pout,,crabs,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,24.00,,
+sprat,,megrim,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,33.80,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1953,13821667,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1954,21275000,population of adults,#-Muck and Pauly 1987 Table 3; size=Muck and Pauly 1987 Figure 1,6-14û S,Peru,122.95,,,bolus,"monthly values averaged, size=weighted mean"
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1955,20806667,population of adults,#-Muck and Pauly 1987 Table 3; size=Muck and Pauly 1987 Figure 1,6-14û S,Peru,122.95,,,bolus,"monthly values averaged, size=weighted mean"
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1956,17780833,population of adults,#-Muck and Pauly 1987 Table 3; size=Muck and Pauly 1987 Figure 1,6-14û S,Peru,122.95,,,bolus,"monthly values averaged, size=weighted mean"
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1957,9131667,population of adults,#-Muck and Pauly 1987 Table 3; size=Muck and Pauly 1987 Figure 1,6-14û S,Peru,122.95,,,bolus,"monthly values averaged, size=weighted mean"
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1958,6332500,population of adults,#-Muck and Pauly 1987 Table 3; size=Muck and Pauly 1987 Figure 1,6-14û S,Peru,122.95,,,bolus,"monthly values averaged, size=weighted mean"
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1959,11223333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1960,10960833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1961,13506667,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1962,13043333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1963,10850000,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1964,13270833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1965,3858333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1966,2273333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,1967,2815833,population of adults,"#-Muck and Pauly 1987 Table 3; %-from Jordan 1967, Avila 1954 in Muck and Pauly 1987 Table 1",6-14û S,Peru,,,96.00,,monthly values averaged; 
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1968,2983333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1969,1906667,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1970,2085833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1971,3015833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1972,1084167,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1973,703333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1974,755833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1975,1033333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1976,887500,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1977,1134167,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1978,1109167,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1979,1765833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1980,2083333,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1981,2776667,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1982,3135833,population of adults,Muck and Pauly 1987 Table 3,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1953,1991667,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1954,2399167,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1955,2711667,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1956,2725000,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1957,1320000,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1958,1176667,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1959,1455000,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1960,1804167,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1961,1796667,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1962,1993333,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1963,1697500,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1964,1883333,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1965,1146667,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1966,1137500,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1967,1037500,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2, %-from Jordan 1967 in Muck and Pauly 1987 Table 1",6-14û S,Peru,121.38,,80.00,bolus,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1968,1157500,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1969,1298333,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1970,1296667,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1971,1497500,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1972,762500,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1973,904167,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1974,1324167,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1975,1354167,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1976,1338333,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1977,1533333,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+anchoveta,Engraulis ringens,boobies,Sula variegate,,1978,2325833,population of adults,"#-Muck and Pauly 1987 Table 4, size=Figure 2",6-14û S,Peru,121.38,,,,monthly values averaged
+,,boobies,Sula variegate,,1979,1800833,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1980,1706667,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1981,1959167,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,boobies,Sula variegate,,1982,1825000,population of adults,Muck and Pauly 1987 Table 4,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1953,1991667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1954,2399167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1955,2711667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1956,2725000,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1957,1320000,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1958,1176667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1959,1455000,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1960,1804167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1961,1796667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1962,1993333,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1963,1697500,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1964,1883333,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1965,1146667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1966,1137500,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+anchoveta,Engraulis ringens,peruvian pelican,Pelecanus thagus,,1967,1037500,population of adults,#-Muck and Pauly 1987 Table 5; %-from Jordan 1967 in Muck and Pauly 1987 Table 1,6-14û S,Peru,,,80.00,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1968,1157500,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1969,1298333,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1970,1296667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1971,1497500,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1972,762500,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1973,904167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1974,1324167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1975,1354167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1976,1338333,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1977,1533333,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1978,2325833,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1979,1800833,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1980,1706667,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1981,1959167,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+,,peruvian pelican,Pelecanus thagus,,1982,1825000,population of adults,Muck and Pauly 1987 Table 5,6-14û S,Peru,,,,,monthly values averaged
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,Jan-Aug,1976,1200,t,"size=Muck and Pauly Figure 7; biomass=Table 1, p251",,Peru,110,,51.42,,"% is for each size value, mean did not reflect bimodial distribution"
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,Jan-Aug,1976,1200,t,"size=Muck and Pauly Figure 7; biomass=Table 1, p251",,Peru,130,,7.70,,"% is for each size value, mean did not reflect bimodial distribution"
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,Jan-Aug,1976,1200,t,"size=Muck and Pauly Figure 7; biomass=Table 1, p251",,Peru,150,,3.62,,"% is for each size value, mean did not reflect bimodial distribution"
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,Jan-Aug,1976,1200,t,"size=Muck and Pauly Figure 7; biomass=Table 1, p251",,Peru,170,,35.85,,"% is for each size value, mean did not reflect bimodial distribution"
+,,bonito,Sarda chiliensis chiliensis,,1951,63700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1952,64600,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1953,64400,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1954,61100,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1955,52200,t,#-Muck and Pauly 1987 Table 1 p 251; % from Vildoso 1955 in Muck and Pauly pdf p270,4-14û S,Peru,,,76.00,,
+,,bonito,Sarda chiliensis chiliensis,,1956,51200,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1957,55600,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1958,52600,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1959,47800,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1960,45600,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1961,46200,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1962,50300,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1963,45800,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1964,48700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1965,44000,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1966,39900,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1967,28700,t,#-Muck and Pauly 1987 Table 1 p 251; % from Canal 1974  in Muck and Pauly pdf p270,4-14û S,Peru,,,77-85,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1968,19500,t,#-Muck and Pauly 1987 Table 1 p 251; % from Canal 1974  in Muck and Pauly pdf p270,4-14û S,Peru,,,77-85,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1969,16900,t,#-Muck and Pauly 1987 Table 1 p 251; % from Canal 1974  in Muck and Pauly pdf p270,4-14û S,Peru,,,77-85,,
+,,bonito,Sarda chiliensis chiliensis,,1970,19700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1971,21100,t,#-Muck and Pauly 1987 Table 1 p 251; % from Canal 1974  in Muck and Pauly pdf p270,4-14û S,Peru,,,77-85,,
+anchoveta,Engraulis ringens,bonito,Sarda chiliensis chiliensis,,1972,18700,t,#-Muck and Pauly 1987 Table 1 p 251; % from Canal 1974  in Muck and Pauly pdf p270,4-14û S,Peru,,,77-85,,
+,,bonito,Sarda chiliensis chiliensis,,1973,10700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1974,4100,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1975,1300,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1977,1200,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1978,1300,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1979,1400,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1980,1700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1981,2700,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1982,3500,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+,,bonito,Sarda chiliensis chiliensis,,1983,4200,t,Muck and Pauly 1987 Table 1 p 251,4-14û S,Peru,,,,,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1976,,,"%-Muck and Pauly Table 1 pdf p287, size=Figure 2, pdf p288",Chimbote,Peru,112.95,,16.40,% of stomach content weight,"size is weighted mean by %, for mackerel 28-64cm long"
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1977,700000,t,#-Muck and Pauly pdf p 292,,Peru,,,,,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1978,1500000,t,%-Muck and Pauly Table 1 pdf p287; #-Muck and Pauly pdf p 292,,Peru,,,10.10,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,1200000,t,%-Muck and Pauly Table 1 pdf p287; #-Muck and Pauly pdf p 292,,Peru,,,7.70,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1980,1400000,t,%-Muck and Pauly Table 1 pdf p287; #-Muck and Pauly pdf p 292,,Peru,,,8.90,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1981,1400000,t,%-Muck and Pauly Table 1 pdf p287; #-Muck and Pauly pdf p 292,,Peru,,,4.20,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1982,,,%-Muck and Pauly Table 1 pdf p287,,Peru,,,0.30,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,"""Normal""",1979,,,%-Muck and Pauly Figure 1 pdf p288,Callao - 9S,Peru,,,57.00,% of total weight composition,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,"""El Nino""",1982,,,%-Muck and Pauly Figure 1 pdf p288,Callao - 9S,Peru,,,0.00,% of total weight composition,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,"""Normal""",1979,,,%-Muck and Pauly Figure 1 pdf p288,Pisco - 14S,Peru,,,75.00,% of total weight composition,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,"""El Nino""",1982,,,%-Muck and Pauly Figure 1 pdf p288,Pisco - 14S,Peru,,,20.00,% of total weight composition,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,,,%-Muck and Pauly Table 3 pdf p 290,Paita - 5S,Peru,,,0.80,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,,,%-Muck and Pauly Table 3 pdf p 290,Chimbote - 9S,Peru,,,37.80,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,,,%-Muck and Pauly Table 3 pdf p 290,Callao - 12S,Peru,,,48.60,% of stomach content weight,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,,,%-Muck and Pauly Table 3 pdf p 290,Ilo - 17S,Peru,,,39.00,% of stomach content weight,
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1979,3500000,t,%-Muck and Pauly Table 3 pdf p 290; #-Muck and Pauly 1987 pdf p 292,Paita - 5S,Peru,,,0.00,% of stomach content weight,
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1979,3500000,t,%-Muck and Pauly Table 3 pdf p 290; #-Muck and Pauly 1987 pdf p 292,Callao - 12S,Peru,,,78.00,% of stomach content weight,
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1979,3500000,t,%-Muck and Pauly Table 3 pdf p 290; #-Muck and Pauly 1987 pdf p 292,Pisco - 14S,Peru,,,90.50,% of stomach content weight,
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1979,3500000,t,%-Muck and Pauly Table 3 pdf p 290; #-Muck and Pauly 1987 pdf p 292,Ilo - 17S,Peru,,,57.30,% of stomach content weight,
+,,horse mackerel,Trachurus murphyi,,1977,1500000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1978,4200000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1980,4800000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1981,4700000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1983,8900000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1984,5200000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,horse mackerel,Trachurus murphyi,,1985,180000,t,#-Muck and Pauly 1987 pdf p 292,,Peru,,,,,
+,,mackerel,Scomber japonicus,,1983,1800000,t,#-Muck and Pauly pdf p 292,,Peru,,,,,
+,,mackerel,Scomber japonicus,,1984,800000,t,#-Muck and Pauly pdf p 292,,Peru,,,,,
+,,mackerel,Scomber japonicus,,1985,450000,t,#-Muck and Pauly pdf p 292,,Peru,,,,,
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1959,,,%-Angelescu 1979 Table 2,,Peru,,,26.00,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1960,,,%-Angelescu 1979 Table 2,,Peru,,,31.90,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1961,,,%-Angelescu 1979 Table 2,,Peru,,,44.00,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1963,,,%-Angelescu 1979 Table 2,,Peru,,,26.00,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1965,,,%-Angelescu 1979 Table 2,,Peru,,,31.40,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1966,,,%-Angelescu 1979 Table 2,,Peru,,,15.80,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Dec,1975,,,%-Angelescu 1979 Table 2,,Peru,,,96.90,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Dec,1977,,,%-Angelescu 1979 Table 2,,Peru,,,58.40,,in adults
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Oct,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,132.85,,,,weighted mean by %  but %s did not always add to 100
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Nov,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,134.22,,,,weighted mean by %  but %s did not always add to 101
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Dec,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,42.59,,,,weighted mean by %  but %s did not always add to 102
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Jan,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,44.38,,,,weighted mean by %  but %s did not always add to 103
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Feb,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,53.85,,,,weighted mean by %  but %s did not always add to 104
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Mar,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,31.91,,,,weighted mean by %  but %s did not always add to 105
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,Apr,1959-1962,,,size=Angelescu 1979 Grafico 6,,Peru,66.21,,,,weighted mean by %  but %s did not always add to 106
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,"Jan, Feb",1995,,,% and size from Zavalaga and Paredes 1999 Table 1,Punta San Juan,Peru,12.6,,65.00,by number,size and % for chicks; SD=0.3 on size
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,"Jan, Feb",1996,,,% and size from Zavalaga and Paredes 1999 Table 1,Punta San Juan,Peru,12.6,,2.00,by number,size and % for chicks; SD=0.3 on size
+anchoveta,Engraulis ringens,boobies,Sula variegate,,2008,15000,# breeders,Table A.5.1 in Boyd 2012 ,Grupo Pescadores,Peru,,,80.00,,
+anchoveta,Engraulis ringens,cormorant (guanay),Phalacrocorax bougainvillii,,2008,190000,# breeders,Table A.5.1 in Boyd 2012 ,Grupo Pescadores,Peru,,,96.00,,
+sandeel,Ammodytes marinus,shag,Phalacrocorax aristotelis,breeding,1989,1700,breeding pairs,pdf p8 Wanless et al 1993 diving behaviour,Isle of May,Scotland,84,,100.00,,diet of chicks; SD=8.3 (size)
+sandeel,Ammodytes marinus,shag,Phalacrocorax aristotelis,breeding,1987,1700,breeding pairs,pdf p10 Wanless et al 1993 diving behaviour,Isle of May,Scotland,129,,100.00,,diet of chicks; SD=5.7 (size)
+sandeel,Ammodytes marinus,shag,Phalacrocorax aristotelis,breeding,1988,1700,breeding pairs,pdf p10 Wanless et al 1993 diving behaviour,Isle of May,Scotland,140,,100.00,,diet of chicks; SD=5.6 (size)
+anchoveta,,mackerel,Scomber japonicus,July-Nov,1972,,,Konchina 1982 pdf p8,4-10S,Peru,70,,,max size,size is for mackerel yearlings (up to 30cm)
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1953,13966078,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1954,21395256,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1955,20983856,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1956,18000080,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1957,9340691,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1958,7173265,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1959,11376585,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1960,11046856,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1961,13575937,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1962,13205490,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1963,11038415,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1964,13403804,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1965,4008914,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1966,2413649,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1967,2982409,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1968,3061149,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1969,1915304,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1970,2198219,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1971,3093778,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1972,1212315,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1973,801150,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1974,839171,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1975,1121969,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1976,996768,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1977,1238848,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1978,1235917,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1979,1845630,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1980,2292003,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1981,2860764,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1982,3225701,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1983,364546,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1984,1300823,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1985,2400558,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1986,1090903,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1987,1251313,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1988,1248382,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1989,1368074,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1990,1365261,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1991,1770681,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1992,1359399,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1993,2826533,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1994,3069081,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1995,2780422,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,cormorant (guanay),Phalacrocorax bougainvillii,,1996,3757534,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1953,2012796,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1954,2408870,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1955,2716839,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1956,2736063,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1957,1345896,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1958,1193818,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1959,1462649,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1960,1824465,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1961,1804552,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1962,2014627,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1963,1701062,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1964,1896484,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1965,1171826,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1966,1151913,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1967,1048802,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1968,1165906,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1969,1312444,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1970,1302305,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1971,1517288,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1972,773068,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1973,909734,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1974,1340066,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1975,1378866,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1976,1358953,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1977,1544587,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1978,2337058,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1979,1803278,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1980,1724624,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1981,1978759,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1982,1841433,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1983,142890,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1984,1224119,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1985,1096524,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1986,1291946,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1987,1374792,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1988,1545743,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1989,1476863,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1990,1031175,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1991,1735554,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1992,1358382,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1993,1852321,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1994,2101618,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1995,1513991,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,boobies,Sula variegate,,1996,2649026,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1953,368424,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1954,461044,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1955,490071,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1956,406522,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1957,141953,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1958,215025,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1959,439782,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1960,370930,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1961,282501,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1962,247920,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1963,276905,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1964,227614,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1965,300686,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1966,202470,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1967,348965,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1968,294752,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1969,162320,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1970,215803,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1971,181208,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1972,190673,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1973,508429,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1974,189970,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1975,86860,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1976,110992,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1977,130217,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1978,266897,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1979,271439,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1980,178103,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1981,143508,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1982,177471,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1983,74388,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1984,230616,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1985,298808,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1986,396308,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1987,332349,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1988,522863,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1989,385509,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1990,140459,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1991,154790,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1992,193604,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1993,452619,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1994,447416,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1995,158321,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+,,peruvian pelican,Pelecanus thagus,,1996,466332,individuals,Jahncke 1998 Figuera 1,,Peru,,,,,
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1976,250000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,79.17,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1977,220000,tons,#-Pauly et al 1989 p388 Table 1,,,,,,, #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1978,190000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,44.14,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1979,200000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,40.21,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1980,200000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,22.30,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1981,190000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,13.39,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1982,220000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,2.22,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1983,370000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,11.32,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1984,170000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,0.47,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1985,160000,tons,#-Pauly et al 1989 p388 Table 1,,,,,,, #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1986,180000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,34.40,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,mackerel,Scomber japonicus,,1987,240000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,5.24,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1979,900000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,28.07,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1980,890000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,13.42,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1981,840000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,2.14,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1982,1010000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,7.17,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1983,1680000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,2.29,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1984,770000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,4.18,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+,,,,,1985,700000,tons,#-Pauly et al 1989 p388 Table 1,,,,,,,#nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1986,810000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,3.12,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+anchoveta,Engraulis ringens,horse mackerel,Trachurus murphyi,,1987,1070000,tons,%-Pauly et al 1989 Figure 5 p394; #-p388 Table 1,,Peru,,,11.05,% by weight,diet for adults >30cm; #nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1953,230000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1954,160000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1955,180000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1956,190000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1957,280000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1958,230000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1959,210000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1960,190000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1961,190000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1962,180000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1963,200000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1964,170000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1965,240000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1966,190000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1967,170000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1968,160000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1969,330000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1970,300000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1971,210000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1972,290000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1973,200000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1974,190000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,mackerel,Scomber japonicus,,1975,180000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1953,1040000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1954,730000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1955,820000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1956,880000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1957,1250000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1958,1050000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1959,970000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1960,850000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1961,870000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1962,800000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1963,890000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1964,760000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1965,1060000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1966,840000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1967,750000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1968,740000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1969,1000000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1970,920000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1971,930000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1972,1320000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1973,920000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1974,830000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1975,820000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1976,1110000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1977,990000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,horse mackerel,Trachurus murphyi,,1978,850000,tons,#-Pauly et al 1989 p388 Table 1,,Peru,,,,,#nearshore (<75km) from population model
+,,shag,,July,1991,,,Wanless et al 1991 Figure 1,Isle of May,North Sea,85.5,,,,"weighted average, range 30-190"
+sprat,Sprattus sprattus,megrim,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,33.80,diet matrix,
+pout,Trisopterus esmarkii,saithe,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,23.7; 32.2,,juvenile; adult - from diet matrix in ecosim model
+pout,Trisopterus esmarkii,horse mackerel,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,22.90,diet matrix,
+pout,Trisopterus esmarkii,megrim,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,24.00,diet matrix,
+pout,Trisopterus esmarkii,crabs,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,24.00,diet matrix,
+blue whiting,Microsmesistius poutassou,hake,,,,,,Mackinson and Daskalov 2007 Table 3.4,,North Sea,,,30.90,diet matrix,
+sandeel,,whiting,,Jan-Mar,1981,,,Daan 1989 Table 8C4,,North Sea,,,7.16,by weight,values are averaged over all age classes (1-6+)
+sandeel,,whiting,,Apr-Jun,1981,,,Daan 1989 Table 8C4,,North Sea,,,46.75,by weight,values are averaged over all age classes (1-6+)
+sandeel,,whiting,,July-Sept,1981,,,Daan 1989 Table 8C4,,North Sea,,,14.66,by weight,values are averaged over all age classes (1-6+)
+sandeel,,whiting,,Oct-Dec,1981,,,Daan 1989 Table 8C4,,North Sea,,,14.21,by weight,values are averaged over all age classes (1-6+)
+sprat,Sprattus sprattus,whiting,,Jan-Mar,1981,,,Daan 1989 Table 8C4,,North Sea,,,16.53,by weight,values are averaged over all age classes (1-6+)
+sprat,Sprattus sprattus,whiting,,Apr-Jun,1981,,,Daan 1989 Table 8C4,,North Sea,,,3.15,by weight,values are averaged over all age classes (1-6+)
+sprat,Sprattus sprattus,whiting,,July-Sept,1981,,,Daan 1989 Table 8C4,,North Sea,,,21.12,by weight,values are averaged over all age classes (1-6+)
+sprat,Sprattus sprattus,whiting,,Oct-Dec,1981,,,Daan 1989 Table 8C4,,North Sea,,,9.53,by weight,values are averaged over all age classes (1-6+)
+sandeel,,mackerel,,Jan-Mar,1981,,,Daan 1989 Table 8D,,North Sea,,,12.20,by weight,values are averaged over all age classes (1-8+)
+sandeel,,mackerel,,Apr-Jun,1981,,,Daan 1989 Table 8D,,North Sea,,,48.63,by weight,values are averaged over all age classes (1-8+)
+sandeel,,mackerel,,July-Sept,1981,,,Daan 1989 Table 8D,,North Sea,,,13.80,by weight,values are averaged over all age classes (1-8+)
+sandeel,,mackerel,,Oct-Dec,1981,,,Daan 1989 Table 8D,,North Sea,,,1.30,by weight,values are averaged over all age classes (1-8+)
+norway pout,Trisopterus esmarkii,saithe,,Jan-June,1981,,,Daan 1989 Table 8E,,North Sea,,,47.90,by weight,values are averaged over all size classes (250-1000)
+norway pout,Trisopterus esmarkii,saithe,,July-Dec,1981,,,Daan 1989 Table 8E,,North Sea,,,21.31,by weight,values are averaged over all size classes (250-1000)
+sprat,,hake,,,1983-1985,,,Du Buit 1996 Figure 4,Celtic Sea,English Channel,"mean 128, range=90-160",,,,
+sandeel,,whiting,,,1998,,,Standord and Pitcher 2004 Table 2.14,English Channel,English Channel,,,25.20,diet matrix,
+herring,,whiting (J),,,1998,,,Standord and Pitcher 2004 Table 2.14,English Channel,English Channel,,,23.00,diet matrix,
+sandeel,,bass,,,1998,,,Standord and Pitcher 2004 Table 2.14,English Channel,English Channel,,,29.70,diet matrix,
+sprat,,John Dory,,,1998,,,Standord and Pitcher 2004 Table 2.14,English Channel,English Channel,,,19.50,diet matrix,
+SS herring,,minke whale,,,1999-2000,,,Olsen and Holst 2001,Norwegian Sea,Norway,,,100.00,relative contribution by weight,
+sandeel,,minke whale,,,1999,,,Olsen and Holst 2001,North Sea,North Sea,,,86.70,relative contribution by weight,
+sandeel,,gurnard,,,1991,,,de Gee and Kikkert 1993 Table 10,North Sea,North Sea,,,34.62,by weight,average over all size classes of predator
+anchoveta,,cormorant (guanay),,,1997,,,Goya 2000 Tabla 1,Peru,Peru,,,53.96,,"unsure of units, need to translate"
+anchoveta,,cormorant (guanay),,,1998,,,Goya 2000 Tabla 1,Peru,Peru,,,54.53,,"unsure of units, need to translate"
+anchoveta,,cormorant (guanay),,,1999,,,Goya 2000 Tabla 1,Peru,Peru,,,80.90,,"unsure of units, need to translate"
+anchoveta,,booby,,,1995,,,Goya 2000 Tabla 2,Peru,Peru,,,78.78,,"unsure of units, need to translate"
+anchoveta,,booby,,,1996,,,Goya 2000 Tabla 2,Peru,Peru,,,82.33,,"unsure of units, need to translate"
+anchoveta,,booby,,,1997,,,Goya 2000 Tabla 2,Peru,Peru,,,84.64,,"unsure of units, need to translate"
+anchoveta,,booby,,,1998,,,Goya 2000 Tabla 2,Peru,Peru,,,58.37,,"unsure of units, need to translate"
+anchoveta,,booby,,,1999,,,Goya 2000 Tabla 2,Peru,Peru,,,92.85,,"unsure of units, need to translate"

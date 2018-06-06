@@ -1,0 +1,54 @@
+type,common_name,species,n,common_name_new,species_new,notes
+forage fish,anchoveta,Engraulis ringens,87,Anchoveta,Engraulis ringens,
+forage fish,anchoveta,NA,9,Anchoveta,Engraulis ringens,
+predator,arctic skua,Stercorarius parasiticus,6,Arctic skua,Stercorarius parasiticus,
+predator,arctic tern,Sterna paradisaea,42,Arctic tern,Sterna paradisaea,
+predator,atlantic puffin,Fratercula arctica,38,Atlantic puffin,Fratercula arctica,
+predator,atlantic puffin,NA,25,Atlantic puffin,Fratercula arctica,
+predator,bass,NA,1,European bass,Dicentrarchus labrax,I looked this up in Stanford & Pitcher (2004)
+predator,black leg kittiwake,NA,25,Black-legged kittiwake,Rissa tridactyla,
+predator,black leg kittiwake,Rissa tridactyla,92,Black-legged kittiwake,Rissa tridactyla,
+forage fish,blue whiting,Microsmesistius poutassou,1,Blue whiting,Micromesistius poutassou,
+forage fish,blue whiting,NA,3,Blue whiting,Micromesistius poutassou,
+predator,booby,NA,5,Booby,Sula spp.,Which booby species?
+forage fish,capelin,NA,10,Capelin,Mallotus villosus,
+predator,horse mackerel,Trachurus murphyi,60,Chilean jack mackerel,Trachurus murphyi,
+predator,mackerel,Scomber japonicus,54,Chub mackerel,Scomber japonicus,
+predator,cod,NA,4,Atlantic cod,Gadus morhua,
+predator,common guillemot,NA,2,Common guillemot,Uria aalge,
+predator,common guillemot,Uria aalge,37,Common guillemot,Uria aalge,
+predator,cormorant (guanay),NA,3,Guanay cormorant,Phalacrocorax bougainvillii,
+predator,crabs,NA,2,Large crabs,Majidae spp,I looked this up in Mackinson and Daskalov 2007 
+predator,bonito,Sarda chiliensis chiliensis,36,Eastern Pacific bonito,Sarda chiliensis chiliensis,
+predator,European shag,Phalacrocorax aristotelis,46,European shag,Phalacrocorax aristotelis,
+predator,shag,Phalacrocorax aristotelis,3,European shag,Phalacrocorax aristotelis,
+forage fish,sprat,Sprattus sprattus,5,European sprat,Sprattus sprattus,
+predator,cormorant (guanay),Phalacrocorax bougainvillii,77,Guanay cormorant,Phalacrocorax bougainvillii,
+predator,gurnard,NA,1,Grey gurnard,Eutrigla gurnardus,I looked this up in de Gee and Kikkert 1993 
+predator,hake,NA,3,European hake,Merluccius merluccius,
+predator,harp seal,NA,5,Harp seal,Pagophilus groenlandicus,
+forage fish,herring,NA,7,Atlantic herring,Clupea harengus,I looked this up and all Atlantic stocks.
+predator,horse mackerel,NA,2,Horse mackerel,Trachurus trachurus,I looked this up in Mackinson and Daskalov 2007 
+predator,John Dory,NA,1,John Dory,Zeus faber,I looked this up in Stanford & Pitcher (2004)
+forage fish,sandeel,Ammodytes marinus,98,Lesser sand-eel,Ammodytes marinus,
+predator,mackerel,NA,4,Mackerel,Scomber scombrus,I looked this up in Daan 1989
+predator,megrim,NA,4,Megrim,Lepidorhombus whiffiagonis,
+predator,minke whale,NA,8,Common minke whale,Balaenoptera acutorostrata,
+predator,NA,NA,1,NA,NA,ignore
+forage fish,NA,NA,499,NA,NA,ignore
+forage fish,norway pout,NA,5,Norway pout,Trisopterus esmarkii,
+forage fish,norway pout,Trisopterus esmarkii,2,Norway pout,Trisopterus esmarkii,
+forage fish,pout,Trisopterus esmarkii,4,Norway pout,Trisopterus esmarkii,
+predator,boobies,Sula variegate,75,Peruvian booby,Sula variegate,
+predator,peruvian pelican,Pelecanus thagus,74,Peruvian pelican,Pelecanus thagus,
+predator,razorbill,Alca torda,26,Razorbill,Alca torda,
+predator,razorbill,NA,2,Razorbill,Alca torda,
+predator,saithe,NA,5,Saithe,Pollachius virens,
+forage fish,sandeel,Ammodytidae,18,Sandeel spp.,Ammodytidae spp.,I looked this up in Coulson & Thomas 1985
+forage fish,sandeel,NA,20,Sandeel spp.,Ammodytidae spp.,I looked this up in Anker-Nillsen 2010
+predator,shag,NA,2,European shag,Phalacrocorax aristotelis,
+forage fish,sprat,NA,3,European sprat,Sprattus sprattus,
+forage fish,SS herring,NA,8,Atlantic herring (spring spawning),Clupea harengus,
+predator,whiting,NA,9,Whiting,Merlangius merlangus,
+forage fish,whiting,NA,2,Whiting,Merlangius merlangus,
+predator,whiting (J),NA,1,Whiting (juvenile),Merlangius merlangus,
