@@ -1,0 +1,45 @@
+"region","stockid","name","areaname","biomass_type","yrs","nyr"
+"Europe","HERR2224IIIa","Atlantic herring (Clupea harengus)","22-24-IIIa","SSB","1991-2016",26
+"Europe","HERRNIRS","Atlantic herring (Clupea harengus)","Irish Sea","SSB","1961-2016",56
+"Europe","HERRNS-IIIa-VIId","Atlantic herring (Clupea harengus)","IIIa, VIId and North Sea","SSB","1947-2016",70
+"Europe","HERRSIRS","Atlantic herring (Clupea harengus)","ICES VIIa-g-h-j","SSB","1958-2016",59
+"Europe","HERRVIa","Atlantic herring (Clupea harengus)","West of Scotland","TB","1957-2013",57
+"Europe","HERRVIaVIIbc","Atlantic herring (Clupea harengus)","VIa, VIIb and VIIc","SSB","1957-2016",60
+"Europe","HERRIsum","Atlantic herring (Clupea harengus)","Iceland Grounds","TB","1987-2015",29
+"Europe","HERR2529-32","Atlantic herring (Clupea harengus)","Subdivisions 25-29 and 32","SSB","1974-2016",43
+"Europe","HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea","SSB","1973-2016",44
+"Europe","HERR31","Atlantic herring (Clupea harengus)","Bothnian Bay","SSB","1980-2015",36
+"Europe","HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland","SSB","1977-2016",40
+"Europe","HERRNORSS","Atlantic herring (Clupea harengus)","I-II-IVa-V-XIVa","TB","1988-2015",28
+"Europe","MACKNEICES","Atlantic mackerel (Scomber scombrus)","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa","SSB","1980-2014",35
+"Europe","BWHITNEA","Blue whiting (Micromesistius poutassou)","Northeast Atlantic","SSB","1981-2015",35
+"Europe","CAPENOR","Capelin (Mallotus villosus)","Barents Sea","TB","1972-2006",35
+"Europe","CAPEIIa-V-XIV","Capelin (Mallotus villosus)","IIa-V-XIV","SSB","1979-2016",38
+"Europe","SPRATNS","European sprat (Sprattus sprattus)","North Sea","SSB","1974-2016",43
+"Europe","SPRAT22-32","European sprat (Sprattus sprattus)","Baltic Areas 22-32","TB","1974-2016",43
+"Europe","SEELNSSA1","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 1","SSB","1983-2016",34
+"Europe","SEELNSSA2","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 2","SSB","1983-2016",34
+"Europe","SEELNSSA3","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 3","SSB","1983-2016",34
+"Europe","NPOUTIIIa-IV","Norway pout (Trisopterus esmarkii)","IIIa and North Sea","SSB","1983-2014",32
+"Europe","WHITVIa","Whiting (Merlangius merlangus)","West of Scotland","TB","1981-2016",36
+"Europe","WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId","TB","1990-2016",27
+"Humboldt Current","PANCHCCH","Peruvian anchoveta (Engraulis ringens)","Central Chile","TB","1985-2016",32
+"Humboldt Current","PANCHCSCH","Peruvian anchoveta (Engraulis ringens)","Central-Southern Chile","TB","1990-2016",27
+"Humboldt Current","PANCHNCHSP","Peruvian anchoveta (Engraulis ringens)","Northern Chile Southern Peru","TB","1984-2015",32
+"Humboldt Current","PANCHPERUNC","Peruvian anchoveta (Engraulis ringens)","North-Central Peruvian coast","TB","1963-2015",53
+"USA/Canada East","HERR4TFA","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37
+"USA/Canada East","HERR4TSP","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37
+"USA/Canada East","HERR4VWX","Atlantic herring (Clupea harengus)","Scotian Shelf and Bay of Fundy","TB","1965-2006",42
+"USA/Canada East","HERR4RFA","Atlantic herring (Clupea harengus)","NAFO division 4R","SSB","1973-2003",31
+"USA/Canada East","HERR4RSP","Atlantic herring (Clupea harengus)","NAFO division 4R","TB","1965-2004",40
+"USA/Canada East","HERRNWATLC","Atlantic herring (Clupea harengus)","Northwestern Atlantic Coast","SSB","1965-2014",50
+"USA/Canada East","MACKNWATLSA3-4","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic (NAFO Subareas 3 and 4)","TB","1968-2013",46
+"USA/Canada East","ATLMACKUSEAST","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic","SSB","1968-2016",49
+"USA/Canada East","MENATLAN","Atlantic menhaden (Brevoortia tyrannus)","Atlantic","TB","1955-2016",62
+"USA/Canada East","MENATGM","Gulf menhaden (Brevoortia patronus)","Gulf of Mexico","TB","1977-2011",35
+"USA/Canada East","LISQUIDATLC","Longfin inshore squid (Doryteuthis pealeii)","Atlantic Coast","TB","1976-2009",34
+"USA/Canada East","ILLEXNWATLC","Northern shortfin squid (Illex illecebrosus)","Northwestern Atlantic Coast","TB","1967-2005",39
+"USA/Canada West","NANCHSCAL","Northern anchovy (Engraulis mordax)","Southern California","SSB","1951-2011",61
+"USA/Canada West","CMACKPCOAST","Pacific chub mackerel (Scomber japonicus)","Pacific Coast","TB","1983-2015",33
+"USA/Canada West","PHAKEPCOAST","Pacific hake (Merluccius productus)","Pacific Coast","SSB","1966-2016",51
+"USA/Canada West","SARDPCOAST","Pacific sardine (Sardinops sagax)","Pacific Coast","TB","1994-2016",23

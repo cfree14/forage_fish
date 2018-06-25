@@ -1,0 +1,20 @@
+"region","name_format","comm_name","species","nstocks"
+"Europe","Atlantic herring (Clupea harengus)","Atlantic herring","Clupea harengus",12
+"Europe","Atlantic mackerel (Scomber scombrus)","Atlantic mackerel","Scomber scombrus",1
+"Europe","Blue whiting (Micromesistius poutassou)","Blue whiting","Micromesistius poutassou",1
+"Europe","Capelin (Mallotus villosus)","Capelin","Mallotus villosus",2
+"Europe","European sprat (Sprattus sprattus)","European sprat","Sprattus sprattus",2
+"Europe","Lesser sand-eel (Ammodytes marinus)","Lesser sand-eel","Ammodytes marinus",3
+"Europe","Norway pout (Trisopterus esmarkii)","Norway pout","Trisopterus esmarkii",1
+"Europe","Whiting (Merlangius merlangus)","Whiting","Merlangius merlangus",2
+"Humboldt Current","Peruvian anchoveta (Engraulis ringens)","Peruvian anchoveta","Engraulis ringens",4
+"USA/Canada East","Atlantic herring (Clupea harengus)","Atlantic herring","Clupea harengus",6
+"USA/Canada East","Atlantic mackerel (Scomber scombrus)","Atlantic mackerel","Scomber scombrus",2
+"USA/Canada East","Atlantic menhaden (Brevoortia tyrannus)","Atlantic menhaden","Brevoortia tyrannus",1
+"USA/Canada East","Gulf menhaden (Brevoortia patronus)","Gulf menhaden","Brevoortia patronus",1
+"USA/Canada East","Longfin inshore squid (Doryteuthis pealeii)","Longfin inshore squid","Doryteuthis pealeii",1
+"USA/Canada East","Northern shortfin squid (Illex illecebrosus)","Northern shortfin squid","Illex illecebrosus",1
+"USA/Canada West","Northern anchovy (Engraulis mordax)","Northern anchovy","Engraulis mordax",1
+"USA/Canada West","Pacific chub mackerel (Scomber japonicus)","Pacific chub mackerel","Scomber japonicus",1
+"USA/Canada West","Pacific hake (Merluccius productus)","Pacific hake","Merluccius productus",1
+"USA/Canada West","Pacific sardine (Sardinops sagax)","Pacific sardine","Sardinops sagax",1

@@ -15,8 +15,8 @@ library(reshape2)
 library(RColorBrewer)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/hilborn_etal_2017/"
-plotdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/hilborn_etal_2017/figures"
+datadir <- "data/hilborn_etal_2017/"
+plotdir <- "data/hilborn_etal_2017/figures"
 
 # Read data
 data <- read.csv(paste(datadir, "hilborn_etal_2017_time_series_to_use.csv", sep="/"), as.is=T)

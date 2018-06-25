@@ -1,53 +1,53 @@
 "pred_stock_orig","pred_type","pred_comm_name","pred_species","area","prey_stock","prey_comm_name","prey_species","impt","impt_avg"
-"Black-vented Shearwater  adult NavidadIs","sea birds","Black-vented shearwater","Puffinus opisthomelas","NavidadIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",10,10
-"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",29.5,10.86
-"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.51,0.51
-"Blue shark  OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",100,100
-"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.7,3.15
-"CA Sea Lion  GOC","pinnipeds","California sea lion","Zalophus californianus","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",6.8,6.8
-"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.7,4.7
-"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.4,12.4
-"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",9.9,9.9
-"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",80,58.9
-"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",66.1,28.12
-"CABrown pelican  GOC","sea birds","California brown pelican","Pelecanus occidentalis","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",93,34
-"Coho salmon adult CA_OR","bony fishes","Coho salmon","Oncorhynchus kisutch","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4,4
-"Coho salmon adult NeahBay","bony fishes","Coho salmon","Oncorhynchus kisutch","NeahBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",5.3,5.3
-"Coho salmon adult OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",100,83.3
-"Coho salmon adult WestPort","bony fishes","Coho salmon","Oncorhynchus kisutch","WestPort","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",39.2,19.74111111
-"Coho salmon juvenile OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",57.9,51.15
-"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.76,8.365
-"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",31.38,31.38
-"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",88.9,10.82789474
-"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",11.03,6.42
-"Heermann gull  GOC","sea birds","Heermann gull","Larus heermanni","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",77,28.2
-"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",5,2.85
-"Humboldt_jumbo_squid   GOC","invertebrates","Humboldt squid","Dosidicus gigas","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",80,37.18571429
-"Humpback whale  CA","cetaceans","Humpback whale","Megaptera novaeangliae","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",76.1,51.4
-"Indo-pacific blue marlin  BajaCal","bony fishes","Indo-pacific blue marlin","Makaira mazara","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",4.49,2.605
-"Jack mackerel  OffColumbiaRiver","bony fishes","Jack mackerel","Trachurus symmetricus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",7.8,7.8
-"Jack mackerel  OR_WA","bony fishes","Jack mackerel","Trachurus symmetricus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",69.2,69.2
-"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",34.38,34.38
-"North pacific albacora  CA","bony fishes","Albacore tuna","Thunnus alalunga","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.4,0.4
-"North pacific albacora  CA_OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.1,2.1
-"North pacific albacora  OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.8,2.8
-"North pacific albacora  SouthCA","bony fishes","Albacore tuna","Thunnus alalunga","SouthCA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",12.7,12.7
-"Northern fur seal  BC","pinnipeds","Northern fur seal","Callorhinus ursinus","BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",20,20
-"Pacific hake  OffColumbiaRiver","bony fishes","Pacific hake","Merluccius productus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",1.1,0.7
-"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",75,37.7
-"Pacific harbor seal  DraytonHarbor_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","DraytonHarbor_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0,0
-"Pacific harbor seal  PadillaBay_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","PadillaBay_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.3,2.3
-"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",17.9,11.33333333
-"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",20,20
-"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",2.11,2.11
-"Smooth Hammershead shark  Female BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.04,0.04
-"Smooth Hammershead shark  juvenile BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.09,0.09
-"Smooth Hammershead shark  juvenile GOC","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",9.22,5.19
-"Smooth Hammershead shark  Male BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",0.01,0.01
-"Soupfin shark  OR_WA","cartilaginous fishes","Soupfin shark","Galeorhinus galeus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",15.4,15.4
-"Spiny dogfish  MonterreyBay","cartilaginous fishes","Spiny dogfish","Squalus acanthias","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",6.21,6.21
-"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",10.5,8.35
-"Striped marlin  BajaCal","bony fishes","Striped marlin","Kajikia audax","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax caerulea",26.16,15.17
+"Black-vented Shearwater  adult NavidadIs","sea birds","Black-vented shearwater","Puffinus opisthomelas","NavidadIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",10,10
+"Blue shark  BajaCal","cartilaginous fishes","Blue shark","Prionace glauca","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",29.5,10.86
+"Blue shark  CA_OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0.51,0.51
+"Blue shark  OR_WA","cartilaginous fishes","Blue shark","Prionace glauca","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",100,100
+"Brandt cormorant  MonterreyBay","sea birds","Brandt cormorant","Phalacrocorax penicillatus","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",4.7,3.15
+"CA Sea Lion  GOC","pinnipeds","California sea lion","Zalophus californianus","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",6.8,6.8
+"CA Sea Lion  SanClementeIs","pinnipeds","California sea lion","Zalophus californianus","SanClementeIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",4.7,4.7
+"CA Sea Lion  SanNicolasIs","pinnipeds","California sea lion","Zalophus californianus","SanNicolasIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",12.4,12.4
+"CA Sea Lion  StaBarbaraIs","pinnipeds","California sea lion","Zalophus californianus","StaBarbaraIs","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",9.9,9.9
+"CA Sea Lion adult CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",80,58.9
+"CA Sea Lion juvenile CA","pinnipeds","California sea lion","Zalophus californianus","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",66.1,28.12
+"CABrown pelican  GOC","sea birds","California brown pelican","Pelecanus occidentalis","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",93,34
+"Coho salmon adult CA_OR","bony fishes","Coho salmon","Oncorhynchus kisutch","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",4,4
+"Coho salmon adult NeahBay","bony fishes","Coho salmon","Oncorhynchus kisutch","NeahBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",5.3,5.3
+"Coho salmon adult OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",100,83.3
+"Coho salmon adult WestPort","bony fishes","Coho salmon","Oncorhynchus kisutch","WestPort","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",39.2,19.74111111
+"Coho salmon juvenile OR_WA","bony fishes","Coho salmon","Oncorhynchus kisutch","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",57.9,51.15
+"Common thresher shark  CA_OR","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",12.76,8.365
+"Common thresher shark  CA_OR_WA","cartilaginous fishes","Common thresher shark","Alopias vulpinus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",31.38,31.38
+"Elegant tern  LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","sea birds","Elegant tern","Thalasseus elegans","LosAngelesHarbor_BolsaChica_SouthBaySaltWorks","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",88.9,10.82789474
+"Harbor porpoise  MonterreyBay","cetaceans","Harbor porpoise","Phocoena phocoena","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",11.03,6.42
+"Heermann gull  GOC","sea birds","Heermann gull","Larus heermanni","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",77,28.2
+"Humboldt_jumbo_squid   CA_OR_WA","invertebrates","Humboldt squid","Dosidicus gigas","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",5,2.85
+"Humboldt_jumbo_squid   GOC","invertebrates","Humboldt squid","Dosidicus gigas","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",80,37.18571429
+"Humpback whale  CA","cetaceans","Humpback whale","Megaptera novaeangliae","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",76.1,51.4
+"Indo-pacific blue marlin  BajaCal","bony fishes","Indo-pacific blue marlin","Makaira mazara","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",4.49,2.605
+"Jack mackerel  OffColumbiaRiver","bony fishes","Jack mackerel","Trachurus symmetricus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",7.8,7.8
+"Jack mackerel  OR_WA","bony fishes","Jack mackerel","Trachurus symmetricus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",69.2,69.2
+"Long-beaked common dolphin  CA","cetaceans","Long-beaked common dolphin","Delphinus capensis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",34.38,34.38
+"North pacific albacora  CA","bony fishes","Albacore tuna","Thunnus alalunga","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0.4,0.4
+"North pacific albacora  CA_OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","CA_OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",2.1,2.1
+"North pacific albacora  OR_WA_BC","bony fishes","Albacore tuna","Thunnus alalunga","OR_WA_BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",2.8,2.8
+"North pacific albacora  SouthCA","bony fishes","Albacore tuna","Thunnus alalunga","SouthCA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",12.7,12.7
+"Northern fur seal  BC","pinnipeds","Northern fur seal","Callorhinus ursinus","BC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",20,20
+"Pacific hake  OffColumbiaRiver","bony fishes","Pacific hake","Merluccius productus","OffColumbiaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",1.1,0.7
+"Pacific hake  OR_WA","bony fishes","Pacific hake","Merluccius productus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",75,37.7
+"Pacific harbor seal  DraytonHarbor_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","DraytonHarbor_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0,0
+"Pacific harbor seal  PadillaBay_EasternBays","pinnipeds","Pacific harbor seal","Phoca vitulina","PadillaBay_EasternBays","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",2.3,2.3
+"Pacific harbor seal  UmpquaRiver","pinnipeds","Pacific harbor seal","Phoca vitulina","UmpquaRiver","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",17.9,11.33333333
+"Short-beaked common dolphin  CA","cetaceans","Short-beaked common dolphin","Delphinus delphis","CA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",20,20
+"Shortfin mako shark  CA_OR_WA","cartilaginous fishes","Shortfin mako shark","Isurus oxyrinchus","CA_OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",2.11,2.11
+"Smooth Hammershead shark  Female BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0.04,0.04
+"Smooth Hammershead shark  juvenile BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0.09,0.09
+"Smooth Hammershead shark  juvenile GOC","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","GOC","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",9.22,5.19
+"Smooth Hammershead shark  Male BajaCal","cartilaginous fishes","Smooth hammerhead shark","Sphyrna zygaena","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",0.01,0.01
+"Soupfin shark  OR_WA","cartilaginous fishes","Soupfin shark","Galeorhinus galeus","OR_WA","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",15.4,15.4
+"Spiny dogfish  MonterreyBay","cartilaginous fishes","Spiny dogfish","Squalus acanthias","MonterreyBay","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",6.21,6.21
+"Steller Sea Lion  CA_OR","pinnipeds","Steller sea lion","Eumetopias jubatus","CA_OR","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",10.5,8.35
+"Striped marlin  BajaCal","bony fishes","Striped marlin","Kajikia audax","BajaCal","Pacific sardine Pacific Coast","Pacific sardine","Sardinops sagax",26.16,15.17
 "Black rockfish  OR_WA","bony fishes","Black rockfish","Sebastes melanops","OR_WA","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",41.9,41.9
 "Black-legged kittiwakes   MonterreyBay","sea birds","Black-legged kittiwake","Rissa tridactyla","MonterreyBay","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",11.8,11.8
 "Black-vented Shearwater  adult NavidadIs","sea birds","Black-vented shearwater","Puffinus opisthomelas","NavidadIs","Northern anchovy Pacific Coast","Northern anchovy","Engraulis mordax",30,30

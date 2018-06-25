@@ -12,8 +12,8 @@ library(Hmisc) # capitalize()
 library(rfishbase)
 
 # Directories
-inputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/new_data/orig"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/new_data/"
+inputdir <- "data/new_data/orig"
+outputdir <- "data/new_data/"
 
 # Read data
 pred_ts_orig <- read.csv(paste(inputdir, "Predator Abundance Data NB.csv", sep="/"), as.is=T, na.strings=c(""))
@@ -29,8 +29,7 @@ taxa_key_fb <- load_taxa()
 taxa_key_slb <- sealifebase
 
 # Add source column
-taxa_key <- as.data.frame(
-  taxa_key_fb %>% 
+taxa_key <- taxa_key_fb %>% 
     bind_rows(taxa_key_slb) %>% 
     setNames(tolower(names(.))) %>% 
     mutate(sciname=paste(genus, species)) %>% 
@@ -38,7 +37,6 @@ taxa_key <- as.data.frame(
     rename(species=sciname) %>% 
     select(class, order, family, genus, species) %>% 
     unique()
-)
 
 # Check for duplicated scientific names
 sum(duplicated(taxa_key$species))

@@ -11,7 +11,7 @@ library(dplyr)
 library(reshape2)
 
 # Directories
-datadir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/new_data/"
+datadir <- "data/new_data/"
 
 # Read data
 diets <- read.csv(paste(datadir, "predator_diet_information.csv", sep="/"), as.is=T)

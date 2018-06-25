@@ -39,8 +39,8 @@ library(stringr) # word()
 library(rfishbase)
 
 # Directories
-inputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/hilborn_etal_2017/orig"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/hilborn_etal_2017/"
+inputdir <- "data/hilborn_etal_2017/orig"
+outputdir <- "data/hilborn_etal_2017/"
 ramdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/ramldb/ramldb_v3.8"
 
 # Read RAM stocks
@@ -64,8 +64,7 @@ taxa_key_fb <- load_taxa()
 taxa_key_slb <- sealifebase
 
 # Add source column
-taxa_key <- as.data.frame(
-  taxa_key_fb %>% 
+taxa_key <- taxa_key_fb %>% 
     bind_rows(taxa_key_slb) %>% 
     setNames(tolower(names(.))) %>% 
     mutate(sciname=paste(genus, species)) %>% 
@@ -73,7 +72,6 @@ taxa_key <- as.data.frame(
     rename(species=sciname) %>% 
     select(class, order, family, genus, species) %>% 
     unique()
-)
 
 # Check for duplicated scientific names
 sum(duplicated(taxa_key$species))
@@ -425,7 +423,8 @@ apply(pred_stocks_other, 2, function(x) sum(is.na(x)))
 # Merge predator stocks
 pred_stocks_final <- rbind(pred_stocks_ram, pred_stocks_other) %>% 
   mutate(ocean=NA) %>% 
-  select(stocklong, stocklong_orig, stockid, ocean, region, area, species, everything()) %>% 
+  left_join(select(taxa, species_sub, type), by=c("species"="species_sub")) %>% 
+  select(stocklong, stocklong_orig, stockid, ocean, region, area, type, species, everything()) %>% 
   arrange(stocklong)
 
 # Add ocean
@@ -577,6 +576,7 @@ diets <- diets_orig %>%
          years=ifelse(years=="0", NA, years),
          method_length=trimws(tolower(method_length)),
          method_diet=trimws(tolower(method_diet)),
+         # Format region
          region=trimws(region),
          region=revalue(region, c("AK"="Alaska",
                                   "BC"="British Columbia",
@@ -599,7 +599,35 @@ diets <- diets_orig %>%
                                   "OR_WA_BC"="OR/WA/BC",
                                   "Scotian shelf"="Scotian Shelf",
                                   "WA"="Washington",
-                                  "WA_BC"="WA/BC"))) %>% 
+                                  "WA_BC"="WA/BC")),
+         # Format areas
+         area=gsub("([a-z])([A-Z])", "\\1 \\2", area),
+         area=gsub("_TO_|_To_", "-", area),
+         area=gsub("From |Off ", "", area),
+         area=gsub("Is$", "Island", area),
+         area=gsub("_", "/", area),
+         area=revalue(area, c("GOC"="Gulf of California",
+                              "Mid Atlantic Bight"="Mid-Atlantic Bight",
+                              "Atlantic coast"="Atlantic Coast",
+                              "Baja Cal"="Baja California",
+                              "Baja Cal/GOC"="Baja California/Gulf of California",
+                              "Bull Creek/South Carolina"="Bull Creek-South Carolina",
+                              "Celtic sea"="Celtic Sea",
+                              "Chesapeake bay"="Chesapeake Bay",
+                              "Midshelf/Farallon Gulf"="Midshelf Farallon Gulf",
+                              "New Jersey/to/Massachusset Coast"="New Jersey-Massachusset Coast",
+                              "Norhern California Current"="Northern California Current",
+                              "Scotian shelf"="Scotian Shelf",
+                              "South Carolina/Estuarine"="South Carolina-Estuarine",
+                              "South Carolina/Oceanic"="South Carolina-Oceanic")),
+         area=trimws(area),
+         # Format references
+         reference=gsub("([[:alpha:]])([[:digit:]])", "\\1 \\2", reference),
+         reference=gsub("etal", " et al.", reference),
+         reference=gsub("and", " and ", reference),
+         reference=gsub("citedby", " cited by ", reference),
+         reference=gsub("([a-z])([A-Z])", "\\1 \\2", reference)) %>% 
+  # Rearrange columns
   select(pred_type, pred_comm_name, pred_species, 
          ocean, region, area, reference, prey_species, prey_comm_name, n_data,
          years, season, year1, month1, month_name1, year2, month2, month_name2,
@@ -607,7 +635,11 @@ diets <- diets_orig %>%
          prey_mm_min, prey_mm_max, prey_mm_range, prey_mm_med, prey_mm_avg, prey_mm_sd,
          prop_diet_by_wt, prop_diet_by_wt_type, prop_diet_by_n, prop_diet_by_energy,
          prop_diet_by_occur, prop_diet_by_occur_sd, prop_diet_by_index, everything()) %>% 
+  # Remove columns
   select(-c(season2, prey_mm_range2))
+
+# Inspect area
+sort(unique(diets$area))
 
 # Fill in missing areas
 diets.missing.area <- subset(diets, is.na(area))
@@ -617,20 +649,20 @@ diets$area[!is.na(diets$region) & is.na(diets$area)] <- diets$region[!is.na(diet
 # PerezandBigg1986 - Northern fur seal: western North America
 # MasonandBishop2001 - Jack mackerel: California
 # NicholsandBreder1927citedbyBowman1984 - Silver hake: Northwest Atlantic
-diets$area[diets$reference=="PerezandBigg1986"] <- "western North America"
-diets$area[diets$reference=="MasonandBishop2001"] <- "California"
-diets$area[diets$reference=="NicholsandBreder1927citedbyBowman1984"] <- "Northwest Atlantic"
+diets$area[diets$reference=="Perez and Bigg 1986"] <- "Western North America"
+diets$area[diets$reference=="Mason and Bishop 2001"] <- "California"
+diets$area[diets$reference=="Nichols and Breder 1927 cited by Bowman 1984"] <- "Northwest Atlantic"
 
 # Fill in missing regions
 areas.missing.regions <- sort(unique(diets$area[is.na(diets$region)]))
-europe.areas <- "Celtic sea"
-can.east.areas <- "Scotian shelf"
+europe.areas <- "Celtic Sea"
+can.east.areas <- "Scotian Shelf"
 us.west.areas <- "California"
-us.east.areas <- c("BullCreek_SouthCarolina", "CharlestonBump-Off GA Coast", "Florida", "Northwest Atlantic",
-                   "From NorthCarolina_TO_Nova Scotia", "FromCapeHatteras_TO_Virginia", "Georges Bank", 
-                   "Georges Bank_TO_S New England", "Gulf of Maine", "Long Island bays", "Mid Atlantic Bight", 
-                   "North Carolina Coast", "NorthCarolina", "Off North Carolina", "South New England", 
-                   "SouthCarolina_Estuarine", "SouthCarolina_Oceanic", "Southern New England", "western North America")
+us.east.areas <- c("Bull Creek-South Carolina", "Charleston Bump-GA Coast", "Florida", "Northwest Atlantic",
+                   "North Carolina-Nova Scotia", "Cape Hatteras-Virginia", "Georges Bank", 
+                   "Georges Bank-S New England", "Gulf of Maine", "Long Island bays", "Mid-Atlantic Bight", 
+                   "North Carolina Coast", "North Carolina", "North Carolina", "South New England", 
+                   "South Carolina-Estuarine", "South Carolina-Oceanic", "Southern New England", "Western North America")
 diets$region[diets$area%in%us.west.areas & is.na(diets$region) & !is.na(diets$area)] <- "US West Coast"
 diets$region[diets$area%in%us.east.areas & is.na(diets$region) & !is.na(diets$area)] <- "US East Coast"
 diets$region[diets$area%in%europe.areas & is.na(diets$region) & !is.na(diets$area)] <- "Europe"
@@ -653,12 +685,17 @@ table(diets$pred_stage2)
 table(diets$ocean)
 table(diets$method_diet)
 
+# Update Spiny dogfish in the Pacific
+diets$pred_comm_name[diets$pred_species=="Squalus acanthias" & diets$ocean=="NE Pacific"] <- "Spotted spiny dogfish"
+diets$pred_species[diets$pred_species=="Squalus acanthias" & diets$ocean=="NE Pacific"] <- "Squalus suckleyi"
+
 # Are the season/range fields identical? Yes.
 # Note: this only works when the columns have been retained (I removed them after checking)
 sum(diets$season!=diets$season2, na.rm=T)
 sum(diets$prey_mm_range!=diets$prey_mm_range2, na.rm=T)
 
 # Check completeness
+# Pred type to prey common name should be 0
 apply(diets, 2, function(x) sum(is.na(x)))
 
 

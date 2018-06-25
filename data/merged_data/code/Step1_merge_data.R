@@ -12,21 +12,23 @@ library(dplyr)
 library(reshape2)
 
 # Directories
-datadir1 <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/hilborn_etal_2017"
-datadir2 <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/new_data/"
-outputdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/data/merged_data"
+datadir1 <- "data/hilborn_etal_2017"
+datadir2 <- "data/new_data/"
+outputdir <- "data/merged_data"
 
 # Read Hilborn et al. (2017) data
 taxa1 <- read.csv(paste(datadir1, "hilborn_etal_2017_taxa_info.csv", sep="/"), as.is=T)
 pred_ts1 <- read.csv(paste(datadir1, "hilborn_etal_2017_predator_time_series.csv", sep="/"), as.is=T)
 pred_stocks1 <- read.csv(paste(datadir1, "hilborn_etal_2017_predator_stocks.csv", sep="/"), as.is=T)
 diet_props1 <- read.csv(paste(datadir1, "hilborn_etal_2017_diet_proportions.csv", sep="/"), as.is=T)
+diet_info1 <- read.csv(paste(datadir1, "hilborn_etal_2017_diet_information.csv", sep="/"), as.is=T)
 
 # Read new data
 taxa2 <- read.csv(paste(datadir2, "taxanomic_key.csv", sep="/"), as.is=T)
 pred_ts2 <- read.csv(paste(datadir2, "predator_time_series.csv", sep="/"), as.is=T)
 pred_stocks2 <- read.csv(paste(datadir2, "predator_stocks.csv", sep="/"), as.is=T)
 diet_props2 <- read.csv(paste(datadir2, "predator_diet_proportions.csv", sep="/"), as.is=T)
+diet_info2 <- read.csv(paste(datadir2, "predator_diet_information.csv", sep="/"), as.is=T)
 
 
 ################################################################################
@@ -45,6 +47,15 @@ taxa <- unique(rbind(taxa1, taxa2)) %>%
 # If this reports anything but 0, then the diet ids are messed up!
 taxa$species_sub[duplicated(taxa$species_sub)]
 taxa$comm_name[duplicated(taxa$comm_name)]
+
+
+################################################################################
+# Merge predator diet info
+################################################################################
+
+# Inspect colnames
+colnames(diet_info1)
+colnames(diet_info2)
 
 
 ################################################################################

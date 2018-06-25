@@ -1,0 +1,34 @@
+region,stockid,name,areaname,nprey,prey1,prey1_prop,prey_stocks
+Europe,MACKNEICES,Atlantic mackerel (Scomber scombrus),IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa,3,Sandeel spp.,0.1899,"SEELNSSA1, SEELNSSA2, SEELNSSA3"
+Europe,HAKENRTN,European hake (Merluccius merluccius),IIIa-IV-VI-VII-VIIIabd,1,Blue whiting,0.309,BWHITNEA
+Europe,HAKESOTH,European hake (Merluccius merluccius),VIIIc-IXa,1,Blue whiting,0.309,BWHITNEA
+Europe,HMACKIIa-IVa-Vb-VIa-VII-VIII,Horse mackerel (Trachurus trachurus),IIa-IVa-Vb-VIa-VII-VIII,1,Norway pout,0.229,NPOUTIIIa-IV
+Europe,MEG8c9a,Megrim (Lepidorhombus whiffiagonis),VIIIc-IXa,2,European sprat,0.338,no overlap
+Europe,MEGVII-VIIIabd,Megrim (Lepidorhombus whiffiagonis),VII and VIIIabd,2,European sprat,0.338,no overlap
+Europe,POLLFAPL,Pollock (Pollachius virens),Faroe Plateau,3,Norway pout,0.34605,no overlap
+Europe,POLLIEG,Pollock (Pollachius virens),Iceland Grounds,3,Norway pout,0.34605,no overlap
+Europe,POLLNEAR,Pollock (Pollachius virens),North-East Arctic,3,Norway pout,0.34605,no overlap
+Europe,POLLNS-VI-IIIa,Pollock (Pollachius virens),"IIIa, VI and North Sea",3,Norway pout,0.34605,NPOUTIIIa-IV
+Europe,WHITNS-VIId,Whiting (Merlangius merlangus),IV and VIId,3,Sandeel spp.,0.207025,"SEELNSSA1, SEELNSSA2, SEELNSSA3"
+Europe,WHITVIa,Whiting (Merlangius merlangus),West of Scotland,3,Sandeel spp.,0.207025,no overlap
+Humboldt Current,CHTRACCH,Chilean jack mackerel (Trachurus murphyi),Chilean EEZ and offshore,1,Peruvian anchoveta,0.276954624,"PANCHNCHSP, PANCHCCH, PANCHCSCH"
+US Alaska,ARFLOUNDBSAI,Arrowtooth flounder (Atheresthes stomias),Bering Sea and Aleutian Islands,1,Pacific hake,0.5989,no overlap
+US Alaska,ARFLOUNDGA,Arrowtooth flounder (Atheresthes stomias),Gulf of Alaska,1,Pacific hake,0.5989,no overlap
+US Alaska,SSTHORNHGA,Shortspine thornyhead (Sebastolobus alascanus),Gulf of Alaska,1,Pacific hake,0.224633333,no overlap
+USA/Canada East,COD3M,Atlantic cod (Gadus morhua),Flemish Cap,4,Northern shortfin squid,0.292,ILLEXNAFO3-4
+USA/Canada East,COD3NO,Atlantic cod (Gadus morhua),Southern Grand Banks,4,Northern shortfin squid,0.292,ILLEXNAFO3-4
+USA/Canada East,COD3Pn4RS,Atlantic cod (Gadus morhua),Northern Gulf of St. Lawrence,4,Northern shortfin squid,0.292,ILLEXNAFO3-4
+USA/Canada East,COD3Ps,Atlantic cod (Gadus morhua),St. Pierre Bank,4,Northern shortfin squid,0.292,ILLEXNAFO3-4
+USA/Canada East,COD4TVn,Atlantic cod (Gadus morhua),Southern Gulf of St. Lawrence,4,Northern shortfin squid,0.292,ILLEXNAFO3-4
+USA/Canada East,BLUEFISHATLC,Bluefish (Pomatomus saltatrix),Atlantic Coast,5,Atlantic menhaden,0.125,MENATLAN
+USA/Canada East,MONKSGBMATL,Goosefish (Lophius americanus),Southern Georges Bank / Mid-Atlantic,4,Northern shortfin squid,0.24675,ILLEXNWATLC
+USA/Canada East,POLL5YZ,Pollock (Pollachius virens),Gulf of Maine / Georges Bank,4,Longfin inshore squid,0.378,LISQUIDATLC
+USA/Canada East,SHAKE4VWX,Silver hake (Merluccius bilinearis),Scotian Shelf and Bay of Fundy,4,Atlantic mackerel,0.127833333,MACKNWATLSA3-4
+USA/Canada East,WHAKE4T,White hake (Urophycis tenuis),Southern Gulf of St. Lawrence,4,Northern shortfin squid,0.3095,ILLEXNAFO3-4
+USA/Canada East,WHAKEGBGOM,White hake (Urophycis tenuis),Gulf of Maine / Georges Bank,4,Northern shortfin squid,0.3095,ILLEXNWATLC
+USA/Canada West,ARFLOUNDPCOAST,Arrowtooth flounder (Atheresthes stomias),Pacific Coast,1,Pacific hake,0.5989,PHAKEPCOAST
+USA/Canada West,BLACKROCKCAL,Black rockfish (Sebastes melanops),California,1,Northern anchovy,0.419,NANCHSCAL
+USA/Canada West,BLACKROCKWASH,Black rockfish (Sebastes melanops),Washington,1,Northern anchovy,0.419,no overlap
+USA/Canada West,CMACKPCOAST,Pacific chub mackerel (Scomber japonicus),Pacific Coast,1,Northern anchovy,0.43,NANCHSCAL
+USA/Canada West,SSTHORNHPCOAST,Shortspine thornyhead (Sebastolobus alascanus),Pacific Coast,1,Pacific hake,0.224633333,PHAKEPCOAST
+USA/Canada West,YTROCKNPCOAST,Yellowtail rockfish (Sebastes flavidus),Northern Pacific Coast,2,Pacific hake,0.163,PHAKEPCOAST

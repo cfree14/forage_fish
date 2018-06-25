@@ -1,0 +1,18 @@
+
+
+KEY TO DATA FILES
+
+1. **all_stocks** - meta-data on all RAM stocks
+
+2. **potential_fish_predator_prey_data** - identify candidate fish prey/predator data from the RAM Legacy Database
+
+3. **prey_data** - trimmed/formatted prey data
+
+4. **fish_predator_data** - trimmed/formatted fish predator data
+
+5. **nonfish_predator_data** - trimmed/formatted non-fish predator data
+
+6. **fish_pred_data_final** - linked fish predator and prey data (final)
+
+7. **nonfish_pred_data_final** - linked non-fish predator and prey data (final)8. **data_final** - merged linked fish and non-fish files
+
