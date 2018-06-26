@@ -35,7 +35,7 @@ p <- 0.55
 top.i <- seq(1, nrow(stocks), 24)
 
 # Setup figure
-figname <- "AppendixD_sp_prey_curves.pdf"
+figname <- "AppendixE_sp_prey_curves.pdf"
 pdf(paste(plotdir, figname, sep="/"), width=8.5, height=11)
 par(mfrow=c(6, 4), mar=c(2.5, 2.5, 2.5, 0.5), mgp=c(2.5,0.8,0), oma=c(4,6,3,3), lwd=0.8)
 

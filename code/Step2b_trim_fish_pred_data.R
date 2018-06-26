@@ -91,7 +91,7 @@ top.i <- seq(1, nrow(pred_stocks), 6)
 pred_stocks <- arrange(pred_stocks, stockid)
 
 # Plot data and trimming decisions
-figname <- "AppendixB_pred_data_and_trimming.pdf"
+figname <- "AppendixC_pred_data_and_trimming.pdf"
 pdf(paste(plotdir, figname, sep="/"), width=8.5, height=11)
 par(mfrow=c(6, 5), mar=c(1.5, 1.0, 2.5, 0.5), mgp=c(2.5,0.5,0), oma=c(3,3,3,3), lwd=0.8)
 

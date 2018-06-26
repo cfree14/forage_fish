@@ -39,7 +39,7 @@ fit.sp.model <- function(sp, tb){
 top.i <- seq(1, nrow(prey_stocks), 6)
 
 # Plot data and trimming decisions
-figname <- "AppendixA_prey_data_and_trimming.pdf"
+figname <- "AppendixB_prey_data_and_trimming.pdf"
 pdf(paste(plotdir, figname, sep="/"), width=8.5, height=11)
 par(mfrow=c(6, 5), mar=c(1.5, 1.0, 2.5, 0.5), mgp=c(2.5,0.5,0), oma=c(3,3,3,3), lwd=0.8)
 

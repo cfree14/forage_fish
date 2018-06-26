@@ -160,7 +160,7 @@ save(bm_pred_stocks, bm_pred_ts,
 ################################################################################
 
 # Setup figure
-figname <- "AppendixC_nonfish_pred_data.pdf"
+figname <- "AppendixD_nonfish_pred_data.pdf"
 pdf(paste(plotdir, figname, sep="/"), width=8.5, height=11)
 par(mfrow=c(4, 2), mar=c(1.5, 4.0, 4, 0.5), mgp=c(2.5,1,0), oma=c(5,5,5,5), lwd=0.8)
 
