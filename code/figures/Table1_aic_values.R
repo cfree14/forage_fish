@@ -24,7 +24,7 @@ p <- c(1.00, 0.55, 0.20, 0.01)
 sp <- paste0("pella", format(p, nsmall=2), ".Rdata")
 
 # PT Prey-linked (fixed effecst)
-sp_prey_fixed <- "pella0.55_fixed_prey1.Rdata"
+sp_prey_fixed <- "pella_best_fixed_prey1.Rdata"
 
 # Merge models
 models <- c(sp, sp_prey_fixed)

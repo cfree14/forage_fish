@@ -15,7 +15,7 @@ datadir <- "data"
 outputdir <- "output"
 
 # Read model output
-load(file.path(outputdir, "pella0.55_fixed_prey1.Rdata"))
+load(file.path(outputdir, "pella_best_fixed_prey1.Rdata"))
 
 # Read model data
 load(file.path(datadir, "data_final.Rdata"))
@@ -34,5 +34,5 @@ output <- stocks %>%
 ################################################################################
 
 # Export data
-write.csv(output, file=file.path(outputdir, "pella0.55_fixed_prey1_results.csv"), row.names=F)
+write.csv(output, file=file.path(outputdir, "pella_best_fixed_prey1_results.csv"), row.names=F)
 

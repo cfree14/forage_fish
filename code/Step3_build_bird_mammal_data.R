@@ -85,7 +85,7 @@ calc_sp <- function(tb, catch){
 # Filter predator data
 preds1 <- preds %>% 
   filter(pred_type!="fish") %>% 
-  filter(n_yr>=20) %>%
+  filter(n_yr>=15) %>%
   filter(diet_yn=="Y") %>% 
   filter(diet_prop>=0.2)
 
@@ -143,7 +143,6 @@ pred_ts3 <- pred_ts2 %>%
 
 # Erase crazy CA sea lion, Southern SCB (pups) outlier
 pred_ts3$n[pred_ts3$stocklong=="California sea lion Southern SCB [abundance (total)]" & pred_ts3$n > 200000] <- NA
-
 table(preds2$pred_type)
 
 # Export data
@@ -176,6 +175,7 @@ for(i in 1:nrow(bm_pred_stocks)){
   units <- bm_pred_stocks$n_units[i]
   comm_name <- bm_pred_stocks$comm_name[i]
   location <- bm_pred_stocks$location[i]
+  print(paste(i, stock))
   
   # Plot abundance
   xmin <- floor1(min(sdata$year), 10)

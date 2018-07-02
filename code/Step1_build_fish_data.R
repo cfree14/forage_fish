@@ -223,9 +223,9 @@ amack <- amack_orig %>%
          biomass=ssb, biomass_type="ssb", biomass_units="MT",
          catch=tc, catch_type="tc", catch_units="MT")
 
-# Sand eel
-seel_orig <- import(file.path(datadir2, "2016_Area4_sandeel_data.xlsx"))
-seel <- seel_orig %>% 
+# Sand eel Area 4
+seel4_orig <- import(file.path(datadir2, "2016_SA4_sandeel_data.xlsx"))
+seel4 <- seel4_orig %>% 
   select(Year, tb_mt, ssb_mt, catch_mt, r_e00) %>% 
   rename(year=Year, tc=catch_mt, tb=tb_mt, ssb=ssb_mt, r=r_e00) %>% 
   mutate(stockid="SANDEELSA4",
@@ -237,6 +237,14 @@ seel <- seel_orig %>%
          biomass=tb, biomass_type="tb", biomass_units="MT",
          catch=tc, catch_type="tc", catch_units="MT",
          sp=calc_sp(tb, catch), sp_units="MT")
+
+# Sand eel Area 7
+seel7_orig <- read.csv(file.path(datadir2, "2007_SA7_sandeel_data.csv"))
+seel7 <- seel7_orig %>% 
+  rename(tb=biomass_mt) %>% 
+  mutate(stockid="SANDEELSA7",
+         tb_units="MT",
+         biomass=tb, biomass_type="tb", biomass_units="MT")
 
 # Northern shortfin squid
 illex_orig <- import(file.path(datadir2, "2016_NAFO_shortfin_squid_data.xlsx"))
@@ -251,7 +259,7 @@ illex <- illex_orig %>%
          catch=tc, catch_type="tc", catch_units="MT")
 
 # Merge non-RAM stocks
-prey_ts_not_ram <- rbind.fill(nanch, amack, seel, illex)
+prey_ts_not_ram <- rbind.fill(nanch, amack, seel4, seel7, illex)
 
 # Merge RAM stocks with non-RAM stocks
 prey_ts_final <- rbind.fill(prey_ts, prey_ts_not_ram)

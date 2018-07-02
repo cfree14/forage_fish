@@ -19,7 +19,7 @@ plotdir <- "figures"
 load(file.path(datadir, "data_final.Rdata"))
 
 # Read model results
-stocks <- read.csv(file.path(outputdir, "pella0.55_fixed_prey1_results.csv"), as.is=T)
+stocks <- read.csv(file.path(outputdir, "pella_best_fixed_prey1_results.csv"), as.is=T)
 
 
 # Plot data

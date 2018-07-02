@@ -17,7 +17,7 @@ datadir <- "output"
 plotdir <- "figures"
 
 # Read data
-data <- read.csv(file.path(datadir, "pella0.55_fixed_prey1_results.csv"), as.is=T)
+data <- read.csv(file.path(datadir, "pella_best_fixed_prey1_results.csv"), as.is=T)
 
 # Remove outliers
 hist(data$betaT)

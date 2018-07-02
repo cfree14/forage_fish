@@ -68,7 +68,7 @@ region_n <- data %>%
 row_n <- c(62, 62, 24, 24)
 
 # Setup figure
-figname <- "AppendixE_diet_composition_data.pdf"
+figname <- "AppendixA_diet_composition_data.pdf"
 pdf(paste(plotdir, figname, sep="/"), width=8.5, height=11)
 layout(matrix(1:4, ncol=2, nrow=2, byrow=T), heights=c(0.68, 0.32))
 par(oma=c(3,3,2,2), mar=c(2,8,0.5,0.5), mgp=c(2,0.6,0))

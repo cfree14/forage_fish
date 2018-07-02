@@ -1,5 +1,6 @@
 assessorid,stockid,stocklong,method,species,comm_name,areaid,areaname,region,biomass_type,biomass_units,catch_type,catch_units
 MacCall et al. 2016,NANCHSCAL,Northern anchovy Pacific Coast,DEPM,Engraulis mordax,Northern anchovy,SCal,Southern California,US West Coast,ssb,MT,,
 NEFSC 2018,ATLMACKUSEAST,Atlantic mackerel US East Coast,ASAP,Scomber scombrus,Atlantic mackerel,NW Atlantic,Northwest Atlantic,US East Coast,ssb,MT,tc,MT
-ICES 2016,SANDEELSA4,Sand eel SA 4,SMS,Ammodytes spp.,Lesser sand-eel,SA5,Sandeel Area 4,North Sea,tb,MT,tc,MT
+ICES 2016,SANDEELSA4,Sand eel SA 4,SMS,Ammodytes spp.,Lesser sand-eel,SA4,Sandeel Area 4,North Sea,tb,MT,tc,MT
 Hendrickson and Showell 2016,ILLEXNAFO3-4,Northern shortfin squid Subareas 3+4,Index,Illex illecebrosus ,Northern shortfin squid,NAFO3-4,Subareas 3+4 ,Canada West Coast,tb,relative,tc,MT
+Furness 2007,SANDEELSA7,Sand eel SA 7,VPA,Ammodytes spp.,Lesser sand-eel,SA7,Sandeel Area 7,North Sea,tb,MT,,

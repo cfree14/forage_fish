@@ -28,14 +28,25 @@ key_orig <- read.csv(file.path(tabledir, "nonfish_predator_to_prey_key.csv"), as
 key <- key_orig %>% 
   select(stocklong, prey1_stocks) %>% 
   filter(prey1_stocks!="no overlap") %>% 
-  mutate(stockid=revalue(stocklong, c("California sea lion Southern SCB [abundance (total)]"="SEALIONSCBtot",          
+  mutate(stockid=revalue(stocklong, c("Arctic tern Foula (occupied territory)"="ARCTERFOULA",
+                                      "Black-legged kittiwake Isle of May (nests, completed)"="BLAKITISLMAY",
+                                      "Brandt cormorant South Farallon Island [breeding adults]"="BRACORFIS",
+                                      "Brandt cormorant Gulf of Farallon Islands [nests (total)]"="BRACORFIF",
+                                      "California sea lion Southern SCB [abundance (total)]"="SEALIONSCBtot",          
                                       "California sea lion Southern SCB [pups]"="SEALIONSCBpup", 
+                                      "Common guillemot UU Colony, Farallons Island [population index]"="COMGUIFIUU",
+                                      "Common guillemot Southeast Farallons Island [breeding adults]"="COMGUIFISE",
+                                      "Common guillemot All Shetland Islands colonies (index relative to 1978)"="COMGUISHETALL",
                                       "Elegant tern San Diego Bay [breeding pairs]"="ELETERSDB", 
                                       "Grey seal Sable Islands [pup production]"="GSEALSABLEISL", 
                                       "Humpback whale CA/OR [abundance (total est.)]"="HUMPBACKCAOR", 
                                       "Northern fur seal San Miguel Islands [pups]"="NFURSEALSMI", 
                                       "Pacific harbor seal Coastal Estuaries [abundance (total est.)]"="PHSEALWA", 
                                       "Pacific harbor seal Oregon [abundance (total est.)]"="PHSEALOR", 
+                                      "Pacific harbor seal California [abundance (total est.)]"="PHSEALCA", 
+                                      "Pacific harbor seal Eastern Bays [abundance (total est.)]"="PHSEALEBAYS", 
+                                      "Pacific harbor seal Juan de la Fuca [abundance (total est.)]"="PHSEALJFUCA", 
+                                      "Pacific harbor seal San Juan Islands [abundance (total est.)]"="PHSEALSJI", 
                                       "Guanay cormorant 6-14°S (number of adults)"="GUACORPERU614S", 
                                       "Peruvian booby 6-14°S (number of adults)"="PERBOOPERU614S", 
                                       "Peruvian pelican 6-14°S (number of adults)"="PERPELPERU614S", 
@@ -44,7 +55,8 @@ key <- key_orig %>%
                                       "Peruvian pelican Peru (number of adults)"="PERPELPERU", 
                                       "Guanay cormorant Peruvian Sea (number of individuals)"="GUACORPERUSEA", 
                                       "Peruvian booby Peruvian Sea (number of individuals)"="PERBOOPERUSEA", 
-                                      "Peruvian pelican Peruvian Sea (number of individuals)"="PERPELPERUSEA"))) %>% 
+                                      "Peruvian pelican Peruvian Sea (number of individuals)"="PERPELPERUSEA",
+                                      "Razorbill UK coast (index relative to 1986)"="RAZBILLUK"))) %>% 
   select(stockid, stocklong, prey1_stocks)
 
 # Any duplicated stockids?
@@ -95,15 +107,15 @@ plot(sp_sd ~ n_sd, data, subset=stockid==stock, bty="n", las=1)
 # Should all be zero
 complete(data)
 
-# Do they all still have >=20 years of data?
+# Do they all still have >=15 years of data?
 # Are there any missing years
 data_n <- data %>%
   group_by(stocklong, stockid) %>% 
   summarize(n=n(),
             nyr_missing=n!=length(min(year):max(year))) %>% 
   arrange(n)
-if(any(data_n$n < 20)){"WARNING: Some stocks have <20 years of data"}
-stocks_use <- data_n$stockid[data_n$n>=20]
+if(any(data_n$n < 15)){"WARNING: Some stocks have <15 years of data"}
+stocks_use <- data_n$stockid[data_n$n>=15]
 
 # Remove stocks with too little data
 data <- filter(data, stockid %in% stocks_use)

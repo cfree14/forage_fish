@@ -40,8 +40,9 @@ stocks <- unique(data$stockid)
 nstocks <- length(stocks)
 
 # Output file
-p <- 0.55
-outputfile <- paste0("pella", p, "_fixed_prey1.Rdata")
+# 50%=1.00, 45%=0.55, 40%=0.20, 37%=0.01
+p <- 1
+outputfile <- paste0("pella_best_fixed_prey1.Rdata")
 
 
 # Fit production model
