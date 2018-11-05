@@ -37,8 +37,9 @@ data <- data %>%
          lcolor=ifelse(betaT_hi<0, "red", lcolor),
          pcolor=ifelse(betaT_hi<0, "red", pcolor),
          lcolor=ifelse(betaT_lo>0, "blue", lcolor),
-         pcolor=ifelse(betaT_lo>0, "blue", pcolor)) %>% 
-  arrange(desc(betaT))
+         pcolor=ifelse(betaT_lo>0, "blue", pcolor),
+         type=factor(type, levels=c("mammals", "birds", "fish"))) %>% 
+  arrange(type, desc(betaT))
 
 
 # Plot data
