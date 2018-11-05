@@ -308,7 +308,8 @@ table(stocks_pred1$region) # Eliminate West Africa, Russia/Japan, South Africa, 
 regions_type <- c("Canada East Coast", "Canada West Coast", 
                  "Europe non EU", "European Union",
                  "US Alaska", "US East Coast", "US Southeast and Gulf", "US West Coast",
-                 "South America")
+                 "South America",
+                 "Atlantic Ocean", "Pacific Ocean")
 stocks_pred2 <- stocks_pred1 %>% 
   filter(region %in% regions_type)
 nrow(stocks_pred2)
@@ -325,6 +326,11 @@ nrow(stocks_pred4)
 
 # 5. Identify pred stock with diet info
 sort(unique(stocks_pred4$region))
+stocks_pred4_hms <- subset(stocks_pred4, region%in%c("Atlantic Ocean", "Pacific Ocean"), select=c(stockid, region, areaname))
+sort(unique(stocks_pred4_hms$areaname))
+us_east_areas <- c("Atlantic Ocean", "Northern Atlantic") # Not South Atlantic
+us_west_areas <- c("Eastern Pacific", "North Pacific Ocean", 
+                   "Northeast Pacific", "Pacific Ocean") # Not Western Pacific Ocean, Central Western Pacific Ocean, Western and Central North Pacific
 stocks_pred5 <- stocks_pred4 %>% 
   # Add diet id
   mutate(region1=revalue(region, c("Canada East Coast"="NW Atlantic",
@@ -336,6 +342,8 @@ stocks_pred5 <- stocks_pred4 %>%
                                    "US East Coast"="NW Atlantic",
                                    "US Southeast and Gulf"="NW Atlantic",
                                    "US West Coast"="NE Pacific")),
+         region1=ifelse(region1=="Atlantic Ocean" & areaname%in%us_east_areas, "NW Atlantic", region1),
+         region1=ifelse(region1=="Pacific Ocean" & areaname%in%us_west_areas, "NE Pacific", region1),
          dietid=paste(comm_name, region1)) %>% 
   # Add prey info
   left_join(diet_key, by="dietid") %>% 
@@ -388,13 +396,13 @@ pred_stocks_use
 # 1. Check Hilborn predators stocks with a stockid
 # List whether it is INCLUDED or the reason it is not included
 
-# ALBANATL Albacore tuna Northern Atlantic.......................Atlantic Ocean region
-# ALBANPAC Albacore tuna North Pacific Ocean.....................Pacific Ocean region
+# ALBANATL Albacore tuna Northern Atlantic.......................INCLUDED (though HMS)
+# ALBANPAC Albacore tuna North Pacific Ocean.....................INCLUDED (though HMS)
 # ARFLOUNDPCOAST Arrowtooth flounder Pacific Coast...............INCLUDED
-# ATBTUNAWATL Atlantic bluefin tuna Western Atlantic.............exclude, Atlantic Ocean region
+# ATBTUNAWATL Atlantic bluefin tuna Western Atlantic.............no TB data (also HMS)
 # ATHAL5YZ Atlantic halibut Gulf of Maine / Georges Bank.........INCLUDED
 # ATLCROAKMATLC Atlantic croaker Mid-Atlantic Coast..............no diet info
-# BIGEYEATL Bigeye tuna Atlantic Ocean...........................Atlantic Ocean region
+# BIGEYEATL Bigeye tuna Atlantic Ocean...........................INCLUDED (though HMS)
 # BLACKROCKNPCOAST Black rockfish Northern Pacific Coast.........INCLUDED, kinda - the old assessment had 2 stocks (N/S) and the new assessment has 3 stocks (CA/OR/WA)
 # BLUEFISHATLC Bluefish Atlantic Coast...........................INCLUDED
 # BMARLINPAC Blue marlin Pacific Ocean...........................no diet info
@@ -416,12 +424,12 @@ pred_stocks_use
 # SPSDOGPCOAST Spotted spiny dogfish Pacific Coast...............INCLUDED
 # SSTHORNHPCOAST Shortspine thornyhead Pacific Coast.............INCLUDED
 # STRIPEDBASSGOMCHATT Striped bass Gulf of Maine / Cape Hatteras.no TB data, TC data in E00
-# SWORDNATL Swordfish Northern Atlantic..........................Atlantic Ocean region
+# SWORDNATL Swordfish Northern Atlantic..........................INCLUDED (though HMS)
 # WEAKFISHATLC Weakfish Atlantic Coast...........................no TB data
 # WHAKEGBGOM White hake Gulf of Maine / Georges Bank.............INCLUDED
-# WMARLINATL White marlin Atlantic Ocean.........................Atlantic Ocean region
+# WMARLINATL White marlin Atlantic Ocean.........................INCLUDED (though HMS)
 # WROCKPCOAST Widow rockfish Pacific Coast.......................INCLUDED
-# YFINATL Yellowfin tuna Atlantic Ocean..........................Atlantic Ocean region
+# YFINATL Yellowfin tuna Atlantic Ocean..........................INCLUDED (though HMS)
 # YTROCKNPCOAST Yellowtail rockfish Northern Pacific Coast.......INCLUDED
 
 # 2. Check Hilborn predators stocks without a stockid

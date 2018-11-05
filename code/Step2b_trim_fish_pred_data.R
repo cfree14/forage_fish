@@ -36,7 +36,11 @@ fit.sp.model <- function(sp, tb){
 ################################################################################
 
 # Stocks to cut
-to.cut <- c("ATHAL5YZ", "BLACKROCKORECOAST", "SPSDOGPCOAST")
+to.cut <- c("ATHAL5YZ", "BLACKROCKORECOAST", "SPSDOGPCOAST", 
+            "BIGEYEATL", "SWORDNATL", "YFINATL") # Tunas too close to SP model
+
+# HMS species now included:
+# ALBANATL, ALBANPAC, BIGEYEATL*, PACBTUNA, STMARLINNEPAC, SWORDNATL*, WMARLINATL, YFINATL*
 
 # Identify trim years
 # Columns: stock id, biomass year, recruitment year, catch year, 
