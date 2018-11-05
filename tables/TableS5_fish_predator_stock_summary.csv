@@ -1,4 +1,6 @@
 "region","name_format","comm_name","species","nstocks"
+"Atlantic Ocean","Albacore tuna (Thunnus alalunga)","Albacore tuna","Thunnus alalunga",1
+"Atlantic Ocean","White marlin (Kajikia albida)","White marlin","Kajikia albida",1
 "Europe","Atlantic mackerel (Scomber scombrus)","Atlantic mackerel","Scomber scombrus",1
 "Europe","European hake (Merluccius merluccius)","European hake","Merluccius merluccius",2
 "Europe","Horse mackerel (Trachurus trachurus)","Horse mackerel","Trachurus trachurus",1
@@ -6,6 +8,9 @@
 "Europe","Pollock (Pollachius virens)","Pollock","Pollachius virens",4
 "Europe","Whiting (Merlangius merlangus)","Whiting","Merlangius merlangus",2
 "Humboldt Current","Chilean jack mackerel (Trachurus murphyi)","Chilean jack mackerel","Trachurus murphyi",1
+"Pacific Ocean","Albacore tuna (Thunnus alalunga)","Albacore tuna","Thunnus alalunga",1
+"Pacific Ocean","Pacific bluefin tuna (Thunnus orientalis)","Pacific bluefin tuna","Thunnus orientalis",1
+"Pacific Ocean","Striped marlin (Kajikia audax)","Striped marlin","Kajikia audax",1
 "USA/Canada East","Atlantic cod (Gadus morhua)","Atlantic cod","Gadus morhua",5
 "USA/Canada East","Bluefish (Pomatomus saltatrix)","Bluefish","Pomatomus saltatrix",1
 "USA/Canada East","Goosefish (Lophius americanus)","Goosefish","Lophius americanus",1

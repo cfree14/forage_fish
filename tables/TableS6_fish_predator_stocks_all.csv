@@ -1,4 +1,6 @@
 "region","stockid","name","areaname","nprey","prey1","prey1_prop"
+"Atlantic Ocean","ALBANATL","Albacore tuna (Thunnus alalunga)","Northern Atlantic",1,"Northern shortfin squid",0.5195
+"Atlantic Ocean","WMARLINATL","White marlin (Kajikia albida)","Atlantic Ocean",1,"Northern shortfin squid",0.541
 "Europe","MACKNEICES","Atlantic mackerel (Scomber scombrus)","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa",3,"Sandeel spp.",0.1899
 "Europe","HAKENRTN","European hake (Merluccius merluccius)","IIIa-IV-VI-VII-VIIIabd",1,"Blue whiting",0.309
 "Europe","HAKESOTH","European hake (Merluccius merluccius)","VIIIc-IXa",1,"Blue whiting",0.309
@@ -12,6 +14,9 @@
 "Europe","WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId",3,"Sandeel spp.",0.207025
 "Europe","WHITVIa","Whiting (Merlangius merlangus)","West of Scotland",3,"Sandeel spp.",0.207025
 "Humboldt Current","CHTRACCH","Chilean jack mackerel (Trachurus murphyi)","Chilean EEZ and offshore",1,"Peruvian anchoveta",0.2769546235
+"Pacific Ocean","ALBANPAC","Albacore tuna (Thunnus alalunga)","North Pacific Ocean",5,"Northern anchovy",0.3575
+"Pacific Ocean","PACBTUNA","Pacific bluefin tuna (Thunnus orientalis)","Pacific Ocean",3,"Northern anchovy",0.7999
+"Pacific Ocean","STMARLINNEPAC","Striped marlin (Kajikia audax)","Northeast Pacific",3,"Pacific chub mackerel",0.26598
 "USA/Canada East","COD3M","Atlantic cod (Gadus morhua)","Flemish Cap",4,"Northern shortfin squid",0.292
 "USA/Canada East","COD3NO","Atlantic cod (Gadus morhua)","Southern Grand Banks",4,"Northern shortfin squid",0.292
 "USA/Canada East","COD3Pn4RS","Atlantic cod (Gadus morhua)","Northern Gulf of St. Lawrence",4,"Northern shortfin squid",0.292
