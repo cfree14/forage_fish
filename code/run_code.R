@@ -24,6 +24,8 @@ sys.source(file.path(codedir2, "AppendixD_surplus_production_curves.R"), envir=n
 sys.source(file.path(codedir2, "Table1_aic_values.R"), envir=new.environ)
 sys.source(file.path(codedir2, "Fig1_thetas.R"), envir=new.environ)
 sys.source(file.path(codedir2, "Fig2_thetas_explanatory_variable.R"), envir=new.environ)
+sys.source(file.path(codedir2, "STable1_prey_species_and_stocks.R"), envir=new.environ)
+sys.source(file.path(codedir2, "STable2_predator_species_and_stocks.R"), envir=new.environ)
 
 
 

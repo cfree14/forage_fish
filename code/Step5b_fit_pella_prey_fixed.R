@@ -31,7 +31,9 @@ source(file.path(codedir, "helper_functions.R"))
 ################################################################################
 
 # Remove problem stocks
-problem_stocks <- c("ELETERSDB", "SEALIONSCBpup") # production unrelated to abundance
+problem_stocks <- c("ELETERSDB", "SEALIONSCBpup", # production unrelated to abundance
+                    "PERPELPERU614S", "PERBOOPERU614S", # enormous influences
+                    "COMGUISHETALL", "HUMPBACKCAOR") # enormous influence SDs
 data <- data %>% 
   filter(!stockid %in% problem_stocks)
 
