@@ -21,7 +21,7 @@ codedir <- "code"
 outputdir <- "output"
 
 # Read data
-load(paste(datadir, "data_final.Rdata", sep="/"))
+load(paste(datadir, "data_final_sst.Rdata", sep="/"))
 
 # Helper functions
 source(file.path(codedir, "helper_functions.R"))
@@ -41,10 +41,18 @@ data <- data %>%
 stocks <- unique(data$stockid)
 nstocks <- length(stocks)
 
-# Output file
+# Set shape parameter
 # 50%=1.00, 45%=0.55, 40%=0.20, 37%=0.01
-p <- 1
-outputfile <- paste0("pella_best_fixed_prey1.Rdata")
+p <- 0.55
+
+# Which variable?
+# prey1_b_sd or sst_c_sd
+# covariate <- "sst_c_sd"
+covariate <- "prey1_b_sd"
+
+# Build outfile name based on covariate
+if(covariate=="prey1_b_sd"){outputfile <- paste0("pella_best_fixed_prey1.Rdata")}
+if(covariate=="sst_c_sd"){outputfile <- paste0("pella_best_fixed_sst.Rdata")}
 
 
 # Fit production model
@@ -73,7 +81,7 @@ input.data <- list(Nstocks=nstocks,
                    StockID=as.factor(data$stockid),
                    B_t=data$tb_sd,
                    P_t=data$sp_sd,
-                   Prey_t=data$prey1_b_sd)
+                   Prey_t=as.numeric(unlist(data[,covariate])))
 
 # Initialization
 model <- MakeADFun(data=input.data, parameters=params, DLL="pella_prey_fixed")

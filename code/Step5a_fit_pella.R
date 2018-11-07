@@ -21,7 +21,7 @@ codedir <- "code"
 outputdir <- "output"
 
 # Read data
-load(paste(datadir, "data_final.Rdata", sep="/"))
+load(paste(datadir, "data_final_sst.Rdata", sep="/"))
 
 # Helper functions
 source(file.path(codedir, "helper_functions.R"))
@@ -31,7 +31,9 @@ source(file.path(codedir, "helper_functions.R"))
 ################################################################################
 
 # Remove problem stocks
-problem_stocks <- c("ELETERSDB", "SEALIONSCBpup") # production unrelated to abundance
+problem_stocks <- c("ELETERSDB", "SEALIONSCBpup",
+                    "PERPELPERU614S", "PERBOOPERU614S", # enormous influences
+                    "COMGUISHETALL", "HUMPBACKCAOR") # production unrelated to abundance
 data <- data %>% 
   filter(!stockid %in% problem_stocks)
 

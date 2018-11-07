@@ -23,7 +23,7 @@ diet_orig <- read.csv(file.path(datadir, "predator_diet_proportions_final.csv"),
 taxa <- read.csv(file.path(datadir, "taxanomic_info_final.csv"), as.is=T)
 
 # Read RAM Legacy Database (v4.40)
-load("/Users/cfree/Dropbox/Prelim Database Files/Versions/RAM v4.40 (6-4-18)/DB Files With Assessment Data/DBdata.RData")
+load("/Users/cfree/Dropbox/Prelim Database Files/Versions/RAM v4.41 (8-20-18)/DB Files With Assessment Data/DBdata (assessment data only).RData")
 
 
 # Helper functions
@@ -132,16 +132,16 @@ prey_spp[!prey_spp%in%sort(unique(stocks_prey1$species))]
 # 2. Identify prey stocks in study regions
 table(stocks_prey1$region) # Eliminate West Africa, Russia/Japan, South Africa, Mediterranean-Black Sea
 regions_type <- c("Canada East Coast", "Canada West Coast", 
-                 "Europe non EU", "European Union", 
+                 "Europe non EU", "European Union", "US Alaska",
                  "US East Coast", "US Southeast and Gulf", "US West Coast",
-                 "South America")
+                 "South America", "South Africa")
 stocks_prey2 <- stocks_prey1 %>% 
   filter(region %in% regions_type)
 nrow(stocks_prey2)
 
-# 3. Identify prey stocks with >=20 year of biomass data
+# 3. Identify prey stocks with >=15 year of biomass data
 stocks_prey3 <- stocks_prey2 %>%
-  filter(biomass>=20)
+  filter(biomass>=15)
 nrow(stocks_prey3)
 table(stocks_prey3$biomass_type)
 
@@ -199,6 +199,7 @@ filter(timeseries_units_views, stockid=="ILLEXNWATLC")
 # Atlantic mackerel US East Coast
 # Sandeel Area 4
 # Northern shortfin squid Subareas 3+4
+# Cury et al. (2011) prey indices
 
 # Northern anchovy
 hilborn <- read.csv(file.path(datadir1, "hilborn_etal_2017_prey_time_series.csv"), as.is=T)
@@ -258,19 +259,55 @@ illex <- illex_orig %>%
          biomass=tb, biomass_type="tb", biomass_units="relative",
          catch=tc, catch_type="tc", catch_units="MT")
 
+# Read Cury et al. (2011) data
+cury_orig <- read.csv("data/cury_etal_2011/cury_etal_2011_prey_populations.csv", as.is=T)
+cury_ts_orig <- read.csv("data/cury_etal_2011/cury_etal_2011_prey_time_series.csv", as.is=T)
+
+# Build Cury et al. stock key to add to "non-RAM" key read in below
+cury <- cury_orig %>% 
+  filter(nyrs>=15) %>% 
+  mutate(stockid=revalue(stocklong, c("Australian krill Kaikoura"="AUSKRILLKAI",
+                                      "Atlantic herring Rost age 0"="ATLHERRROST",
+                                      "Pacific sardine Robben Island spawners"="PSARDROBBEN_SPWN",
+                                      "Pacific sardine Robben Island YOY"="PSARDROBBEN_YOY",
+                                      "European anchovy Robben Island spawners"="EANCHOROBBEN_SPWN",
+                                      "European anchovy Robben Island YOY"="EANCHOROBBEN_YOY",
+                                      "Rockfish spp. SE Farallon Island MRI1"="ROCKSEFI1",
+                                      "Rockfish spp. SE Farallon Island MRI2"="ROCKSEFI2",
+                                      "Rockfish spp. SE Farallon Island MRI3"="ROCKSEFI3"))) %>% 
+  rename(assessorid=ref, species=sci_name, areaname=location, biomass_units=n_units) %>% 
+  select(assessorid, stockid, stocklong, species, comm_name, areaname, region, biomass_units)
+         
+# Build Cury et al. time series
+cury_ts <- cury_ts_orig %>% 
+  filter(stocklong %in% cury$stocklong) %>% 
+  left_join(select(cury, stocklong, stockid), by="stocklong") %>% 
+  rename(biomass=n, biomass_units=n_units) %>% 
+  mutate(biomass_type=revalue(biomass_units, c("g/m3"="relative",
+                                               "index"="relative",
+                                               "million tons"="ssb"))) %>%
+  select(stockid, stocklong, year, biomass, biomass_type, biomass_units)
+
 # Merge non-RAM stocks
-prey_ts_not_ram <- rbind.fill(nanch, amack, seel4, seel7, illex)
+prey_ts_not_ram <- rbind.fill(nanch, amack, seel4, seel7, illex, cury_ts)
 
 # Merge RAM stocks with non-RAM stocks
 prey_ts_final <- rbind.fill(prey_ts, prey_ts_not_ram)
 
 # Read non-RAM stock key
 non_ram_key <- import(file.path(datadir2, "stocks_not_in_ram.csv"), na.strings="")
+
+# Add Cury stocks to non-RAM key
+non_ram_key <- rbind.fill(non_ram_key, cury)
+
+# Build non-RAM stats
 non_ram_stats <- prey_ts_not_ram %>% 
   group_by(stockid) %>% 
   summarize(years=paste(range(year), collapse="-"),
             catch=sum(!is.na(catch)),
             biomass=sum(!is.na(biomass)))
+
+# Add stats to key
 non_ram_key <- left_join(non_ram_key, non_ram_stats, by="stockid")
 
 # Add non-RAM stocks to stock key

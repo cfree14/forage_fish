@@ -15,8 +15,20 @@ library(reshape2)
 datadir <- "output"
 plotdir <- "figures"
 
+# Which results to prepare?
+# sst or prey1
+type <- "sst"
+if(type=="prey1"){
+  infile <- "pella_best_fixed_prey1_results.csv"
+  figname <- "Fig1_thetas_prey1.png"
+}
+if(type=="sst"){
+  infile <- "pella_best_fixed_sst_results.csv"
+  figname <- "Fig1_thetas_sst.png"
+}
+
 # Read data
-data <- read.csv(file.path(datadir, "pella0.55_fixed_prey1_results.csv"), as.is=T)
+data <- read.csv(file.path(datadir, infile), as.is=T)
 
 
 # Stats for MS
@@ -41,16 +53,17 @@ data <- data %>%
          type=factor(type, levels=c("mammals", "birds", "fish"))) %>% 
   arrange(type, desc(betaT))
 
+# Quick visualization
+hist(data$betaT)
 
 # Plot data
 ################################################################################
 
 # Theta limit
-betaT_lim <- 3
+betaT_lim <- 7
 
 # Setup figure
-figname <- "Fig1_thetas.png"
-png(file.path(plotdir, figname), width=6.5, height=5, units="in", res=600)
+png(file.path(plotdir, figname), width=6.5, height=6, units="in", res=600)
 par(mar=c(3,17,0.5,0.8), mgp=c(1.8,0.7,0))
 
 # Setup empty plot

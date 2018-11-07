@@ -56,7 +56,17 @@ key <- key_orig %>%
                                       "Guanay cormorant Peruvian Sea (number of individuals)"="GUACORPERUSEA", 
                                       "Peruvian booby Peruvian Sea (number of individuals)"="PERBOOPERUSEA", 
                                       "Peruvian pelican Peruvian Sea (number of individuals)"="PERPELPERUSEA",
-                                      "Razorbill UK coast (index relative to 1986)"="RAZBILLUK"))) %>% 
+                                      "Razorbill UK coast (index relative to 1986)"="RAZBILLUK",
+                                      "Pigeon guillemot Farallon (breeding adults)"="PIGGUIFI",
+                                      "Common guillemot Farallon (breeding adults)"="COMGUIFI",
+                                      "Black-legged kittiwake Vedoy (occupied nests)"="BLKVEDOY",
+                                      "Atlantic puffin Hernyken (apparently occupied burrows)"="APUFFHERNYKEN",
+                                      "African penguin W Cape (pairs)"="AFPENWCAPE",
+                                      "Cape gannet W Cape (pairs)"="CGANNETWCAPE",
+                                      "Cape gannet E Cape (pairs)"="CGANNETECAPE",
+                                      "Rhinoceros auklet Farallon (pairs)"="RAUKFARALLON",
+                                      "Northern fur seal St. George"="NFURSTGEORGE",
+                                      "Northern fur seal St. Paul"="NFURSTPAUL"))) %>% 
   select(stockid, stocklong, prey1_stocks)
 
 # Any duplicated stockids?
@@ -95,7 +105,7 @@ data <- bm_pred_ts %>%
 # Confirm standardizations
 data.frame(tapply(data$n_sd, data$stockid, max, na.rm=T)) # must be 1
 # data.frame(tapply(data$prey1_b_sd, data$stockid, max, na.rm=T)) # must be 1
-data.frame(tapply(data$prey1_b_sd, data$stockid, mean, na.rm=T)) # must be 1
+data.frame(tapply(data$prey1_b_sd, data$stockid, mean, na.rm=T)) # must be 0
 
 # Convince yourself that SP ~ TB is really the same as SP(sd) ~ TB(sd)
 stock <- unique(data$stockid)[4]
@@ -142,6 +152,7 @@ plot(PERPELPERU ~ PERPELPERUSEA, peru_ts_wide)
 peru_pops_to_remove <- c("GUACORPERUSEA", "PERBOOPERUSEA", "PERPELPERUSEA")
 pred_stocks_use1 <- filter(pred_stocks_use, !stockid %in% peru_pops_to_remove)
 data1 <- filter(data, !stockid %in% peru_pops_to_remove)
+
 
 # Export data
 ################################################################################

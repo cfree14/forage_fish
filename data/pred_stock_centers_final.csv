@@ -1,0 +1,55 @@
+stockid,stocklong,region,area,location,comm_name,lat_dd,long_dd,notes
+AFPENWCAPE,African penguin W Cape (pairs),Benguela Current,Benguela Current,W Cape,African penguin,-33.916698,17.639235,
+ALBANATL,Albacore tuna North Atlantic,Atlantic Ocean,Atlantic Ocean,Northern Atlantic,Albacore tuna,48.72759957,-22.60445843,
+ALBANPAC,Albacore tuna North Pacific,Pacific Ocean,Pacific Ocean,North Pacific Ocean,Albacore tuna,24.74631391,-145.2833584,
+APUFFHERNYKEN,Atlantic puffin Hernyken (apparently occupied burrows),Norwegian Sea,Norwegian Sea,Hernyken,Atlantic puffin,67.423948,11.944287,"Hernyken, Rostoyan, Norway"
+ARCTERFOULA,Arctic tern Foula (occupied territory),Europe,Shetland Islands,Foula,Arctic tern,60.129056,-1.970938,"Foula, Shetland Islands, Scotland"
+ARFLOUNDPCOAST,Arrowtooth flounder Pacific Coast,USA/Canada West,US West Coast,Pacific Coast,Arrowtooth flounder,40.27264218,-124.5679201,
+BLACKROCKCAL,Black rockfish California,USA/Canada West,US West Coast,California,Black rockfish,37.730857,-122.848102,
+BLKVEDOY,Black-legged kittiwake Vedoy (occupied nests),Norwegian Sea,Norwegian Sea,Vedoy,Black-legged kittiwake,67.47342,12.065381,"Vedoya, Rostoyan, Norway"
+BLUEFISHATLC,Bluefish Atlantic Coast,USA/Canada East,US East Coast,Atlantic Coast,Bluefish,33.71666181,-76.1216086,
+BRACORFIF,Brandt cormorant Gulf of Farallon Islands [nests (total)],NE Pacific,California,Gulf of Farallon Islands,Brandt cormorant,37.842653,-122.931124,
+BRACORFIS,Brandt cormorant South Farallon Island [breeding adults],NE Pacific,California,South Farallon Island,Brandt cormorant,37.697365,-122.981373,"South Farallon Island, CA"
+CGANNETWCAPE,Cape gannet W Cape (pairs),Benguela Current,Benguela Current,W Cape,Cape gannet,-33.916698,17.639235,
+CHTRACCH,Chilean jack mackerel Chilean EEZ and offshore,Humboldt Current,South America,Chilean EEZ and offshore,Chilean jack mackerel,-40.93236538,-75.6430531,
+CMACKPCOAST,Pacific chub mackerel Pacific Coast,USA/Canada West,US West Coast,Pacific Coast,Pacific chub mackerel,45.02272707,-126.3062789,
+COD3M,Atlantic cod NAFO 3M,USA/Canada East,Canada East Coast,Flemish Cap,Atlantic cod,44.125,-44.25,
+COD3NO,Atlantic cod NAFO 3NO,USA/Canada East,Canada East Coast,Southern Grand Banks,Atlantic cod,42.92241276,-50.00763832,
+COD3Pn4RS,Atlantic cod NAFO 3Pn4RS,USA/Canada East,Canada East Coast,Northern Gulf of St. Lawrence,Atlantic cod,49.54197469,-60.88187843,
+COD3Ps,Atlantic cod NAFO 3Ps,USA/Canada East,Canada East Coast,St. Pierre Bank,Atlantic cod,46.01572251,-55.98650669,
+COD4TVn,Atlantic cod NAFO 4TVn,USA/Canada East,Canada East Coast,Southern Gulf of St. Lawrence,Atlantic cod,47.58229309,-63.70755937,
+COMGUIFIUU,"Common guillemot UU Colony, Farallons Island [population index]",NE Pacific,California,"UU Colony, Farallons Island",Common guillemot,37.697365,-122.981373,
+COMGUISHETALL,Common guillemot All Shetland Islands colonies (index relative to 1978),Europe,Shetland Islands,All Shetland Islands colonies,Common guillemot,60.129056,-1.970938,
+ELETERSDB,Elegant tern San Diego Bay [breeding pairs],NE Pacific,California,San Diego Bay,Elegant tern,32.609329,-117.201441,"San Diego Bay, CA"
+GSEALSABLEISL,Grey seal Sable Islands [pup production],NW Atlantic,NW Atlantic,Sable Islands,Grey seal,43.963455,-59.914628,"Sable Islands, Nova Scotia"
+GUACORPERU,Guanay cormorant Peru (number of adults),Humboldt,Peru,Peru,Guanay cormorant,-10.705624,-78.424705,
+GUACORPERU614S,Guanay cormorant 6-14°S (number of adults),Humboldt,Peru,6-14°S,Guanay cormorant,-10.048347,-78.906906,
+HAKENRTN,Hake Northeast Atlantic North,Europe,European Union,IIIa-IV-VI-VII-VIIIabd,European hake,54.11096946,-5.697268124,
+HAKESOTH,Hake Northeast Atlantic South,Europe,European Union,VIIIc-IXa,European hake,40.878975,-9.947532,fixed RAMSBD point
+HMACKIIa-IVa-Vb-VIa-VII-VIII,Horse mackerel IIa-IVa-Vb-VIa-VII-VIII,Europe,European Union,IIa-IVa-Vb-VIa-VII-VIII,Horse mackerel,62.418777,3.601619,
+HUMPBACKCAOR,Humpback whale CA/OR [abundance (total est.)],NE Pacific,CA/OR,CA/OR,Humpback whale,41.214726,-127.008884,
+MACKNEICES,Mackerel ICES Northeast Atlantic,Europe,European Union,IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa,Atlantic mackerel,64.07129986,-14.67843899,
+MONKSGBMATL,Monkfish Southern Georges Bank / Mid-Atlantic,USA/Canada East,US East Coast,Southern Georges Bank / Mid-Atlantic,Goosefish,39.33201948,-72.23884719,
+NFURSEALSMI,Northern fur seal San Miguel Islands [pups],NE Pacific,California,San Miguel Islands,Northern fur seal,34.08107,-120.407872,"San Miguel Island, Channel Islands, CA"
+NFURSTGEORGE,Northern fur seal St. George,Bering Sea,Pribolof Islands,St. George,Northern fur seal,56.628299,-169.542565,"St. George Island, Pribolof Islands, AK"
+NFURSTPAUL,Northern fur seal St. Paul,Bering Sea,Pribolof Islands,St. Paul,Northern fur seal,57.109011,-170.382083,"St. Paul, Pribolof Islands, AK"
+PACBTUNA,Pacific bluefin tuna Pacific Ocean,Pacific Ocean,Pacific Ocean,Pacific Ocean,Pacific bluefin tuna,-5.158571731,-132.921797,
+PERBOOPERU,Peruvian booby Peru (number of adults),Humboldt,Peru,Peru,Peruvian booby,-10.705624,-78.424705,
+PERBOOPERU614S,Peruvian booby 6-14°S (number of adults),Humboldt,Peru,6-14°S,Peruvian booby,-10.048347,-78.906906,
+PERPELPERU,Peruvian pelican Peru (number of adults),Humboldt,Peru,Peru,Peruvian pelican,-10.705624,-78.424705,
+PERPELPERU614S,Peruvian pelican 6-14°S (number of adults),Humboldt,Peru,6-14°S,Peruvian pelican,-10.048347,-78.906906,
+PHSEALJFUCA,Pacific harbor seal Juan de la Fuca [abundance (total est.)],NE Pacific,Washington,Juan de la Fuca,Pacific harbor seal,48.403427,-125.246371,"Straight Juan de Fuca, WA - but use offshore point"
+PHSEALOR,Pacific harbor seal Oregon [abundance (total est.)],NE Pacific,Oregon,Oregon,Pacific harbor seal,45.192115,-124.250063,Oregon coast
+PHSEALSJI,Pacific harbor seal San Juan Islands [abundance (total est.)],NE Pacific,Washington,San Juan Islands,Pacific harbor seal,48.403427,-125.246371,"San Juan Islands, WA - but use offshore point"
+PHSEALWA,Pacific harbor seal Coastal Estuaries [abundance (total est.)],NE Pacific,Washington,Coastal Estuaries,Pacific harbor seal,46.189399,-124.173247,
+POLL5YZ,Pollock NAFO-5YZ,USA/Canada East,US East Coast,Gulf of Maine / Georges Bank,Pollock,42.67916969,-68.84645843,
+POLLNS-VI-IIIa,"Pollock ICES IIIa, VI and North Sea",Europe,European Union,"IIIa, VI and North Sea",Pollock,57.29147359,2.976895859,
+SEALIONSCBpup,California sea lion Southern SCB [pups],NE Pacific,California,Southern SCB,California sea lion,33.587743,-118.545182,"Southern California Bight, CA"
+SHAKE4VWX,Silver hake Scotian Shelf and Bay of Fundy,USA/Canada East,Canada East Coast,Scotian Shelf and Bay of Fundy,Silver hake,42.08466175,-59.59311349,
+SSTHORNHPCOAST,Shortspine thornyhead Pacific Coast,USA/Canada West,US West Coast,Pacific Coast,Shortspine thornyhead,35.58321429,-121.653434,
+STMARLINNEPAC,Striped marlin Northeast Pacific,Pacific Ocean,Pacific Ocean,Northeast Pacific,Striped marlin,14.4879771,-119.5800285,
+WHAKE4T,White hake Southern Gulf of St. Lawrence,USA/Canada East,Canada East Coast,Southern Gulf of St. Lawrence,White hake,47.58229309,-63.70755937,
+WHAKEGBGOM,White hake Georges Bank / Gulf of Maine,USA/Canada East,US East Coast,Gulf of Maine / Georges Bank,White hake,42.8879301,-68.92099909,
+WHITNS-VIId,Whiting NS-VIId,Europe,European Union,IV and VIId,Whiting,54.65869881,3.033874915,
+WMARLINATL,White marlin Atlantic,Atlantic Ocean,Atlantic Ocean,Atlantic Ocean,White marlin,7.3944724,-22.45219942,
+YTROCKNPCOAST,Yellowtail rockfish Northern Pacific Coast,USA/Canada West,US West Coast,Northern Pacific Coast,Yellowtail rockfish,44.28462661,-126.3411138,

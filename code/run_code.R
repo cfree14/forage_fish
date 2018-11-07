@@ -3,6 +3,7 @@
 rm(list = ls())
 codedir1 <- "code"
 codedir2 <- "code/figures"
+setwd("/Users/cfree/Dropbox/Chris/Rutgers/projects/forage_fish/")
 new.environ <- new.env()
 
 # Build data
@@ -14,14 +15,20 @@ sys.source(file.path(codedir1, "Step4a_link_fish_pred_prey_data.R"), envir=new.e
 sys.source(file.path(codedir1, "Step4b_link_nonfish_pred_prey_data.R"), envir=new.environ)
 sys.source(file.path(codedir1, "Step4c_merge_linked_population_data.R"), envir=new.environ)
 
-# Fit model
+# Fit models
 sys.source(file.path(codedir1, "Step5a_fit_pella.R"), envir=new.environ)
 sys.source(file.path(codedir1, "Step5b_fit_pella_prey_fixed.R"), envir=new.environ)
+sys.source(file.path(codedir1, "Step5c_fit_pella_prey_random.R"), envir=new.environ)
+# sys.source(file.path(codedir1, "Step5d_fit_pella_prey_random_group.R"), envir=new.environ) # not working
+
+# Which was the best model?
+sys.source(file.path(codedir2, "Table1_aic_values.R"), envir=new.environ)
+
+# Assemble model results
 sys.source(file.path(codedir1, "Step6_assemble_model_results.R"), envir=new.environ)
 
 # Plot results
 sys.source(file.path(codedir2, "AppendixD_surplus_production_curves.R"), envir=new.environ)
-sys.source(file.path(codedir2, "Table1_aic_values.R"), envir=new.environ)
 sys.source(file.path(codedir2, "Fig1_thetas.R"), envir=new.environ)
 sys.source(file.path(codedir2, "Fig2_thetas_explanatory_variable.R"), envir=new.environ)
 sys.source(file.path(codedir2, "STable1_prey_species_and_stocks.R"), envir=new.environ)

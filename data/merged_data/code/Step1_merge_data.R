@@ -14,6 +14,8 @@ library(reshape2)
 # Directories
 datadir1 <- "data/hilborn_etal_2017"
 datadir2 <- "data/new_data/"
+datadir3 <- "data/cury_etal_2011"
+datadir4 <- "data/pribolof_fur_seals"
 outputdir <- "data/merged_data"
 
 # Read Hilborn et al. (2017) data
@@ -30,6 +32,20 @@ pred_stocks2 <- read.csv(paste(datadir2, "predator_stocks.csv", sep="/"), as.is=
 diet_props2 <- read.csv(paste(datadir2, "predator_diet_proportions.csv", sep="/"), as.is=T)
 diet_info2 <- read.csv(paste(datadir2, "predator_diet_information.csv", sep="/"), as.is=T)
 
+# Read Cury et al. (2011) data
+taxa3 <- read.csv(file.path(datadir3, "cury_etal_2011_taxa.csv"), as.is=T)
+pred_ts3 <- read.csv(file.path(datadir3, "cury_etal_2011_predator_time_series.csv"), as.is=T)
+pred_stocks3 <- read.csv(file.path(datadir3, "cury_etal_2011_predator_populations.csv"), as.is=T)
+prey_ts3 <- read.csv(file.path(datadir3, "cury_etal_2011_prey_time_series.csv"), as.is=T)
+prey_stocks3 <- read.csv(file.path(datadir3, "cury_etal_2011_prey_populations.csv"), as.is=T)
+diet_props3 <- read.csv(file.path(datadir3, "cury_etal_2011_diet_props.csv"), as.is=T)
+
+# Read Pribolof Island Northern fur seal info
+taxa4 <- read.csv(file.path(datadir4, "pribolof_taxa_info.csv"), as.is=T)
+pred_ts4 <- read.csv(file.path(datadir4, "pribolof_fur_seal_abundance.csv"), as.is=T)
+pred_stocks4 <- read.csv(file.path(datadir4, "pribolof_fur_seal_stocks.csv"), as.is=T)
+diet_props4 <- read.csv(file.path(datadir4, "pribolof_fur_seal_diet_props.csv"), as.is=T)
+
 
 ################################################################################
 # Merge taxanomic keys
@@ -38,9 +54,11 @@ diet_info2 <- read.csv(paste(datadir2, "predator_diet_information.csv", sep="/")
 # Inspect colnames
 colnames(taxa1)
 colnames(taxa2)
+colnames(taxa3)
+colnames(taxa4)
 
 # Format taxanomic key
-taxa <- unique(rbind(taxa1, taxa2)) %>% 
+taxa <- unique(rbind.fill(taxa1, taxa2, taxa3, taxa4)) %>% 
   arrange(type, species_sub)
 
 # Any taxa requiring corrections?
@@ -65,6 +83,8 @@ colnames(diet_info2)
 # Inspect colnames
 colnames(diet_props1)
 colnames(diet_props2)
+colnames(diet_props3)
+colnames(diet_props4)
 
 # Columns for merged file
 # source, dietid, pred_comm, region, prey_comm
@@ -87,11 +107,21 @@ diet_props2f <- diet_props2 %>%
   select(source, dietid, pred_comm, region, prey_comm,
          prop_wt, prop_n, prop_energy, prop_occur, prop_model, prop_unk, prop_use, prop_use_type)
 
-# Merge data
-diet_props <- rbind(diet_props1f, diet_props2f)
+# Cury et al. 2011 was formatted before
 
-# Check completeness and confirm unique id
-apply(diet_props, 2, function(x) sum(is.na(x)))
+# Format Pribolof Island Northern fur seal data
+diet_props4f <- diet_props4 %>% 
+  rename(source=reference, region=area, prop_occur=diet_prop) %>% 
+  mutate(prop_use=prop_occur,
+         prop_use_type="occurence") %>% 
+  select(source, dietid, pred_comm, region, prey_comm, prop_occur, prop_use, prop_use_type)
+
+# Merge data
+diet_props <- rbind.fill(diet_props1f, diet_props2f, diet_props3, diet_props4f)
+
+# Check completeness
+freeR::complete(diet_props)
+
 
 
 ################################################################################
@@ -101,6 +131,8 @@ apply(diet_props, 2, function(x) sum(is.na(x)))
 # Inspect colnames
 colnames(pred_stocks1)
 colnames(pred_stocks2)
+colnames(pred_stocks3)
+colnames(pred_stocks4)
 
 # Columns for merged file
 # source, stocklong, stockid, dietid, region, area, location, 
@@ -120,8 +152,17 @@ pred_stocks2f <- pred_stocks2 %>%
          dietid=paste(pred_comm, region)) %>% 
   select(source, stocklong, stockid, dietid, region, area, location, pred_comm, pred_species, reference, n_units, n_yr)
 
+# Format Cury et al. (2011) data
+pred_stocks3f <- pred_stocks3 %>% 
+  select(-c(type, class, order, family)) %>% 
+  rename(pred_comm=comm_name, pred_species=species_sub)
+
+# Format Pribolof data
+pred_stocks4f <- pred_stocks4 %>% 
+  rename(pred_comm=comm_name, pred_species=species)
+
 # Merge data
-pred_stocks <- rbind(pred_stocks1f, pred_stocks2f) %>% 
+pred_stocks <- rbind.fill(pred_stocks1f, pred_stocks2f, pred_stocks3f, pred_stocks4f) %>% 
   left_join(select(taxa, type, class, order, family, species_sub), by=c("pred_species"="species_sub")) %>% 
   mutate(diet_yn=ifelse(dietid%in%diet_props$dietid, "Y", "N"),
          diet_prop=sapply(dietid, function(x) sum(diet_props$prop_use[diet_props$dietid==x], na.rm=T))) %>% 
@@ -141,6 +182,8 @@ apply(pred_stocks, 2, function(x) sum(is.na(x)))
 # Inspect colnames
 colnames(pred_ts1)
 colnames(pred_ts2)
+colnames(pred_ts3)
+colnames(pred_ts4)
 
 # Columns for merged file
 # source, stocklong, reference, year, n, n_units, catch, notes
@@ -157,8 +200,23 @@ pred_ts2f <- pred_ts2 %>%
          catch=NA) %>% 
   select(source, stocklong, reference, year, n, n_units, catch, notes)
 
+# Format Cury et al. (2011) data
+pred_ts3f <- pred_ts3 %>%
+  mutate(source="Cury et al. (2011)",
+         catch=NA, notes=NA) %>% 
+  select(source, stocklong, reference, year, n, n_units, catch, notes)
+
+# Format Pribolof data
+pred_ts4f <- pred_ts4 %>%
+  rename(n=abundance,
+         n_units=units) %>% 
+  mutate(source="Towell et al. (2016)", 
+         stocklong=paste(comm_name, island), 
+         catch=NA, notes=NA) %>% 
+  select(-c(island, species, comm_name))
+
 # Merge data
-pred_ts <- rbind(pred_ts1f, pred_ts2f)
+pred_ts <- rbind.fill(pred_ts1f, pred_ts2f, pred_ts3f, pred_ts4f)
 
 # Check completeness
 apply(pred_ts, 2, function(x) sum(is.na(x)))

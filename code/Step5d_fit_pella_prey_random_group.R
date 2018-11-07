@@ -21,7 +21,7 @@ codedir <- "code"
 outputdir <- "output"
 
 # Read data
-load(paste(datadir, "data_final.Rdata", sep="/"))
+load(paste(datadir, "data_final_sst.Rdata", sep="/"))
 
 # Helper functions
 source(file.path(codedir, "helper_functions.R"))
@@ -47,7 +47,7 @@ ngroups <- length(groups)
 
 # Output file
 # 50%=1.00, 45%=0.55, 40%=0.20, 37%=0.01
-p <- 1
+p <- 0.55
 outputfile <- paste0("pella_best_random_group_prey1.Rdata")
 
 

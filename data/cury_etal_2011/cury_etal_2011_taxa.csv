@@ -1,0 +1,22 @@
+type,comm_name,class,order,family,genus,species,species_sub
+birds,Arctic tern,Aves,Ciconiiformes,Laridae,Sterna,Sterna paradisaea,Sterna paradisaea
+birds,European shag,Aves,Ciconiiformes,Phalacrocoracidae,Phalacrocorax,Phalacrocorax aristotelis,Phalacrocorax aristotelis
+birds,Great skua,Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius skua,Stercorarius skua
+birds,Arctic skua,Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius parasiticus,Stercorarius parasiticus
+birds,Northern fulmar,Aves,Ciconiiformes,Procellariidae,Fulmarus,Fulmarus glacialis,Fulmarus glacialis
+birds,Atlantic puffin,Aves,Charadriiformes,Alcidae,Fratercula,Fratercula arctica,Fratercula arctica
+birds,Black-legged kittiwake,Aves,Ciconiiformes,Laridae,Rissa,Rissa tridactyla,Rissa tridactyla
+birds,Common guillemot,Aves,Charadriiformes,Alcidae,Uria,Uria aalge,Uria aalge
+birds,Rhinoceros auklet,Aves,Charadriiformes,Alcidae,Cerorhinca,Cerorhinca monocerata,Cerorhinca monocerata
+birds,African penguin,Aves,Sphenisciformes,Spheniscidae,Spheniscus,Spheniscus demersus,Spheniscus demersus
+birds,Cape gannet,Aves,Suliformes,Sulidae,Morus,Morus capensis,Morus capensis
+birds,Gentoo penguin,Aves,Sphenisciformes,Spheniscidae,Pygoscelis,Pygoscelis papua,Pygoscelis papua
+birds,Pigeon guillemot,Aves,Charadriiformes,Alcidae,Cepphus,Cepphus columba,Cepphus columba
+birds,Red-billed gull,Aves,Charadriiformes,Laridae,Chroicocephalus,Chroicocephalus novaehollandiae,Larus novaehollandiae scopulinus
+fish,Australian krill,Malacostraca,Euphausiacea,Euphausiidae,Nyctiphanes,Nyctiphanes australis,Nyctiphanes australis
+fish,Atlantic herring,Actinopterygii,Clupeiformes,Clupeidae,Clupea,Clupea harengus,Clupea harengus
+fish,Pacific sardine,Actinopterygii,Clupeiformes,Clupeidae,Sardinops,Sardinops sagax,Sardinops sagax
+fish,European anchovy,Actinopterygii,Clupeiformes,Engraulidae,Engraulis,Engraulis encrasicolus,Engraulis encrasicolus
+fish,Rockfish spp.,Actinopterygii,Scorpaeniformes,Sebastidae,Sebastes,Sebastes spp.,Sebastes spp.
+fish,Antarctic krill,Malacostraca,Euphausiacea,Euphausiidae,Euphausia,Euphausia superba,Euphausia superba
+fish,Sand lance/capelin/walleye pollock,Actinopterygii,Actinopterygii spp.,Actinopterygii spp.,Actinopterygii spp.,Actinopterygii spp.,Actinopterygii spp.

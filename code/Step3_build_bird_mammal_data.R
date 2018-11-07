@@ -12,8 +12,6 @@ library(freeR)
 
 # Directories
 datadir <- "data/merged_data"
-datadir1 <- "data/hilborn_etal_2017"
-datadir2 <- "data/new_data"
 outputdir <- "data"
 tabledir <- "tables"
 plotdir <- "figures"

@@ -16,9 +16,26 @@ datadir <- "data/cury_etal_2011/original"
 plotdir <- "data/cury_etal_2011/figures"
 
 # Read data
+taxa <- read.csv(file.path(outdir, "cury_etal_2011_taxa.csv"), as.is=T)
+diet_orig <- read.csv(file.path(datadir, "cury_etal_2011_diet_info.csv"), as.is=T)
 pred_orig <- read.csv(file.path(datadir, "predator_abundance_data_template2 NB.csv"), as.is=T, na.strings=c("", " "))
 prey_orig <- read.csv(file.path(datadir, "Biomass from Cury.csv"), as.is=T)
 
+
+# Format diet data
+################################################################################
+
+# Format data
+diet <- diet_orig %>% 
+  rename(pred_comm=predator, prey_comm=prey, prop_occur=percent) %>% 
+  mutate(source="Cury et al. (2011)", 
+         dietid=paste(pred_comm, region),
+         prop_use=prop_occur,
+         prop_use_type="occurence") %>% 
+  select(source, dietid, everything())
+
+# Check names
+diet$pred_comm[!diet$pred_comm%in%taxa$comm_name]
 
 # Format prey time series
 ################################################################################
@@ -26,21 +43,26 @@ prey_orig <- read.csv(file.path(datadir, "Biomass from Cury.csv"), as.is=T)
 # Format prey data
 prey <- prey_orig %>% 
   # Rename columns
-  rename(ref=Ref.Cury, year=Year, area=Main.LOC, location=Focused.LOC, 
+  rename(ref=Ref.Cury, year=Year, region=Main.LOC, location=Focused.LOC, 
          prey=Spp.Fish, n=Mean.Biomass, n_units=Unit, notes=Notes) %>% 
   # Format sci_name/comm_name
   mutate(comm_name=revalue(prey, c("anchovy"="European anchovy",
                                    "Euphausia superba"="Antarctic krill",
                                    "herring"="Atlantic herring",
-                                   "Nyctiphanes australis"="Nyctiphanes krill",
+                                   "Nyctiphanes australis"="Australian krill",
                                    "sand lance/capelin/pollock"="Sand lance/capelin/walleye pollock",
-                                   "sardine"="Sardine",
+                                   "sardine"="Pacific sardine",
                                    "Sebastes spp "="Rockfish spp.")),
          sci_name=revalue(prey, c("anchovy"="Engraulis encrasicolus",
                                   "herring"="Clupea harengus",
-                                  "sand lance/capelin/pollock"="Misc. spp.",
+                                  "sand lance/capelin/pollock"="Actinopterygii spp.",
                                   "sardine"="Sardinops sagax",
-                                  "Sebastes spp "="Sebastes spp."))) %>% 
+                                  "Sebastes spp "="Sebastes spp.")),
+         region=revalue(region, c("CA"="California Current",
+                                  "Benguela"="Benguela Current",
+                                  "Cook Inlet"="Gulf of Alaska",
+                                  "Scotia"="Scotia Sea",
+                                  "Norway"="Norwegian Sea"))) %>% 
   # Format units and type
   mutate(type=notes,
          type=ifelse(grepl("MR", n_units), n_units, type),
@@ -52,12 +74,12 @@ prey <- prey_orig %>%
   # Remove duplicated rows: Sand lance/capelin/walleye pollock Gull
   unique() %>% 
   # Arrange
-  select(stocklong, area, location, comm_name, sci_name, year, n, n_units, type, ref) %>% 
+  select(stocklong, region, location, comm_name, sci_name, year, n, n_units, type, ref) %>% 
   arrange(stocklong, year)
 
 # Prey pops
 prey_pops <- prey %>% 
-  group_by(stocklong, area, location, comm_name, sci_name) %>% 
+  group_by(stocklong, region, location, comm_name, sci_name) %>% 
   summarize(yr1=min(year),
             yr2=max(year),
             nyrs=n(),
@@ -65,6 +87,13 @@ prey_pops <- prey %>%
             n_units=paste(sort(unique(n_units)), collapse=", "),
             ref=paste(sort(unique(ref)), collapse=", ")) %>% 
   arrange(desc(nyrs))
+
+# Check taxa
+prey_pops$comm_name[!prey_pops$comm_name%in%taxa$comm_name]
+prey_pops$sci_name[!prey_pops$sci_name%in%taxa$species]
+
+# Check regions
+table(prey_pops$region)
 
 
 # Format Cury (non-JNCC) predator time series
@@ -74,6 +103,8 @@ prey_pops <- prey %>%
 pred1 <- pred_orig %>% 
   # Subset to non-JNCC data
   filter(!grepl("JNCC", reference)) %>% 
+  # Remove useless columns
+  select(-c(Date, NB.Notes, catch, catch_units)) %>% 
   # Format year and species names
   mutate(year=as.numeric(year),
          comm_name=paste0(toupper(substr(comm_name, 1, 1)), substr(comm_name, 2, nchar(comm_name))),
@@ -82,28 +113,46 @@ pred1 <- pred_orig %>%
                                         "Cape gannets"="Cape gannet",
                                         "Gentoo penguins"="Gentoo penguin",
                                         "Black leg kittiwake"="Black-legged kittiwake",
-                                        "Common murre"="Common guillemot"))) %>% 
+                                        "Common murre"="Common guillemot")),
+         region=revalue(region, c("Benguela"="Benguela Current"))) %>% 
+  # Format units
+  mutate(n_units=tolower(n_units), 
+         n_units=revalue(n_units, c("20-25000 range"="unknown", 
+                                    "31688, roseneau et al 2000"="unknown",
+                                    "breeding only; 6986 nishimoto and thomas 1991 in piatt 2002"="breeding only"))) %>% 
   # Add stock name
-  mutate(stocklong=paste(comm_name, location)) %>% 
+  mutate(stocklong=paste(comm_name, location, paste0("(", n_units, ")"))) %>% 
   # Arrange data and columns
   arrange(stocklong, year) %>% 
   select(stocklong, everything())
+
+# Inspect
+table(pred1$n_units)
 
 # Inspect species
 pred1_spp <- pred1 %>% 
   group_by(sci_name, comm_name) %>% 
   summarize(n=n())
+pred1_spp$sci_name[!pred1_spp$sci_name%in%taxa$species_sub]
+pred1_spp$comm_name[!pred1_spp$comm_name%in%taxa$comm_name]
 
 # Inspect populations
 pred1_pops <- pred1 %>%
-  group_by(stocklong) %>% 
+  group_by(stocklong, region, location, comm_name) %>% 
   summarize(yr1=min(year),
             yr2=max(year),
-            nyrs=n(),
             dupyrs=anyDuplicated(year),
+            n_yr=n(),
             n_units=paste(sort(unique(n_units)), collapse=", "),
-            ref=paste(sort(unique(reference)), collapse=", ")) %>% 
-  arrange(desc(nyrs))
+            reference=paste(sort(unique(reference)), collapse=", ")) %>% 
+  left_join(taxa, by="comm_name") %>% 
+  mutate(source="Cury et al. (2011)",
+         dietid=paste(comm_name, region),
+         area=region) %>% 
+  select(source, stocklong, dietid, region, area, location, 
+         type, class, order, family, species, species_sub, comm_name, 
+         reference, n_units, n_yr) %>% 
+  arrange(desc(n_yr))
 
 
 # Format JNCC predator time series
@@ -178,7 +227,7 @@ graphics.off()
 ################################################################################
 
 # Populations to use
-pred1_pops_use <- filter(pred1_pops, nyrs>=15)
+pred1_pops_use <- filter(pred1_pops, n_yr>=15)
 
 # Setup figure
 figname <- "Fig2_pred_time_series.pdf"
@@ -205,10 +254,12 @@ for(i in 1:nrow(pred1_pops_use)){
 dev.off()
 graphics.off()
 
+
 # Export data
 ################################################################################
 
 # Export data
+write.csv(diet, file=file.path(outdir, "cury_etal_2011_diet_props.csv"), row.names=F)
 write.csv(prey, file=file.path(outdir, "cury_etal_2011_prey_time_series.csv"), row.names=F)
 write.csv(prey_pops, file=file.path(outdir, "cury_etal_2011_prey_populations.csv"), row.names=F)
 write.csv(pred1, file=file.path(outdir, "cury_etal_2011_predator_time_series.csv"), row.names=F)

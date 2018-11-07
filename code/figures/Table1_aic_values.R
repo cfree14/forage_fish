@@ -23,15 +23,25 @@ tabledir <- "tables"
 p <- c(1.00, 0.55, 0.20, 0.01)
 sp <- paste0("pella", format(p, nsmall=2), ".Rdata")
 
-# PT Prey-linked (fixed effecst)
+# PT prey-linked (fixed effects)
 sp_prey_fixed <- "pella_best_fixed_prey1.Rdata"
 
+# PT prey-linked (random effects)
+sp_prey_random <- "pella_best_random_prey1.Rdata"
+
+# PT SST-linked (fixed effects)
+sp_sst_fixed <- "pella_best_fixed_sst.Rdata"
+
+# PT prey-linked (random effects)
+sp_sst_random <- "pella_best_random_sst.Rdata"
+
 # Merge models
-models <- c(sp, sp_prey_fixed)
+models <- c(sp, sp_prey_fixed, sp_prey_random, sp_sst_fixed, sp_sst_random)
 
 # Model name
 model_names <- c("PT-50%", "PT-45%", "PT-40%", "PT-37%", 
-                 "PT-45%-Fixed-Prey1")
+                 "PT-45%-Fixed-Prey1", "PT-45%-Random-Prey1", 
+                 "PT-45%-Fixed-SST", "PT-45%-Random-SST")
 length(models)==length(model_names)
 
 

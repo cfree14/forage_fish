@@ -70,6 +70,8 @@ for(i in 1:nrow(prey_stocks)){
   # Biology limits
   bmin <- floor(min(sdata$biomass, na.rm=T))
   bmax <- ceiling(max(sdata$biomass, na.rm=T))
+  if(bmin==-1){bmin <- min(sdata$biomass, na.rm=T)}
+  if(bmax==1){bmax <- max(sdata$biomass, na.rm=T)}
   tbmin <- floor(min(sdata$tb, na.rm=T))
   tbmax <- ceiling(max(sdata$tb, na.rm=T))
   ssbmin <- floor(min(sdata$ssb, na.rm=T))
@@ -203,6 +205,7 @@ prey_stocks1 <- prey_stocks %>%
                                        "US Southeast and Gulf"="USA/Canada East", 
                                        "US West Coast"="USA/Canada West"))) %>% 
   left_join(prey_n, by="stockid")
+table(prey_stocks1$region)
 
 # All but catch cols should be 0
 complete(prey_stocks1)
