@@ -49,8 +49,8 @@ p <- 0.55
 
 # Which variable?
 # prey1_b_sd or sst_c_sd
-# covariate <- "sst_c_sd"
-covariate <- "prey1_b_sd"
+covariate <- "sst_c_sd"
+# covariate <- "prey1_b_sd"
 
 # Build outfile name based on covariate
 if(covariate=="prey1_b_sd"){outputfile <- paste0("pella_best_random_prey1.Rdata")}

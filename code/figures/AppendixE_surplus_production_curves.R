@@ -6,9 +6,11 @@ rm(list = ls())
 ################################################################################
 
 # Packages
+library(freeR)
 library(plyr)
 library(dplyr)
 library(reshape2)
+library(RColorBrewer)
 
 # Directories
 datadir <- "data"

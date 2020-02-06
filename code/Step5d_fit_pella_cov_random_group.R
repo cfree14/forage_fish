@@ -48,7 +48,15 @@ ngroups <- length(groups)
 # Output file
 # 50%=1.00, 45%=0.55, 40%=0.20, 37%=0.01
 p <- 0.55
-outputfile <- paste0("pella_best_random_group_prey1.Rdata")
+
+# Which variable?
+# prey1_b_sd or sst_c_sd
+covariate <- "sst_c_sd"
+# covariate <- "prey1_b_sd"
+
+# Build outfile name based on covariate
+if(covariate=="prey1_b_sd"){outputfile <- paste0("pella_best_random_group_prey1.Rdata")}
+if(covariate=="sst_c_sd"){outputfile <- paste0("pella_best_random_group_sst.Rdata")}
 
 
 # Fit production model
@@ -83,7 +91,7 @@ input.data <- list(Nstocks=nstocks,
                    Group=as.factor(data$type),
                    B_t=data$tb_sd,
                    P_t=data$sp_sd,
-                   Prey_t=data$prey1_b_sd)
+                   Prey_t=as.numeric(unlist(data[,covariate])))
 
 # Initialization
 model <- MakeADFun(data=input.data, parameters=params, 

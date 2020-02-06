@@ -46,6 +46,7 @@ nstocks <- length(stocks)
 ################################################################################
 
 # Shape parameters
+# 50, 45, 40, 37%
 p <- c(1.0, 0.55, 0.20, 0.01)
 outfiles <- paste0("pella", format(p, nsmall=2), ".Rdata")
 

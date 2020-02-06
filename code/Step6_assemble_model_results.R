@@ -16,14 +16,26 @@ outputdir <- "output"
 
 # Which results to prepare?
 # sst or prey1
-type <- "sst"
+# random or fixed
+type <- "prey1"
+type1 <- "fixed"
 if(type=="prey1"){
-  infile <- "pella_best_fixed_prey1.Rdata"
-  outfile <- "pella_best_fixed_prey1_results.csv"
+  if(type1=="fixed"){
+    infile <- "pella_best_fixed_prey1.Rdata"
+    outfile <- "pella_best_fixed_prey1_results.csv"
+  }else{
+    infile <- "pella_best_random_prey1.Rdata"
+    outfile <- "pella_best_random_prey1_results.csv"
+  }
 }
 if(type=="sst"){
-  infile <- "pella_best_fixed_sst.Rdata"
-  outfile <- "pella_best_fixed_sst_results.csv"
+  if(type1=="fixed"){
+    infile <- "pella_best_fixed_sst.Rdata"
+    outfile <- "pella_best_fixed_sst_results.csv"
+  }else{
+    infile <- "pella_best_random_sst.Rdata"
+    outfile <- "pella_best_random_sst_results.csv"
+  }
 }
 
 # Read model output
@@ -37,10 +49,15 @@ load(file.path(datadir, "data_final_sst.Rdata"))
 ################################################################################
 
 # Build data
-output <- stocks %>% 
-  left_join(results, by="stockid") %>% 
-  filter(!is.na(r))
-
+if(type1=="fixed"){
+  output <- stocks %>% 
+    left_join(results, by="stockid") %>% 
+    filter(!is.na(r))
+}else{
+  output <- stocks %>% 
+    left_join(results[[1]], by="stockid") %>% 
+    filter(!is.na(r))
+}
 
 # Export data
 ################################################################################

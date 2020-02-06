@@ -54,6 +54,9 @@ diet <- diet_orig %>%
   # Rearrange columns
   select(source, dietid, pred_comm, pred_spp, region, prey_comm, prey_spp, everything()) 
 
+# Important prey threshold
+impt_prop <- 0.1
+
 # Diet id key
 diet_key <- diet %>%
   filter(prop_use_type!="none") %>% 
@@ -61,6 +64,9 @@ diet_key <- diet %>%
   summarise(nprey=n(),
             prey1=prey_comm[which.max(prop_use)], 
             prey1_prop=max(prop_use), 
+            nprey_impt=sum(prop_use>=impt_prop),
+            prey_impt=paste(prey_comm[prop_use>=impt_prop], collapse=", "), 
+            prey_impt_prop=sum(prop_use[prop_use>=impt_prop]),
             prey_prop=sum(prop_use))
 
 

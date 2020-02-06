@@ -147,11 +147,17 @@ plot(GUACORPERU ~ GUACORPERUSEA, peru_ts_wide)
 plot(PERBOOPERU ~ PERBOOPERUSEA, peru_ts_wide)
 plot(PERPELPERU ~ PERPELPERUSEA, peru_ts_wide)
 
+# Inspect two Guany cormorants remaining
+plot(GUACORPERU ~ GUACORPERU614S, peru_ts_wide) # GUACORPERU is more complete than GUACORPERU614S
+
 # Remove the Peruvian Sea (# of individuals) ones
 # The Peru (# of adults) ones are more complete
-peru_pops_to_remove <- c("GUACORPERUSEA", "PERBOOPERUSEA", "PERPELPERUSEA")
+peru_pops_to_remove <- c("GUACORPERUSEA", "PERBOOPERUSEA", "PERPELPERUSEA", "GUACORPERU614S")
 pred_stocks_use1 <- filter(pred_stocks_use, !stockid %in% peru_pops_to_remove)
 data1 <- filter(data, !stockid %in% peru_pops_to_remove)
+
+# Inspect SP curve for Guanay cormorant
+plot(sp ~ n, data1, subset=stockid=="GUACORPERU")
 
 
 # Export data
