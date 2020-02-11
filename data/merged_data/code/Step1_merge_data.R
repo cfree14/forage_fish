@@ -112,12 +112,15 @@ diet_props2f <- diet_props2 %>%
 # Format Pribolof Island Northern fur seal data
 diet_props4f <- diet_props4 %>% 
   rename(source=reference, region=area, prop_occur=diet_prop) %>% 
-  mutate(prop_use=prop_occur,
+  mutate(prop_occur=prop_occur/100,
+         prop_use=prop_occur,
          prop_use_type="occurence") %>% 
   select(source, dietid, pred_comm, region, prey_comm, prop_occur, prop_use, prop_use_type)
 
 # Merge data
 diet_props <- rbind.fill(diet_props1f, diet_props2f, diet_props3, diet_props4f)
+
+# Inspect diet prop ranges
 
 # Check completeness
 freeR::complete(diet_props)

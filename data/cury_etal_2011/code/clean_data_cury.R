@@ -30,8 +30,9 @@ diet <- diet_orig %>%
   rename(pred_comm=predator, prey_comm=prey, prop_occur=percent) %>% 
   mutate(source="Cury et al. (2011)", 
          dietid=paste(pred_comm, region),
+         prop_occur=prop_occur/100,
          prop_use=prop_occur,
-         prop_use_type="occurence") %>% 
+         prop_use_type=ifelse(!is.na(prop_occur), "occurence", "none")) %>% 
   select(source, dietid, everything())
 
 # Check names

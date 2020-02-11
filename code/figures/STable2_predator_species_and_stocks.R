@@ -40,8 +40,8 @@ write.csv(pred, file=file.path(tabledir, "TableS5_fish_predator_stock_summary.cs
 # region, stockid, common_name (species), area, years, biomass_type, source
 pred_stocks1 <- pred_stocks %>% 
   mutate(name= paste0(comm_name, " (", species, ")")) %>%
-  select(region, stockid, name, areaname, nprey, prey1, prey1_prop) %>% 
-  arrange(region, name) 
+  select(region, stockid, name, areaname, nprey, prey1, prey1_prop, prey_impt, prey_impt_prop) %>% 
+  arrange(region, name)
 
 # Export data
 write.csv(pred_stocks1, file=file.path(tabledir, "TableS6_fish_predator_stocks_all.csv"), row.names=F)
