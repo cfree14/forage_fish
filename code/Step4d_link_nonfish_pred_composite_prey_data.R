@@ -26,8 +26,20 @@ key_orig <- read.csv(file.path(tabledir, "nonfish_predator_to_prey_key.csv"), as
 
 # Format key
 key <- key_orig %>% 
-  select(stocklong, prey1_stocks) %>% 
-  filter(prey1_stocks!="no overlap") %>% 
+  # Reduce to stocki id, primary prey stocks, and additional prey stocks
+  select(stocklong, prey1_stocks, prey_add_stocks) %>% 
+  # Format prey stock columns
+  mutate(prey1_stocks_new=ifelse(prey1_stocks=="no overlap", NA, prey1_stocks),
+         prey_add_stocks_new=ifelse(prey_add_stocks%in%c("", "no overlap"), NA, prey_add_stocks)) %>% 
+  # Merge prey stock columns
+  mutate(prey_stocks_all=paste(prey1_stocks_new, prey_add_stocks_new, sep=", ") %>% 
+           gsub(", NA$|NA, ", "", .) %>% recode("NA"="no overlap")) %>% 
+  # Reduce columns
+  select(stocklong, prey_stocks_all, prey1_stocks_new, prey_add_stocks_new) %>% 
+  rename(prey_stocks_primary=prey1_stocks_new, prey_stocks_add=prey_add_stocks_new) %>% 
+  # Eliminate predators stocks with no overlapping prey
+  filter(prey_stocks_all!="no overlap") %>% 
+  # Create stockid
   mutate(stockid=revalue(stocklong, c("Arctic tern Foula (occupied territory)"="ARCTERFOULA",
                                       "Black-legged kittiwake Isle of May (nests, completed)"="BLAKITISLMAY",
                                       "Brandt cormorant South Farallon Island [breeding adults]"="BRACORFIS",
@@ -59,18 +71,57 @@ key <- key_orig %>%
                                       "Razorbill UK coast (index relative to 1986)"="RAZBILLUK",
                                       "Pigeon guillemot Farallon (breeding adults)"="PIGGUIFI",
                                       "Common guillemot Farallon (breeding adults)"="COMGUIFI",
-                                      "Black-legged kittiwake Vedoy (occupied nests)"="BLKVEDOY",
+                                      #"Black-legged kittiwake Vedoy (occupied nests)"="BLKVEDOY",
                                       "Atlantic puffin Hernyken (apparently occupied burrows)"="APUFFHERNYKEN",
                                       "African penguin W Cape (pairs)"="AFPENWCAPE",
                                       "Cape gannet W Cape (pairs)"="CGANNETWCAPE",
                                       "Cape gannet E Cape (pairs)"="CGANNETECAPE",
-                                      "Rhinoceros auklet Farallon (pairs)"="RAUKFARALLON",
+                                      #"Rhinoceros auklet Farallon (pairs)"="RAUKFARALLON",
                                       "Northern fur seal St. George"="NFURSTGEORGE",
                                       "Northern fur seal St. Paul"="NFURSTPAUL"))) %>% 
-  select(stockid, stocklong, prey1_stocks)
+  select(stockid, stocklong, prey_stocks_all, prey_stocks_primary, prey_stocks_add)
 
 # Any duplicated stockids?
 anyDuplicated(key$stockid)
+
+
+# Build composite prey time series
+################################################################################
+
+# Goal: Create composite prey stock time series and add to prey time series dataframe
+
+# Composite prey stocks
+comp_prey <- unique(key$prey_stocks_all[grepl(",", key$prey_stocks_all)])
+
+# Loop through composite prey stocks
+for(i in 1:length(comp_prey)){
+  
+  # Composite prey stocks
+  cprey <- comp_prey[i]
+  cprey_stocks <- unlist(strsplit( cprey, ", "))
+  
+  # Time series
+  cprey_ts <- subset(prey_ts, stockid %in% cprey_stocks)
+  cprey_ts_wide <- dcast(cprey_ts, year ~ stockid, value.var = "biomass")
+  cprey_ts_wide$biomass <- apply(cprey_ts_wide[,2:ncol(cprey_ts_wide)],1,sum)
+  cprey_ts_wide$biomass_type <- paste(sort(unique(cprey_ts$biomass_type)), collapse="/")
+  cprey_ts_wide$biomass_units <- paste(sort(unique(cprey_ts$biomass_units)), collapse="/")
+  
+  # Reduce and format
+  cprey_ts_use <- cprey_ts_wide %>% 
+    filter(!is.na(biomass)) %>%
+    mutate(stockid=cprey) %>% 
+    select(stockid, year, biomass, biomass_type, biomass_units)
+  
+  # Merge with others
+  if(i==1){cprey_final <- cprey_ts_use}else{cprey_final <- rbind(cprey_final, cprey_ts_use)}
+  
+}
+
+# Add composite stocks to prey time series
+prey_ts <- rbind.fill(prey_ts, cprey_final)
+
+
 
 
 # Build data
@@ -78,34 +129,35 @@ anyDuplicated(key$stockid)
 
 # Format data
 data <- bm_pred_ts %>%
-  # Reduce to predator stocks w/ overlapping prey stock
+  # Reduce to predator stocks w/ overlapping prey stocks
   filter(stocklong %in% key$stocklong) %>% 
-  # Add stockid and primary prey stocks
-  left_join(key, by="stocklong") %>% 
-  # Add primary prey
-  left_join(select(bm_pred_stocks, stocklong, prey1), by="stocklong") %>% 
+  # Add species names for primary prey and important prey
+  left_join(select(bm_pred_stocks, stocklong, prey1, prey_impt), by="stocklong") %>% 
+  # Add stockid and stockids for ALL prey stocks
+  left_join(select(key, stockid, stocklong, prey_stocks_all), by="stocklong") %>% 
   # Add prey time series
   left_join(select(prey_ts, stockid, year, biomass, biomass_type, biomass_units), 
-            by=c("prey1_stocks"="stockid", "year")) %>% 
+            by=c("prey_stocks_all"="stockid", "year")) %>% 
   # Rename prey columns
-  rename(prey1_b=biomass, prey1_btype=biomass_type, prey1_bunits=biomass_units) %>% 
+  rename(prey_stocks=prey_stocks_all, 
+         prey_b=biomass, prey_btype=biomass_type, prey_bunits=biomass_units) %>% 
   # Filter data
-  filter(!is.na(n) & !is.na(prey1_b) & !is.na(sp)) %>% 
+  filter(!is.na(n) & !is.na(prey_b) & !is.na(sp)) %>% 
   # Standardize data
   group_by(stockid) %>% 
   mutate(n_sd=n/max(n),
          sp_sd=sp/max(n),
-         # prey1_b_sd=prey1_b/max(prey1_b), # scale to maximum
-         prey1_b_sd=scale(prey1_b)) %>% # scale using z-score
+         # prey_b_sd=prey_b/max(prey_b), # scale to maximum
+         prey_b_sd=scale(prey_b)) %>% # scale using z-score
   # Reduce columns
   select(stockid, stocklong, year, catch, n, n_units, sp, sp_units, 
-         prey1, prey1_stocks, prey1_b, prey1_btype, prey1_bunits,
-         n_sd, sp_sd, prey1_b_sd) 
+         prey1, prey_impt, prey_stocks, prey_b, prey_btype, prey_bunits,
+         n_sd, sp_sd, prey_b_sd)
 
 # Confirm standardizations
 data.frame(tapply(data$n_sd, data$stockid, max, na.rm=T)) # must be 1
 # data.frame(tapply(data$prey1_b_sd, data$stockid, max, na.rm=T)) # must be 1
-data.frame(tapply(data$prey1_b_sd, data$stockid, mean, na.rm=T)) # must be 0
+data.frame(tapply(data$prey_b_sd, data$stockid, mean, na.rm=T)) # must be 0
 
 # Convince yourself that SP ~ TB is really the same as SP(sd) ~ TB(sd)
 stock <- unique(data$stockid)[4]
@@ -167,7 +219,7 @@ plot(sp ~ n, data1, subset=stockid=="GUACORPERU")
 data <- data1
 stocks <- pred_stocks_use1
 save(data, stocks,
-     file=file.path(datadir, "nonfish_pred_data_final.Rdata"))
+     file=file.path(datadir, "nonfish_pred_data_final_composite.Rdata"))
 
 
 

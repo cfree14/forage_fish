@@ -59,12 +59,12 @@ key <- key_orig %>%
                                       "Razorbill UK coast (index relative to 1986)"="RAZBILLUK",
                                       "Pigeon guillemot Farallon (breeding adults)"="PIGGUIFI",
                                       "Common guillemot Farallon (breeding adults)"="COMGUIFI",
-                                      "Black-legged kittiwake Vedoy (occupied nests)"="BLKVEDOY",
+                                      #"Black-legged kittiwake Vedoy (occupied nests)"="BLKVEDOY",
                                       "Atlantic puffin Hernyken (apparently occupied burrows)"="APUFFHERNYKEN",
                                       "African penguin W Cape (pairs)"="AFPENWCAPE",
                                       "Cape gannet W Cape (pairs)"="CGANNETWCAPE",
                                       "Cape gannet E Cape (pairs)"="CGANNETECAPE",
-                                      "Rhinoceros auklet Farallon (pairs)"="RAUKFARALLON",
+                                      #"Rhinoceros auklet Farallon (pairs)"="RAUKFARALLON",
                                       "Northern fur seal St. George"="NFURSTGEORGE",
                                       "Northern fur seal St. Paul"="NFURSTPAUL"))) %>% 
   select(stockid, stocklong, prey1_stocks)
