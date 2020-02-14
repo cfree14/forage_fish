@@ -20,39 +20,42 @@ datadir <- "data"
 codedir <- "code"
 outputdir <- "output"
 
-# Read data
-load(paste(datadir, "data_final_sst.Rdata", sep="/"))
-
 # Helper functions
 source(file.path(codedir, "helper_functions.R"))
 
 
-# Select data and model
+# Function to fit model
 ################################################################################
 
-# Remove problem stocks
-problem_stocks <- c("ELETERSDB", "SEALIONSCBpup",
-                    "PERPELPERU614S", "PERBOOPERU614S", # enormous influences
-                    "COMGUISHETALL", "HUMPBACKCAOR") # production unrelated to abundance
-data <- data %>% 
-  filter(!stockid %in% problem_stocks)
+# For testing
+# load(paste(datadir, "data_final_sst.Rdata", sep="/"))
+# dataset <- data
+# dataset_name <- "primary"
+# p <- 1
+  
+# Fit surplus production model
+fit_sp <- function(dataset, dataset_name, p){
 
-# Parameters
-stocks <- unique(data$stockid)
-nstocks <- length(stocks)
+  # 1. Format data
+  ######################################
 
-
-# Fit production model
-################################################################################
-
-# Shape parameters
-# 50, 45, 40, 37%
-p <- c(1.0, 0.55, 0.20, 0.01)
-outfiles <- paste0("pella", format(p, nsmall=2), ".Rdata")
-
-# Loop through shape parameters
-for(i in 1:length(p)){
-
+  # Poblem stocks
+  problem_stocks <- c("ELETERSDB", "SEALIONSCBpup",
+                      "PERPELPERU614S", "PERBOOPERU614S", # enormous influences
+                      "COMGUISHETALL", "HUMPBACKCAOR") # production unrelated to abundance
+  
+  # Remove problem stocks
+  data <- dataset %>% 
+    ungroup() %>% 
+    filter(!stockid %in% problem_stocks)
+  
+  # Parameters
+  stocks <- unique(data$stockid)
+  nstocks <- length(stocks)
+  
+  # 2. Fit production model
+  ######################################
+  
   # Compile TMB code
   # Only run once to compile code
   setwd(tmbdir)
@@ -61,7 +64,7 @@ for(i in 1:length(p)){
     file.remove(paste(tmbdir, c("pella.o", "pella.dll"), sep="/"))
     compile("pella.cpp")
   }
-  
+    
   # Load TMB code
   dyn.load(dynlib("pella"))
   
@@ -71,11 +74,11 @@ for(i in 1:length(p)){
                  ln_sigmaP=rep(-2.5, nstocks)) # -3 before, -1.25 based on model fits
   input.data <- list(Nstocks=nstocks,
                      Nobs=nrow(data),
-                     p=p[i],
+                     p=p,
                      StockID=as.factor(data$stockid),
                      B_t=data$tb_sd,
                      P_t=data$sp_sd)
-  
+    
   # Initialization
   model <- MakeADFun(data=input.data, parameters=params, DLL="pella")
   # model$control <- list(trace=1, parscale=rep(1,13), REPORT=1, reltol=1e-12, maxit=100)
@@ -83,8 +86,11 @@ for(i in 1:length(p)){
   # newtonOption(model, smartsearch=TRUE)
   
   # Run model
-  output <- TMBhelper::Optimize(obj=model, lower=-Inf, upper=Inf, loopnum=3, newtonsteps=3, bias.correct=FALSE, getsd=FALSE)
+  output <- TMBhelper::fit_tmb(obj=model, lower=-Inf, upper=Inf, loopnum=3, newtonsteps=3, bias.correct=FALSE, getsd=FALSE)
 
+  # 3. Check fit
+  ######################################
+  
   # Use hessian to diagnose fixed effects that might cause a problem
   hess <- optimHess(par=output$par, fn=model$fn, gr=model$gr)
   problem.vals <- which(eigen(hess)$values<0)
@@ -96,17 +102,43 @@ for(i in 1:length(p)){
   
   # Calculate SD
   sd <- try(sdreport(model, hessian.fixed=hess))
-  
+    
   # AIC of model
   TMBhelper::TMBAIC(output)
 
+  # 4. Export model fit
+  ######################################
+  
+  # Outfile name
+  outfile <- paste0(dataset_name, "_pella_", "", format(p, nsmall=2), "p.Rdata")
+  
   # Export model objects
   setwd("~/Dropbox/Chris/Rutgers/projects/forage_fish")
   save(data, stocks, nstocks,
        input.data, params,
        model, output, sd, hess, #results,
-       file=paste(outputdir, outfiles[i], sep="/"))
+       file=paste(outputdir, outfile, sep="/"))
 
 }
+
+
+# Fit models
+################################################################################
+
+# Primary prey dataset
+load(file.path(datadir, "data_final_sst.Rdata"))
+fit_sp(dataset=data, dataset_name="primary", p=1) # 50%
+fit_sp(dataset=data, dataset_name="primary", p=0.55) # 45%
+fit_sp(dataset=data, dataset_name="primary", p=0.20) # 40%
+fit_sp(dataset=data, dataset_name="primary", p=0.01) # 37%
+
+# Composite prey dataset
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
+fit_sp(dataset=data, dataset_name="composite", p=1) # 50%
+fit_sp(dataset=data, dataset_name="composite", p=0.55) # 45%
+fit_sp(dataset=data, dataset_name="composite", p=0.20) # 40%
+fit_sp(dataset=data, dataset_name="composite", p=0.01) # 37%
+
+
 
 

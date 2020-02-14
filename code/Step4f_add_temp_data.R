@@ -8,8 +8,7 @@ rm(list = ls())
 
 # Packages
 library(abind)
-library(plyr)
-library(dplyr)
+library(tidyverse)
 library(freeR)
 library(reshape2)
 library(RColorBrewer)
@@ -33,24 +32,25 @@ sstdir <- "/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/sst/dat
 load(file.path(datadir, "data_final.Rdata"))
 
 # Read RAM stock centroids
-ram_centers <- read.csv("/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/stock_boundaries/data/ramldb_v3.8_stock_boundary_centroids_areas_fixed.csv", as.is=T)
+ram_centers <- read.csv("/Users/cfree/Dropbox/Chris/Rutgers/projects/productivity/data/ram_boundaries/data/ramldb_v3.8_stock_boundary_centroids_areas_fixed.csv", as.is=T)
 
 # Projections
 wgs84 <- CRS("+proj=longlat +datum=WGS84")
 wgs84_text <- "+proj=longlat +datum=WGS84"
+
 
 # Add centroids
 ################################################################################
 
 # Get RAM centers
 ram <- ram_centers %>% 
-  select(assessid, lat_dd, long_dd) %>% 
+  dplyr::select(assessid, lat_dd, long_dd) %>% 
   mutate(stockid=sapply(assessid, function(x) strsplit(x, "-")[[1]][2]))
 
 # Add RAM centers to data
 stocks1 <- stocks %>% 
-  left_join(select(ram, -assessid), by="stockid") %>% 
-  select(stockid, stocklong, region, area, location, comm_name, lat_dd, long_dd)
+  left_join(dplyr::select(ram, -assessid), by="stockid") %>% 
+  dplyr::select(stockid, stocklong, region, area, location, comm_name, lat_dd, long_dd)
 
 # Export and fill in centroids
 # write.csv(stocks1, file.path(datadir, "pred_stock_centers_to_fill.csv"), row.names=F)
@@ -157,6 +157,12 @@ stemp <- atemp %>%
 # Add SST data to datasets
 ################################################################################
 
+# Primary prey
+######################################################
+
+# Read data
+load(file.path(datadir, "data_final.Rdata"))
+
 # Add SST to data
 data_orig <- data 
 data <- data_orig %>% 
@@ -164,10 +170,41 @@ data <- data_orig %>%
   group_by(stockid) %>% 
   mutate(sst_c_sd=sst_c-mean(sst_c))
 
+# Add centroid to stocks
+stocks <- stocks %>% 
+  left_join(dplyr::select(centroids, stockid, long_dd, lat_dd), by="stockid")
+
 # Check completeness
-complete(data)
+freeR::complete(data)
+freeR::complete(stocks)
 
 # Export data
 save(data, stocks,
      file=file.path(datadir, "data_final_sst.Rdata"))
+
+
+# Composite prey
+######################################################
+
+# Read data
+load(file.path(datadir, "data_composite_final.Rdata"))
+
+# Add SST to data
+data_orig <- data 
+data <- data_orig %>% 
+  left_join(atemp, by=c("stockid", "year")) %>% 
+  group_by(stockid) %>% 
+  mutate(sst_c_sd=sst_c-mean(sst_c))
+
+# Add centroid to stocks
+stocks <- stocks %>% 
+  left_join(dplyr::select(centroids, stockid, long_dd, lat_dd), by="stockid")
+
+# Check completeness
+freeR::complete(data)
+freeR::complete(stocks)
+
+# Export data
+save(data, stocks,
+     file=file.path(datadir, "data_composite_final_sst.Rdata"))
 

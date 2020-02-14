@@ -152,7 +152,16 @@ data2 <- rename(data2, tb=n, tb_units=n_units, tb_sd=n_sd)
 
 # Merge data
 data <- rbind.fill(data1, data2) %>% 
-  arrange(stockid, year)
+  arrange(stockid, year) %>% 
+  # Add primary prey time series
+  left_join(select(data_primary, stockid, year, prey1_stocks, prey1_b, prey1_btype, prey1_bunits, prey1_b_sd), by=c("stockid", "year")) %>% 
+  # Arrange columns
+  select(stockid, stocklong, year, 
+         catch, catch_sd, catch_type, catch_units, 
+         tb, tb_sd, tb_units, 
+         sp, sp_sd, sp_units, 
+         prey1, prey1_stocks, prey1_b, prey1_b_sd, prey1_btype, prey1_bunits, 
+         prey_impt, prey_stocks, prey_b, prey_b_sd, prey_btype, prey_bunits, everything())
 
 # Inspect
 freeR::complete(data)
