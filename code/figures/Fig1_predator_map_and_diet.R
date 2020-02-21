@@ -73,10 +73,12 @@ pred_diets <- stocks %>%
   gather(key="prop_type", value="prop_value", 3:5) %>% 
   mutate(prop_value=pmin(prop_value, 1),
          prop_type=recode(prop_type, 
-                          "prey_prop"="All prey", 
-                          "prey_impt_prop"="Critical prey only\n(>10% of diet)",
-                          "prey1_prop"="Primary prey only"),
-         prop_type=factor(prop_type, levels=c("All prey", "Critical prey only\n(>10% of diet)", "Primary prey only")))
+                          "prey_prop"="All forage fish prey", 
+                          "prey_impt_prop"="Critical forage fish\n prey only (>10% of diet each)",
+                          "prey1_prop"="Primary forage fish\nprey only"),
+         prop_type=factor(prop_type, levels=c("All forage fish prey", 
+                                              "Critical forage fish\n prey only (>10% of diet each)", 
+                                              "Primary forage fish\nprey only")))
 
 # Plot
 g2 <- ggplot(pred_diets, aes(x=prop_value, fill=type_label)) +
@@ -94,7 +96,7 @@ g2
 g <- grid.arrange(g1, g2, ncol=1)
 
 # Export
-ggsave(g, filename=file.path(plotdir, "figure_predator_map.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig1_predator_map_and_diet.png"), 
        width=6.5, height=6, units="in", dpi=600)
 
 

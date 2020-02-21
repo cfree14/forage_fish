@@ -1,11 +1,19 @@
-"model","k","lik","aic","daic"
-"PT-45%-Fixed-SST",188,-2101.15763732586,-3826.31527465172,0
-"PT-45%-Random-SST",143,-2037.54241427712,-3789.08482855425,37.230446097471
-"PT-45%-Random-Group-SST",144,-2037.54240841494,-3787.08481682988,39.2304578218395
-"PT-45%-Fixed-Prey1",188,-2076.53392815473,-3777.06785630947,49.2474183422491
-"PT-45%-Random-Prey1",143,-2020.37460735666,-3754.74921471331,71.5660599384069
-"PT-45%",141,-2018.01579579516,-3754.03159159032,72.2836830614001
-"PT-40%",141,-2017.40085022942,-3752.80170045885,73.5135741928702
-"PT-45%-Random-Group-Prey1",144,-2020.37460733503,-3752.74921467006,73.566059981662
-"PT-37%",141,-2015.14826119236,-3748.29652238473,78.0187522669894
-"PT-50%",141,-2014.44979254261,-3746.89958508523,79.4156895664905
+"model","k","lik","aic","dataset","model_type","covariate","daic"
+"composite_pella_0.55p_fixed_sst.Rdata",180,-2012.0388598215,-3664.07771964301,"Composite prey","Fixed effects","SST",0
+"composite_pella_0.55p_fixed_prey1.Rdata",180,-2000.31146804212,-3640.62293608424,"Composite prey","Fixed effects","Primary prey",23.4547835587682
+"composite_pella_0.55p_fixed_cprey.Rdata",180,-1997.69834072126,-3635.39668144253,"Composite prey","Fixed effects","Composite prey",28.6810382004805
+"composite_pella_0.55p_random_sst.Rdata",137,-1953.56927854954,-3633.13855709907,"Composite prey","Random effects","SST",30.9391625439334
+"composite_pella_0.55p_random_prey1.Rdata",137,-1940.58864729617,-3607.17729459234,"Composite prey","Random effects","Primary prey",56.9004250506728
+"composite_pella_0.55p.Rdata",135,-1938.29827278249,-3606.59654556497,"Composite prey","No covariate","No covariate",57.4811740780356
+"composite_pella_0.55p_random_cprey.Rdata",137,-1940.23242521728,-3606.46485043455,"Composite prey","Random effects","Composite prey",57.6128692084553
+"composite_pella_0.20p.Rdata",135,-1937.61884980597,-3605.23769961194,"Composite prey","No covariate","No covariate",58.8400200310643
+"composite_pella_0.01p.Rdata",135,-1935.27461961004,-3600.54923922007,"Composite prey","No covariate","No covariate",63.5284804229345
+"composite_pella_1.00p.Rdata",135,-1934.75038965395,-3599.50077930789,"Composite prey","No covariate","No covariate",64.5769403351132
+"primary_pella_0.55p_fixed_sst.Rdata",188,-2101.15763732586,-3826.31527465172,"Primary prey","Fixed effects","SST",0
+"primary_pella_0.55p_random_sst.Rdata",143,-2037.54241427712,-3789.08482855424,"Primary prey","Random effects","SST",37.2304460974728
+"primary_pella_0.55p_fixed_prey1.Rdata",188,-2076.53392815473,-3777.06785630947,"Primary prey","Fixed effects","Primary prey",49.2474183422473
+"primary_pella_0.55p_random_prey1.Rdata",143,-2020.37460735665,-3754.7492147133,"Primary prey","Random effects","Primary prey",71.5660599384141
+"primary_pella_0.55p.Rdata",141,-2018.01579579513,-3754.03159159025,"Primary prey","No covariate","No covariate",72.2836830614633
+"primary_pella_0.20p.Rdata",141,-2017.40085022942,-3752.80170045885,"Primary prey","No covariate","No covariate",73.5135741928698
+"primary_pella_0.01p.Rdata",141,-2015.14826119237,-3748.29652238473,"Primary prey","No covariate","No covariate",78.0187522669867
+"primary_pella_1.00p.Rdata",141,-2014.44979254261,-3746.89958508523,"Primary prey","No covariate","No covariate",79.4156895664896

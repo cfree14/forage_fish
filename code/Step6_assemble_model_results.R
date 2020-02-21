@@ -2,6 +2,7 @@
 # Clear workspace
 rm(list = ls())
 
+
 # Setup
 ################################################################################
 
@@ -14,54 +15,76 @@ library(freeR)
 datadir <- "data"
 outputdir <- "output"
 
-# Which results to prepare?
-# sst or prey1
-# random or fixed
-type <- "prey1"
-type1 <- "fixed"
-if(type=="prey1"){
-  if(type1=="fixed"){
-    infile <- "pella_best_fixed_prey1.Rdata"
-    outfile <- "pella_best_fixed_prey1_results.csv"
-  }else{
-    infile <- "pella_best_random_prey1.Rdata"
-    outfile <- "pella_best_random_prey1_results.csv"
-  }
-}
-if(type=="sst"){
-  if(type1=="fixed"){
-    infile <- "pella_best_fixed_sst.Rdata"
-    outfile <- "pella_best_fixed_sst_results.csv"
-  }else{
-    infile <- "pella_best_random_sst.Rdata"
-    outfile <- "pella_best_random_sst_results.csv"
-  }
-}
-
-# Read model output
-load(file.path(outputdir, infile))
-
-# Read model data
+# Load primary dataset
 load(file.path(datadir, "data_final_sst.Rdata"))
+data_prey1 <- data
+stocks_prey1 <- stocks
+
+# Load primary dataset
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
+data_cprey <- data
+stocks_cprey <- stocks
+rm(data, stocks)
+
+# Are all composite prey stocks in primary prey stocks
+n_distinct(data_cprey$stockid) == nrow(stocks_cprey)
+n_distinct(data_prey1$stockid) == nrow(stocks_prey1)
+sum(!stocks_cprey$stockid %in% stocks_prey1$stockid) # all composite prey stocks are in primary prey
 
 
 # Build data
 ################################################################################
 
-# Build data
-if(type1=="fixed"){
-  output <- stocks %>% 
-    left_join(results, by="stockid") %>% 
-    filter(!is.na(r))
-}else{
-  output <- stocks %>% 
-    left_join(results[[1]], by="stockid") %>% 
-    filter(!is.na(r))
-}
+# Output files
+outfiles <- list.files(outputdir, pattern=".Rdata") %>% .[grepl("fixed|random", .)]
+
+# Loop through and merge
+x <- outfiles[1]
+data1 <- purrr::map_df(outfiles, function(x) {
+  
+  # Load data
+  load(file.path(outputdir, x))
+  
+  # Format results based on type
+  if(grepl("random", x)){
+    results1 <- results[[1]] %>% 
+      mutate(outfile=x) %>% 
+      dplyr::select(outfile, everything())
+  }else{
+    results1 <- results %>% 
+      mutate(outfile=x) %>% 
+      dplyr::select(outfile, everything())
+  }
+  
+})
+
+# Format merged data
+data2 <- data1 %>% 
+  mutate(dataset=ifelse(grepl("primary", outfile), "primary", "composite"), 
+         framework=ifelse(grepl("random", outfile), "random", "fixed"),
+         covariate=ifelse(grepl("sst", outfile), "sst",
+                          ifelse(grepl("cprey", outfile), "composite", "primary"))) %>% 
+  left_join(stocks_prey1 %>% dplyr::select(stockid, type), by="stockid") %>% 
+  dplyr::select(outfile, dataset, framework, covariate, type, everything())
+
+
+# Inspect
+freeR::complete(data2)
+
 
 # Export data
 ################################################################################
 
-# Export data
-write.csv(output, file=file.path(outputdir, outfile), row.names=F)
+# Export output
+write.csv(data2, file=file.path(outputdir, "model_results.csv"), row.names=F)
+
+
+
+
+
+
+
+
+
+
 

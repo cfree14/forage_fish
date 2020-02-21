@@ -99,7 +99,8 @@ ts_stats <- timeseries_values_views %>%
             tc=sum(!is.na(TC)),
             r=sum(!is.na(R)),
             tb=sum(!is.na(TB)),
-            ssb=sum(!is.na(SSB))) %>% 
+            ssb=sum(!is.na(SSB)),
+            bbmsy=sum(!is.na(BdivBmsypref))) %>% 
   mutate(catch=ifelse(tc>=tl, tc, tl),
          biomass=ifelse(tb>=ssb, tb, ssb),
          catch_type=ifelse(tc>=tl, "tc", "tl"),
@@ -159,8 +160,8 @@ prey_stocks_use <- sort(stocks_prey3$stockid)
 # r, r_units, tb, tb_units, ssb, ssb_units, biomass, biomass_type, biomass_units
 prey_ts <- timeseries_values_views %>% 
   # Reduce/rename columns
-  select(stockid, stocklong, year, TL, TC, R, TB, SSB) %>% 
-  rename(tl=TL, tc=TC, r=R, tb=TB, ssb=SSB) %>% 
+  select(stockid, stocklong, year, TL, TC, R, TB, SSB, BdivBmsypref) %>% 
+  rename(tl=TL, tc=TC, r=R, tb=TB, ssb=SSB, bbmsy=BdivBmsypref) %>% 
   # Add units
   left_join(select(timeseries_units_views, stocklong, TL, TC, R, TB, SSB), by="stocklong") %>% 
   rename(tl_units=TL, tc_units=TC, r_units=R, tb_units=TB, ssb_units=SSB) %>% 
@@ -179,7 +180,7 @@ prey_ts <- timeseries_values_views %>%
          sp_units=ifelse(catch_units=="MT", tb_units, NA)) %>%
   ungroup() %>% 
   # Rearrange columns
-  select(stockid, stocklong, year, tl, tl_units, tc, tc_units, catch, catch_type, catch_units,
+  select(stockid, stocklong, year, bbmsy, tl, tl_units, tc, tc_units, catch, catch_type, catch_units,
          r, r_units, tb, tb_units, ssb, ssb_units, biomass, biomass_type, biomass_units, sp, sp_units)
 
 # Are the Hilborn et al. 2017 prey stocks included?

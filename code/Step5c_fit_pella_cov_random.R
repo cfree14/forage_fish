@@ -159,7 +159,8 @@ fit_sp(dataset=data, dataset_name="primary", covariate="sst_c_sd", covariate_nam
 
 # Composite prey dataset
 load(file.path(datadir, "data_composite_final_sst.Rdata"))
-fit_sp(dataset=data, dataset_name="composite", covariate="prey_b_sd", covariate_name="cprey", p=0.55) # primary prey
+fit_sp(dataset=data, dataset_name="composite", covariate="prey_b_sd", covariate_name="cprey", p=0.55) # composite prey
+fit_sp(dataset=data, dataset_name="composite", covariate="prey1_b_sd", covariate_name="prey1", p=0.55) # primary prey
 fit_sp(dataset=data, dataset_name="composite", covariate="sst_c_sd", covariate_name="sst", p=0.55) # SST
 
 
