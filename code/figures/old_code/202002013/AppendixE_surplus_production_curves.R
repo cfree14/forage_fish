@@ -18,10 +18,11 @@ outputdir <- "output"
 plotdir <- "figures"
 
 # Read model data
-load(file.path(datadir, "data_final.Rdata"))
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
 
 # Read model results
-stocks <- read.csv(file.path(outputdir, "pella_best_fixed_prey1_results.csv"), as.is=T)
+stocks <- read.csv(file.path(outputdir, "model_results.csv"), as.is=T) %>% 
+  filter(dataset=="composite" & framework=="fixed" & covariate=="composite")
 
 
 # Plot data
