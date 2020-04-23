@@ -11,6 +11,7 @@ library(TMB)
 library(TMBhelper)
 library(tidyverse)
 library(freeR)
+library(reshape2)
 
 # Directories
 tmbdir <- "code/tmb_code"
@@ -19,7 +20,7 @@ codedir <- "code"
 outputdir <- "output"
 
 # Read data
-data <- readRDS(file.path(datadir, "sim_data_for_power_analysis.Rds"))
+data_orig <- readRDS(file.path(datadir, "sim_data_for_power_analysis.Rds"))
 
 # Helper functions
 source(file.path(codedir, "helper_functions.R"))
@@ -30,6 +31,12 @@ source(file.path(codedir, "helper_functions.R"))
 # Add stock id
 # Eliminate stocks with negative biomass
 # Standardize sim stock biomass and surplus production
+
+# Format data
+################################################################################
+
+
+
 
 # Helper function
 ################################################################################
@@ -50,7 +57,7 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
   
   # Compile TMB code
   # Only run once to compile code
-  setwd(tmbdir)
+  # setwd(tmbdir)
   if(FALSE){
     dyn.unload(paste(tmbdir, dynlib("pella_prey_fixed"), sep="/"))
     file.remove(paste(tmbdir, c("pella_prey_fixed.o", "pella_prey_fixed.dll"), sep="/"))
@@ -58,7 +65,7 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
   }
   
   # Load TMB code
-  dyn.load(dynlib("pella_prey_fixed"))
+  dyn.load(file.path(getwd(), tmbdir, dynlib("pella_prey_fixed")))
   
   # Input data and parameter starting values
   params <- list(ln_B0=rep(1.5, nstocks),
@@ -108,6 +115,9 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
   # Format output
   results <- format_output(sd, stocks)
   
+  # Return results
+  return(results)
+  
   # # Plot results
   # plot_ests(results)
   # plot_thetas(results)
@@ -132,12 +142,16 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
 ################################################################################
 
 # Build scenario and iteration grid
-scen_grid <- data %>% 
+scen_grid <- data_orig %>% 
   select(theta, sigma, iter, stockid) %>% 
   unique() %>% 
   group_by(theta, sigma, iter) %>%
   summarize(nstocks=n()) %>% 
-  filter(theta>0.25)
+  mutate(scenario_id=paste(theta, sigma, iter, sep="_")) %>% 
+  select(scenario_id, everything()) %>% 
+  # filter(theta>0.25 & sigma!=0) %>% 
+  filter(theta>0 & sigma>0) %>% 
+  ungroup()
 
 # Loop through scenario grid
 x <- 1
@@ -147,11 +161,14 @@ results <-  purrr::map_df(1:nrow(scen_grid), function(x) {
   theta_do <- scen_grid$theta[x]
   sigma_do <- scen_grid$sigma[x]
   iter_do <- scen_grid$iter[x]
-  sdata <- data %>% 
+  scenario_id_do <- scen_grid$scenario_id[x]
+  sdata <- data_orig %>% 
     ungroup() %>% 
     filter(theta==theta_do & sigma==sigma_do & iter==iter_do) %>% 
-    mutate(tb_sd=b_sim/max(b_sim),
-           sp_sd=sp_sim/max(sp_sim))
+    group_by(stockid) %>% 
+    mutate(tb_sd=b_sim/max(b_sim, na.rm=T),
+           sp_sd=sp_sim/max(b_sim, na.rm=T)) %>% 
+    ungroup()
   
   # Remove problem stocks
   problem_stocks <- sdata %>% 
@@ -159,20 +176,67 @@ results <-  purrr::map_df(1:nrow(scen_grid), function(x) {
     summarise(problem=any(b_sim <0)) %>% 
     filter(problem)
   sdata <- sdata %>% 
-    filter(stockid!=problem_stocks$stockid)
+    filter(!stockid%in%problem_stocks$stockid)
+  n_distinct(sdata$stockid)
   
-  # Fit production model
-  # setwd("~/Dropbox/Chris/Rutgers/projects/forage_fish")
-  # dataset <- sdata; p <- 0.55; covariate = "prey_b_sd"
-  sresults <- fit_sp(dataset = sdata, dataset_name = "sim", p=0.55,
-                     covariate = "prey_b_sd", covariate_name = "cprey")
+  # Try fitting model
+  sresults <- try(fit_sp(dataset = sdata, dataset_name = "sim", p=0.55,
+                  covariate = "prey_b_sd", covariate_name = "cprey"))
+  
+  # If it works or doesn't work
+  if(!inherits(sresults, "try-error")){
+    # Add scenario info
+    sresults1 <- sresults %>% 
+      mutate(theta=theta_do,
+             sigma=sigma_do,
+             iter=iter_do,
+             scenario_id=scenario_id_do)
+  }else{
+    sresults1 <- data.frame(theta=theta_do,
+                            sigma=sigma_do,
+                            iter=iter_do,
+                            scenario_id=scenario_id_do)
+  }
+  
+  # Return
+  return(sresults1)
   
 })
 
+# Export results
+saveRDS(results, file=file.path(outputdir, "power_analysis_results.Rds"))
 
+# Calculate proportion
+################################################################################
 
+# Calculate proportions
+props <- results %>%
+  # Only fits with CIs
+  filter(param=="BetaT" & !is.na(est_lo)) %>% 
+  # Group by scenario and calc stats
+  group_by(scenario_id, theta, sigma, iter) %>% 
+  summarize(nstocks=n_distinct(stockid), 
+            nsigpos=sum(est_lo>0),
+            psigpos=nsigpos/nstocks) %>% 
+  ungroup() %>% 
+  # Calculate means by scenario
+  group_by(theta, sigma) %>% 
+  summarize(n=n(), 
+            psigpos=mean(psigpos)) %>% 
+  ungroup()
 
-
+# Plot power analysis
+g <- ggplot(props, aes(x=sigma, y=theta, fill=psigpos)) +
+  geom_raster() +
+  # Axis
+  scale_y_continuous(breaks=seq(0.25,1,0.25)) +
+  # Labels
+  labs(x="Process variability (σ)", y="Prey influence (θ)") +
+  scale_fill_gradientn(name="Proportion of signicant\npositive detections",
+                       colors=rev(RColorBrewer::brewer.pal(n=9, "RdBu"))) +
+  theme_bw() +
+  theme(legend.position = "bottom")
+g
 
 
 

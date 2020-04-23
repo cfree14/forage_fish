@@ -222,6 +222,24 @@ save(data, stocks,
      file=file.path(datadir, "nonfish_pred_data_final_composite.Rdata"))
 
 
+# Export stocks as CSV for table
+stocks_out <- stocks %>% 
+  select(region, stockid, name, area, prey1, prey1_prop, prey_impt, prey_impt_prop) %>% 
+  left_join(key %>% select(stockid, prey_stocks_primary, prey_stocks_add)) %>% 
+  select(region, stockid, name, area, prey1, prey_stocks_primary, prey1_prop, prey_impt, prey_stocks_add, prey_impt_prop) %>% 
+  mutate(region=recode(region, 
+                       "NE Pacific"="US/Canada West Coast",
+                       "NW Atlantic"="US/Canada East Coast",
+                       "Humboldt"="Humboldt Current",
+                       "NE Pacific"="US/Canada West Coast",
+                       "Norwegian Sea"="Europe",
+                       "Benguela Current"="South Africa",
+                       "Bering Sea"="US/Canada West Coast")) %>% 
+  arrange(region, name)
+
+
+write.csv(stocks_out, file=file.path(tabledir, "nonfish_pred_key_with_stockids.csv"), row.names=F)
+
 
 
 

@@ -25,6 +25,7 @@ data_orig <- read.csv(file.path(outputdir, "model_results.csv"))
 stockid_order <- data_orig %>% 
   # Composite dataset
   filter(dataset=="composite" & framework=="fixed" & covariate=="composite") %>% 
+  mutate(type=factor(type, levels=c("fish", "birds", "mammals"))) %>% 
   arrange(type, desc(betaT))
 
 # Format data
@@ -70,7 +71,7 @@ g <- ggplot(data, aes(x=betaT, y=stockid, col=betaT_inf)) +
   # Add vertical line
   geom_vline(xintercept=0, color="grey20") +
   # Add horizontal lines seperating groups
-  geom_hline(yintercept=c(11.5,39.5), linetype="dotted", color="grey30") +
+  geom_hline(yintercept=c(28.5,38.5), linetype="dotted", color="grey30") +
   # Constrain xlim
   # xlim(-4,4) +
   # Legend and labels
@@ -93,6 +94,7 @@ ggsave(g, filename=file.path(plotdir, "Fig2_composite_dataset_infuences.png"),
 # Format data
 stockid_order <- data_orig %>% 
   # Composite dataset
+  mutate(type=factor(type, levels=c("fish", "birds", "mammals"))) %>% 
   filter(dataset=="primary" & framework=="fixed" & covariate=="primary") %>% 
   arrange(type, desc(betaT))
 
@@ -126,7 +128,7 @@ g <- ggplot(data, aes(x=betaT, y=stockid, col=betaT_inf)) +
   # Add vertical line
   geom_vline(xintercept=0, color="grey20") +
   # Add horizontal lines seperating groups
-  geom_hline(yintercept=c(11.5,39.5), linetype="dotted", color="grey30") +
+  geom_hline(yintercept=c(28.5,39.5), linetype="dotted", color="grey30") +
   # Constrain xlim
   # xlim(-4,4) +
   # Legend and labels
@@ -137,7 +139,7 @@ g <- ggplot(data, aes(x=betaT, y=stockid, col=betaT_inf)) +
 g
 
 # Export figure
-ggsave(g, filename=file.path(plotdir, "Fig3_primary_dataset_infuences.png"), 
+ggsave(g, filename=file.path(plotdir, "FigSX_primary_dataset_infuences.png"), 
        width=6.5, height=7, units="in", dpi=600)
 
 

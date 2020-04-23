@@ -30,16 +30,17 @@ calc_c <- function(b, er){
 }
 
 # Calculate surplus production
-calc_sp <- function(r, K, p, b, prey, theta, sigma){
-  sp <- (r/p)*b*(1-(b/K)^p) * exp(prey*theta) * rnorm(1, mean=1, sd=sigma)
+calc_sp <- function(r, K, p, b, prey, theta, sigmaP){
+  sp <- (r/p)*b*(1-(b/K)^p) * exp(prey*theta) * exp(rnorm(1, mean=-sigmaP^2/2, sd=sigmaP))
 }
+
 
 
 # Run simulations
 ################################################################################
 
 # Parameters
-niter <- 10
+niter <- 100
 sigmas <- seq(0, 0.4, 0.1)
 thetas <- seq(0, 1, 0.25)
 param_grid <- expand.grid(sigma=sigmas, theta=thetas)
@@ -145,7 +146,7 @@ stats <- data_all %>%
             nstocks=mean(nstock))
 
 # Plot and example stock
-ex_stock <- data_all$stockid[1]
+ex_stock <- stocks$stockid[2]
 ex_data <- data_all %>% 
   filter(stockid==ex_stock)
 
@@ -160,7 +161,7 @@ my_theme <- theme(axis.text=element_text(size=8),
                   panel.background = element_blank(),
                   axis.line = element_line(colour = "black"))
 
-# Plot example data
+# Plot example biomass time series
 g <- ggplot(ex_data, aes(x=year, y=b_sim, group=iter)) +
   facet_grid(theta ~ sigma) +
   geom_line(col="grey70") +
@@ -168,6 +169,25 @@ g <- ggplot(ex_data, aes(x=year, y=b_sim, group=iter)) +
   theme_bw() + my_theme
 g
 
+
+# Plot example catch time series
+g <- ggplot(ex_data, aes(x=year, y=c_sim, group=iter)) +
+  facet_grid(theta ~ sigma) +
+  geom_line(col="grey70") +
+  labs(y="Catch", title=ex_stock) +
+  theme_bw() + my_theme
+g
+
+# Plot example production curves
+g <- ggplot(ex_data %>% filter(iter==1), 
+            aes(x=b_sim/1e3, y=sp_sim/1e3, color=prey_b_sd)) +
+  facet_grid(theta ~ sigma, scale="free_y") +
+  geom_point() +
+  labs(x="Biomass (1000s)", y="Production (1000s)", title=ex_stock) +
+  scale_color_gradient2(name="Prey abundance,\nstandardized", 
+                        low="darkred", high="navyblue", mid="white", midpoint=0) +
+  theme_bw() + my_theme
+g
 
 # Export data
 saveRDS(data_all, file=file.path(datadir, "sim_data_for_power_analysis.Rds"))

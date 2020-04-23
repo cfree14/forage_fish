@@ -25,7 +25,16 @@ world <- rnaturalearth::ne_countries(scale="large", type = "countries", returncl
 
 # Format predator stocks
 stocks <- stocks %>% 
-  mutate(type_label=recode(type, "birds"="Seabird", "fish"="Fish", "mammals"="Marine mammal"))
+  mutate(type_label=recode_factor(type, "fish"="Fish", "birds"="Seabird", "mammals"="Marine mammal"))
+
+
+# Stats for manuscript
+################################################################################
+
+# Number of fish stocks not from RAM
+stocks %>% 
+  filter(type=="fish" & reference!="RAM")
+
 
 
 # Plot data
@@ -60,9 +69,9 @@ map_theme <- theme(
 g1 <- ggplot() +
   geom_sf(data=world, fill="grey80", lwd=0.05, color="white") +
   geom_point(data=stocks, mapping=aes(x=long_dd, y=lat_dd, color=type_label, size=nprey)) +
-  labs(y="Adding space") +
+  labs(y="Adding space", tag="A") +
   scale_color_discrete(name="Predator type") +
-  scale_size_continuous(name="Number of\nimportant prey") +
+  scale_size_continuous(name="Number of\nimportant prey", range=c(1,3)) +
   theme_bw() + map_theme
 g1
 
@@ -72,6 +81,7 @@ pred_diets <- stocks %>%
   dplyr::select(stockid, type_label, prey_prop, prey_impt_prop, prey1_prop) %>% 
   gather(key="prop_type", value="prop_value", 3:5) %>% 
   mutate(prop_value=pmin(prop_value, 1),
+         prop_value=prop_value*100,
          prop_type=recode(prop_type, 
                           "prey_prop"="All forage fish prey", 
                           "prey_impt_prop"="Critical forage fish\n prey only (>10% of diet each)",
@@ -85,7 +95,7 @@ g2 <- ggplot(pred_diets, aes(x=prop_value, fill=type_label)) +
   geom_density(alpha=0.5) +
   facet_grid(~prop_type) +
   expand_limits(x=0) +
-  labs(x="Proportion of diet", y="Density") +
+  labs(x="Percentage of diet", y="Density", tag="B") +
   scale_fill_discrete(name="Predator type") +
   theme_bw() + my_theme +
   theme(legend.position = c(0.1, 0.76),

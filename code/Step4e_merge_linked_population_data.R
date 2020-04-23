@@ -7,8 +7,7 @@ rm(list = ls())
 ################################################################################
 
 # Packages
-library(plyr)
-library(dplyr)
+library(tidyverse)
 library(freeR)
 library(reshape2)
 
@@ -50,11 +49,11 @@ stocks1f <- stocks1 %>%
   select(stockid, stocklong, region, region_orig, areaname, reference,
          type, class, order, family, species, comm_name,
          tb_units, nprey, prey1, prey1_prop, prey_prop) %>% 
-  rename(area=region_orig, location=areaname, n_units=tb_units) 
+  dplyr::rename(area=region_orig, location=areaname, n_units=tb_units) 
 
 # Format 2
 stocks2f <- stocks2 %>%
-  rename(type=pred_type) %>% 
+  dplyr::rename(type=pred_type) %>% 
   select(stockid, stocklong, region, area, location, reference,
          type, class, order, family, species, comm_name,
          n_units, nprey, prey1, prey1_prop, prey_prop)

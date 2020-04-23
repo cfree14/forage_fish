@@ -1,0 +1,24 @@
+"region","stockid","name","area","prey1","prey_stocks_primary","prey1_prop","prey_impt","prey_stocks_add","prey_impt_prop"
+"Europe","ARCTERFOULA","Arctic tern (Sterna paradisaea)","Shetland Islands","Lesser sand-eel","SANDEELSA7",1,"Lesser sand-eel",NA,1
+"Europe","APUFFHERNYKEN","Atlantic puffin (Fratercula arctica)","Norwegian Sea","Herring","ATLHERRROST",0.56,"Herring",NA,0.56
+"Europe","COMGUISHETALL","Common guillemot (Uria aalge)","Shetland Islands","European sprat","SPRATNS",0.6865,"European sprat, Lesser sand-eel, Sandeel spp.","SANDEELSA7",1.59248888888889
+"Humboldt Current","GUACORPERU","Guanay cormorant (Phalacrocorax bougainvillii)","Peru","Peruvian anchoveta","PANCHPERUNC",0.335,"Peruvian anchoveta",NA,0.335
+"Humboldt Current","PERBOOPERU614S","Peruvian booby (Sula variegata)","Peru","Peruvian anchoveta","PANCHPERUNC",0.795671428571429,"Peruvian anchoveta",NA,0.795671428571429
+"Humboldt Current","PERBOOPERU","Peruvian booby (Sula variegata)","Peru","Peruvian anchoveta","PANCHPERUNC",0.795671428571429,"Peruvian anchoveta",NA,0.795671428571429
+"Humboldt Current","PERPELPERU614S","Peruvian pelican (Pelecanus thagus)","Peru","Peruvian anchoveta","PANCHPERUNC",0.8,"Peruvian anchoveta",NA,0.8
+"Humboldt Current","PERPELPERU","Peruvian pelican (Pelecanus thagus)","Peru","Peruvian anchoveta","PANCHPERUNC",0.8,"Peruvian anchoveta",NA,0.8
+"South Africa","AFPENWCAPE","African penguin (Spheniscus demersus)","Benguela Current","Sardine/anchovy","SARDSA",0.86,"Sardine/anchovy",NA,0.86
+"South Africa","CGANNETWCAPE","Cape gannet (Morus capensis)","Benguela Current","Sardine/anchovy","SARDSA",0.61,"Sardine/anchovy",NA,0.61
+"US/Canada East Coast","GSEALSABLEISL","Grey seal (Halichoerus grypus)","NW Atlantic","Atlantic mackerel","MACKNWATLSA3-4",0.162666666666667,"Atlantic mackerel",NA,0.162666666666667
+"US/Canada West Coast","BRACORFIF","Brandt cormorant (Phalacrocorax penicillatus)","California","Northern anchovy","NANCHSCAL",0.199925925925926,"Northern anchovy",NA,0.199925925925926
+"US/Canada West Coast","BRACORFIS","Brandt cormorant (Phalacrocorax penicillatus)","California","Northern anchovy","NANCHSCAL",0.199925925925926,"Northern anchovy",NA,0.199925925925926
+"US/Canada West Coast","SEALIONSCBpup","California sea lion (Zalophus californianus)","California","Northern anchovy","NANCHSCAL",0.107333333333333,"Northern anchovy",NA,0.107333333333333
+"US/Canada West Coast","COMGUIFIUU","Common guillemot (Uria aalge)","California","Pacific hake","PHAKEPCOAST",0.5425,"California market squid, Northern anchovy, Pacific hake","NANCHSCAL",0.921071428571429
+"US/Canada West Coast","ELETERSDB","Elegant tern (Thalasseus elegans)","California","Northern anchovy","NANCHSCAL",0.42809,"Northern anchovy",NA,0.42809
+"US/Canada West Coast","HUMPBACKCAOR","Humpback whale (Megaptera novaeangliae)","CA/OR","Pacific sardine","SARDPCOAST",0.514,"Northern anchovy, Pacific sardine","NANCHSCAL",0.727
+"US/Canada West Coast","NFURSTGEORGE","Northern fur seal (Callorhinus ursinus)","Pribolof Islands","Walleye pollock","WPOLLEBS",0.57370420325,"Armhook squid, Walleye pollock",NA,0.930191258483333
+"US/Canada West Coast","NFURSTPAUL","Northern fur seal (Callorhinus ursinus)","Pribolof Islands","Walleye pollock","WPOLLEBS",0.57370420325,"Armhook squid, Walleye pollock",NA,0.930191258483333
+"US/Canada West Coast","PHSEALWA","Pacific harbor seal (Phoca vitulina richardsi)","Washington","Pacific hake","PHAKEPCOAST",0.426,"Pacific hake",NA,0.426
+"US/Canada West Coast","PHSEALJFUCA","Pacific harbor seal (Phoca vitulina richardsi)","Washington","Pacific hake","PHAKEPCOAST",0.426,"Pacific hake",NA,0.426
+"US/Canada West Coast","PHSEALOR","Pacific harbor seal (Phoca vitulina richardsi)","Oregon","Pacific hake","PHAKEPCOAST",0.426,"Pacific hake",NA,0.426
+"US/Canada West Coast","PHSEALSJI","Pacific harbor seal (Phoca vitulina richardsi)","Washington","Pacific hake","PHAKEPCOAST",0.426,"Pacific hake",NA,0.426

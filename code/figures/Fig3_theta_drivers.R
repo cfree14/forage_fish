@@ -57,7 +57,7 @@ data <- stocks %>%
          prey1_prop_cap=pmin(prey1_prop, 1)) %>% 
   filter(!is.na(theta_prey1)) %>% 
   # Rename types
-  mutate(type=recode(type, "birds"="Seabird", "fish"="Fish", "mammals"="Marine mammal"))
+  mutate(type=recode(type, "birds"="Seabird", "fish"="Fish", "mammals"="Marine mammal")) 
 
 
 data$stocklong[data$theta_inf_cprey=="negative"]
@@ -89,14 +89,15 @@ my_theme <- theme(axis.text=element_text(size=7),
 g1 <- ggplot(data, aes(x=prey_prop_cap, y=theta_cprey, color=theta_inf_cprey)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\nforage fish in diet", 
-       y="Influence of composite prey\non predator productivity") +
+       y="Influence of composite prey\non predator productivity", tag="A") +
   xlim(0,1) +
   # geom_vline(xintercept=0.2, linetype="dotted", color="grey30") +
   geom_smooth(method="lm", color="black", lwd=0.75) +
+  annotate("text", label="r=0.07", x=0, y=min(data$theta_cprey), hjust=0, color="grey20", size=2) +
   geom_hline(yintercept=0, lwd=0.5) +
   scale_color_manual(name="", values=c("red", "grey20", "blue")) +
   theme_bw() + my_theme +
-  theme(legend.position=c(0.4, 0.8),
+  theme(legend.position=c(0.22, 0.87),
         legend.background = element_rect(fill=alpha('blue', 0)), 
         legend.key.size = unit(0.15, "in"))
 g1
@@ -105,10 +106,11 @@ g1
 g2 <- ggplot(data, aes(x=prey_impt_prop_cap, y=theta_cprey, color=theta_inf_cprey)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\ncritical prey in diet", 
-       y="Influence of composite prey\non predator productivity") +
+       y="Influence of composite prey\non predator productivity", tag="B") +
   xlim(0,1) +
   # geom_vline(xintercept=0.1, linetype="dotted", color="grey30") +
   geom_smooth(method="lm", color="black", lwd=0.75) +
+  annotate("text", label="r=0.08", x=0, y=min(data$theta_cprey), hjust=0, color="grey20", size=2) +
   geom_hline(yintercept=0, lwd=0.5) +
   scale_color_manual(name="", values=c("red", "grey20", "blue")) +
   theme_bw() + my_theme +
@@ -119,20 +121,21 @@ g2
 g3 <- ggplot(data, aes(x=prey1_prop_cap, y=theta_prey1, color=theta_inf_prey1)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\nprimary prey in diet", 
-       y="Influence of primary prey\non predator productivity") +
+       y="Influence of primary prey\non predator productivity", tag="C") +
   xlim(0,1) +
   # geom_vline(xintercept=0.1, linetype="dotted", color="grey30") +
   scale_color_manual(name="", values=c("red", "grey20", "blue")) +
   geom_smooth(method="lm", color="black", lwd=0.75) +
+  annotate("text", label="r=0.03", x=0, y=min(data$theta_prey1), hjust=0, color="grey20", size=2) +
   geom_hline(yintercept=0, lwd=0.5) +
   theme_bw() + my_theme +
-  theme(legend.position="none")
+  theme(legend.position="none") 
 g3
 
 # Merge plots
 g <- grid.arrange(g1, g2, g3, ncol=3)
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "Fig4_drivers_of_predator_influence.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig3_drivers_of_predator_influence.png"), 
        width=6.5, height=2.3, units="in", dpi=600)
 

@@ -32,12 +32,12 @@ source(file.path(codedir, "helper_functions.R"))
 ################################################################################
 
 # For testing
-# load(paste(datadir, "data_final_sst.Rdata", sep="/"))
-# dataset <- data
-# dataset_name <- "primary"
-# p <- 1
-# covariate <- "prey1_b_sd"
-# covariate_name <- "prey1"
+load(paste(datadir, "data_final_sst.Rdata", sep="/"))
+dataset <- data
+dataset_name <- "primary"
+p <- 1
+covariate <- "prey1_b_sd"
+covariate_name <- "prey1"
 
 # Fit surplus production model
 fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){

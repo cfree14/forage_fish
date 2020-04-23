@@ -6,9 +6,8 @@ rm(list = ls())
 ################################################################################
 
 # Packages
-library(plyr)
-library(dplyr)
 library(freeR)
+library(tidyverse)
 
 # Directories
 datadir <- "data"
@@ -29,7 +28,17 @@ prey <- prey_stocks %>%
   group_by(region, comm_name, species) %>% 
   summarize(nstocks=n()) %>% 
   mutate(name_format=paste0(comm_name, " (", species, ")")) %>% 
-  select(region, name_format, comm_name, species, nstocks)
+  ungroup() %>% 
+  mutate(region=recode(region, 
+                       "Benguela Current"="South Africa",
+                       "California Current"="US/Canada West Coast",
+                       "North Sea"="Europe",
+                       "Norwegian Sea"="Europe",
+                       "US Alaska"="US/Canada West Coast",
+                       "USA/Canada East"="US/Canada East Coast",
+                       "USA/Canada West"="US/Canada West Coast")) %>% 
+  select(region, name_format, nstocks) %>% 
+  arrange(region, name_format)
 
 # Export data
 write.csv(prey, file=file.path(tabledir, "TableS2_prey_stock_summary.csv"), row.names=F)
@@ -43,6 +52,14 @@ write.csv(prey, file=file.path(tabledir, "TableS2_prey_stock_summary.csv"), row.
 prey_stocks1 <- prey_stocks %>% 
   mutate(biomass_type=toupper(biomass_type),
          name= paste0(comm_name, " (", species, ")")) %>%
+  mutate(region=recode(region, 
+                       "Benguela Current"="South Africa",
+                       "California Current"="US/Canada West Coast",
+                       "North Sea"="Europe",
+                       "Norwegian Sea"="Europe",
+                       "US Alaska"="US/Canada West Coast",
+                       "USA/Canada East"="US/Canada East Coast",
+                       "USA/Canada West"="US/Canada West Coast")) %>% 
   select(region, stockid, name, areaname, biomass_type, yrs, nyr) %>% 
   arrange(region, name)
 
