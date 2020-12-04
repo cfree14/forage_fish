@@ -84,10 +84,10 @@ pred_diets <- stocks %>%
          prop_value=prop_value*100,
          prop_type=recode(prop_type, 
                           "prey_prop"="All forage fish prey", 
-                          "prey_impt_prop"="Critical forage fish\n prey only (>10% of diet each)",
+                          "prey_impt_prop"="Important forage fish\n prey only (>10% of diet each)",
                           "prey1_prop"="Primary forage fish\nprey only"),
          prop_type=factor(prop_type, levels=c("All forage fish prey", 
-                                              "Critical forage fish\n prey only (>10% of diet each)", 
+                                              "Important forage fish\n prey only (>10% of diet each)", 
                                               "Primary forage fish\nprey only")))
 
 # Plot

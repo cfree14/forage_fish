@@ -48,6 +48,22 @@ data_ci <- data %>%
   dplyr::select(stockid, framework, covariate, betaT_inf, betaT_lo, betaT_hi) %>% 
   gather(key="type", value="value", 5:6) %>% 
   mutate(value_cap=pmin(value, 10) %>% pmax(.,-10))
+
+# Percent pos/neg dataframe
+perc_df <- data %>% 
+  group_by(framework, covariate, type) %>% 
+  summarize(n=n(),
+            npos=sum(betaT>0),
+            nneg=sum(betaT<0),
+            npos_sig=sum(betaT_inf=="positive"),
+            nneg_sig=sum(betaT_inf=="negative"),
+            p_pos=paste0(round(npos/n*100), "%"),
+            p_neg=paste0(round(nneg/n*100), "%"),
+            p_pos_sig=paste0(round(npos_sig/n*100), "%"),
+            p_neg_sig=paste0(round(nneg_sig/n*100), "%")) %>% 
+  ungroup() %>% 
+  # Add y-plotting position
+  mutate(yval=recode(type, "birds"=37.5, "mammals"=44.5, "fish"=27.5) %>% as.numeric())
   
 
 # Setup theme
@@ -67,11 +83,16 @@ g <- ggplot(data, aes(x=betaT, y=stockid, col=betaT_inf)) +
   geom_line(data_ci, mapping=aes(x=value_cap, y=stockid, col=betaT_inf), alpha=0.5) +
   # Add points
   geom_point(size=0.8) +
-  facet_grid(framework ~ covariate, scales = "free_x") + 
+  facet_grid(framework ~ covariate) + 
   # Add vertical line
   geom_vline(xintercept=0, color="grey20") +
   # Add horizontal lines seperating groups
   geom_hline(yintercept=c(28.5,38.5), linetype="dotted", color="grey30") +
+  # Add percent labels
+  geom_text(data=perc_df, mapping=aes(x=-10, y=yval, label=p_neg_sig), color="red", size=2, hjust=0, alpha=0.65) +
+  geom_text(data=perc_df, mapping=aes(x=-10, y=yval-1, label=p_neg), color="grey40", size=2, hjust=0, alpha=0.65) +
+  geom_text(data=perc_df, mapping=aes(x=10, y=yval, label=p_pos_sig), color="blue", size=2, hjust=1, alpha=0.65) +
+  geom_text(data=perc_df, mapping=aes(x=10, y=yval-1, label=p_pos), color="grey40", size=2, hjust=1, alpha=0.65) +
   # Constrain xlim
   # xlim(-4,4) +
   # Legend and labels

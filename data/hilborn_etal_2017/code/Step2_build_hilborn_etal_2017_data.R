@@ -6,10 +6,7 @@ rm(list = ls())
 ################################################################################
 
 # Packages
-library(plyr)
-library(dplyr)
-library(reshape2)
-library(RColorBrewer)
+library(tidyverse)
 
 # Directories
 datadir <- "data/hilborn_etal_2017/"
@@ -32,7 +29,9 @@ diets <- read.csv(paste(datadir, "hilborn_etal_2017_diet_information.csv", sep="
 # prey proportions by mass > by numbers > by energetic contribution > by frequency of occurrence
 props <- diets %>% 
   group_by(pred_comm_name, ocean, prey_comm_name) %>% 
-  summarize(prop_wt=mean(prop_diet_by_wt, na.rm=T)/100,
+  summarize(nrefs=n_distinct(reference),
+            refs=paste(sort(unique(reference)), collapse=", "),
+            prop_wt=mean(prop_diet_by_wt, na.rm=T)/100,
             prop_n=mean(prop_diet_by_n, na.rm=T)/100,
             prop_energy=mean(prop_diet_by_energy, na.rm=T)/100,
             prop_occur=mean(prop_diet_by_occur, na.rm=T)/100) %>% 

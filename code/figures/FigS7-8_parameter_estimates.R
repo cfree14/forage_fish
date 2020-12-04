@@ -46,28 +46,49 @@ data <- results %>%
                                  "betaT"="Influence on\nproductivity, θ",
                                  "sigmaP"="Residual process\nvariability, σ"))
 
+# Count carrying capacity penalty frequency
+k_pen_freq <- data %>% 
+  filter(parameter=="Carrying capacity, K\n(prop. of max abundance)") %>% 
+  group_by(framework, covariate) %>% 
+  summarize(n=sum(value>=5))
+
+
+# Vertical line key
+vline_key <- data %>% 
+  select(covariate, parameter) %>% 
+  unique() %>% 
+  mutate(vline=ifelse(parameter=="Carrying capacity, K\n(prop. of max abundance)", 5, NA))
+
 # Plot fixed effects parameters
 g <- ggplot(data %>% filter(framework=="fixed"), aes(x=value)) +
   facet_grid(covariate ~ parameter, scales="free") +
   geom_histogram() +
+  # Vertical line
+  geom_vline(data=vline_key, mapping=aes(xintercept = vline), linetype="dotted") +
+  # Labels
   labs(x="Number of populations", y="Count", title="Fixed effects models") +
+  # Theme
   theme_bw() + my_theme
 g
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "FigS3_fixed_effects_model_param_hists.png"), 
+ggsave(g, filename=file.path(plotdir, "FigS7_fixed_effects_model_param_hists.png"), 
        width=6.5, height=5, units="in", dpi=600)
 
 # Plot random effects parameters
 g <- ggplot(data %>% filter(framework=="random"), aes(x=value)) +
   facet_grid(covariate ~ parameter, scales="free") +
   geom_histogram() +
+  # Vertical line
+  geom_vline(data=vline_key, mapping=aes(xintercept = vline), linetype="dotted") +
+  # Labels
   labs(x="Parameter value", y="Number of populations", title="Random effects models") +
+  # Theme
   theme_bw() + my_theme
 g
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "FigS4_random_effects_model_param_hists.png"), 
+ggsave(g, filename=file.path(plotdir, "FigS8_random_effects_model_param_hists.png"), 
        width=6.5, height=5, units="in", dpi=600)
 
 

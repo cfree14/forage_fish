@@ -28,7 +28,7 @@ data <- data_orig %>%
   mutate(type=recode_factor(type,
                             "fish"="Fish",
                             "birds"="Seabirds",
-                            "mammals"='Marine mammals'))
+                            "mammals"='Mammals'))
 
 # Plot histograms
 ################################################################################
@@ -56,20 +56,27 @@ my_theme <- theme(axis.text=element_text(size=8),
 
 # Plot timeline
 range(data$year)
-g1 <- ggplot(data, aes(x=year, y=stockid, fill=type)) +
+g1 <- ggplot(data, aes(x=year, y=stockid, fill=type, alpha=tb_sd)) +
   geom_raster() +
+  facet_grid(type~., scales="free_y", space="free_y") +
+  # Labels
   scale_x_continuous(breaks=seq(1950,2020,10)) +
-  theme_bw() +
+  scale_fill_discrete(guide=F) +
+  scale_alpha_continuous(name="Proportion\nof maximum abundance") +
+  # Theme
+  theme_bw() + my_theme + 
   theme(axis.title=element_blank(), 
-        legend.position = "none")
+        legend.position="bottom")
         #axis.text.x = element_text(angle = 90, vjust = 0.5))
 g1
 
 # Histograms
 g2 <- ggplot(ts_stats, aes(x=nyr, fill=type)) +
   facet_grid(~type) +
-  geom_histogram(binwidth=10) + 
-  labs(x="Time series length (yr)", y="Number of populations") +
+  geom_histogram(binwidth=5) + 
+  # Labels
+  labs(x="Time series length (yearr)", y="Number of populations") +
+  # Theme
   theme_bw() + my_theme +
   theme(legend.position = "none")
 g2

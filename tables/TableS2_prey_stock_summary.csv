@@ -1,28 +1,23 @@
 "region","name_format","nstocks"
-"Europe","Atlantic herring (Clupea harengus)",12
-"Europe","Atlantic herring (Clupea harengus)",1
-"Europe","Atlantic mackerel (Scomber scombrus)",1
-"Europe","Blue whiting (Micromesistius poutassou)",1
+"Europe","Atlantic herring (Clupea harengus)",13
+"Europe","Lesser sand-eel (Ammodytes marinus)",5
+"Europe","Whiting (Merlangius merlangus)",3
 "Europe","Capelin (Mallotus villosus)",2
 "Europe","European sprat (Sprattus sprattus)",2
-"Europe","Lesser sand-eel (Ammodytes marinus)",3
-"Europe","Lesser sand-eel (Ammodytes spp.)",2
+"Europe","Atlantic mackerel (Scomber scombrus)",1
+"Europe","Blue whiting (Micromesistius poutassou)",1
 "Europe","Norway pout (Trisopterus esmarkii)",1
-"Europe","Whiting (Merlangius merlangus)",3
 "Humboldt Current","Peruvian anchoveta (Engraulis ringens)",4
-"New Zealand","Australian krill (Nyctiphanes australis)",1
+"South Africa","Pacific sardine (Sardinops sagax)",3
 "South Africa","European anchovy (Engraulis encrasicolus)",2
-"South Africa","Pacific sardine (Sardinops sagax)",2
-"South Africa","Pacific sardine (Sardinops sagax)",1
 "US/Canada East Coast","Atlantic herring (Clupea harengus)",6
 "US/Canada East Coast","Atlantic mackerel (Scomber scombrus)",2
+"US/Canada East Coast","Northern shortfin squid (Illex illecebrosus)",2
 "US/Canada East Coast","Atlantic menhaden (Brevoortia tyrannus)",1
 "US/Canada East Coast","Gulf menhaden (Brevoortia patronus)",1
 "US/Canada East Coast","Longfin inshore squid (Doryteuthis pealeii)",1
-"US/Canada East Coast","Northern shortfin squid (Illex illecebrosus)",2
+"US/Canada West Coast","Walleye pollock (Theragra chalcogramma)",4
 "US/Canada West Coast","Northern anchovy (Engraulis mordax)",1
 "US/Canada West Coast","Pacific chub mackerel (Scomber japonicus)",1
 "US/Canada West Coast","Pacific hake (Merluccius productus)",1
 "US/Canada West Coast","Pacific sardine (Sardinops sagax)",1
-"US/Canada West Coast","Rockfish spp. (Sebastes spp.)",3
-"US/Canada West Coast","Walleye pollock (Theragra chalcogramma)",4

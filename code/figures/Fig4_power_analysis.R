@@ -61,18 +61,16 @@ my_theme <- theme(axis.text=element_text(size=8),
 
 # Theta estimates
 g1 <- ggplot(thetas, aes(x=est, fill=factor(sigma), group=factor(sigma))) +
-  geom_density(alpha=0.6, color="grey20", lwd=0.2) +
-  facet_wrap(~format(theta, nsmall=2), ncol=2, scale="free_y") +
-  geom_vline(mapping=aes(xintercept = theta), lwd=0.3,) +
+  geom_density(alpha=0.6, color="grey30", lwd=0.1) +
+  facet_wrap(~format(theta, nsmall=2), ncol=2) +
+  geom_vline(mapping=aes(xintercept = theta), lwd=0.15) + # , linetype="dotted"
   # geom_vline(xintercept=0, linetype="dotted", color="grey30") +
   labs(x="Influence of composite prey\non predator productivity", y="Density", tag="A") +
   scale_fill_discrete(name="Process\nvariability") +
   xlim(c(-0.1, 2)) +
   theme_bw() + my_theme +
   theme(legend.position = "bottom",
-        legend.background = element_rect(fill=alpha('blue', 0)),
-        axis.text.y=element_blank(),
-        axis.ticks.y=element_blank())
+        legend.background = element_rect(fill=alpha('blue', 0)))
 g1
 
 # Percent of significance detected

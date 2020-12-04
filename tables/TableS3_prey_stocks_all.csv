@@ -1,63 +1,63 @@
-"region","stockid","name","areaname","biomass_type","yrs","nyr"
-"Europe","ATLHERRROST","Atlantic herring (Clupea harengus)","Rost",NA,"1975-2004",29
-"Europe","HERR2224IIIa","Atlantic herring (Clupea harengus)","22-24-IIIa","SSB","1991-2016",26
-"Europe","HERR2529-32","Atlantic herring (Clupea harengus)","Subdivisions 25-29 and 32","SSB","1974-2016",43
-"Europe","HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea","SSB","1973-2016",44
-"Europe","HERR31","Atlantic herring (Clupea harengus)","Bothnian Bay","SSB","1980-2015",36
-"Europe","HERRIsum","Atlantic herring (Clupea harengus)","Iceland Grounds","TB","1987-2015",29
-"Europe","HERRNIRS","Atlantic herring (Clupea harengus)","Irish Sea","SSB","1961-2016",56
-"Europe","HERRNORSS","Atlantic herring (Clupea harengus)","I-II-IVa-V-XIVa","TB","1988-2015",28
-"Europe","HERRNS-IIIa-VIId","Atlantic herring (Clupea harengus)","IIIa, VIId and North Sea","SSB","1947-2016",70
-"Europe","HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland","SSB","1977-2016",40
-"Europe","HERRSIRS","Atlantic herring (Clupea harengus)","ICES VIIa-g-h-j","SSB","1958-2016",59
-"Europe","HERRVIa","Atlantic herring (Clupea harengus)","West of Scotland","TB","1957-2013",57
-"Europe","HERRVIaVIIbc","Atlantic herring (Clupea harengus)","VIa, VIIb and VIIc","SSB","1957-2016",60
-"Europe","MACKNEICES","Atlantic mackerel (Scomber scombrus)","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa","SSB","1980-2014",35
-"Europe","BWHITNEA","Blue whiting (Micromesistius poutassou)","Northeast Atlantic","SSB","1981-2015",35
-"Europe","CAPEIIa-V-XIV","Capelin (Mallotus villosus)","IIa-V-XIV","SSB","1979-2016",38
-"Europe","CAPENOR","Capelin (Mallotus villosus)","Barents Sea","TB","1972-2006",35
-"Europe","SPRAT22-32","European sprat (Sprattus sprattus)","Baltic Areas 22-32","TB","1974-2016",43
-"Europe","SPRATNS","European sprat (Sprattus sprattus)","North Sea","SSB","1974-2016",43
-"Europe","SEELNSSA1","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 1","SSB","1983-2016",34
-"Europe","SEELNSSA2","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 2","SSB","1983-2016",34
-"Europe","SEELNSSA3","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 3","SSB","1983-2016",34
-"Europe","SANDEELSA4","Lesser sand-eel (Ammodytes spp.)","Sandeel Area 4","TB","1993-2015",23
-"Europe","SANDEELSA7","Lesser sand-eel (Ammodytes spp.)","Sandeel Area 7","TB","1976-2004",29
-"Europe","NPOUTIIIa-IV","Norway pout (Trisopterus esmarkii)","IIIa and North Sea","SSB","1983-2014",32
-"Europe","WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId","TB","1990-2016",27
-"Europe","WHITVIa","Whiting (Merlangius merlangus)","West of Scotland","TB","1981-2016",36
-"Europe","WHITVIIek","Whiting (Merlangius merlangus)","Celtic Sea","SSB","1999-2016",18
-"Humboldt Current","PANCHCCH","Peruvian anchoveta (Engraulis ringens)","Central Chile","TB","1985-2016",32
-"Humboldt Current","PANCHCSCH","Peruvian anchoveta (Engraulis ringens)","Central-Southern Chile","TB","1990-2016",27
-"Humboldt Current","PANCHNCHSP","Peruvian anchoveta (Engraulis ringens)","Northern Chile Southern Peru","TB","1984-2015",32
-"Humboldt Current","PANCHPERUNC","Peruvian anchoveta (Engraulis ringens)","North-Central Peruvian coast","TB","1963-2015",53
-"New Zealand","AUSKRILLKAI","Australian krill (Nyctiphanes australis)","Kaikoura",NA,"1975-2004",30
-"South Africa","EANCHOROBBEN_SPWN","European anchovy (Engraulis encrasicolus)","Robben Island",NA,"1989-2004",16
-"South Africa","EANCHOROBBEN_YOY","European anchovy (Engraulis encrasicolus)","Robben Island",NA,"1989-2004",16
-"South Africa","PSARDROBBEN_SPWN","Pacific sardine (Sardinops sagax)","Robben Island",NA,"1989-2005",17
-"South Africa","PSARDROBBEN_YOY","Pacific sardine (Sardinops sagax)","Robben Island",NA,"1989-2005",17
-"South Africa","SARDSA","Pacific sardine (Sardinops sagax)","South Africa","SSB","1983-2015",33
-"US/Canada East Coast","HERR4RFA","Atlantic herring (Clupea harengus)","NAFO division 4R","SSB","1973-2003",31
-"US/Canada East Coast","HERR4RSP","Atlantic herring (Clupea harengus)","NAFO division 4R","TB","1965-2004",40
-"US/Canada East Coast","HERR4TFA","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37
-"US/Canada East Coast","HERR4TSP","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37
-"US/Canada East Coast","HERR4VWX","Atlantic herring (Clupea harengus)","Scotian Shelf and Bay of Fundy","TB","1965-2006",42
-"US/Canada East Coast","HERRNWATLC","Atlantic herring (Clupea harengus)","Northwestern Atlantic Coast","SSB","1965-2014",50
-"US/Canada East Coast","ATLMACKUSEAST","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic","SSB","1968-2016",49
-"US/Canada East Coast","MACKNWATLSA3-4","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic (NAFO Subareas 3 and 4)","TB","1968-2013",46
-"US/Canada East Coast","MENATLAN","Atlantic menhaden (Brevoortia tyrannus)","Atlantic","TB","1955-2016",62
-"US/Canada East Coast","MENATGM","Gulf menhaden (Brevoortia patronus)","Gulf of Mexico","TB","1977-2011",35
-"US/Canada East Coast","LISQUIDATLC","Longfin inshore squid (Doryteuthis pealeii)","Atlantic Coast","TB","1976-2009",34
-"US/Canada East Coast","ILLEXNAFO3-4","Northern shortfin squid (Illex illecebrosus)","Subareas 3+4","TB","1970-2015",46
-"US/Canada East Coast","ILLEXNWATLC","Northern shortfin squid (Illex illecebrosus)","Northwestern Atlantic Coast","TB","1967-2005",39
-"US/Canada West Coast","NANCHSCAL","Northern anchovy (Engraulis mordax)","Southern California","SSB","1951-2011",61
-"US/Canada West Coast","CMACKPCOAST","Pacific chub mackerel (Scomber japonicus)","Pacific Coast","TB","1983-2015",33
-"US/Canada West Coast","PHAKEPCOAST","Pacific hake (Merluccius productus)","Pacific Coast","SSB","1966-2016",51
-"US/Canada West Coast","SARDPCOAST","Pacific sardine (Sardinops sagax)","Pacific Coast","TB","1994-2016",23
-"US/Canada West Coast","ROCKSEFI1","Rockfish spp. (Sebastes spp.)","SE Farallon Island",NA,"1980-1997",18
-"US/Canada West Coast","ROCKSEFI2","Rockfish spp. (Sebastes spp.)","SE Farallon Island",NA,"1983-1997",15
-"US/Canada West Coast","ROCKSEFI3","Rockfish spp. (Sebastes spp.)","SE Farallon Island",NA,"1987-2002",16
-"US/Canada West Coast","WPOLLAI","Walleye pollock (Theragra chalcogramma)","Aleutian Islands","TB","1978-2015",38
-"US/Canada West Coast","WPOLLBOGO","Walleye pollock (Theragra chalcogramma)","Bogoslof","TB","1990-2015",26
-"US/Canada West Coast","WPOLLEBS","Walleye pollock (Theragra chalcogramma)","Eastern Bering Sea","TB","1964-2015",52
-"US/Canada West Coast","WPOLLGA","Walleye pollock (Theragra chalcogramma)","Gulf of Alaska","TB","1970-2015",46
+"region","stockid","name","areaname","biomass_type","yrs","nyr","source"
+"Europe","ATLHERRROST","Atlantic herring (Clupea harengus)","Rost","Index","1975-2004",29,"Anker-Nilssen and Aavark 2006"
+"Europe","HERR2224IIIa","Atlantic herring (Clupea harengus)","22-24-IIIa","SSB","1991-2016",26,"RAM Legacy Database"
+"Europe","HERR2529-32","Atlantic herring (Clupea harengus)","Subdivisions 25-29 and 32","SSB","1974-2016",43,"RAM Legacy Database"
+"Europe","HERR30","Atlantic herring (Clupea harengus)","Bothnian Sea","SSB","1973-2016",44,"RAM Legacy Database"
+"Europe","HERR31","Atlantic herring (Clupea harengus)","Bothnian Bay","SSB","1980-2015",36,"RAM Legacy Database"
+"Europe","HERRIsum","Atlantic herring (Clupea harengus)","Iceland Grounds","TB","1987-2015",29,"RAM Legacy Database"
+"Europe","HERRNIRS","Atlantic herring (Clupea harengus)","Irish Sea","SSB","1961-2016",56,"RAM Legacy Database"
+"Europe","HERRNORSS","Atlantic herring (Clupea harengus)","I-II-IVa-V-XIVa","TB","1988-2015",28,"RAM Legacy Database"
+"Europe","HERRNS-IIIa-VIId","Atlantic herring (Clupea harengus)","IIIa, VIId and North Sea","SSB","1947-2016",70,"RAM Legacy Database"
+"Europe","HERRRIGA","Atlantic herring (Clupea harengus)","Gulf of Riga East of Gotland","SSB","1977-2016",40,"RAM Legacy Database"
+"Europe","HERRSIRS","Atlantic herring (Clupea harengus)","ICES VIIa-g-h-j","SSB","1958-2016",59,"RAM Legacy Database"
+"Europe","HERRVIa","Atlantic herring (Clupea harengus)","West of Scotland","TB","1957-2013",57,"RAM Legacy Database"
+"Europe","HERRVIaVIIbc","Atlantic herring (Clupea harengus)","VIa, VIIb and VIIc","SSB","1957-2016",60,"RAM Legacy Database"
+"Europe","MACKNEICES","Atlantic mackerel (Scomber scombrus)","IIa-IIIabd-IV-Vb-VI-VII-VIIIabcde-XII-XIV-Ixa","SSB","1980-2014",35,"RAM Legacy Database"
+"Europe","BWHITNEA","Blue whiting (Micromesistius poutassou)","Northeast Atlantic","SSB","1981-2015",35,"RAM Legacy Database"
+"Europe","CAPEIIa-V-XIV","Capelin (Mallotus villosus)","IIa-V-XIV","SSB","1979-2016",38,"RAM Legacy Database"
+"Europe","CAPENOR","Capelin (Mallotus villosus)","Barents Sea","TB","1972-2006",35,"RAM Legacy Database"
+"Europe","SPRAT22-32","European sprat (Sprattus sprattus)","Baltic Areas 22-32","TB","1974-2016",43,"RAM Legacy Database"
+"Europe","SPRATNS","European sprat (Sprattus sprattus)","North Sea","SSB","1974-2016",43,"RAM Legacy Database"
+"Europe","SEELNSSA1","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 1","SSB","1983-2016",34,"RAM Legacy Database"
+"Europe","SEELNSSA2","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 2","SSB","1983-2016",34,"RAM Legacy Database"
+"Europe","SEELNSSA3","Lesser sand-eel (Ammodytes marinus)","Sandeel Area 3","SSB","1983-2016",34,"RAM Legacy Database"
+"Europe","SANDEELSA4","Lesser sand-eel (Ammodytes spp.)","Sandeel Area 4","TB","1993-2015",23,"ICES 2016"
+"Europe","SANDEELSA7","Lesser sand-eel (Ammodytes spp.)","Sandeel Area 7","TB","1976-2004",29,"Furness 2007"
+"Europe","NPOUTIIIa-IV","Norway pout (Trisopterus esmarkii)","IIIa and North Sea","SSB","1983-2014",32,"RAM Legacy Database"
+"Europe","WHITNS-VIId","Whiting (Merlangius merlangus)","IV and VIId","TB","1990-2016",27,"RAM Legacy Database"
+"Europe","WHITVIa","Whiting (Merlangius merlangus)","West of Scotland","TB","1981-2016",36,"RAM Legacy Database"
+"Europe","WHITVIIek","Whiting (Merlangius merlangus)","Celtic Sea","SSB","1999-2016",18,"RAM Legacy Database"
+"Humboldt Current","PANCHCCH","Peruvian anchoveta (Engraulis ringens)","Central Chile","TB","1985-2016",32,"RAM Legacy Database"
+"Humboldt Current","PANCHCSCH","Peruvian anchoveta (Engraulis ringens)","Central-Southern Chile","TB","1990-2016",27,"RAM Legacy Database"
+"Humboldt Current","PANCHNCHSP","Peruvian anchoveta (Engraulis ringens)","Northern Chile Southern Peru","TB","1984-2015",32,"RAM Legacy Database"
+"Humboldt Current","PANCHPERUNC","Peruvian anchoveta (Engraulis ringens)","North-Central Peruvian coast","TB","1963-2015",53,"RAM Legacy Database"
+"New Zealand","AUSKRILLKAI","Australian krill (Nyctiphanes australis)","Kaikoura","Index","1975-2004",30,"Mills et al. 2008"
+"South Africa","EANCHOROBBEN_SPWN","European anchovy (Engraulis encrasicolus)","Robben Island","Index","1989-2004",16,"Crawford et al. 2006"
+"South Africa","EANCHOROBBEN_YOY","European anchovy (Engraulis encrasicolus)","Robben Island","Index","1989-2004",16,"Crawford et al. 2006"
+"South Africa","PSARDROBBEN_SPWN","Pacific sardine (Sardinops sagax)","Robben Island","Index","1989-2005",17,"Crawford et al. 2006"
+"South Africa","PSARDROBBEN_YOY","Pacific sardine (Sardinops sagax)","Robben Island","Index","1989-2005",17,"Crawford et al. 2006"
+"South Africa","SARDSA","Pacific sardine (Sardinops sagax)","South Africa","SSB","1983-2015",33,"RAM Legacy Database"
+"US/Canada East Coast","HERR4RFA","Atlantic herring (Clupea harengus)","NAFO division 4R","SSB","1973-2003",31,"RAM Legacy Database"
+"US/Canada East Coast","HERR4RSP","Atlantic herring (Clupea harengus)","NAFO division 4R","TB","1965-2004",40,"RAM Legacy Database"
+"US/Canada East Coast","HERR4TFA","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37,"RAM Legacy Database"
+"US/Canada East Coast","HERR4TSP","Atlantic herring (Clupea harengus)","Southern Gulf of St. Lawrence","SSB","1978-2014",37,"RAM Legacy Database"
+"US/Canada East Coast","HERR4VWX","Atlantic herring (Clupea harengus)","Scotian Shelf and Bay of Fundy","TB","1965-2006",42,"RAM Legacy Database"
+"US/Canada East Coast","HERRNWATLC","Atlantic herring (Clupea harengus)","Northwestern Atlantic Coast","SSB","1965-2014",50,"RAM Legacy Database"
+"US/Canada East Coast","ATLMACKUSEAST","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic","SSB","1968-2016",49,"NEFSC 2018"
+"US/Canada East Coast","MACKNWATLSA3-4","Atlantic mackerel (Scomber scombrus)","Northwest Atlantic (NAFO Subareas 3 and 4)","TB","1968-2013",46,"RAM Legacy Database"
+"US/Canada East Coast","MENATLAN","Atlantic menhaden (Brevoortia tyrannus)","Atlantic","TB","1955-2016",62,"RAM Legacy Database"
+"US/Canada East Coast","MENATGM","Gulf menhaden (Brevoortia patronus)","Gulf of Mexico","TB","1977-2011",35,"RAM Legacy Database"
+"US/Canada East Coast","LISQUIDATLC","Longfin inshore squid (Doryteuthis pealeii)","Atlantic Coast","TB","1976-2009",34,"RAM Legacy Database"
+"US/Canada East Coast","ILLEXNAFO3-4","Northern shortfin squid (Illex illecebrosus)","Subareas 3+4","TB","1970-2015",46,"Hendrickson and Showell 2016"
+"US/Canada East Coast","ILLEXNWATLC","Northern shortfin squid (Illex illecebrosus)","Northwestern Atlantic Coast","TB","1967-2005",39,"RAM Legacy Database"
+"US/Canada West Coast","NANCHSCAL","Northern anchovy (Engraulis mordax)","Southern California","SSB","1951-2011",61,"MacCall et al. 2016"
+"US/Canada West Coast","CMACKPCOAST","Pacific chub mackerel (Scomber japonicus)","Pacific Coast","TB","1983-2015",33,"RAM Legacy Database"
+"US/Canada West Coast","PHAKEPCOAST","Pacific hake (Merluccius productus)","Pacific Coast","SSB","1966-2016",51,"RAM Legacy Database"
+"US/Canada West Coast","SARDPCOAST","Pacific sardine (Sardinops sagax)","Pacific Coast","TB","1994-2016",23,"RAM Legacy Database"
+"US/Canada West Coast","ROCKSEFI1","Rockfish spp. (Sebastes spp.)","SE Farallon Island","Index","1980-1997",18,"Mills et al. 2007"
+"US/Canada West Coast","ROCKSEFI2","Rockfish spp. (Sebastes spp.)","SE Farallon Island","Index","1983-1997",15,"Mills et al. 2007"
+"US/Canada West Coast","ROCKSEFI3","Rockfish spp. (Sebastes spp.)","SE Farallon Island","Index","1987-2002",16,"Mills et al. 2007"
+"US/Canada West Coast","WPOLLAI","Walleye pollock (Theragra chalcogramma)","Aleutian Islands","TB","1978-2015",38,"RAM Legacy Database"
+"US/Canada West Coast","WPOLLBOGO","Walleye pollock (Theragra chalcogramma)","Bogoslof","TB","1990-2015",26,"RAM Legacy Database"
+"US/Canada West Coast","WPOLLEBS","Walleye pollock (Theragra chalcogramma)","Eastern Bering Sea","TB","1964-2015",52,"RAM Legacy Database"
+"US/Canada West Coast","WPOLLGA","Walleye pollock (Theragra chalcogramma)","Gulf of Alaska","TB","1970-2015",46,"RAM Legacy Database"

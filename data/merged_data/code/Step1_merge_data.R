@@ -92,11 +92,11 @@ colnames(diet_props4)
 
 # Format Hilborn et al. (2017) data
 diet_props1f <- diet_props1 %>% 
-  rename(pred_comm=pred_comm_name, region=ocean, prey_comm=prey_comm_name) %>% 
+  rename(pred_comm=pred_comm_name, region=ocean, prey_comm=prey_comm_name, references=refs) %>% 
   mutate(source="Hilborn et al. (2017)",
          dietid=paste(pred_comm, region),
          prop_model=NA, prop_unk=NA) %>% 
-  select(source, dietid, pred_comm, region, prey_comm,
+  select(source, dietid, pred_comm, region, prey_comm, nrefs, references, 
          prop_wt, prop_n, prop_energy, prop_occur, prop_model, prop_unk, prop_use, prop_use_type)
 
 # Format Free et al. (in prep) data
@@ -104,21 +104,28 @@ diet_props2f <- diet_props2 %>%
   rename(dietid=diet_id) %>% 
   mutate(source="Free et al. (in prep)", 
          prop_energy=NA) %>% 
-  select(source, dietid, pred_comm, region, prey_comm,
+  select(source, dietid, pred_comm, region, prey_comm,  nrefs, references, 
          prop_wt, prop_n, prop_energy, prop_occur, prop_model, prop_unk, prop_use, prop_use_type)
 
-# Cury et al. 2011 was formatted before
+# Format Cury et al. 2011 data
+diet_props3f <- diet_props3 %>% 
+  mutate(nrefs=1,
+         references=source) %>% 
+  select(source, dietid, pred_comm, region, prey_comm, nrefs, references, everything())
 
 # Format Pribolof Island Northern fur seal data
 diet_props4f <- diet_props4 %>% 
   rename(source=reference, region=area, prop_occur=diet_prop) %>% 
-  mutate(prop_occur=prop_occur/100,
+  mutate(nrefs=1,
+         references=source,
+         prop_occur=prop_occur/100,
          prop_use=prop_occur,
          prop_use_type="occurence") %>% 
-  select(source, dietid, pred_comm, region, prey_comm, prop_occur, prop_use, prop_use_type)
+  select(source, dietid, pred_comm, region, prey_comm, nrefs, references,
+         prop_occur, prop_use, prop_use_type)
 
 # Merge data
-diet_props <- rbind.fill(diet_props1f, diet_props2f, diet_props3, diet_props4f)
+diet_props <- bind_rows(diet_props1f, diet_props2f, diet_props3f, diet_props4f)
 
 # Inspect diet prop ranges
 
