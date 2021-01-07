@@ -28,10 +28,10 @@ source(file.path(codedir, "helper_functions.R"))
 ################################################################################
 
 # For testing
-# load(paste(datadir, "data_final_sst.Rdata", sep="/"))
-# dataset <- data
-# dataset_name <- "primary"
-# p <- 1
+load(file.path(datadir, "data_final_sst.Rdata"))
+dataset <- data
+dataset_name <- "primary"
+p <- 1
   
 # Fit surplus production model
 fit_sp <- function(dataset, dataset_name, p){
