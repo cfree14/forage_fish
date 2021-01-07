@@ -33,6 +33,11 @@ ex_data <- data %>%
   filter(stockid==ex_stock & theta!=0 & sigma!=0)
 k <- results$k[results$stockid==ex_stock] * max(ex_data$b_obs)
 
+# Extract observed abundance
+obs <- ex_data %>% 
+  select(year, b_obs) %>% 
+  unique()
+
 # Setup theme
 my_theme <- theme(axis.text=element_text(size=8),
                   axis.title=element_text(size=10),
@@ -48,6 +53,7 @@ my_theme <- theme(axis.text=element_text(size=8),
 g <- ggplot(ex_data, aes(x=year, y=b_sim/1000, group=iter)) +
   facet_grid(theta ~ sigma) +
   geom_line(col="grey70") +
+  geom_line(obs, mapping=aes(x=year, y=b_obs/1000), inherit.aes=F, color="black") +
   # geom_line(mapping=aes(x=year, y=b_obs/1000)) +
   labs(y="Biomass (1000s of mt)", title="North Atlantic Albacore tuna") +
   geom_hline(yintercept=k/1000, linetype="dotted") +
