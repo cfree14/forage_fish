@@ -7,9 +7,7 @@ rm(list = ls())
 ################################################################################
 
 # Packages
-library(plyr)
-library(dplyr)
-library(freeR)
+library(tidyverse)
 
 # Directories
 datadir <- "data"
@@ -46,27 +44,50 @@ data1 <- purrr::map_df(outfiles, function(x) {
   load(file.path(outputdir, x))
   
   # Format results based on type
+  #outfile, stockid, param, est , est_lo, est_hi
+  
+  # Random effects models
   if(grepl("random", x)){
     results1 <- results[[1]] %>% 
       mutate(outfile=x) %>% 
       dplyr::select(outfile, everything())
+    
+  # Fixed effects models
   }else{
     results1 <- results %>% 
       mutate(outfile=x) %>% 
-      dplyr::select(outfile, everything())
+      # Reshape
+      dplyr::select(outfile, everything()) #%>% 
+      # gather(key="est_type", value="est", 4:ncol(.)) %>% 
+      # # Recode
+      # mutate(est_type=gsub("est|_", "", est_type),
+      #        param=recode(param, "B0"="k", "BetaT"="betaT"),
+      #        param_label=paste(param, est_type, sep="_"), 
+      #        param_label=recode(param_label, "r_"="r", "k_"="k", "sigmaP_"="sigmaP", "betaT_"="betaT")) %>% 
+      # # Reshape
+      # select(-c(param, est_type)) %>% 
+      # spread(key="param_label", value="est") %>% 
+      # mutate(betaT_inf="none",
+      #        betaT_inf=ifelse(betaT_hi<0, "negative", betaT_inf),
+      #        betaT_inf=ifelse(betaT_lo>0, "positive", betaT_inf)) %>% 
+      # # Rearrange
+      # select(outfile, stockid, 
+      #        r, r_lo, r_hi,
+      #        k, k_lo, k_hi,
+      #        betaT, betaT_lo, betaT_hi, betaT_inf,
+      #        sigmaP, sigmaP_lo, sigmaP_hi)
   }
   
 })
 
+# Inspect
+freeR::complete(data1)
+
 # Format merged data
 data2 <- data1 %>% 
-  mutate(dataset=ifelse(grepl("primary", outfile), "primary", "composite"), 
-         framework=ifelse(grepl("random", outfile), "random", "fixed"),
-         covariate=ifelse(grepl("sst", outfile), "sst",
-                          ifelse(grepl("cprey", outfile), "composite", "primary"))) %>% 
+  mutate(framework=ifelse(grepl("random", outfile), "random", "fixed")) %>% 
   left_join(stocks_prey1 %>% dplyr::select(stockid, type), by="stockid") %>% 
   dplyr::select(outfile, dataset, framework, covariate, type, everything())
-
 
 # Inspect
 freeR::complete(data2)

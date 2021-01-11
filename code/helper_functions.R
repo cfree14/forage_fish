@@ -4,7 +4,7 @@
 ################################################################################
 
 # Format TMB output
-format_output <- function(sd, stocks){
+format_output <- function(sd, stocks, dataset_name, covariate_name){
   
   # Format parameter estimates
   results_mat <- summary.sdreport(sd)
@@ -30,7 +30,30 @@ format_output <- function(sd, stocks){
   
   # Merge results
   results <- bind_rows(results_ln, results_theta) %>% 
-    select(-est_se)
+    # Add dataset and covariate
+    mutate(dataset=dataset_name, 
+           covariate=covariate_name) %>% 
+    select(dataset, covariate, stockid, everything()) %>% 
+    # Rename parameters
+    mutate(param=recode(param, "B0"="k", "BetaT"="betaT")) %>% 
+    # Gather estimate
+    gather(key="val_type", value="value", 5:ncol(.)) %>% 
+    # Build value name
+    mutate(val_type=gsub("est|est_", "", val_type)) %>% 
+    mutate(sep_use=ifelse(val_type=="", "", "_")) %>% 
+    mutate(val_name=paste0(param, sep_use, val_type)) %>% 
+    # Resahpe
+    select(-c(param, val_type, sep_use)) %>% 
+    spread(key="val_name", value="value") %>% 
+    # Add beta significance
+    mutate(betaT_inf="none",
+           betaT_inf=ifelse(betaT_lo>0, "positive", betaT_inf),
+           betaT_inf=ifelse(betaT_hi<0, "negative", betaT_inf)) %>% 
+    select(dataset, covariate, stockid, 
+           r, r_se, r_lo, r_hi,
+           k, k_se, k_lo, k_hi,
+           betaT, betaT_se, betaT_lo, betaT_hi, betaT_inf,
+           sigmaP, sigmaP_se, sigmaP_lo, sigmaP_hi)
   
   # Return
   return(results)
@@ -41,7 +64,7 @@ format_output <- function(sd, stocks){
 ################################################################################
 
 # Format TMB output
-format_output_re <- function(sd, stocks){
+format_output_re <- function(sd, stocks, dataset_name, covariate_name){
   
   # Format parameter estimates
   results.mat <- summary.sdreport(sd)
@@ -97,9 +120,12 @@ format_output_re <- function(sd, stocks){
   
   # Merge results
   results_stock <- est_wide1 %>% 
+    # Add dataset and covariate
+    mutate(dataset=dataset_name, 
+           covariate=covariate_name) %>% 
     # Merge estimates and errors
     left_join(ste_wide1, by="stockid") %>% 
-    select(stockid, 
+    select(dataset, covariate, stockid, 
            r, r_se,
            ln_r, ln_r_se,
            k, k_se,
@@ -126,7 +152,7 @@ format_output_re <- function(sd, stocks){
            sigmaP_lo=exp(ln_sigmaP_lo),
            sigmaP_hi=exp(ln_sigmaP_hi)) %>% 
     # Rearrange
-    select(stockid, 
+    select(dataset, covariate, stockid, 
            r, r_se, r_lo, r_hi,
            k, k_se, k_lo, k_hi,
            betaT, betaT_se, betaT_lo, betaT_hi, betaT_inf,

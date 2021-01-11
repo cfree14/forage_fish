@@ -496,7 +496,7 @@ apply(pred_ts, 2, function(x) sum(is.na(x)))
 ################################################################################
 
 # Preferred diet proportions (based on Hilborn et al. 2017)
-# prey proportions by mass > by numbers > by energetic contribution > by frequency of occurrence
+# prey proportions by energetic contribution > by mass > by numbers > by frequency of occurrence
 
 # Lowercase column names
 colnames(diets_orig) <- tolower(colnames(diets_orig))

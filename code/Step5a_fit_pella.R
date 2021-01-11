@@ -28,9 +28,9 @@ source(file.path(codedir, "helper_functions.R"))
 ################################################################################
 
 # For testing
-load(file.path(datadir, "data_final_sst.Rdata"))
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
 dataset <- data
-dataset_name <- "primary"
+dataset_name <- "composite"
 p <- 1
   
 # Fit surplus production model
@@ -138,6 +138,47 @@ fit_sp(dataset=data, dataset_name="composite", p=1) # 50%
 fit_sp(dataset=data, dataset_name="composite", p=0.55) # 45%
 fit_sp(dataset=data, dataset_name="composite", p=0.20) # 40%
 fit_sp(dataset=data, dataset_name="composite", p=0.01) # 37%
+
+
+# Lagged datasets
+################################################################################
+
+# Load data
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
+
+# Build lag-2 data
+data_lag2 <- data %>% 
+  # Select columns
+  select(stockid, year, 
+         tb, sp, sst_c, 
+         prey_b,
+         prey_lag1_b,
+         prey_lag2_b, 
+         prey1_b,
+         prey1_lag1_b,
+         prey1_lag2_b) %>% 
+  # Drop NAs
+  drop_na() %>% 
+  # Standardize variables
+  group_by(stockid) %>% 
+  mutate(tb_sd=tb/max(tb),
+         sp_sd=sp/max(tb),
+         # SST
+         sst_sd=scale(sst_c),
+         # Composite prey
+         prey_b_sd=scale(prey_b),
+         prey_lag1_b_sd=scale(prey_lag1_b),
+         prey_lag2_b_sd=scale(prey_lag2_b), 
+         # Primary prey
+         prey1_b_sd=scale(prey1_b),
+         prey1_lag1_b_sd=scale(prey1_lag1_b),
+         prey1_lag2_b_sd=scale(prey1_lag2_b)) %>% 
+  ungroup()
+
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", p=1) # 50%
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", p=0.55) # 45%
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", p=0.20) # 40%
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", p=0.01) # 37%
 
 
 

@@ -92,7 +92,7 @@ colnames(diet_props4)
 
 # Format Hilborn et al. (2017) data
 diet_props1f <- diet_props1 %>% 
-  rename(pred_comm=pred_comm_name, region=ocean, prey_comm=prey_comm_name, references=refs) %>% 
+  dplyr::rename(pred_comm=pred_comm_name, region=ocean, prey_comm=prey_comm_name, references=refs) %>% 
   mutate(source="Hilborn et al. (2017)",
          dietid=paste(pred_comm, region),
          prop_model=NA, prop_unk=NA) %>% 
@@ -101,7 +101,7 @@ diet_props1f <- diet_props1 %>%
 
 # Format Free et al. (in prep) data
 diet_props2f <- diet_props2 %>% 
-  rename(dietid=diet_id) %>% 
+  dplyr::rename(dietid=diet_id) %>% 
   mutate(source="Free et al. (in prep)", 
          prop_energy=NA) %>% 
   select(source, dietid, pred_comm, region, prey_comm,  nrefs, references, 
@@ -115,7 +115,7 @@ diet_props3f <- diet_props3 %>%
 
 # Format Pribolof Island Northern fur seal data
 diet_props4f <- diet_props4 %>% 
-  rename(source=reference, region=area, prop_occur=diet_prop) %>% 
+  dplyr::rename(source=reference, region=area, prop_occur=diet_prop) %>% 
   mutate(nrefs=1,
          references=source,
          prop_occur=prop_occur/100,
@@ -150,7 +150,7 @@ colnames(pred_stocks4)
 
 # Format Hilborn et al. (2017) data
 pred_stocks1f <- pred_stocks1 %>% 
-  rename(location=area, area=region, region=ocean, pred_species=species, pred_comm=comm_name, n_yr=nyr) %>% 
+  dplyr::rename(location=area, area=region, region=ocean, pred_species=species, pred_comm=comm_name, n_yr=nyr) %>% 
   mutate(source="Hilborn et al. (2017)",
          dietid=paste(pred_comm, region)) %>% 
   select(source, stocklong, stockid, dietid, region, area, location, pred_comm, pred_species, reference, n_units, n_yr)
@@ -165,11 +165,11 @@ pred_stocks2f <- pred_stocks2 %>%
 # Format Cury et al. (2011) data
 pred_stocks3f <- pred_stocks3 %>% 
   select(-c(type, class, order, family)) %>% 
-  rename(pred_comm=comm_name, pred_species=species_sub)
+  dplyr::rename(pred_comm=comm_name, pred_species=species_sub)
 
 # Format Pribolof data
 pred_stocks4f <- pred_stocks4 %>% 
-  rename(pred_comm=comm_name, pred_species=species)
+  dplyr::rename(pred_comm=comm_name, pred_species=species)
 
 # Merge data
 pred_stocks <- rbind.fill(pred_stocks1f, pred_stocks2f, pred_stocks3f, pred_stocks4f) %>% 
@@ -178,7 +178,7 @@ pred_stocks <- rbind.fill(pred_stocks1f, pred_stocks2f, pred_stocks3f, pred_stoc
          diet_prop=sapply(dietid, function(x) sum(diet_props$prop_use[diet_props$dietid==x], na.rm=T))) %>% 
   select(source, stocklong, stockid, dietid, region, area, location,
          type, class, order, family, pred_species, pred_comm, reference, n_units, n_yr, diet_yn, diet_prop) %>% 
-  rename(species=pred_species, comm_name=pred_comm, pred_type=type)
+  dplyr::rename(species=pred_species, comm_name=pred_comm, pred_type=type)
 
 # Check completeness and confirm unique id
 anyDuplicated(pred_stocks$stocklong)
@@ -218,7 +218,7 @@ pred_ts3f <- pred_ts3 %>%
 
 # Format Pribolof data
 pred_ts4f <- pred_ts4 %>%
-  rename(n=abundance,
+  dplyr::rename(n=abundance,
          n_units=units) %>% 
   mutate(source="Towell et al. (2016)", 
          stocklong=paste(comm_name, island), 

@@ -52,7 +52,6 @@ k_pen_freq <- data %>%
   group_by(framework, covariate) %>% 
   summarize(n=sum(value>=5))
 
-
 # Vertical line key
 vline_key <- data %>% 
   select(covariate, parameter) %>% 
@@ -92,18 +91,7 @@ ggsave(g, filename=file.path(plotdir, "FigS8_random_effects_model_param_hists.pn
        width=6.5, height=5, units="in", dpi=600)
 
 
-# Plot spline plots
-################################################################################
 
-# Plot fixed effects parameters
-g <- ggplot(data %>% filter(framework=="fixed" & covariate=="Composite prey"), 
-            aes(x=value, y=stockid)) +
-  facet_wrap(~parameter, scales="free") +
-  geom_point() +
-  labs(x="Parameter value", y="", title="Composite prey (fixed effect)") +
-  theme_bw() + my_theme +
-  theme(axis.text.y = element_blank())
-g
 
 
 

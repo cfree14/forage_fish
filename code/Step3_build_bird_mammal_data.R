@@ -99,7 +99,7 @@ preds2 <- preds1 %>%
   left_join(diet_key, by="dietid")
 
 # Export table
-write.csv(preds2, file.path(tabledir, "TableS7_bird_mammal_predator_populations.csv"), row.names=F)
+write.csv(preds2, file.path(tabledir, "bird_mammal_predator_populations_metadata.csv"), row.names=F)
 
 
 # Build predator time series

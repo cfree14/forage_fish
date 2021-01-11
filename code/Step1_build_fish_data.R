@@ -49,12 +49,12 @@ taxa <- taxa %>%
 diet <- diet_orig %>%
   # Add predator sci name
   left_join(select(taxa, comm_name, species), by=c("pred_comm"="comm_name")) %>% 
-  rename(pred_spp=species) %>% 
+  dplyr::rename(pred_spp=species) %>% 
   mutate(pred_spp=ifelse(pred_comm=="Pacific bonito", "Sarda chiliensis", pred_spp),
          pred_spp=ifelse(pred_comm=="Common murre", "Uria aalge", pred_spp)) %>% 
   # Add prey sci name
   left_join(select(taxa, comm_name, species), by=c("prey_comm"="comm_name")) %>% 
-  rename(prey_spp=species) %>% 
+  dplyr::rename(prey_spp=species) %>% 
   # Rearrange columns
   select(source, dietid, pred_comm, pred_spp, region, prey_comm, prey_spp, everything()) 
 
@@ -65,7 +65,7 @@ impt_prop <- 0.1
 diet_key <- diet %>%
   filter(prop_use_type!="none") %>% 
   group_by(dietid) %>% 
-  summarise(nprey=n(),
+  dplyr::summarise(nprey=n(),
             prey1=prey_comm[which.max(prop_use)], 
             prey1_prop=max(prop_use),
             nprey_impt=sum(prop_use>=impt_prop),

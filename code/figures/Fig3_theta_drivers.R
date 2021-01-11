@@ -92,7 +92,7 @@ g1 <- ggplot(data, aes(x=prey_prop_cap, y=theta_cprey, color=theta_inf_cprey)) +
        y="Influence of composite prey\non predator productivity", tag="A") +
   xlim(0,1) +
   # geom_vline(xintercept=0.2, linetype="dotted", color="grey30") +
-  geom_vline(xintercept=0.6, linetype="dotted", color="grey30") +
+  # geom_vline(xintercept=0.6, linetype="dotted", color="grey30") +
   geom_smooth(method="lm", color="black", lwd=0.75) +
   annotate("text", label="r=0.07", x=0, y=min(data$theta_cprey), hjust=0, color="grey20", size=2) +
   geom_hline(yintercept=0, lwd=0.5) +

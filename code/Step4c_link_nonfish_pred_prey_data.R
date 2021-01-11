@@ -72,6 +72,50 @@ key <- key_orig %>%
 # Any duplicated stockids?
 anyDuplicated(key$stockid)
 
+# Format prey data
+################################################################################
+
+# Goal: Create composite prey stock time series and add to prey time series dataframe
+
+# Composite prey stocks
+comp_prey <- unique(key$prey1_stocks[grepl(",", key$prey1_stocks)])
+
+# Loop through composite prey stocks
+for(i in 1:length(comp_prey)){
+  
+  # Composite prey stocks
+  cprey <- comp_prey[i]
+  cprey_stocks <- unlist(strsplit( cprey, ", "))
+  
+  
+  # Build composite time series
+  cprey_ts_use <- prey_ts %>% 
+    # Reduce to stocks of interest
+    filter(stockid %in% cprey_stocks) %>% 
+    # Expand to inclue NAs
+    complete(stockid, year) %>% 
+    # Calculate composite stats
+    group_by(year) %>% 
+    summarize(biomass=sum(biomass),
+              biomass_lag1=sum(biomass_lag1),
+              biomass_lag2=sum(biomass_lag2),
+              biomass_type=paste(sort(unique(biomass_type)), collapse=", "),
+              biomass_units=paste(sort(unique(biomass_units)), collapse=", ")) %>% 
+    ungroup() %>% 
+    # Add stockid and rearrange
+    mutate(stockid=cprey) %>% 
+    select(stockid, year, biomass, biomass_lag1, biomass_lag2, biomass_type, biomass_units)  %>% 
+    # Reduce
+    filter(!is.na(biomass))
+  
+  # Merge with others
+  if(i==1){cprey_final <- cprey_ts_use}else{cprey_final <- rbind(cprey_final, cprey_ts_use)}
+  
+}
+
+# Add composite stocks to prey time series
+prey_ts <- rbind.fill(prey_ts, cprey_final)
+
 
 # Build data
 ################################################################################
@@ -85,10 +129,10 @@ data <- bm_pred_ts %>%
   # Add primary prey
   left_join(select(bm_pred_stocks, stocklong, prey1), by="stocklong") %>% 
   # Add prey time series
-  left_join(select(prey_ts, stockid, year, biomass, biomass_type, biomass_units), 
+  left_join(select(prey_ts, stockid, year, biomass, biomass_lag1, biomass_lag2, biomass_type, biomass_units), 
             by=c("prey1_stocks"="stockid", "year")) %>% 
   # Rename prey columns
-  rename(prey1_b=biomass, prey1_btype=biomass_type, prey1_bunits=biomass_units) %>% 
+  rename(prey1_b=biomass, prey1_lag1_b=biomass_lag1, prey1_lag2_b=biomass_lag2, prey1_btype=biomass_type, prey1_bunits=biomass_units) %>% 
   # Filter data
   filter(!is.na(n) & !is.na(prey1_b) & !is.na(sp)) %>% 
   # Standardize data
@@ -96,16 +140,21 @@ data <- bm_pred_ts %>%
   mutate(n_sd=n/max(n),
          sp_sd=sp/max(n),
          # prey1_b_sd=prey1_b/max(prey1_b), # scale to maximum
-         prey1_b_sd=scale(prey1_b)) %>% # scale using z-score
+         prey1_b_sd=scale(prey1_b),
+         prey1_lag1_b_sd=scale(prey1_lag1_b),
+         prey1_lag2_b_sd=scale(prey1_lag2_b)) %>% # scale using z-score
   # Reduce columns
   select(stockid, stocklong, year, catch, n, n_units, sp, sp_units, 
-         prey1, prey1_stocks, prey1_b, prey1_btype, prey1_bunits,
-         n_sd, sp_sd, prey1_b_sd) 
+         prey1, prey1_stocks, prey1_b, prey1_lag1_b, prey1_lag2_b, prey1_btype, prey1_bunits,
+         n_sd, sp_sd, prey1_b_sd, prey1_lag1_b_sd, prey1_lag2_b_sd) 
 
 # Confirm standardizations
 data.frame(tapply(data$n_sd, data$stockid, max, na.rm=T)) # must be 1
 # data.frame(tapply(data$prey1_b_sd, data$stockid, max, na.rm=T)) # must be 1
 data.frame(tapply(data$prey1_b_sd, data$stockid, mean, na.rm=T)) # must be 0
+data.frame(tapply(data$prey1_lag1_b_sd, data$stockid, mean, na.rm=T)) # must be 0
+data.frame(tapply(data$prey1_lag2_b_sd, data$stockid, mean, na.rm=T)) # must be 0
+
 
 # Convince yourself that SP ~ TB is really the same as SP(sd) ~ TB(sd)
 stock <- unique(data$stockid)[4]

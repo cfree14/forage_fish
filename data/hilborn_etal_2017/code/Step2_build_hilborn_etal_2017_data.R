@@ -6,6 +6,7 @@ rm(list = ls())
 ################################################################################
 
 # Packages
+library(reshape2)
 library(tidyverse)
 
 # Directories
@@ -26,7 +27,7 @@ diets <- read.csv(paste(datadir, "hilborn_etal_2017_diet_information.csv", sep="
 
 # Build diet propoportions data frame
 # Preferred diet proportions (based on Hilborn et al. 2017)
-# prey proportions by mass > by numbers > by energetic contribution > by frequency of occurrence
+# prey proportions by energetic contribution > by mass > by numbers >  > by frequency of occurrence
 props <- diets %>% 
   group_by(pred_comm_name, ocean, prey_comm_name) %>% 
   summarize(nrefs=n_distinct(reference),
@@ -37,14 +38,14 @@ props <- diets %>%
             prop_occur=mean(prop_diet_by_occur, na.rm=T)/100) %>% 
   mutate_all(funs(replace(., is.na(.), NA))) %>% 
   mutate(prop_use=NA,
-         prop_use_type=ifelse(!is.na(prop_wt), "wt", 
-                              ifelse(!is.na(prop_n), "n", 
-                                     ifelse(!is.na(prop_energy), "energy", ifelse(!is.na(prop_occur), "occur", "none")))))
+         prop_use_type=ifelse(!is.na(prop_energy), "energy",
+                              ifelse(!is.na(prop_wt), "wt", 
+                                     ifelse(!is.na(prop_n), "n",  ifelse(!is.na(prop_occur), "occur", "none")))))
 
 # Add diet proportion to use
+props$prop_use[props$prop_use_type=="energy"] <- props$prop_energy[props$prop_use_type=="energy"]
 props$prop_use[props$prop_use_type=="wt"] <- props$prop_wt[props$prop_use_type=="wt"]
 props$prop_use[props$prop_use_type=="n"] <- props$prop_n[props$prop_use_type=="n"]
-props$prop_use[props$prop_use_type=="energy"] <- props$prop_energy[props$prop_use_type=="energy"]
 props$prop_use[props$prop_use_type=="occur"] <- props$prop_occur[props$prop_use_type=="occur"]
 
 # Inspect proportion source
@@ -85,7 +86,7 @@ pred_stocks <- pred_stocks %>%
 
 # Add stockshort
 prey_stocks <- prey_stocks %>%
-  mutate(stockshort=revalue(stocklong, c("Atlantic herring Northwestern Atlantic Coast"="atl_herring",  
+  mutate(stockshort=plyr::revalue(stocklong, c("Atlantic herring Northwestern Atlantic Coast"="atl_herring",  
                                          "Atlantic mackerel Gulf of Maine / Cape Hatteras"="atl_mackerel", 
                                          "Atlantic menhaden Atlantic"="atl_menhaden",                   
                                          "California market squid Pacific Coast"="pac_market_squid",       

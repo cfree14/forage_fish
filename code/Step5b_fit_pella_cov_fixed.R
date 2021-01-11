@@ -120,7 +120,7 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
   ######################################
   
   # Format output
-  results <- format_output(sd, stocks)
+  results <- format_output(sd, stocks, dataset_name, covariate_name)
   
   # Plot results
   plot_ests(results)
@@ -152,12 +152,60 @@ fit_sp <- function(dataset, dataset_name, p, covariate, covariate_name){
 # Primary prey dataset
 load(file.path(datadir, "data_final_sst.Rdata"))
 fit_sp(dataset=data, dataset_name="primary", covariate="prey1_b_sd", covariate_name="prey1", p=0.55) # primary prey
-fit_sp(dataset=data, dataset_name="primary", covariate="sst_c_sd", covariate_name="sst", p=0.55) # SST
+fit_sp(dataset=data, dataset_name="primary", covariate="sst_c_sd2", covariate_name="sst", p=0.55) # SST
 
 # Composite prey dataset
 load(file.path(datadir, "data_composite_final_sst.Rdata"))
 fit_sp(dataset=data, dataset_name="composite", covariate="prey1_b_sd", covariate_name="prey1", p=0.55) # primary prey
 fit_sp(dataset=data, dataset_name="composite", covariate="prey_b_sd", covariate_name="cprey", p=0.55) # composite prey
-fit_sp(dataset=data, dataset_name="composite", covariate="sst_c_sd", covariate_name="sst", p=0.55) # SST
+fit_sp(dataset=data, dataset_name="composite", covariate="sst_c_sd2", covariate_name="sst", p=0.55) # SST
+
+
+# Lagged datasets
+################################################################################
+
+# Load data
+load(file.path(datadir, "data_composite_final_sst.Rdata"))
+
+# Build lag-2 data
+data_lag2 <- data %>% 
+  # Select columns
+  select(stockid, year, 
+         tb, sp, sst_c, 
+         prey_b,
+         prey_lag1_b,
+         prey_lag2_b, 
+         prey1_b,
+         prey1_lag1_b,
+         prey1_lag2_b) %>% 
+  # Drop NAs
+  drop_na() %>% 
+  # Standardize variables
+  group_by(stockid) %>% 
+  mutate(tb_sd=tb/max(tb),
+         sp_sd=sp/max(tb),
+         # SST
+         sst_sd=scale(sst_c),
+         # Composite prey
+         prey_b_sd=scale(prey_b),
+         prey_lag1_b_sd=scale(prey_lag1_b),
+         prey_lag2_b_sd=scale(prey_lag2_b), 
+         # Primary prey
+         prey1_b_sd=scale(prey1_b),
+         prey1_lag1_b_sd=scale(prey1_lag1_b),
+         prey1_lag2_b_sd=scale(prey1_lag2_b)) %>% 
+  ungroup() %>% 
+  # Remove problem stocks
+  filter(!stockid%in%c("AFPENWCAPE"))
+
+# Fit models
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey1_b_sd", covariate_name="prey1", p=0.55) # primary prey
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey1_lag1_b_sd", covariate_name="prey1 lag-1", p=0.55) # primary prey (lagged 1)
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey1_lag2_b_sd", covariate_name="prey1 lag-2", p=0.55) # primary prey (lagged 2)
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey_b_sd", covariate_name="cprey", p=0.55) # composite prey
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey_lag1_b_sd", covariate_name="cprey lag-1", p=0.55) # composite prey (lagged 1)
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="prey_lag2_b_sd", covariate_name="cprey lag-2", p=0.55) # composite prey (lagged 2)
+fit_sp(dataset=data_lag2, dataset_name="composite lag-2", covariate="sst_sd", covariate_name="sst", p=0.55) # SST
+
 
 

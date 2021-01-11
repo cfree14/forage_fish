@@ -53,7 +53,7 @@ stocks1 <- stocks %>%
   dplyr::select(stockid, stocklong, region, area, location, comm_name, lat_dd, long_dd)
 
 # Export and fill in centroids
-# write.csv(stocks1, file.path(datadir, "pred_stock_centers_to_fill.csv"), row.names=F)
+write.csv(stocks1, file.path(datadir, "pred_stock_centers_to_fill.csv"), row.names=F)
 
 
 # Read final centroid data
@@ -111,7 +111,7 @@ sst_brick <- brick(sst_array1, xmn=-180, xmx=180,
 
 # Plot and confirm good projections
 plot(sst_brick, 1, xlim=c(-180,180), ylim=c(-90,90), zlim=c(tmin, tmax), main="", col=pal)
-points(lat_dd ~ long_dd, centroids, pch=16, add=T)
+points(lat_dd ~ long_dd, centroids, pch=16)
 
 
 # Calculate SST time series
@@ -168,7 +168,8 @@ data_orig <- data
 data <- data_orig %>% 
   left_join(atemp, by=c("stockid", "year")) %>% 
   group_by(stockid) %>% 
-  mutate(sst_c_sd=sst_c-mean(sst_c))
+  mutate(sst_c_sd=sst_c-mean(sst_c),
+         sst_c_sd2=scale(sst_c))
 
 # Add centroid to stocks
 stocks <- stocks %>% 
@@ -194,7 +195,8 @@ data_orig <- data
 data <- data_orig %>% 
   left_join(atemp, by=c("stockid", "year")) %>% 
   group_by(stockid) %>% 
-  mutate(sst_c_sd=sst_c-mean(sst_c))
+  mutate(sst_c_sd=sst_c-mean(sst_c),
+         sst_c_sd2=scale(sst_c))
 
 # Add centroid to stocks
 stocks <- stocks %>% 

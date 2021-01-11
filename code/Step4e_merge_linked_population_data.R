@@ -153,14 +153,25 @@ data2 <- rename(data2, tb=n, tb_units=n_units, tb_sd=n_sd)
 data <- rbind.fill(data1, data2) %>% 
   arrange(stockid, year) %>% 
   # Add primary prey time series
-  left_join(select(data_primary, stockid, year, prey1_stocks, prey1_b, prey1_btype, prey1_bunits, prey1_b_sd), by=c("stockid", "year")) %>% 
+  left_join(select(data_primary, stockid, year, prey1_stocks, 
+                   prey1_b, prey1_lag1_b, prey1_lag2_b,
+                   prey1_btype, prey1_bunits, 
+                   prey1_b_sd, prey1_lag1_b_sd, prey1_lag2_b_sd), by=c("stockid", "year")) %>% 
   # Arrange columns
   select(stockid, stocklong, year, 
          catch, catch_sd, catch_type, catch_units, 
          tb, tb_sd, tb_units, 
          sp, sp_sd, sp_units, 
-         prey1, prey1_stocks, prey1_b, prey1_b_sd, prey1_btype, prey1_bunits, 
-         prey_impt, prey_stocks, prey_b, prey_b_sd, prey_btype, prey_bunits, everything())
+         prey1, prey1_stocks, 
+         prey1_b, prey1_b_sd, 
+         prey1_lag1_b, prey1_lag1_b_sd,
+         prey1_lag2_b, prey1_lag2_b_sd,
+         prey1_btype, prey1_bunits, 
+         prey_impt, prey_stocks, 
+         prey_b, prey_b_sd, 
+         prey_lag1_b, prey_lag1_b_sd,
+         prey_lag2_b, prey_lag2_b_sd,
+         prey_btype, prey_bunits, everything())
 
 # Inspect
 freeR::complete(data)

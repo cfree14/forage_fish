@@ -181,7 +181,16 @@ graphics.off()
 
 # Final data
 prey_ts1 <- prey_ts %>% 
-  filter(!is.na(biomass))
+  # Remove rows without biomass
+  filter(!is.na(biomass)) %>% 
+  # Lag biomass
+  group_by(stockid) %>% 
+  mutate(biomass_lag1=dplyr::lag(biomass, n=1),
+         biomass_lag2=dplyr::lag(biomass, n=2)) %>% 
+  ungroup() %>% 
+  # Arrange
+  select(stockid:biomass, biomass_lag1, biomass_lag2, everything())
+  
 
 # Sample size
 # MUST ALL HAVE >20 YEARS!

@@ -20,12 +20,16 @@ plotdir <- "figures"
 # Read data
 load(file.path(datadir, "data_composite_final_sst.Rdata"))
 
+# Read model results
+results <- read.csv("output/model_results.csv")
+
 # Get countries
 world <- rnaturalearth::ne_countries(scale="large", type = "countries", returnclass = "sf") 
 
 # Format predator stocks
 stocks <- stocks %>% 
-  mutate(type_label=recode_factor(type, "fish"="Fish", "birds"="Seabird", "mammals"="Marine mammal"))
+  mutate(type_label=recode_factor(type, "fish"="Fish", "birds"="Seabird", "mammals"="Marine mammal")) %>% 
+  filter(stockid %in% results$stockid)
 
 
 # Stats for manuscript
