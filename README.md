@@ -1,11 +1,11 @@
 
-### Does protecting forage fish protect marine predators?
+## Does protecting forage fish protect marine predators?
 
 This GitHub repository contains all of the data and code for the following paper:
 
-Free CM, Jensen OP, Hilborn R (in press) Evaluating impacts of forage fish abundance on marine predators. In press at _Conservation Biology_.
+|      Free CM, Jensen OP, Hilborn R (in press) Evaluating impacts of forage fish abundance on marine predators. In press at _Conservation Biology_.
 
-#### Repository structure
+### Repository structure
 
 The repository is organized using the following structure:
 
