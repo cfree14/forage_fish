@@ -15,7 +15,7 @@ The repository is organized using the following structure:
 * code......... folder containing code to fit models, perform hindcasts, build figures and tables
     + figures.......... folder containing R scripts to plot figures and build tables
     + tmb_code......... folder containing TMB models called by the R scripts in the "code" directory
-    ... and R scripts for fitting the various models and performing the analysis
+    + ... and R scripts for fitting the various models and performing the analysis
 * figures...... folder containing figures for the manuscript
 * output....... folder containing output from model fits and other results
 * tables....... folder containing tables for the manuscript
