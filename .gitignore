@@ -1,7 +1,11 @@
+
+# Ignore some hidden files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore some folders
 drafts
 notes
 presentations
