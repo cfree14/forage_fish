@@ -5,7 +5,7 @@ This GitHub repository contains all of the data and code for the following paper
 
 Free CM, Jensen OP, Hilborn R (in press) Evaluating impacts of forage fish abundance on marine predators. In press at _Conservation Biology_.
 
-This paper was supported by funding from the [[Science Center for Marine Fisheries]](https://scemfis.org/).
+This paper was supported by funding from the [Science Center for Marine Fisheries](https://scemfis.org/).
 
 
 ### Repository structure
