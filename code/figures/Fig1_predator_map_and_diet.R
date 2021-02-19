@@ -73,7 +73,7 @@ map_theme <- theme(
 g1 <- ggplot() +
   geom_sf(data=world, fill="grey80", lwd=0.05, color="white") +
   geom_point(data=stocks, mapping=aes(x=long_dd, y=lat_dd, color=type_label, size=nprey)) +
-  labs(y="Adding space", tag="A") +
+  labs(y="Adding space", tag="a") +
   scale_color_discrete(name="Predator type") +
   scale_size_continuous(name="Number of\nimportant prey", range=c(1,3)) +
   theme_bw() + map_theme
@@ -88,10 +88,10 @@ pred_diets <- stocks %>%
          prop_value=prop_value*100,
          prop_type=recode(prop_type, 
                           "prey_prop"="All forage fish prey", 
-                          "prey_impt_prop"="Important forage fish\n prey only (>10% of diet each)",
+                          "prey_impt_prop"="Important forage fish\n prey only",
                           "prey1_prop"="Primary forage fish\nprey only"),
          prop_type=factor(prop_type, levels=c("All forage fish prey", 
-                                              "Important forage fish\n prey only (>10% of diet each)", 
+                                              "Important forage fish\n prey only", 
                                               "Primary forage fish\nprey only")))
 
 # Plot
@@ -99,7 +99,7 @@ g2 <- ggplot(pred_diets, aes(x=prop_value, fill=type_label)) +
   geom_density(alpha=0.5) +
   facet_grid(~prop_type) +
   expand_limits(x=0) +
-  labs(x="Percentage of diet", y="Density", tag="B") +
+  labs(x="Percentage of diet", y="Density", tag="b") +
   scale_fill_discrete(name="Predator type") +
   theme_bw() + my_theme +
   theme(legend.position = c(0.1, 0.76),
@@ -110,7 +110,7 @@ g2
 g <- grid.arrange(g1, g2, ncol=1)
 
 # Export
-ggsave(g, filename=file.path(plotdir, "Fig1_predator_map_and_diet.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig1_predator_map_and_diet.tiff"), 
        width=6.5, height=6, units="in", dpi=600)
 
 

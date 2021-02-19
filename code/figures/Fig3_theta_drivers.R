@@ -34,7 +34,7 @@ theta_use <- results %>%
   select(stockid, covariate, betaT) %>% 
   # Spread thetas and rename
   spread(key="covariate", value="betaT") %>% 
-  rename(theta_sst="sst", theta_prey1="primary", theta_cprey="composite")
+  rename(theta_sst="sst", theta_prey1="prey1", theta_cprey="cprey")
 
 # Theta influence use
 theta_inf_use <- results %>% 
@@ -44,7 +44,7 @@ theta_inf_use <- results %>%
   select(stockid, covariate, betaT_inf) %>% 
   # Spread thetas and rename
   spread(key="covariate", value="betaT_inf") %>% 
-  rename(theta_inf_sst="sst", theta_inf_prey1="primary", theta_inf_cprey="composite")
+  rename(theta_inf_sst="sst", theta_inf_prey1="prey1", theta_inf_cprey="cprey")
 
 # Build data
 data <- stocks %>% 
@@ -89,7 +89,7 @@ my_theme <- theme(axis.text=element_text(size=7),
 g1 <- ggplot(data, aes(x=prey_prop_cap, y=theta_cprey, color=theta_inf_cprey)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\nforage fish in diet", 
-       y="Influence of composite prey\non predator productivity", tag="A") +
+       y="Influence of composite prey\non predator productivity") +
   xlim(0,1) +
   # geom_vline(xintercept=0.2, linetype="dotted", color="grey30") +
   # geom_vline(xintercept=0.6, linetype="dotted", color="grey30") +
@@ -107,7 +107,7 @@ g1
 g2 <- ggplot(data, aes(x=prey_impt_prop_cap, y=theta_cprey, color=theta_inf_cprey)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\ncritical prey in diet", 
-       y="Influence of composite prey\non predator productivity", tag="B") +
+       y="Influence of composite prey\non predator productivity") +
   xlim(0,1) +
   # geom_vline(xintercept=0.1, linetype="dotted", color="grey30") +
   geom_smooth(method="lm", color="black", lwd=0.75) +
@@ -122,7 +122,7 @@ g2
 g3 <- ggplot(data, aes(x=prey1_prop_cap, y=theta_prey1, color=theta_inf_prey1)) +
   geom_point(size=0.7) + 
   labs(x="Proportion of\nprimary prey in diet", 
-       y="Influence of primary prey\non predator productivity", tag="C") +
+       y="Influence of primary prey\non predator productivity") +
   xlim(0,1) +
   # geom_vline(xintercept=0.1, linetype="dotted", color="grey30") +
   scale_color_manual(name="", values=c("red", "grey20", "blue")) +
@@ -137,6 +137,6 @@ g3
 g <- grid.arrange(g1, g2, g3, ncol=3)
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "Fig3_drivers_of_predator_influence.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig3_drivers_of_predator_influence.tiff"), 
        width=6.5, height=2.3, units="in", dpi=600)
 

@@ -65,11 +65,11 @@ g1 <- ggplot(thetas, aes(x=est, fill=factor(sigma), group=factor(sigma))) +
   facet_wrap(~format(theta, nsmall=2), ncol=2) +
   geom_vline(mapping=aes(xintercept = theta), lwd=0.15) + # , linetype="dotted"
   # geom_vline(xintercept=0, linetype="dotted", color="grey30") +
-  labs(x="Influence of composite prey\non predator productivity", y="Density", tag="A") +
+  labs(x="Influence of composite prey\non predator productivity", y="Density", tag="a") +
   scale_fill_discrete(name="Process\nvariability") +
   xlim(c(-0.1, 2)) +
   theme_bw() + my_theme +
-  theme(legend.position = "bottom",
+  theme(legend.position = "top",
         legend.background = element_rect(fill=alpha('blue', 0)))
 g1
 
@@ -81,12 +81,12 @@ g2 <- ggplot(props, aes(x=sigma, y=theta, fill=psigpos)) +
   # Add labels
   geom_text(mapping=aes(fill=NULL, label=perc_label), color="grey10", size=3) +
   # Labels
-  labs(x="Process variability", y="Influence of composite prey\non predator productivity", tag="B") +
+  labs(x="Process variability", y="Influence of composite prey\non predator productivity", tag="b") +
   scale_fill_gradientn(name="Percentage of signicant\npositive estimates",
                        colors=rev(RColorBrewer::brewer.pal(n=9, "RdBu")), breaks=seq(80,100,5), limits=c(NA,100)) +
   guides(fill = guide_colorbar(ticks.colour = "black", frame.colour = "black")) +
   theme_bw() + my_theme +
-  theme(legend.position = "bottom") 
+  theme(legend.position = "top") 
 g2
 
 # Merge plots
@@ -94,7 +94,7 @@ g <- grid.arrange(g1, g2, nrow=1)
 g
 
 # Export plot
-ggsave(g, filename=file.path(plotdir, "Fig4_power_analysis.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig4_power_analysis.tiff"), 
        width=7, height=4, units="in", dpi=600)
 
 

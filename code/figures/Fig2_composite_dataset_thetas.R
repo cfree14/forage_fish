@@ -24,7 +24,7 @@ data_orig <- read.csv(file.path(outputdir, "model_results.csv"))
 # Format data
 stockid_order <- data_orig %>% 
   # Composite dataset
-  filter(dataset=="composite" & framework=="fixed" & covariate=="composite") %>% 
+  filter(dataset=="composite" & framework=="fixed" & covariate=="cprey") %>% 
   mutate(type=factor(type, levels=c("fish", "birds", "mammals"))) %>% 
   arrange(type, desc(betaT))
 
@@ -34,8 +34,8 @@ data <- data_orig %>%
   filter(dataset=="composite") %>% 
   # Format labels
   mutate(covariate=recode(covariate, 
-                          "composite"="Composite\nprey abundance",
-                          "primary"="Primary\nprey abundance",
+                          "cprey"="Composite\nprey abundance",
+                          "prey1"="Primary\nprey abundance",
                           "sst"="Sea surface\ntemperature"),
          framework=recode(framework, 
                           "fixed"="Fixed effects estimate",
@@ -103,7 +103,7 @@ g <- ggplot(data, aes(x=betaT, y=stockid, col=betaT_inf)) +
 g
 
 # Export figure
-ggsave(g, filename=file.path(plotdir, "Fig2_composite_dataset_infuences.png"), 
+ggsave(g, filename=file.path(plotdir, "Fig2_composite_dataset_infuences.tiff"), 
        width=6.5, height=7, units="in", dpi=600)
 
 
